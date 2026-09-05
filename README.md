@@ -1,5 +1,7 @@
 <h1 align="center">
-  <strong>The Past Frames the Future: Memory for Autoregressive Video Generation</strong>
+  <strong>The Past Frames the Future:</strong>
+  
+  <strong>Memory for Autoregressive Video Generation --- A Survey</strong>
 </h1>
 
 <div align="center">
@@ -243,7 +245,7 @@ For questions about the survey or the paper list, feel free to open a GitHub iss
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=RongjinGuo/Awesome-AR-Video-Memory&type=date&legend=top-left)](https://www.star-history.com/#RongjinGuo/Awesome-AR-Video-Memory&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=HaroldChen19/Awesome-AR-Video-Memory&type=date&legend=top-left)](https://www.star-history.com/#HaroldChen19/Awesome-AR-Video-Memory&type=date&legend=top-left)
 
 ## 🔰 License
 
