@@ -68,7 +68,7 @@ We categorize memory mechanisms into four major carrier families:
 
 ## 📂 Paper List
 
-**Paper List:** [Visual](#visual-memory) | [Implicit State](#implicit-state-memory) | [Explicit State](#explicit-state-memory) | [Adaptive Parametric](#adaptive-parametric-memory) | [Unknown](#unknown-memory-carrier)
+**Paper List:** [Visual](#visual-memory) | [Implicit State](#implicit-state-memory) | [Explicit State](#explicit-state-memory) | [Adaptive Parametric](#adaptive-parametric-memory) 
 
 <!-- METHODS:START -->
 
