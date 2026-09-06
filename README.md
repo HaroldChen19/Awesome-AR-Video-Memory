@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/RongjinGuo/Awesome-AR-Video-Memory)
+[![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
 [![GitHub stars](https://img.shields.io/github/stars/HaroldChen19/Awesome-AR-Video-Memory?style=social)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/stargazers)
 [![Contributions](https://img.shields.io/badge/Contributions-welcome-brightgreen)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/pulls)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -185,7 +185,7 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/07] Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency. [[paper](https://arxiv.org/abs/2607.11836)]
 - [2026/06] FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion. [[paper](https://arxiv.org/abs/2606.10671)]
 - [2026/06] TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment. [[paper](https://arxiv.org/abs/2606.13035)]
-- [2026/06] Wan-Streamer v0. 1: End-to-end Real-time Interactive Foundation Models. [[paper](https://arxiv.org/abs/2606.25041)]
+- [2026/06] Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models. [[paper](https://arxiv.org/abs/2606.25041)]
 - [2026/06] Towards Error-Free Long Video Generation. [[paper](https://arxiv.org/abs/2606.22370)]
 - [2026/06] Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models. [[paper](https://arxiv.org/abs/2606.25473)]
 - [2026/05] CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives. [[paper](https://arxiv.org/abs/2605.12496)]
@@ -278,9 +278,9 @@ We categorize memory mechanisms into four major carrier families:
 - [2025/12] Videossm: Autoregressive long video generation with hybrid state-space memory. [[paper](https://arxiv.org/abs/2512.04519)]
 - [2025/10] Pack and Force Your Memory: Long-form and Consistent Video Generation. [[paper](https://arxiv.org/abs/2510.01784)] [also: Visual]
 - [2025/05] StateSpaceDiffuser: Bringing Long Context to Diffusion World Models. [[paper](https://arxiv.org/abs/2505.22246)]
+- [2025/05] Long-context state-space video world models. [[paper](https://scholar.google.com/scholar?q=Long-context%20state-space%20video%20world%20models)]
 - [2025/02] EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling. [[paper](https://arxiv.org/abs/2502.00466)]
 - [2025/02] Malt diffusion: Memory-augmented latent transformers for any-length video generation. [[paper](https://arxiv.org/abs/2502.12632)]
-- [2025/05] Long-context state-space video world models. [[paper](https://scholar.google.com/scholar?q=Long-context%20state-space%20video%20world%20models)]
 
 #### Encoded History States
 
@@ -390,7 +390,7 @@ We categorize memory mechanisms into four major carrier families:
 
 - [2026/06] Groundshot: Visually consistent multi-shot long video generation via entity-grounded shot scheduling. [[paper](https://arxiv.org/abs/2606.20799)]
 - [2026/06] UnityShots: Memory-Driven Multi-Shot Audio-Video Generation with Boundary-Aware Gating. [[paper](https://arxiv.org/abs/2606.21661)] [[repo](https://github.com/JIA-Lab-research/UnityShots)]
-- [2026/06] WorldOlympiad: Can Your World Model Survive a Triathlon?. [[paper](https://arxiv.org/abs/2606.11129)] [[repo](https://github.com/alibaba-damo-academy/WorldOlympiad)]
+- [2026/06] WorldOlympiad: Can Your World Model Survive a Triathlon? [[paper](https://arxiv.org/abs/2606.11129)] [[repo](https://github.com/alibaba-damo-academy/WorldOlympiad)]
 - [2026/05] Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory. [[paper](https://arxiv.org/abs/2605.18733)] [[repo](https://github.com/Eddie0521/IAMFlow)]
 - [2026/05] DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation. [[paper](https://arxiv.org/abs/2605.30090)] [[repo](https://github.com/jiaminchen-1031/DirectorBench)]
 - [2026/05] LongAV-Compass: Towards Unified Evaluation of Minute-Scale Audio-Visual Generation Across T2AV, I2AV, and V2AV. [[paper](https://arxiv.org/abs/2605.26244)] [[repo](https://github.com/pkucs-Ltf/LongAV-Compass)]
