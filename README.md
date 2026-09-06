@@ -1,13 +1,12 @@
 <h1 align="center">
   <strong>The Past Frames the Future:</strong>
 
-  <strong>Memory for Autoregressive Video Generation --- A Survey</strong>
+  <strong>Memory for Autoregressive Video Generation</strong>
 </h1>
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/RongjinGuo/Awesome-AR-Video-Memory)
-[![Website](https://img.shields.io/badge/Website-AR_Video_Memory-a9432d)](https://rongjinguo.github.io/Awesome-AR-Video-Memory/)
 [![GitHub stars](https://img.shields.io/github/stars/HaroldChen19/Awesome-AR-Video-Memory?style=social)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
