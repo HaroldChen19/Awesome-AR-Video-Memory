@@ -15,7 +15,7 @@
 
 ## 📢 News
 
-- [2026/09] The repository launches with the methods and benchmarks from the survey taxonomy tables.
+- [2026/09/06] The repository launches with the methods and benchmarks from the survey.
 
 ## 📜 Overview
 
