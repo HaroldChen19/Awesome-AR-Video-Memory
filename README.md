@@ -8,6 +8,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/RongjinGuo/Awesome-AR-Video-Memory)
 [![GitHub stars](https://img.shields.io/github/stars/HaroldChen19/Awesome-AR-Video-Memory?style=social)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/stargazers)
+[![Contributions](https://img.shields.io/badge/Contributions-welcome-brightgreen)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/pulls)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -22,7 +23,7 @@
 
 
 
-
+<a name="introduction"></a>
 ## 👋 Introduction
 
 <div align="center">
@@ -46,7 +47,7 @@ Following our survey, this repository organizes existing methods from five compl
 The paper list in this repository is primarily organized by **Forms**, i.e., the underlying memory carriers, which provide a unified view of diverse mechanisms across architectures and applications.
 
 
-
+<a name="memory-carrier-taxonomy"></a>
 ## 📦 Memory Forms Taxonomy
 
 
@@ -66,6 +67,7 @@ We categorize memory mechanisms into four major carrier families:
 - **Adaptive Parametric Memory:** Stores sequence- or experience-specific information through adapted parameters, modular weights, or parameter updates.
 
 
+<a name="paper-list"></a>
 ## 📂 Paper List
 
 **Paper List:** [Visual](#visual-memory) | [Implicit State](#implicit-state-memory) | [Explicit State](#explicit-state-memory) | [Adaptive Parametric](#adaptive-parametric-memory) 
@@ -84,27 +86,27 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/05] Ge-sim 2.0: A roadmap towards comprehensive closed-loop video world simulators for robotic manipulation. [[paper](https://arxiv.org/abs/2605.27491)]
 - [2026/05] StreamChar: Long-Horizon Streaming Character Audio-Video Generation with Decoupled Orchestration. [[paper](https://arxiv.org/abs/2605.25659)]
 - [2026/03] I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation. [[paper](https://arxiv.org/abs/2603.23413)] [also: Implicit State]
+- [2026/03] Gloria: Consistent Character Video Generation via Content Anchors. [[paper](https://scholar.google.com/scholar?q=Gloria%3A%20Consistent%20Character%20Video%20Generation%20via%20Content%20Anchors)]
 - [2026/03] ShareVerse: Multi-Agent Consistent Video Generation for Shared World Modeling. [[paper](https://arxiv.org/abs/2603.02697)]
 - [2026/02] Pathwise test-time correction for autoregressive long video generation. [[paper](https://arxiv.org/abs/2602.05871)]
 - [2026/01] Plenoptic video generation. [[paper](https://arxiv.org/abs/2601.05239)]
-- [2026] Gloria: Consistent Character Video Generation via Content Anchors. [[paper](https://scholar.google.com/scholar?q=Gloria%3A%20Consistent%20Character%20Video%20Generation%20via%20Content%20Anchors)]
 - [2025/12] End-to-end training for autoregressive video diffusion via self-resampling. [[paper](https://arxiv.org/abs/2512.15702)]
 - [2025/12] Storymem: Multi-shot long video storytelling with memory. [[paper](https://arxiv.org/abs/2512.19539)] [also: Explicit State]
-- [2025/10] Emu3. 5: Native multimodal models are world learners. [[paper](https://arxiv.org/abs/2510.26583)]
+- [2025/10] Emu3.5: Native multimodal models are world learners. [[paper](https://arxiv.org/abs/2510.26583)]
+- [2025/08] Context as memory: Scene-consistent interactive long video generation with memory retrieval. [[paper](https://scholar.google.com/scholar?q=Context%20as%20memory%3A%20Scene-consistent%20interactive%20long%20video%20generation%20with%20memory%20retrieval)]
+- [2025/06] Vmem: Consistent interactive video scene generation with surfel-indexed view memory. [[paper](https://scholar.google.com/scholar?q=Vmem%3A%20Consistent%20interactive%20video%20scene%20generation%20with%20surfel-indexed%20view%20memory)] [also: Explicit State]
 - [2025/04] WorldMem: Long-term Consistent World Simulation with Memory. [[paper](https://arxiv.org/abs/2504.12369)] [also: Explicit State]
+- [2025/03] Long context tuning for video generation. [[paper](https://scholar.google.com/scholar?q=Long%20context%20tuning%20for%20video%20generation)]
+- [2025/03] Ar-diffusion: Asynchronous video generation with auto-regressive diffusion. [[paper](https://scholar.google.com/scholar?q=Ar-diffusion%3A%20Asynchronous%20video%20generation%20with%20auto-regressive%20diffusion)]
 - [2025/02] History-guided video diffusion. [[paper](https://arxiv.org/abs/2502.06764)] [also: Implicit State]
-- [2025] Context as memory: Scene-consistent interactive long video generation with memory retrieval. [[paper](https://scholar.google.com/scholar?q=Context%20as%20memory%3A%20Scene-consistent%20interactive%20long%20video%20generation%20with%20memory%20retrieval)]
-- [2025] Long context tuning for video generation. [[paper](https://scholar.google.com/scholar?q=Long%20context%20tuning%20for%20video%20generation)]
-- [2025] Vmem: Consistent interactive video scene generation with surfel-indexed view memory. [[paper](https://scholar.google.com/scholar?q=Vmem%3A%20Consistent%20interactive%20video%20scene%20generation%20with%20surfel-indexed%20view%20memory)] [also: Explicit State]
-- [2025] Ar-diffusion: Asynchronous video generation with auto-regressive diffusion. [[paper](https://scholar.google.com/scholar?q=Ar-diffusion%3A%20Asynchronous%20video%20generation%20with%20auto-regressive%20diffusion)]
 - [2024/11] Ca2-vdm: Efficient autoregressive video diffusion model with causal generation and cache sharing. [[paper](https://arxiv.org/abs/2411.16375)]
 - [2024/06] Vid-gpt: Introducing gpt-style autoregressive generation in video diffusion models. [[paper](https://arxiv.org/abs/2406.10981)]
+- [2024/05] Diffusion for world modeling: Visual details matter in atari. [[paper](https://scholar.google.com/scholar?q=Diffusion%20for%20world%20modeling%3A%20Visual%20details%20matter%20in%20atari)]
 - [2024/02] Consisti2v: Enhancing visual consistency for image-to-video generation. [[paper](https://arxiv.org/abs/2402.04324)]
 - [2024/02] Rolling diffusion models. [[paper](https://arxiv.org/abs/2402.09470)]
-- [2024] Art• v: Auto-regressive text-to-video generation with diffusion models. [[paper](https://scholar.google.com/scholar?q=Art%E2%80%A2%20v%3A%20Auto-regressive%20text-to-video%20generation%20with%20diffusion%20models)]
-- [2024] Diffusion for world modeling: Visual details matter in atari. [[paper](https://scholar.google.com/scholar?q=Diffusion%20for%20world%20modeling%3A%20Visual%20details%20matter%20in%20atari)]
+- [2023/11] Art-v: Auto-regressive text-to-video generation with diffusion models. [[paper](https://scholar.google.com/scholar?q=Art%E2%80%A2%20v%3A%20Auto-regressive%20text-to-video%20generation%20with%20diffusion%20models)]
 - [2023/06] Video diffusion models with local-global context guidance. [[paper](https://arxiv.org/abs/2306.02562)]
-- [2022] Mcvd-masked conditional video diffusion for prediction, generation, and interpolation. [[paper](https://scholar.google.com/scholar?q=Mcvd-masked%20conditional%20video%20diffusion%20for%20prediction%2C%20generation%2C%20and%20interpolation)]
+- [2022/05] Mcvd: masked conditional video diffusion for prediction, generation, and interpolation. [[paper](https://scholar.google.com/scholar?q=Mcvd-masked%20conditional%20video%20diffusion%20for%20prediction%2C%20generation%2C%20and%20interpolation)]
 
 #### VAE-space Visual Memory
 
@@ -125,35 +127,33 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/02] TokenTrim: Inference-Time Token Pruning for Autoregressive Long Video Generation. [[paper](https://arxiv.org/abs/2602.00268)]
 - [2026/02] UCM: Unified Modeling of Camera Control and Memory with Time-aware Positional Encoding Warping for World Models. [[paper](https://arxiv.org/abs/2602.22960)] [also: Explicit State]
 - [2026/02] Live: Long-horizon interactive video world modeling. [[paper](https://arxiv.org/abs/2602.03747)]
-- [2026] Onestory: Coherent multi-shot video generation with adaptive memory. [[paper](https://scholar.google.com/scholar?q=Onestory%3A%20Coherent%20multi-shot%20video%20generation%20with%20adaptive%20memory)] [also: Explicit State]
-- [2026] Astra: General interactive world model with autoregressive denoising. [[paper](https://scholar.google.com/scholar?q=Astra%3A%20General%20interactive%20world%20model%20with%20autoregressive%20denoising)]
-- [2026] Frame context packing and drift prevention in next-frame-prediction video diffusion models. [[paper](https://scholar.google.com/scholar?q=Frame%20context%20packing%20and%20drift%20prevention%20in%20next-frame-prediction%20video%20diffusion%20models)] [also: Implicit State]
-- [2026] Stable video infinity: Infinite-length video generation with error recycling. [[paper](https://scholar.google.com/scholar?q=Stable%20video%20infinity%3A%20Infinite-length%20video%20generation%20with%20error%20recycling)]
-- [2026] Yume1. 5: A text-controlled interactive world generation model. [[paper](https://scholar.google.com/scholar?q=Yume1.%205%3A%20A%20text-controlled%20interactive%20world%20generation%20model)]
-- [2026] Bagger: Backwards aggregation for mitigating drift in autoregressive video diffusion models. [[paper](https://scholar.google.com/scholar?q=Bagger%3A%20Backwards%20aggregation%20for%20mitigating%20drift%20in%20autoregressive%20video%20diffusion%20models)]
-- [2026] Generative pre-trained autoregressive diffusion transformer. [[paper](https://scholar.google.com/scholar?q=Generative%20pre-trained%20autoregressive%20diffusion%20transformer)]
-- [2026] InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation. [[paper](https://scholar.google.com/scholar?q=InfinityStar%3A%20Unified%20Spacetime%20AutoRegressive%20Modeling%20for%20Visual%20Generation)]
-- [2026] SAMPO: Scale-wise Autoregression with Motion PrOmpt for generative world models. [[paper](https://scholar.google.com/scholar?q=SAMPO%3A%20Scale-wise%20Autoregression%20with%20Motion%20PrOmpt%20for%20generative%20world%20models)]
+- [2025/12] Onestory: Coherent multi-shot video generation with adaptive memory. [[paper](https://scholar.google.com/scholar?q=Onestory%3A%20Coherent%20multi-shot%20video%20generation%20with%20adaptive%20memory)] [also: Explicit State]
+- [2025/12] Astra: General interactive world model with autoregressive denoising. [[paper](https://scholar.google.com/scholar?q=Astra%3A%20General%20interactive%20world%20model%20with%20autoregressive%20denoising)]
+- [2025/12] Yume1.5: A text-controlled interactive world generation model. [[paper](https://scholar.google.com/scholar?q=Yume1.%205%3A%20A%20text-controlled%20interactive%20world%20generation%20model)]
+- [2025/12] Bagger: Backwards aggregation for mitigating drift in autoregressive video diffusion models. [[paper](https://scholar.google.com/scholar?q=Bagger%3A%20Backwards%20aggregation%20for%20mitigating%20drift%20in%20autoregressive%20video%20diffusion%20models)]
 - [2025/12] Worldpack: Compressed memory improves spatial consistency in video world modeling. [[paper](https://arxiv.org/abs/2512.02473)] [also: Implicit State]
 - [2025/12] WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling. [[paper](https://arxiv.org/abs/2512.14614)]
 - [2025/11] MagicWorld: Towards Long-Horizon Stability for Interactive Video World Exploration. [[paper](https://arxiv.org/abs/2511.18886)]
+- [2025/11] InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation. [[paper](https://scholar.google.com/scholar?q=InfinityStar%3A%20Unified%20Spacetime%20AutoRegressive%20Modeling%20for%20Visual%20Generation)]
+- [2025/10] Stable video infinity: Infinite-length video generation with error recycling. [[paper](https://scholar.google.com/scholar?q=Stable%20video%20infinity%3A%20Infinite-length%20video%20generation%20with%20error%20recycling)]
+- [2025/09] SAMPO: Scale-wise Autoregression with Motion PrOmpt for generative world models. [[paper](https://scholar.google.com/scholar?q=SAMPO%3A%20Scale-wise%20Autoregression%20with%20Motion%20PrOmpt%20for%20generative%20world%20models)]
+- [2025/05] Generative pre-trained autoregressive diffusion transformer. [[paper](https://scholar.google.com/scholar?q=Generative%20pre-trained%20autoregressive%20diffusion%20transformer)]
 - [2025/05] VRAG: Learning World Models for Interactive Video Generation. [[paper](https://arxiv.org/abs/2505.21996)] [also: Explicit State]
 - [2025/04] Skyreels-v2: Infinite-length film generative model. [[paper](https://arxiv.org/abs/2504.13074)]
-- [2025] Ouroboros-diffusion: Exploring consistent content generation in tuning-free long video diffusion. [[paper](https://scholar.google.com/scholar?q=Ouroboros-diffusion%3A%20Exploring%20consistent%20content%20generation%20in%20tuning-free%20long%20video%20diffusion)]
-- [2025] Progressive autoregressive video diffusion models. [[paper](https://scholar.google.com/scholar?q=Progressive%20autoregressive%20video%20diffusion%20models)]
-- [2025] Streamingt2v: Consistent, dynamic, and extendable long video generation from text. [[paper](https://scholar.google.com/scholar?q=Streamingt2v%3A%20Consistent%2C%20dynamic%2C%20and%20extendable%20long%20video%20generation%20from%20text)]
-- [2025] Diffusion models are real-time game engines. [[paper](https://scholar.google.com/scholar?q=Diffusion%20models%20are%20real-time%20game%20engines)]
+- [2025/04] Frame context packing and drift prevention in next-frame-prediction video diffusion models. [[paper](https://scholar.google.com/scholar?q=Frame%20context%20packing%20and%20drift%20prevention%20in%20next-frame-prediction%20video%20diffusion%20models)] [also: Implicit State]
+- [2025/01] Ouroboros-diffusion: Exploring consistent content generation in tuning-free long video diffusion. [[paper](https://scholar.google.com/scholar?q=Ouroboros-diffusion%3A%20Exploring%20consistent%20content%20generation%20in%20tuning-free%20long%20video%20diffusion)]
 - [2024/10] Loong: Generating minute-level long videos with autoregressive language models. [[paper](https://arxiv.org/abs/2410.02757)]
+- [2024/10] Progressive autoregressive video diffusion models. [[paper](https://scholar.google.com/scholar?q=Progressive%20autoregressive%20video%20diffusion%20models)]
 - [2024/09] Emu3: Next-token prediction is all you need. [[paper](https://arxiv.org/abs/2409.18869)]
-- [2024] Fifo-diffusion: Generating infinite videos from text without training. [[paper](https://scholar.google.com/scholar?q=Fifo-diffusion%3A%20Generating%20infinite%20videos%20from%20text%20without%20training)] [also: Implicit State]
+- [2024/08] Diffusion models are real-time game engines. [[paper](https://scholar.google.com/scholar?q=Diffusion%20models%20are%20real-time%20game%20engines)]
+- [2024/05] Fifo-diffusion: Generating infinite videos from text without training. [[paper](https://scholar.google.com/scholar?q=Fifo-diffusion%3A%20Generating%20infinite%20videos%20from%20text%20without%20training)] [also: Implicit State]
+- [2024/03] Streamingt2v: Consistent, dynamic, and extendable long video generation from text. [[paper](https://scholar.google.com/scholar?q=Streamingt2v%3A%20Consistent%2C%20dynamic%2C%20and%20extendable%20long%20video%20generation%20from%20text)]
 - [2023/12] Videopoet: A large language model for zero-shot video generation. [[paper](https://arxiv.org/abs/2312.14125)]
-- [2023] Diffusion probabilistic modeling for video generation. [[paper](https://scholar.google.com/scholar?q=Diffusion%20probabilistic%20modeling%20for%20video%20generation)]
-- [2023] Efficient video prediction via sparsely conditioned flow matching. [[paper](https://scholar.google.com/scholar?q=Efficient%20video%20prediction%20via%20sparsely%20conditioned%20flow%20matching)]
 - [2022/11] Latent video diffusion models for high-fidelity long video generation. [[paper](https://arxiv.org/abs/2211.13221)]
+- [2022/11] Efficient video prediction via sparsely conditioned flow matching. [[paper](https://scholar.google.com/scholar?q=Efficient%20video%20prediction%20via%20sparsely%20conditioned%20flow%20matching)]
+- [2022/03] Diffusion probabilistic modeling for video generation. [[paper](https://scholar.google.com/scholar?q=Diffusion%20probabilistic%20modeling%20for%20video%20generation)]
 - [2021/04] Videogpt: Video generation using vq-vae and transformers. [[paper](https://arxiv.org/abs/2104.10157)]
 
-#### Other / To be classified
-- [2026/01] VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction. [[paper](https://arxiv.org/abs/2601.05966)] [also: Implicit State]
 
 ### Implicit State Memory
 
@@ -220,21 +220,18 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/02] Light forcing: Accelerating autoregressive video diffusion via sparse attention. [[paper](https://arxiv.org/abs/2602.04789)]
 - [2026/02] Quant videogen: Auto-regressive long video generation via 2-bit kv-cache quantization. [[paper](https://arxiv.org/abs/2602.02958)]
 - [2026/02] Rolling sink: Bridging limited-horizon training and open-ended testing in autoregressive video diffusion. [[paper](https://arxiv.org/abs/2602.07775)]
+- [2026/02] FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention. [[paper](https://scholar.google.com/scholar?q=FAST-AR%3A%20Fast%20Autoregressive%20Video%20Diffusion%20and%20World%20Models%20with%20Temporal%20Cache%20Compression%20and%20Sparse%20Attention)]
 - [2026/01] Advancing open-source world models. [[paper](https://arxiv.org/abs/2601.20540)]
 - [2026/01] Efficient autoregressive video diffusion with dummy head. [[paper](https://arxiv.org/abs/2601.20499)]
 - [2026/01] Lol: Longer than longer, scaling video generation to hour. [[paper](https://arxiv.org/abs/2601.16914)]
 - [2026/01] Past-and future-informed kv cache policy with salience estimation in autoregressive video diffusion. [[paper](https://arxiv.org/abs/2601.21896)]
 - [2026/01] StableWorld: Towards Stable and Consistent Long Interactive Video Generation. [[paper](https://arxiv.org/abs/2601.15281)]
-- [2026] FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention. [[paper](https://scholar.google.com/scholar?q=FAST-AR%3A%20Fast%20Autoregressive%20Video%20Diffusion%20and%20World%20Models%20with%20Temporal%20Cache%20Compression%20and%20Sparse%20Attention)]
-- [2026] Filmweaver: Weaving consistent multi-shot videos with cache-guided autoregressive diffusion. [[paper](https://scholar.google.com/scholar?q=Filmweaver%3A%20Weaving%20consistent%20multi-shot%20videos%20with%20cache-guided%20autoregressive%20diffusion)]
-- [2026] Reward forcing: Efficient streaming video generation with rewarded distribution matching distillation. [[paper](https://scholar.google.com/scholar?q=Reward%20forcing%3A%20Efficient%20streaming%20video%20generation%20with%20rewarded%20distribution%20matching%20distillation)]
-- [2026] Rolling forcing: Autoregressive long video diffusion in real time. [[paper](https://scholar.google.com/scholar?q=Rolling%20forcing%3A%20Autoregressive%20long%20video%20diffusion%20in%20real%20time)]
-- [2026] Self forcing: Bridging the train-test gap in autoregressive video diffusion. [[paper](https://scholar.google.com/scholar?q=Self%20forcing%3A%20Bridging%20the%20train-test%20gap%20in%20autoregressive%20video%20diffusion)]
-- [2026] Self-forcing++: Towards minute-scale high-quality video generation. [[paper](https://scholar.google.com/scholar?q=Self-forcing%2B%2B%3A%20Towards%20minute-scale%20high-quality%20video%20generation)]
-- [2026] Videomar: Autoregressive video generation with continuous tokens. [[paper](https://scholar.google.com/scholar?q=Videomar%3A%20Autoregressive%20video%20generation%20with%20continuous%20tokens)]
+- [2026/01] VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction. [[paper](https://arxiv.org/abs/2601.05966)] [also: Visual]
 - [2025/12] Deep forcing: Training-free long video generation with deep sink and participative compression. [[paper](https://arxiv.org/abs/2512.05081)]
+- [2025/12] Filmweaver: Weaving consistent multi-shot videos with cache-guided autoregressive diffusion. [[paper](https://scholar.google.com/scholar?q=Filmweaver%3A%20Weaving%20consistent%20multi-shot%20videos%20with%20cache-guided%20autoregressive%20diffusion)]
 - [2025/12] Egolcd: Egocentric video generation with long context diffusion. [[paper](https://arxiv.org/abs/2512.04515)]
 - [2025/12] JoyStreamer-Flash: Real-time and Infinite Audio-Driven Avatar Generation with Autoregressive Diffusion. [[paper](https://arxiv.org/abs/2512.11423)] [also: Explicit State]
+- [2025/12] Reward forcing: Efficient streaming video generation with rewarded distribution matching distillation. [[paper](https://scholar.google.com/scholar?q=Reward%20forcing%3A%20Efficient%20streaming%20video%20generation%20with%20rewarded%20distribution%20matching%20distillation)]
 - [2025/12] Knot forcing: Taming autoregressive video diffusion models for real-time infinite interactive portrait animation. [[paper](https://arxiv.org/abs/2512.21734)]
 - [2025/12] LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation. [[paper](https://arxiv.org/abs/2512.23576)] [also: Explicit State]
 - [2025/12] Memflow: Flowing adaptive memory for consistent and efficient long video narratives. [[paper](https://arxiv.org/abs/2512.14699)]
@@ -243,15 +240,19 @@ We categorize memory mechanisms into four major carrier families:
 - [2025/12] SneakPeek: Future-Guided Instructional Streaming Video Generation. [[paper](https://arxiv.org/abs/2512.13019)]
 - [2025/11] BIFE: Better Interaction, Fewer Errors for Minute-Long Video Generation. [[paper](https://arxiv.org/abs/2511.22973)]
 - [2025/11] Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout. [[paper](https://arxiv.org/abs/2511.20649)]
+- [2025/10] Self-forcing++: Towards minute-scale high-quality video generation. [[paper](https://scholar.google.com/scholar?q=Self-forcing%2B%2B%3A%20Towards%20minute-scale%20high-quality%20video%20generation)]
 - [2025/09] Longlive: Real-time interactive long video generation. [[paper](https://arxiv.org/abs/2509.22622)]
 - [2025/09] Causnvs: Autoregressive multi-view diffusion for flexible 3d novel view synthesis. [[paper](https://arxiv.org/abs/2509.06579)] [also: Explicit State]
 - [2025/09] Autoregressive Video Generation beyond Next Frames Prediction. [[paper](https://arxiv.org/abs/2509.24081)]
+- [2025/09] Rolling forcing: Autoregressive long video diffusion in real time. [[paper](https://scholar.google.com/scholar?q=Rolling%20forcing%3A%20Autoregressive%20long%20video%20diffusion%20in%20real%20time)]
+- [2025/06] Self forcing: Bridging the train-test gap in autoregressive video diffusion. [[paper](https://scholar.google.com/scholar?q=Self%20forcing%3A%20Bridging%20the%20train-test%20gap%20in%20autoregressive%20video%20diffusion)]
+- [2025/06] Videomar: Autoregressive video generation with continuous tokens. [[paper](https://scholar.google.com/scholar?q=Videomar%3A%20Autoregressive%20video%20generation%20with%20continuous%20tokens)]
 - [2025/05] Magi-1: Autoregressive video generation at scale. [[paper](https://arxiv.org/abs/2505.13211)]
 - [2025/03] Long-context autoregressive video modeling with next-frame prediction. [[paper](https://arxiv.org/abs/2503.19325)]
-- [2025] From slow bidirectional to fast autoregressive video diffusion models. [[paper](https://scholar.google.com/scholar?q=From%20slow%20bidirectional%20to%20fast%20autoregressive%20video%20diffusion%20models)]
-- [2025] Taming teacher forcing for masked autoregressive video generation. [[paper](https://scholar.google.com/scholar?q=Taming%20teacher%20forcing%20for%20masked%20autoregressive%20video%20generation)]
-- [2025] Autoregressive video generation without vector quantization. [[paper](https://scholar.google.com/scholar?q=Autoregressive%20video%20generation%20without%20vector%20quantization)]
+- [2025/01] Taming teacher forcing for masked autoregressive video generation. [[paper](https://scholar.google.com/scholar?q=Taming%20teacher%20forcing%20for%20masked%20autoregressive%20video%20generation)]
 - [2024/12] Acdit: Interpolating autoregressive conditional modeling and diffusion transformer. [[paper](https://arxiv.org/abs/2412.07720)]
+- [2024/12] From slow bidirectional to fast autoregressive video diffusion models. [[paper](https://scholar.google.com/scholar?q=From%20slow%20bidirectional%20to%20fast%20autoregressive%20video%20diffusion%20models)]
+- [2024/12] Autoregressive video generation without vector quantization. [[paper](https://scholar.google.com/scholar?q=Autoregressive%20video%20generation%20without%20vector%20quantization)]
 
 #### Recurrent and State-space States
 
@@ -268,13 +269,13 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/04] Long-Horizon Streaming Video Generation via Hybrid Attention with Decoupled Distillation. [[paper](https://arxiv.org/abs/2604.10103)]
 - [2026/03] SoulX-LiveAct: Towards Hour-Scale Real-Time Human Animation with Neighbor Forcing and ConvKV Memory. [[paper](https://arxiv.org/abs/2603.11746)]
 - [2026/01] S2dit: Sandwich diffusion transformer for mobile streaming video generation. [[paper](https://arxiv.org/abs/2601.12719)]
-- [2026] ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers. [[paper](https://scholar.google.com/scholar?q=ReHyAt%3A%20Recurrent%20Hybrid%20Attention%20for%20Video%20Diffusion%20Transformers)]
+- [2026/01] ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers. [[paper](https://scholar.google.com/scholar?q=ReHyAt%3A%20Recurrent%20Hybrid%20Attention%20for%20Video%20Diffusion%20Transformers)]
 - [2025/12] Videossm: Autoregressive long video generation with hybrid state-space memory. [[paper](https://arxiv.org/abs/2512.04519)]
 - [2025/10] Pack and Force Your Memory: Long-form and Consistent Video Generation. [[paper](https://arxiv.org/abs/2510.01784)] [also: Visual]
 - [2025/05] StateSpaceDiffuser: Bringing Long Context to Diffusion World Models. [[paper](https://arxiv.org/abs/2505.22246)]
 - [2025/02] EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling. [[paper](https://arxiv.org/abs/2502.00466)]
 - [2025/02] Malt diffusion: Memory-augmented latent transformers for any-length video generation. [[paper](https://arxiv.org/abs/2502.12632)]
-- [2025] Long-context state-space video world models. [[paper](https://scholar.google.com/scholar?q=Long-context%20state-space%20video%20world%20models)]
+- [2025/05] Long-context state-space video world models. [[paper](https://scholar.google.com/scholar?q=Long-context%20state-space%20video%20world%20models)]
 
 #### Encoded History States
 
@@ -306,7 +307,7 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/03] Multigen: Level-design for editable multiplayer worlds in diffusion game engines. [[paper](https://arxiv.org/abs/2603.06679)]
 - [2026/03] SPIRAL: Self-Evolving Action-Conditioned Video Generation via Reflective Planning Agents. [[paper](https://arxiv.org/abs/2603.08403)]
 - [2026/01] Videomemory: Toward consistent video generation via memory integration. [[paper](https://arxiv.org/abs/2601.03655)] [also: Visual]
-- [2026] Egox: Egocentric video generation from a single exocentric video. [[paper](https://scholar.google.com/scholar?q=Egox%3A%20Egocentric%20video%20generation%20from%20a%20single%20exocentric%20video)]
+- [2025/12] Egox: Egocentric video generation from a single exocentric video. [[paper](https://scholar.google.com/scholar?q=Egox%3A%20Egocentric%20video%20generation%20from%20a%20single%20exocentric%20video)]
 
 #### Spatial and Geometric States
 
@@ -321,24 +322,24 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/05] Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation. [[paper](https://arxiv.org/abs/2605.30855)]
 - [2026/04] Lyra 2.0: Explorable generative 3d worlds. [[paper](https://arxiv.org/abs/2604.13036)] [also: Visual]
 - [2026/04] Egosim: Egocentric world simulator for embodied interaction generation. [[paper](https://arxiv.org/abs/2604.01001)]
+- [2026/04] Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory. [[paper](https://matrix-game-v3-5.github.io/)]
 - [2026/03] Liveworld: Simulating out-of-sight dynamics in generative video world models. [[paper](https://arxiv.org/abs/2603.07145)] [also: Implicit State]
 - [2026/03] Worldcam: Interactive autoregressive 3d gaming worlds with camera pose as a unifying geometric representation. [[paper](https://arxiv.org/abs/2603.16871)] [also: Visual]
+- [2026/03] Beyond pixel histories: World models with persistent 3d state. [[paper](https://scholar.google.com/scholar?q=Beyond%20pixel%20histories%3A%20World%20models%20with%20persistent%203d%20state)]
 - [2026/03] WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories. [[paper](https://arxiv.org/abs/2603.02049)]
 - [2026/02] Anchorweave: World-consistent video generation with retrieved local spatial memories. [[paper](https://arxiv.org/abs/2602.14941)]
+- [2026/02] Geometry-as-context: Modulating explicit 3d in scene-consistent video generation to geometry context. [[paper](https://scholar.google.com/scholar?q=Geometry-as-context%3A%20Modulating%20explicit%203d%20in%20scene-consistent%20video%20generation%20to%20geometry%20context)]
 - [2026/01] Teleworld: Towards dynamic multimodal synthesis with a 4d world model. [[paper](https://arxiv.org/abs/2601.00051)]
-- [2026] Beyond pixel histories: World models with persistent 3d state. [[paper](https://scholar.google.com/scholar?q=Beyond%20pixel%20histories%3A%20World%20models%20with%20persistent%203d%20state)]
-- [2026] Captain safari: A world engine with pose-aligned 3d memory. [[paper](https://scholar.google.com/scholar?q=Captain%20safari%3A%20A%20world%20engine%20with%20pose-aligned%203d%20memory)]
-- [2026] Geometry-as-context: Modulating explicit 3d in scene-consistent video generation to geometry context. [[paper](https://scholar.google.com/scholar?q=Geometry-as-context%3A%20Modulating%20explicit%203d%20in%20scene-consistent%20video%20generation%20to%20geometry%20context)]
-- [2026] Learning 3d persistent embodied world models. [[paper](https://scholar.google.com/scholar?q=Learning%203d%20persistent%20embodied%20world%20models)]
-- [2026] Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory. [[paper](https://matrix-game-v3-5.github.io/)]
-- [2026] Spatia: Video generation with updatable spatial memory. [[paper](https://scholar.google.com/scholar?q=Spatia%3A%20Video%20generation%20with%20updatable%20spatial%20memory)]
-- [2026] Video world models with long-term spatial memory. [[paper](https://scholar.google.com/scholar?q=Video%20world%20models%20with%20long-term%20spatial%20memory)]
-- [2026] Worldweaver: Generating long-horizon video worlds via rich perception. [[paper](https://scholar.google.com/scholar?q=Worldweaver%3A%20Generating%20long-horizon%20video%20worlds%20via%20rich%20perception)] [also: Visual]
+- [2025/12] Spatia: Video generation with updatable spatial memory. [[paper](https://scholar.google.com/scholar?q=Spatia%3A%20Video%20generation%20with%20updatable%20spatial%20memory)]
+- [2025/11] Captain safari: A world engine with pose-aligned 3d memory. [[paper](https://scholar.google.com/scholar?q=Captain%20safari%3A%20A%20world%20engine%20with%20pose-aligned%203d%20memory)]
 - [2025/10] EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory. [[paper](https://arxiv.org/abs/2510.01183)]
 - [2025/10] Memory forcing: Spatio-temporal memory for consistent scene generation on minecraft. [[paper](https://arxiv.org/abs/2510.03198)]
+- [2025/08] Worldweaver: Generating long-horizon video worlds via rich perception. [[paper](https://scholar.google.com/scholar?q=Worldweaver%3A%20Generating%20long-horizon%20video%20worlds%20via%20rich%20perception)] [also: Visual]
 - [2025/06] Deepverse: 4d autoregressive video generation as a world model. [[paper](https://arxiv.org/abs/2506.01103)] [also: Implicit State]
-- [2025] Gen3c: 3d-informed world-consistent video generation with precise camera control. [[paper](https://scholar.google.com/scholar?q=Gen3c%3A%203d-informed%20world-consistent%20video%20generation%20with%20precise%20camera%20control)]
-- [2025] Voyager: Long-range and world-consistent video diffusion for explorable 3d scene generation. [[paper](https://scholar.google.com/scholar?q=Voyager%3A%20Long-range%20and%20world-consistent%20video%20diffusion%20for%20explorable%203d%20scene%20generation)]
+- [2025/06] Video world models with long-term spatial memory. [[paper](https://scholar.google.com/scholar?q=Video%20world%20models%20with%20long-term%20spatial%20memory)]
+- [2025/06] Voyager: Long-range and world-consistent video diffusion for explorable 3d scene generation. [[paper](https://scholar.google.com/scholar?q=Voyager%3A%20Long-range%20and%20world-consistent%20video%20diffusion%20for%20explorable%203d%20scene%20generation)]
+- [2025/05] Learning 3d persistent embodied world models. [[paper](https://scholar.google.com/scholar?q=Learning%203d%20persistent%20embodied%20world%20models)]
+- [2025/03] Gen3c: 3d-informed world-consistent video generation with precise camera control. [[paper](https://scholar.google.com/scholar?q=Gen3c%3A%203d-informed%20world-consistent%20video%20generation%20with%20precise%20camera%20control)]
 
 
 
@@ -347,18 +348,19 @@ We categorize memory mechanisms into four major carrier families:
 #### Internal Parametric Memory
 
 - [2026/07] Towards Memory-Efficient Autoregressive Video Generation via Instance-Specific Parametric Absorption. [[paper](https://arxiv.org/abs/2607.00712)]
-- [2026] Test-time training done right. [[paper](https://scholar.google.com/scholar?q=Test-time%20training%20done%20right)]
 - [2025/11] Recurrent Autoregressive Diffusion: Global Memory Meets Local Attention. [[paper](https://arxiv.org/abs/2511.12940)] [also: Implicit State]
+- [2025/05] Test-time training done right. [[paper](https://scholar.google.com/scholar?q=Test-time%20training%20done%20right)]
 
 #### Modular Parametric Memory
 
-- [2026] HippoCampus: Hierarchical Memory for Long-Horizon Video World Models. [[paper](https://scholar.google.com/scholar?q=HippoCampus%3A%20Hierarchical%20Memory%20for%20Long-Horizon%20Video%20World%20Models)] [also: Visual, Implicit State]
-- [2026] Ttom: Test-time optimization and memorization for compositional video generation. [[paper](https://scholar.google.com/scholar?q=Ttom%3A%20Test-time%20optimization%20and%20memorization%20for%20compositional%20video%20generation)]
-- [2025] Slowfast-vgen: Slow-fast learning for action-driven long video generation. [[paper](https://scholar.google.com/scholar?q=Slowfast-vgen%3A%20Slow-fast%20learning%20for%20action-driven%20long%20video%20generation)]
+- [2026] HippoCampus: Hierarchical Memory for Long-Horizon Video World Models. [[blog](https://pengchensheng.com/project/hippocampus/index.html)] [also: Visual, Implicit State]
+- [2025/10] Ttom: Test-time optimization and memorization for compositional video generation. [[paper](https://scholar.google.com/scholar?q=Ttom%3A%20Test-time%20optimization%20and%20memorization%20for%20compositional%20video%20generation)]
+- [2024/10] Slowfast-vgen: Slow-fast learning for action-driven long video generation. [[paper](https://scholar.google.com/scholar?q=Slowfast-vgen%3A%20Slow-fast%20learning%20for%20action-driven%20long%20video%20generation)]
 
 
 <!-- METHODS:END -->
 
+<a name="benchmarks"></a>
 ## 🗃️ Benchmarks
 
 
@@ -402,6 +404,7 @@ We categorize memory mechanisms into four major carrier families:
 - [2023/01] Temporally consistent transformers for video generation. [[paper](https://scholar.google.com/scholar?q=Temporally+consistent+transformers+for+video+generation)] [[repo](https://github.com/wilson1yan/teco)]
 <!-- BENCHMARKS:END -->
 
+<a name="citation"></a>
 ## 🏷️ Citation
 
 If this repository is helpflu for your research, a citation would be greatly appreciated:
@@ -415,6 +418,7 @@ If this repository is helpflu for your research, a citation would be greatly app
 }
 ```
 
+<a name="contact"></a>
 ## 📬 Contact
 
 For questions about the survey or the paper list, feel free to open a GitHub issue or contact [Rongjin Guo](mailto:guorong3529@gmail.com) / [Harold Chen](mailto:haroldchen19@gmail.com).
