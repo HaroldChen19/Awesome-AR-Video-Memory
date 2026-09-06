@@ -412,7 +412,7 @@ We categorize memory mechanisms into four major carrier families:
 <a name="citation"></a>
 ## 🏷️ Citation
 
-If this repository is helpflu for your research, a citation would be greatly appreciated:
+If this repository is helpful for your research, a citation would be greatly appreciated:
 
 ```bibtex
 @article{chen2026past,
