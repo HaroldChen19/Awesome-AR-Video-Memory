@@ -19,6 +19,11 @@
 
 ## 📜 Overview
 
+<div align="center">
+  <img src="assets/author.png" alt="Overview of memory mechanisms in autoregressive video generation." width="100%" />
+
+</div>
+
 [Introduction](#introduction) | [Taxonomy](#memory-carrier-taxonomy) | [Paper List](#paper-list) | [Benchmarks](#benchmarks) | [Citation](#citation) | [Contact](#contact)
 
 
