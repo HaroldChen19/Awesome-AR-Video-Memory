@@ -7,6 +7,9 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
+[![Paper](https://img.shields.io/badge/Paper-Preview-b31b1b.svg?logo=arXiv)](assets/AR-Video-Memory-Survey-Preview.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-TBD-b31b1b.svg?logo=arXiv)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-TBD-292929.svg?logo=huggingface)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
 [![GitHub stars](https://img.shields.io/github/stars/HaroldChen19/Awesome-AR-Video-Memory?style=social)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/stargazers)
 [![Contributions](https://img.shields.io/badge/Contributions-welcome-brightgreen)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/pulls)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -115,6 +118,7 @@ We categorize memory mechanisms into four major carrier families:
 
 #### VAE-space Visual Memory
 
+- [2026/09] ConsistWorld: Evidence Routing for Consistent Multi-Agent World Models. [[paper](https://arxiv.org/abs/2609.22641)]
 - [2026/08] ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing. [[paper](https://arxiv.org/abs/2608.04956)]
 - [2026/08] Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds. [[paper](https://arxiv.org/abs/2608.23383)]
 - [2026/06] From Zero to Hero: Training-Free Custom Concept Spawning in World Models. [[paper](https://arxiv.org/abs/2606.02575)]
@@ -284,6 +288,7 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Encoded History States
 
+- [2026/09] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory. [[paper](https://arxiv.org/abs/2609.24984)]
 - [2026/06] Compression and Retrieval: Implicit Memory Retrieval for Video World Models. [[paper](https://arxiv.org/abs/2606.23105)]
 - [2026/06] Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation. [[paper](https://arxiv.org/abs/2606.04527)]
 - [2026/06] Geometry-Aware Implicit Memory for Video World Models. [[paper](https://arxiv.org/abs/2606.02436)]
@@ -295,6 +300,7 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Entity-centric States
 
+- [2026/09] Programmable World Model. [[paper](https://arxiv.org/abs/2609.10540)]
 - [2026/08] Code World Model: Coding Agent as World Brain. [[paper](https://arxiv.org/abs/2608.25927)]
 - [2026/08] Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning. [[paper](https://arxiv.org/abs/2608.09926)]
 - [2026/08] Population-Scalable Multi-Agent World Modeling. [[paper](https://arxiv.org/abs/2608.08600)]
@@ -316,6 +322,8 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Spatial and Geometric States
 
+- [2026/09] PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control. [[paper](https://arxiv.org/abs/2609.17521)]
+- [2026/09] OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping. [[paper](https://arxiv.org/abs/2609.03919)]
 - [2026/08] Alaya-EVOKE: From Linear-Scaling Supervision to Endless World. [[paper](https://arxiv.org/abs/2608.13546)]
 - [2026/07] AlayaWorld: Interactive Long-Horizon World Modeling--Full Technical Report. [[paper](https://arxiv.org/abs/2607.18367)] [also: Visual, Implicit State]
 - [2026/06] DreamX-World 1.0: A General-Purpose Interactive World Model. [[paper](https://arxiv.org/abs/2606.16993)] [also: Visual]
@@ -372,6 +380,7 @@ We categorize memory mechanisms into four major carrier families:
 <!-- BENCHMARKS:START -->
 ### Memory-oriented Benchmarks
 
+- [2026/08] R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models. [[paper](https://arxiv.org/abs/2608.27328)] [[repo](https://github.com/AMAP-ML/R2MBench)]
 - [2026/06] Current World Models Lack a Persistent State Core. [[paper](https://arxiv.org/abs/2606.20545)] [[repo](https://github.com/JinPLu/WRBench)]
 - [2026/06] Mbench: A comprehensive benchmark on memory capability for video world models. [[paper](https://arxiv.org/abs/2606.00793)] [[repo](https://github.com/study-overflow/MBench)]
 - [2026/06] MemoBench: Benchmarking World Modeling in Dynamically Changing Environments. [[paper](https://arxiv.org/abs/2606.27537)] [[repo](https://github.com/MemoBench-Team/MemoBench)]
@@ -426,7 +435,7 @@ If this repository is helpful for your research, a citation would be greatly app
 <a name="contact"></a>
 ## 📬 Contact
 
-For questions about the survey or the paper list, feel free to open a GitHub issue or contact [Rongjin Guo](mailto:guorong3529@gmail.com) / [Harold Chen](mailto:haroldchen19@gmail.com).
+For questions about the survey or the paper list, feel free to open a GitHub issue or contact [Harold Chen](mailto:haroldchen19@gmail.com) / [Rongjin Guo](mailto:guorong3529@gmail.com).
 
 ## 🌟 Star History
 
