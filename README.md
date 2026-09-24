@@ -8,8 +8,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
 [![Paper](https://img.shields.io/badge/Paper-Preview-b31b1b.svg?logo=arXiv)](assets/AR-Video-Memory-Survey-Preview.pdf)
-[![arXiv](https://img.shields.io/badge/arXiv-TBD-b31b1b.svg?logo=arXiv)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-TBD-292929.svg?logo=huggingface)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.28466-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2609.28466)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Daily-292929.svg?logo=huggingface)](https://huggingface.co/papers/2609.28466)
 [![GitHub stars](https://img.shields.io/github/stars/HaroldChen19/Awesome-AR-Video-Memory?style=social)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/stargazers)
 [![Contributions](https://img.shields.io/badge/Contributions-welcome-brightgreen)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/pulls)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -18,7 +18,8 @@
 
 ## 📢 News
 
-- [2026/09/06] The repository launches with the methods and benchmarks from the survey.
+- [2026/09/24] 📝 Our survey is released on [arXiv](https://arxiv.org/abs/2609.28466)!
+- [2026/09/06] 🗃️ The repository launches with the methods and benchmarks from the survey.
 
 ## 📜 Overview
 
@@ -424,11 +425,11 @@ We categorize memory mechanisms into four major carrier families:
 If this repository is helpful for your research, a citation would be greatly appreciated:
 
 ```bibtex
-@article{chen2026past,
-  title = {The Past Frames the Future: Memory for Autoregressive Video Generation},
-  author = {Harold Haodong Chen and Rongjin Guo and Disen Lan and Wen-Jie Shu and Hongfei Zhang and others},
-  year = {2026},
-  note = {TBD}
+@article{chen2025tivibench,
+  title={TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models},
+  author={Chen, Harold Haodong and Guo, Rongjin and Lan, Disen and Shu, Wen-Jie and Zhang, Hongfei and others},
+  journal={arXiv preprint arXiv:2609.28466},
+  year={2026}
 }
 ```
 
