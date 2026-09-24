@@ -425,8 +425,8 @@ We categorize memory mechanisms into four major carrier families:
 If this repository is helpful for your research, a citation would be greatly appreciated:
 
 ```bibtex
-@article{chen2025tivibench,
-  title={TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models},
+@article{chen2026past,
+  title={The Past Frames the Future: Memory for Autoregressive Video Generation},
   author={Chen, Harold Haodong and Guo, Rongjin and Lan, Disen and Shu, Wen-Jie and Zhang, Hongfei and others},
   journal={arXiv preprint arXiv:2609.28466},
   year={2026}
