@@ -53,7 +53,7 @@ Following our survey, this repository organizes existing methods from five compl
 - **Learning**: how memory behaviors are acquired;
 - **Evaluation**: how memory capabilities are measured.
 
-The paper list in this repository is primarily organized by **Forms**, i.e., the underlying memory carriers, which provide a unified view of diverse mechanisms across architectures and applications.
+The papers listed in this repository are primarily organized by **Forms**, i.e., the underlying memory carriers, which provide a unified view of diverse mechanisms across architectures and applications.
 
 
 <a name="memory-carrier-taxonomy"></a>
