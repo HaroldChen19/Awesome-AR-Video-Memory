@@ -180,6 +180,7 @@ We categorize memory mechanisms into four major carrier families:
 - [2026/08] Tether the Subject, Release the Scene: Query-Aware Memory Routing for Long-Horizon Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2608.26902)]
 - [2026/08] UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos. [[paper](https://arxiv.org/abs/2608.11752)]
 - [2026/08] RECAP-Forcing: Retaining Content Appearances for Long Video Generation. [[paper](https://arxiv.org/abs/2608.26671)]
+- [2026/07] StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation. [[paper](https://arxiv.org/abs/2607.20174)]
 - [2026/07] Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering. [[paper](https://arxiv.org/abs/2607.21848)]
 - [2026/07] FreqForcing: Autoregressive Long Video Generation via Spectral Self-Anchoring. [[paper](https://arxiv.org/abs/2607.27110)]
 - [2026/07] HeadCast: Casting Attention Heads for Efficient Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2607.20125)]
