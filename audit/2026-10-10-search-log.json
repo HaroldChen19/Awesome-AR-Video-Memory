@@ -6,23 +6,22 @@
   "unique_discovery_records": 967,
   "screened_records": 117,
   "method_section_checked": 72,
-  "new_unique_papers": 54,
+  "new_unique_papers": 34,
   "decisions": {
-    "add_method": 45,
-    "add_learning_study": 6,
-    "related_not_added": 58,
-    "add_evaluation_study": 2,
-    "add_benchmark": 1,
-    "already_present": 5
+    "related_not_added": 78,
+    "add_method": 30,
+    "add_learning_study": 1,
+    "add_benchmark": 2,
+    "already_present": 5,
+    "add_evaluation_study": 1
   },
   "forms": {
-    "VAE-space Visual Memory": 8,
-    "Pixel-space Visual Memory": 4,
-    "Attention-cache States": 15,
-    "Recurrent and State-space States": 3,
+    "VAE-space Visual Memory": 6,
+    "Attention-cache States": 16,
     "Carrier-agnostic Visual Memory Management": 2,
-    "Spatial and Geometric States": 5,
-    "Entity-centric States": 7,
+    "Recurrent and State-space States": 2,
+    "Spatial and Geometric States": 2,
+    "Pixel-space Visual Memory": 1,
     "Encoded History States": 1
   },
   "queries": [
@@ -123,5 +122,19 @@
     "arXiv and author-project-centered search; not exhaustive for non-arXiv proceedings.",
     "Benchmark history-dependency labels are audit judgments, not author-defined labels.",
     "No code execution, experimental reproduction or older-version comparison."
-  ]
+  ],
+  "scope_recheck": {
+    "scope": "Memory in autoregressive video generation models",
+    "new_unique_before": 54,
+    "new_unique_after": 34,
+    "withdrawn_papers": 20,
+    "method_to_benchmark_only": [
+      "2609.03673"
+    ],
+    "form_correction": {
+      "2609.14462": "Attention-cache States"
+    },
+    "separate_ar_and_memory_evidence": true,
+    "scope_file": "2026-10-10-scope-recheck.md"
+  }
 }
