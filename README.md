@@ -18,6 +18,7 @@
 
 ## 📢 News
 
+- [2026/10/10] 📚 Added recent AR video memory methods and evaluations with a [paper-by-paper source audit](audit/2026-10-10-recent-papers-check.md) and [scope recheck](audit/2026-10-10-scope-recheck.md), covering September 1–October 10.
 - [2026/09/24] 📝 Our survey is released on [arXiv](https://arxiv.org/abs/2609.28466)!
 - [2026/09/06] 🗃️ The repository launches with the methods and benchmarks from the survey.
 
@@ -28,7 +29,7 @@
 
 </div>
 
-[Introduction](#introduction) | [Taxonomy](#memory-carrier-taxonomy) | [Paper List](#paper-list) | [Benchmarks](#benchmarks) | [Citation](#citation) | [Contact](#contact)
+[Introduction](#introduction) | [Taxonomy](#memory-carrier-taxonomy) | [Paper List](#paper-list) | [Benchmarks](#benchmarks) | [Learning & Diagnostics](#learning-and-diagnostics) | [Source Audit](audit/2026-10-10-recent-papers-check.md) | [Citation](#citation) | [Contact](#contact)
 
 
 
@@ -85,8 +86,16 @@ We categorize memory mechanisms into four major carrier families:
 
 ### Visual Memory
 
+#### Carrier-agnostic Visual Memory Management
+
+These methods manage retained visual observations across host models; the pixel/latent encoding follows the host.
+
+- [2026/10] Keepsake: Selective Spatial Memory for Long-Horizon Video Generation. [[paper](https://arxiv.org/abs/2610.06588)]
+- [2026/10] Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory. [[paper](https://arxiv.org/abs/2610.02521)]
+
 #### Pixel-space Visual Memory
 
+- [2026/09] FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation. [[paper](https://arxiv.org/abs/2609.38839)]
 - [2026/07] CineWeaver: Training-Free Reference-Controllable Multi-Shot Long Video Generation for Cinematic Storytelling. [[paper](https://arxiv.org/abs/2607.26529)]
 - [2026/06] Groundshot: Visually consistent multi-shot long video generation via entity-grounded shot scheduling. [[paper](https://arxiv.org/abs/2606.20799)] [also: Explicit State]
 - [2026/06] Retrieve What's Missing: Coverage-Maximizing Retrieval for Consistent Long Video Generation. [[paper](https://arxiv.org/abs/2606.02479)] [also: Explicit State]
@@ -119,6 +128,12 @@ We categorize memory mechanisms into four major carrier families:
 
 #### VAE-space Visual Memory
 
+- [2026/10] WorldCast: Distributed Multiplayer World Models. [[paper](https://arxiv.org/abs/2610.12412)] [also: Explicit State]
+- [2026/10] SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation. [[paper](https://arxiv.org/abs/2610.08941)]
+- [2026/10] World Observer: Joint Actor-Observer Generation for Persistent World Modeling. [[paper](https://arxiv.org/abs/2610.02162)]
+- [2026/09] Memorizon: Training World Models Beyond Their Context Window. [[paper](https://arxiv.org/abs/2610.00544)]
+- [2026/09] Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation. [[paper](https://arxiv.org/abs/2609.34722)] [also: Explicit State]
+- [2026/09] ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation. [[paper](https://arxiv.org/abs/2609.21712)]
 - [2026/09] ConsistWorld: Evidence Routing for Consistent Multi-Agent World Models. [[paper](https://arxiv.org/abs/2609.22641)]
 - [2026/08] ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing. [[paper](https://arxiv.org/abs/2608.04956)]
 - [2026/08] Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds. [[paper](https://arxiv.org/abs/2608.23383)]
@@ -169,6 +184,22 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Attention-cache States
 
+- [2026/10] Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation. [[paper](https://arxiv.org/abs/2610.11756)]
+- [2026/10] SGF+: Decoupling Gradient Flows for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.10429)]
+- [2026/10] Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation. [[paper](https://arxiv.org/abs/2610.03510)]
+- [2026/10] In-Distribution Forcing for Long Video Generation at Test Time. [[paper](https://arxiv.org/abs/2610.03120)]
+- [2026/10] Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02914)]
+- [2026/10] TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02779)]
+- [2026/10] MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02153)]
+- [2026/09] DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency. [[paper](https://arxiv.org/abs/2609.39096)]
+- [2026/09] Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History. [[paper](https://arxiv.org/abs/2609.38114)]
+- [2026/09] WorldAttention: An Efficient Attention Architecture for Interactive Video World Models. [[paper](https://arxiv.org/abs/2609.34606)]
+- [2026/09] In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion. [[paper](https://arxiv.org/abs/2609.32540)] [AR conditioned on pre-generated two-sided anchors]
+- [2026/09] QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models. [[paper](https://arxiv.org/abs/2609.26425)]
+- [2026/09] Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2609.19729)]
+- [2026/09] AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video. [[paper](https://arxiv.org/abs/2609.14462)]
+- [2026/09] World in World: Explore the World with World Models. [[paper](https://arxiv.org/abs/2609.11548)]
+- [2026/09] Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation. [[paper](https://arxiv.org/abs/2609.11265)]
 - [2026/08] Addressable Memory for Video World Models. [[paper](https://arxiv.org/abs/2608.07408)]
 - [2026/08] DensityKV: Density-Guided KV Cache Compression for Long Video Generation. [[paper](https://arxiv.org/abs/2608.27922)]
 - [2026/08] LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation. [[paper](https://arxiv.org/abs/2608.28460)]
@@ -267,6 +298,8 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Recurrent and State-space States
 
+- [2026/10] HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models. [[paper](https://arxiv.org/abs/2610.05739)]
+- [2026/09] LOCI: Spatial Linear Memory for Streaming World Models. [[paper](https://arxiv.org/abs/2609.40222)]
 - [2026/07] Ripple: Real-Time Streaming Audio-Video Generation With Cross-Modal Recurrent Memory. [[paper](https://arxiv.org/abs/2607.26818)]
 - [2026/07] TaoMate: Anchor-Guided Memory Bridging Evolving and Reference States for Real-Time Audio-Video Digital Human Generation. [[paper](https://arxiv.org/abs/2607.24359)]
 - [2026/07] Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation. [[paper](https://arxiv.org/abs/2607.26694)]
@@ -290,6 +323,7 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Encoded History States
 
+- [2026/09] Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation. [[paper](https://arxiv.org/abs/2609.36364)]
 - [2026/09] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory. [[paper](https://arxiv.org/abs/2609.24984)]
 - [2026/06] Compression and Retrieval: Implicit Memory Retrieval for Video World Models. [[paper](https://arxiv.org/abs/2606.23105)]
 - [2026/06] Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation. [[paper](https://arxiv.org/abs/2606.04527)]
@@ -324,6 +358,8 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Spatial and Geometric States
 
+- [2026/10] Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update. [[paper](https://arxiv.org/abs/2610.07031)] [also: Implicit State]
+- [2026/09] Honeycomb: Constant-Size Scene Memory Representation for Video World Models. [[paper](https://arxiv.org/abs/2609.37690)]
 - [2026/09] PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control. [[paper](https://arxiv.org/abs/2609.17521)]
 - [2026/09] OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping. [[paper](https://arxiv.org/abs/2609.03919)]
 - [2026/08] Alaya-EVOKE: From Linear-Scaling Supervision to Endless World. [[paper](https://arxiv.org/abs/2608.13546)]
@@ -375,6 +411,21 @@ We categorize memory mechanisms into four major carrier families:
 
 <!-- METHODS:END -->
 
+<a name="learning-and-diagnostics"></a>
+## 🔎 Learning and Memory Diagnostics
+
+These papers directly study memory writing or reading in autoregressive video generators. Mixed-architecture evaluations are included only for their identified AR-generator experiments.
+
+### History-dependent Training
+
+- [2026/10] Connected Self Forcing: Beyond Local Learning in Video Autoregression. [[paper](https://arxiv.org/abs/2610.12156)]
+
+### Memory Diagnostics
+
+- [2026/09] Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity. [[paper](https://arxiv.org/abs/2609.12090)] [AR scope: WorldMem experiment]
+
+
+
 <a name="benchmarks"></a>
 ## 🗃️ Benchmarks
 
@@ -382,6 +433,10 @@ We categorize memory mechanisms into four major carrier families:
 <!-- BENCHMARKS:START -->
 ### Memory-oriented Benchmarks
 
+- [2026/10] RememBench (MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation). [[paper](https://arxiv.org/abs/2610.02153)]
+- [2026/09] CMBench (DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency). [[paper](https://arxiv.org/abs/2609.39096)]
+- [2026/09] OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models. [[paper](https://arxiv.org/abs/2609.35052)] [history-dependent subset] [AR scope: camera-driven model group]
+- [2026/09] StateBench (Do Video Generators Track the World Across Segments? A Benchmark and Method for World-State Reasoning in Video Continuation). [[paper](https://arxiv.org/abs/2609.03673)] [AR evaluation: MAGI-1; StateAgent method excluded]
 - [2026/08] R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models. [[paper](https://arxiv.org/abs/2608.27328)] [[repo](https://github.com/AMAP-ML/R2MBench)]
 - [2026/06] Current World Models Lack a Persistent State Core. [[paper](https://arxiv.org/abs/2606.20545)] [[repo](https://github.com/JinPLu/WRBench)]
 - [2026/06] Mbench: A comprehensive benchmark on memory capability for video world models. [[paper](https://arxiv.org/abs/2606.00793)] [[repo](https://github.com/study-overflow/MBench)]
