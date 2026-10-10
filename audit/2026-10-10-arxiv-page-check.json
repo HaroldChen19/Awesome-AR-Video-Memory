@@ -1,0 +1,587 @@
+[
+  {
+    "id": "2610.12459v1",
+    "status": "ok",
+    "citation_title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution"
+  },
+  {
+    "id": "2610.12412v1",
+    "status": "ok",
+    "citation_title": "WorldCast: Distributed Multiplayer World Models"
+  },
+  {
+    "id": "2610.12299v1",
+    "status": "ok",
+    "citation_title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction"
+  },
+  {
+    "id": "2610.12156v1",
+    "status": "ok",
+    "citation_title": "Connected Self Forcing: Beyond Local Learning in Video Autoregression"
+  },
+  {
+    "id": "2610.11756v1",
+    "status": "ok",
+    "citation_title": "Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation"
+  },
+  {
+    "id": "2610.11479v1",
+    "status": "ok",
+    "citation_title": "Conditional Residual Prediction: Improving Autoregressive Video Diffusion without a Bidirectional Teacher"
+  },
+  {
+    "id": "2610.11444v1",
+    "status": "ok",
+    "citation_title": "Learning to Retrieve: Internalizing Memory Retrieval for Video World Models"
+  },
+  {
+    "id": "2610.11174v1",
+    "status": "ok",
+    "citation_title": "IntactWorld: Joint World Modeling with Intact Features"
+  },
+  {
+    "id": "2610.10528v1",
+    "status": "ok",
+    "citation_title": "Long-WAM: Scaling the Context of World-Action Models"
+  },
+  {
+    "id": "2610.10457v1",
+    "status": "ok",
+    "citation_title": "MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration"
+  },
+  {
+    "id": "2610.10429v2",
+    "status": "ok",
+    "citation_title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation"
+  },
+  {
+    "id": "2610.10343v2",
+    "status": "ok",
+    "citation_title": "Real-Time Joint Audio-Video Generation by Parallel Adapter Composition"
+  },
+  {
+    "id": "2610.09800v1",
+    "status": "ok",
+    "citation_title": "Beyond Masks and Trajectories: Flow-Guided Latent Action Injection for Stable Surgical Video Generation"
+  },
+  {
+    "id": "2610.08941v1",
+    "status": "ok",
+    "citation_title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation"
+  },
+  {
+    "id": "2610.08791v1",
+    "status": "ok",
+    "citation_title": "World Models&#39; Last Exam in Physics"
+  },
+  {
+    "id": "2610.08777v1",
+    "status": "ok",
+    "citation_title": "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching"
+  },
+  {
+    "id": "2610.07355v1",
+    "status": "ok",
+    "citation_title": "Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object"
+  },
+  {
+    "id": "2610.06617v1",
+    "status": "ok",
+    "citation_title": "RealtimeWAM: One-Step Asynchronous World Action Models"
+  },
+  {
+    "id": "2610.06588v1",
+    "status": "ok",
+    "citation_title": "Keepsake: Selective Spatial Memory for Long-Horizon Video Generation"
+  },
+  {
+    "id": "2610.05739v1",
+    "status": "ok",
+    "citation_title": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models"
+  },
+  {
+    "id": "2610.05483v1",
+    "status": "ok",
+    "citation_title": "FLEX-WAM: Flexible Block-Causal World-Action Models for Long-Horizon Imagination and Planning"
+  },
+  {
+    "id": "2610.07031v1",
+    "status": "ok",
+    "citation_title": "Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update"
+  },
+  {
+    "id": "2610.04152v1",
+    "status": "ok",
+    "citation_title": "Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution"
+  },
+  {
+    "id": "2610.03636v1",
+    "status": "ok",
+    "citation_title": "LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation"
+  },
+  {
+    "id": "2610.03543v1",
+    "status": "ok",
+    "citation_title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation"
+  },
+  {
+    "id": "2610.03510v1",
+    "status": "ok",
+    "citation_title": "Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation"
+  },
+  {
+    "id": "2610.03120v2",
+    "status": "ok",
+    "citation_title": "In-Distribution Forcing for Long Video Generation at Test Time"
+  },
+  {
+    "id": "2610.02914v2",
+    "status": "ok",
+    "citation_title": "Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation"
+  },
+  {
+    "id": "2610.02779v1",
+    "status": "ok",
+    "citation_title": "TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation"
+  },
+  {
+    "id": "2610.02626v2",
+    "status": "ok",
+    "citation_title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination"
+  },
+  {
+    "id": "2610.02521v1",
+    "status": "ok",
+    "citation_title": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory"
+  },
+  {
+    "id": "2610.02508v1",
+    "status": "ok",
+    "citation_title": "World Action Modeling with Progressive Visual Planning"
+  },
+  {
+    "id": "2610.02451v1",
+    "status": "ok",
+    "citation_title": "A Simulation-Grounded Agentic VLM Framework for Wildfire Monitoring and Reporting"
+  },
+  {
+    "id": "2610.02188v1",
+    "status": "ok",
+    "citation_title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation"
+  },
+  {
+    "id": "2610.02162v1",
+    "status": "ok",
+    "citation_title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling"
+  },
+  {
+    "id": "2610.02160v1",
+    "status": "ok",
+    "citation_title": "4Director: Controlling Video World Models with Rigid 3D Geometry"
+  },
+  {
+    "id": "2610.02153v1",
+    "status": "ok",
+    "citation_title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation"
+  },
+  {
+    "id": "2610.02054v3",
+    "status": "ok",
+    "citation_title": "UniWAM: Unified World-Action Model"
+  },
+  {
+    "id": "2610.01884v1",
+    "status": "ok",
+    "citation_title": "Memory-Guided B-Roll Generation from User Video Collections"
+  },
+  {
+    "id": "2610.01614v1",
+    "status": "ok",
+    "citation_title": "Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models"
+  },
+  {
+    "id": "2610.01092v1",
+    "status": "ok",
+    "citation_title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation"
+  },
+  {
+    "id": "2610.00812v1",
+    "status": "ok",
+    "citation_title": "Video Generation Models: A Survey of Post-Training and Alignment"
+  },
+  {
+    "id": "2610.00722v1",
+    "status": "ok",
+    "citation_title": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts"
+  },
+  {
+    "id": "2610.00544v1",
+    "status": "ok",
+    "citation_title": "Memorizon: Training World Models Beyond Their Context Window"
+  },
+  {
+    "id": "2609.40358v1",
+    "status": "ok",
+    "citation_title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model"
+  },
+  {
+    "id": "2609.40222v1",
+    "status": "ok",
+    "citation_title": "LOCI: Spatial Linear Memory for Streaming World Models"
+  },
+  {
+    "id": "2609.40037v1",
+    "status": "ok",
+    "citation_title": "Enhancing Autoregressive Video Generation via Representation Adversarial Distillation"
+  },
+  {
+    "id": "2609.39096v2",
+    "status": "ok",
+    "citation_title": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency"
+  },
+  {
+    "id": "2609.38839v1",
+    "status": "ok",
+    "citation_title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation"
+  },
+  {
+    "id": "2609.38691v2",
+    "status": "ok",
+    "citation_title": "No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation"
+  },
+  {
+    "id": "2609.38562v1",
+    "status": "ok",
+    "citation_title": "LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation"
+  },
+  {
+    "id": "2609.38123v1",
+    "status": "ok",
+    "citation_title": "HelixWorld: A Real-time Interactive Audio-Visual World Model"
+  },
+  {
+    "id": "2609.38114v1",
+    "status": "ok",
+    "citation_title": "Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History"
+  },
+  {
+    "id": "2609.37925v1",
+    "status": "ok",
+    "citation_title": "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation"
+  },
+  {
+    "id": "2609.37690v2",
+    "status": "ok",
+    "citation_title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models"
+  },
+  {
+    "id": "2609.37407v1",
+    "status": "ok",
+    "citation_title": "Complementary Retrieval-Augmented Prompting for Consistent Long-Form Video Generation"
+  },
+  {
+    "id": "2609.37107v2",
+    "status": "ok",
+    "citation_title": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware"
+  },
+  {
+    "id": "2609.36413v3",
+    "status": "ok",
+    "citation_title": "One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions"
+  },
+  {
+    "id": "2609.36364v1",
+    "status": "ok",
+    "citation_title": "Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation"
+  },
+  {
+    "id": "2609.35743v1",
+    "status": "ok",
+    "citation_title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video"
+  },
+  {
+    "id": "2609.35734v2",
+    "status": "ok",
+    "citation_title": "GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space"
+  },
+  {
+    "id": "2609.35491v3",
+    "status": "ok",
+    "citation_title": "From Scores to Samples: Elastic Forcing for Autoregressive Video Generation"
+  },
+  {
+    "id": "2609.35052v1",
+    "status": "ok",
+    "citation_title": "OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models"
+  },
+  {
+    "id": "2609.34814v1",
+    "status": "ok",
+    "citation_title": "WaveAlign: Cache-Aware Query-Row Scheduling for Sparse Attention in Long-Video Generation"
+  },
+  {
+    "id": "2609.34722v1",
+    "status": "ok",
+    "citation_title": "Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation"
+  },
+  {
+    "id": "2609.34606v1",
+    "status": "ok",
+    "citation_title": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models"
+  },
+  {
+    "id": "2609.34309v1",
+    "status": "ok",
+    "citation_title": "MaLiang-Harness: A Programmable Path to Image and Video Generation"
+  },
+  {
+    "id": "2609.34221v2",
+    "status": "ok",
+    "citation_title": "WorldWeave: Growing Persistent Geometric Worlds for Video Generation"
+  },
+  {
+    "id": "2609.33627v1",
+    "status": "ok",
+    "citation_title": "StoryEngine: A State-Grounded Agentic Framework for Video Storytelling"
+  },
+  {
+    "id": "2609.32540v2",
+    "status": "ok",
+    "citation_title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion"
+  },
+  {
+    "id": "2609.32518v1",
+    "status": "ok",
+    "citation_title": "UnStep: Training-Free Acceleration of Causal Video Diffusion with Fewer Steps Than Distillation"
+  },
+  {
+    "id": "2609.32420v1",
+    "status": "ok",
+    "citation_title": "Carnator: Fast Text-to-Video Generation with Generation-Native Compatibility-Guided Cross-Request Reuse"
+  },
+  {
+    "id": "2609.32193v2",
+    "status": "ok",
+    "citation_title": "Devol-ONE: One Autoregressive Mixture of Transformers to Unify Vision-Language-Action and Latent World Modeling"
+  },
+  {
+    "id": "2609.31451v1",
+    "status": "ok",
+    "citation_title": "TemplateCraft: Agentic Visual Template Generation"
+  },
+  {
+    "id": "2609.30609v1",
+    "status": "ok",
+    "citation_title": "MVAgent: Multi-Agent Video Generation via Consistent Condition Construction and Shot-Level Policy Optimization"
+  },
+  {
+    "id": "2609.28923v1",
+    "status": "ok",
+    "citation_title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation"
+  },
+  {
+    "id": "2609.28811v1",
+    "status": "ok",
+    "citation_title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation"
+  },
+  {
+    "id": "2609.28466v1",
+    "status": "ok",
+    "citation_title": "The Past Frames the Future: Memory for Autoregressive Video Generation"
+  },
+  {
+    "id": "2609.26458v1",
+    "status": "ok",
+    "citation_title": "Code Plans, Diffusion Renders: Open-Ended Generative World Modeling"
+  },
+  {
+    "id": "2609.26425v3",
+    "status": "ok",
+    "citation_title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models"
+  },
+  {
+    "id": "2609.25652v1",
+    "status": "ok",
+    "citation_title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models"
+  },
+  {
+    "id": "2609.24984v1",
+    "status": "ok",
+    "citation_title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory"
+  },
+  {
+    "id": "2609.24788v1",
+    "status": "ok",
+    "citation_title": "Streaming Video Editing with Easy Adaptation"
+  },
+  {
+    "id": "2609.23863v2",
+    "status": "ok",
+    "citation_title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics"
+  },
+  {
+    "id": "2609.22858v1",
+    "status": "ok",
+    "citation_title": "PileBelief: Persistent Physical State for Interaction-Driven World Modeling"
+  },
+  {
+    "id": "2609.22641v1",
+    "status": "ok",
+    "citation_title": "ConsistWorld: Evidence Routing for Consistent Multi-Agent World Models"
+  },
+  {
+    "id": "2609.21740v1",
+    "status": "ok",
+    "citation_title": "Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models"
+  },
+  {
+    "id": "2609.21712v2",
+    "status": "ok",
+    "citation_title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation"
+  },
+  {
+    "id": "2609.20744v3",
+    "status": "ok",
+    "citation_title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation"
+  },
+  {
+    "id": "2609.20034v1",
+    "status": "ok",
+    "citation_title": "Astronex-World 1.0: Real-Time Interactive World Model Foundation"
+  },
+  {
+    "id": "2609.19729v1",
+    "status": "ok",
+    "citation_title": "Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation"
+  },
+  {
+    "id": "2609.18077v1",
+    "status": "ok",
+    "citation_title": "vidax: A Unified JAX Framework for Video Generative Models on Accelerator Meshes"
+  },
+  {
+    "id": "2609.17521v2",
+    "status": "ok",
+    "citation_title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control"
+  },
+  {
+    "id": "2609.15863v1",
+    "status": "ok",
+    "citation_title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows"
+  },
+  {
+    "id": "2609.15570v2",
+    "status": "ok",
+    "citation_title": "DIDO: Distilling Interaction-Centric Dynamics into One-Step Denoising for World Action Models"
+  },
+  {
+    "id": "2609.16074v1",
+    "status": "ok",
+    "citation_title": "World-Action Models for Robot Learning and Control: A Survey"
+  },
+  {
+    "id": "2609.14462v1",
+    "status": "ok",
+    "citation_title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video"
+  },
+  {
+    "id": "2609.12090v1",
+    "status": "ok",
+    "citation_title": "Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity"
+  },
+  {
+    "id": "2609.11561v1",
+    "status": "ok",
+    "citation_title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning"
+  },
+  {
+    "id": "2609.11548v1",
+    "status": "ok",
+    "citation_title": "World in World: Explore the World with World Models"
+  },
+  {
+    "id": "2609.11265v1",
+    "status": "ok",
+    "citation_title": "Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation"
+  },
+  {
+    "id": "2609.10540v1",
+    "status": "ok",
+    "citation_title": "Programmable World Model"
+  },
+  {
+    "id": "2610.00097v1",
+    "status": "ok",
+    "citation_title": "DramaAgent: Agentic Storytelling Video Generation"
+  },
+  {
+    "id": "2609.08505v1",
+    "status": "ok",
+    "citation_title": "Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance"
+  },
+  {
+    "id": "2609.06478v1",
+    "status": "ok",
+    "citation_title": "MVWeaver: A Hierarchical Music Video Generation Agent with a Learned Song-to-Visual Bridge"
+  },
+  {
+    "id": "2609.06373v1",
+    "status": "ok",
+    "citation_title": "Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation"
+  },
+  {
+    "id": "2609.04911v2",
+    "status": "ok",
+    "citation_title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image"
+  },
+  {
+    "id": "2609.04196v1",
+    "status": "ok",
+    "citation_title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States"
+  },
+  {
+    "id": "2609.04031v1",
+    "status": "ok",
+    "citation_title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation"
+  },
+  {
+    "id": "2609.03919v1",
+    "status": "ok",
+    "citation_title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping"
+  },
+  {
+    "id": "2609.03673v1",
+    "status": "ok",
+    "citation_title": "Do Video Generators Track the World Across Segments? A Benchmark and Method for World-State Reasoning in Video Continuation"
+  },
+  {
+    "id": "2609.03557v1",
+    "status": "ok",
+    "citation_title": "Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation"
+  },
+  {
+    "id": "2609.03528v1",
+    "status": "ok",
+    "citation_title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL"
+  },
+  {
+    "id": "2609.02886v1",
+    "status": "ok",
+    "citation_title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models"
+  },
+  {
+    "id": "2609.05533v2",
+    "status": "ok",
+    "citation_title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models"
+  },
+  {
+    "id": "2609.00742v1",
+    "status": "ok",
+    "citation_title": "Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection"
+  },
+  {
+    "id": "2609.00610v2",
+    "status": "ok",
+    "citation_title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction"
+  }
+]

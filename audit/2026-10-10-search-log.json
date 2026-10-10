@@ -1,0 +1,127 @@
+{
+  "checked_on": "2026-10-10",
+  "window_start": "2026-09-01T00:00:00Z",
+  "window_end": "2026-10-10T23:59:59Z",
+  "baseline_commit": "e76757e60ad75c4ca891a1ea5604137a4afe025e",
+  "unique_discovery_records": 967,
+  "screened_records": 117,
+  "method_section_checked": 72,
+  "new_unique_papers": 54,
+  "decisions": {
+    "add_method": 45,
+    "add_learning_study": 6,
+    "related_not_added": 58,
+    "add_evaluation_study": 2,
+    "add_benchmark": 1,
+    "already_present": 5
+  },
+  "forms": {
+    "VAE-space Visual Memory": 8,
+    "Pixel-space Visual Memory": 4,
+    "Attention-cache States": 15,
+    "Recurrent and State-space States": 3,
+    "Carrier-agnostic Visual Memory Management": 2,
+    "Spatial and Geometric States": 5,
+    "Entity-centric States": 7,
+    "Encoded History States": 1
+  },
+  "queries": [
+    {
+      "query": "all:video AND all:memory",
+      "total": 202,
+      "pages": [
+        {
+          "start": 0,
+          "max_results": 100
+        },
+        {
+          "start": 100,
+          "max_results": 100
+        },
+        {
+          "start": 200,
+          "max_results": 100
+        }
+      ],
+      "urls": [
+        "https://export.arxiv.org/api/query?search_query=all%3Avideo+AND+all%3Amemory+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=all%3Avideo+AND+all%3Amemory+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=100&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=all%3Avideo+AND+all%3Amemory+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=200&max_results=100&sortBy=submittedDate&sortOrder=descending"
+      ]
+    },
+    {
+      "query": "ti:video AND (all:generation OR all:generative)",
+      "total": 403,
+      "pages": [
+        {
+          "start": 0,
+          "max_results": 300
+        },
+        {
+          "start": 300,
+          "max_results": 150
+        }
+      ],
+      "urls": [
+        "https://export.arxiv.org/api/query?search_query=ti%3Avideo+AND+%28all%3Ageneration+OR+all%3Agenerative%29+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=0&max_results=300&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=ti%3Avideo+AND+%28all%3Ageneration+OR+all%3Agenerative%29+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=300&max_results=150&sortBy=submittedDate&sortOrder=descending"
+      ]
+    },
+    {
+      "query": "ti:world AND (ti:model OR ti:models)",
+      "total": 465,
+      "pages": [
+        {
+          "start": 0,
+          "max_results": 200
+        },
+        {
+          "start": 200,
+          "max_results": 300
+        }
+      ],
+      "urls": [
+        "https://export.arxiv.org/api/query?search_query=ti%3Aworld+AND+%28ti%3Amodel+OR+ti%3Amodels%29+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+        "https://export.arxiv.org/api/query?search_query=ti%3Aworld+AND+%28ti%3Amodel+OR+ti%3Amodels%29+AND+submittedDate%3A%5B202609010000+TO202610102359%5D&start=200&max_results=300&sortBy=submittedDate&sortOrder=descending"
+      ]
+    }
+  ],
+  "discovery_date_filter": "submittedDate:[202609010000 TO202610102359]",
+  "sort_by": "submittedDate",
+  "sort_order": "descending",
+  "revision_query": {
+    "query": "all:video AND all:memory",
+    "sort_by": "lastUpdatedDate",
+    "max_results": 300,
+    "old_first_submission_recent_revision": 54
+  },
+  "web_search_themes": [
+    "AR video memory",
+    "spatial/revisit memory",
+    "MosaiChunk LOCI HLA-WM Keepsake FrameMorrow Memorizon",
+    "multi-agent video world models",
+    "test-time training latent world models"
+  ],
+  "final_web_cross_check_queries": [
+    "\"autoregressive\" \"memory\" \"October 2026\" video -survey",
+    "\"world model\" \"memory\" \"September 2026\" cache",
+    "\"video generation\" \"revisit\" \"September 2026\"",
+    "\"video\" \"memory benchmark\" \"October 2026\""
+  ],
+  "supplemental_primary_pages": [
+    "https://xiaji2021.github.io/LOCI/",
+    "https://tingtingliao.github.io/memorizon/",
+    "https://caesarhhh.github.io/hla-wm/",
+    "https://github.com/YinBo0927/FrameMorrow"
+  ],
+  "verification_levels": {
+    "method_sections": "Relevant method/evaluation body sections checked; no reproduction or complete version-diff claim.",
+    "abstract": "Metadata and abstract screened; excluded/held candidates do not imply full-text verification.",
+    "metadata_only": "Older revisions: dates/title/version only."
+  },
+  "limitations": [
+    "arXiv and author-project-centered search; not exhaustive for non-arXiv proceedings.",
+    "Benchmark history-dependency labels are audit judgments, not author-defined labels.",
+    "No code execution, experimental reproduction or older-version comparison."
+  ]
+}
