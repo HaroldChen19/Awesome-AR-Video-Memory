@@ -7,7 +7,6 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Awesome--AR--Video--Memory-181717?logo=github)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory)
-[![Paper](https://img.shields.io/badge/Paper-Preview-b31b1b.svg?logo=arXiv)](assets/AR-Video-Memory-Survey-Preview.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2609.28466-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2609.28466)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Daily-292929.svg?logo=huggingface)](https://huggingface.co/papers/2609.28466)
 [![GitHub stars](https://img.shields.io/github/stars/HaroldChen19/Awesome-AR-Video-Memory?style=social)](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/stargazers)
@@ -18,7 +17,6 @@
 
 ## 📢 News
 
-- [2026/10/10] 📚 Added recent AR video memory methods and evaluations with a [paper-by-paper source audit](audit/2026-10-10-recent-papers-check.md) and [scope recheck](audit/2026-10-10-scope-recheck.md), covering September 1–October 10.
 - [2026/09/24] 📝 Our survey is released on [arXiv](https://arxiv.org/abs/2609.28466)!
 - [2026/09/06] 🗃️ The repository launches with the methods and benchmarks from the survey.
 
@@ -483,7 +481,7 @@ If this repository is helpful for your research, a citation would be greatly app
 ```bibtex
 @article{chen2026past,
   title={The Past Frames the Future: Memory for Autoregressive Video Generation},
-  author={Chen, Harold Haodong and Guo, Rongjin and Lan, Disen and Shu, Wen-Jie and Zhang, Hongfei and others},
+  author={Chen, Harold Haodong and Guo, Rongjin and Lan, Disen and Shu, Wen-Jie and Zhang, Hongfei and Hu, Hanzhe and Yao, Shengtao and Zhang, Zixin and Zhang, Guibin and Rao, Zhefan and others},
   journal={arXiv preprint arXiv:2609.28466},
   year={2026}
 }
