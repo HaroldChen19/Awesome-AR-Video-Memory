@@ -1,0 +1,434 @@
+[
+  {
+    "id": "2605.25077v2",
+    "title": "WorldCraft: From Camera Navigation to Object Manipulation in Interactive Video World Models",
+    "published": "2026-05-24T13:40:42Z",
+    "updated": "2026-10-08T07:07:39Z",
+    "source": "https://arxiv.org/abs/2605.25077v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2602.01683v2",
+    "title": "FreshMem: Brain-Inspired Frequency-Space Hybrid Memory for Streaming Video Understanding",
+    "published": "2026-02-02T05:52:11Z",
+    "updated": "2026-10-08T05:09:57Z",
+    "source": "https://arxiv.org/abs/2602.01683v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.03315v2",
+    "title": "StoryBlender: Inter-Shot Consistent and Editable 3D Storyboard with Spatial-temporal Dynamics",
+    "published": "2026-04-01T07:24:31Z",
+    "updated": "2026-10-07T09:01:00Z",
+    "source": "https://arxiv.org/abs/2604.03315v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2607.28627v2",
+    "title": "ReToken: Improving Long-Context VLMs with Visual Retrieval Token",
+    "published": "2026-07-30T17:59:56Z",
+    "updated": "2026-10-06T22:51:13Z",
+    "source": "https://arxiv.org/abs/2607.28627v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2412.03758v4",
+    "title": "Auto-Regressive Models Need Structural Registers: Semantic Foresight Improves Coherent Driving Video Continuation",
+    "published": "2024-12-04T22:53:56Z",
+    "updated": "2026-10-06T18:08:15Z",
+    "source": "https://arxiv.org/abs/2412.03758v4",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2605.13335v2",
+    "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning",
+    "published": "2026-05-13T10:53:15Z",
+    "updated": "2026-10-06T01:22:36Z",
+    "source": "https://arxiv.org/abs/2605.13335v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2607.15271v2",
+    "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+    "published": "2026-07-16T17:58:18Z",
+    "updated": "2026-10-05T20:59:15Z",
+    "source": "https://arxiv.org/abs/2607.15271v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.12064v4",
+    "title": "Dense Dynamic Scene Reconstruction and Camera Pose Estimation from Multi-View Videos",
+    "published": "2026-03-12T15:31:32Z",
+    "updated": "2026-10-05T15:07:00Z",
+    "source": "https://arxiv.org/abs/2603.12064v4",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2602.06017v2",
+    "title": "MambaVF: State Space Model for Efficient Video Fusion",
+    "published": "2026-02-05T18:53:47Z",
+    "updated": "2026-10-05T12:49:05Z",
+    "source": "https://arxiv.org/abs/2602.06017v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.09737v2",
+    "title": "$M^2$-Occ: Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs",
+    "published": "2026-03-10T14:42:56Z",
+    "updated": "2026-10-05T03:37:33Z",
+    "source": "https://arxiv.org/abs/2603.09737v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.06532v2",
+    "title": "GOPAgen: Codec-Aware Agentic Long-Video Understanding with Structured Memory",
+    "published": "2026-06-03T17:47:49Z",
+    "updated": "2026-10-04T01:59:28Z",
+    "source": "https://arxiv.org/abs/2606.06532v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2605.14211v5",
+    "title": "ASH: Agents that Self-Hone in Long-Horizon Worlds",
+    "published": "2026-05-14T00:10:12Z",
+    "updated": "2026-10-01T19:15:09Z",
+    "source": "https://arxiv.org/abs/2605.14211v5",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.04349v2",
+    "title": "FocusGraph: Graph-Structured Frame Selection for Embodied Long Video Question Answering",
+    "published": "2026-03-04T18:14:00Z",
+    "updated": "2026-10-01T09:42:24Z",
+    "source": "https://arxiv.org/abs/2603.04349v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2602.08538v2",
+    "title": "Trajectory Stitching for Solving Inverse Problems with Flow-Based Models",
+    "published": "2026-02-09T11:36:41Z",
+    "updated": "2026-10-01T09:13:52Z",
+    "source": "https://arxiv.org/abs/2602.08538v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.18480v2",
+    "title": "Do Vision Language Models Understand Human Engagement in Games?",
+    "published": "2026-03-19T04:32:12Z",
+    "updated": "2026-10-01T06:59:58Z",
+    "source": "https://arxiv.org/abs/2603.18480v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2401.13937v3",
+    "title": "DiDA: Video Object Segmentation with Distillation Learning of Deformable Attention",
+    "published": "2024-01-25T04:39:48Z",
+    "updated": "2026-09-30T15:30:28Z",
+    "source": "https://arxiv.org/abs/2401.13937v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.16184v2",
+    "title": "EvoState: Closed-Loop Visual State Management for Long-Form Video Generation",
+    "published": "2026-06-15T03:56:43Z",
+    "updated": "2026-09-30T15:12:46Z",
+    "source": "https://arxiv.org/abs/2606.16184v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.05543v5",
+    "title": "omni-macos: On-Device Omni-Modal Search on Apple Silicon",
+    "published": "2026-08-06T02:44:32Z",
+    "updated": "2026-09-30T02:59:35Z",
+    "source": "https://arxiv.org/abs/2608.05543v5",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.04376v3",
+    "title": "SAGE-Flow: A Decoupled Framework for Geometry Alignment and Stateless Real-Time Multi-Camera 3D Reconstruction",
+    "published": "2026-06-03T02:46:25Z",
+    "updated": "2026-09-30T02:06:50Z",
+    "source": "https://arxiv.org/abs/2606.04376v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.08995v3",
+    "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
+    "published": "2026-04-10T06:00:09Z",
+    "updated": "2026-09-29T13:10:23Z",
+    "source": "https://arxiv.org/abs/2604.08995v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2605.16981v3",
+    "title": "Rethinking the State Update Gate for Long-Sequence Recurrent 3D Reconstruction",
+    "published": "2026-05-16T13:00:49Z",
+    "updated": "2026-09-29T08:24:28Z",
+    "source": "https://arxiv.org/abs/2605.16981v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2605.12006v2",
+    "title": "Robust Promptable Video Object Segmentation",
+    "published": "2026-05-12T11:55:31Z",
+    "updated": "2026-09-29T06:37:27Z",
+    "source": "https://arxiv.org/abs/2605.12006v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2605.25333v3",
+    "title": "Teaching Video Generators to Remember: Eliciting Dynamic Memory for Out-of-Sight State Evolution",
+    "published": "2026-05-25T01:30:41Z",
+    "updated": "2026-09-29T04:38:49Z",
+    "source": "https://arxiv.org/abs/2605.25333v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2605.15042v2",
+    "title": "EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration",
+    "published": "2026-05-14T16:36:34Z",
+    "updated": "2026-09-28T09:14:16Z",
+    "source": "https://arxiv.org/abs/2605.15042v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.30692v2",
+    "title": "Can Video World Models Track Unobserved World States?",
+    "published": "2026-08-31T12:29:24Z",
+    "updated": "2026-09-28T03:59:12Z",
+    "source": "https://arxiv.org/abs/2608.30692v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.16353v2",
+    "title": "What Should a Streaming Video Model Remember?",
+    "published": "2026-06-15T07:50:19Z",
+    "updated": "2026-09-26T19:09:00Z",
+    "source": "https://arxiv.org/abs/2606.16353v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.14777v2",
+    "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+    "published": "2026-06-10T03:43:50Z",
+    "updated": "2026-09-24T10:09:36Z",
+    "source": "https://arxiv.org/abs/2606.14777v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.02883v3",
+    "title": "Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery",
+    "published": "2026-08-03T21:11:13Z",
+    "updated": "2026-09-23T02:35:44Z",
+    "source": "https://arxiv.org/abs/2608.02883v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2607.05737v3",
+    "title": "Optimized Adaptive Loop Filter in Versatile Video Coding",
+    "published": "2026-07-07T01:47:50Z",
+    "updated": "2026-09-20T19:35:47Z",
+    "source": "https://arxiv.org/abs/2607.05737v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2509.25998v4",
+    "title": "VRWKV-Editor: Reducing quadratic complexity in transformer-based video editing",
+    "published": "2025-09-30T09:30:23Z",
+    "updated": "2026-09-20T18:25:58Z",
+    "source": "https://arxiv.org/abs/2509.25998v4",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2607.18840v2",
+    "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning",
+    "published": "2026-07-21T08:25:37Z",
+    "updated": "2026-09-20T07:23:15Z",
+    "source": "https://arxiv.org/abs/2607.18840v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.17209v3",
+    "title": "Teach and Grow: An Agent-Centered Architecture for General Robot Learning",
+    "published": "2026-08-17T23:45:21Z",
+    "updated": "2026-09-20T02:51:36Z",
+    "source": "https://arxiv.org/abs/2608.17209v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2607.24612v2",
+    "title": "Leveling the Playing Field: Temporal Video Segmentation for Individuals with ADHD in Computing Education",
+    "published": "2026-07-27T16:12:15Z",
+    "updated": "2026-09-18T02:32:38Z",
+    "source": "https://arxiv.org/abs/2607.24612v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.07663v2",
+    "title": "Keep It Simple: Multi-Key Episodic Memory Retrieval for Ultra-Long Video Understanding",
+    "published": "2026-08-07T18:00:02Z",
+    "updated": "2026-09-16T19:36:22Z",
+    "source": "https://arxiv.org/abs/2608.07663v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.25479v3",
+    "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
+    "published": "2026-08-26T07:49:39Z",
+    "updated": "2026-09-15T08:49:44Z",
+    "source": "https://arxiv.org/abs/2608.25479v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.18960v3",
+    "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
+    "published": "2026-06-17T11:42:00Z",
+    "updated": "2026-09-15T08:23:53Z",
+    "source": "https://arxiv.org/abs/2606.18960v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.06036v4",
+    "title": "CodecSight: Leveraging Video Codec Signals for Efficient Streaming VLM Inference",
+    "published": "2026-04-07T16:31:45Z",
+    "updated": "2026-09-15T07:16:45Z",
+    "source": "https://arxiv.org/abs/2604.06036v4",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2506.24092v3",
+    "title": "WaRA: Wavelet Low-Rank Adaptation for Medical Image Classification",
+    "published": "2025-06-25T07:31:40Z",
+    "updated": "2026-09-13T23:21:49Z",
+    "source": "https://arxiv.org/abs/2506.24092v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.16678v2",
+    "title": "Oto-Meal: Earable Sensing with PPG and IMU for Personalized Meal Awareness",
+    "published": "2026-08-17T15:03:58Z",
+    "updated": "2026-09-12T18:30:12Z",
+    "source": "https://arxiv.org/abs/2608.16678v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2602.15329v2",
+    "title": "EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use",
+    "published": "2026-02-17T03:17:24Z",
+    "updated": "2026-09-11T07:33:40Z",
+    "source": "https://arxiv.org/abs/2602.15329v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.13416v4",
+    "title": "StreamTTT: Reconciling Real-Time Perception and Long-Term Memory in Streaming VLMs",
+    "published": "2026-08-13T16:10:33Z",
+    "updated": "2026-09-10T17:20:40Z",
+    "source": "https://arxiv.org/abs/2608.13416v4",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2607.26694v3",
+    "title": "Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation",
+    "published": "2026-07-29T09:40:23Z",
+    "updated": "2026-09-08T18:05:27Z",
+    "source": "https://arxiv.org/abs/2607.26694v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.14141v3",
+    "title": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+    "published": "2026-04-15T17:58:13Z",
+    "updated": "2026-09-08T16:51:09Z",
+    "source": "https://arxiv.org/abs/2604.14141v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2511.03272v2",
+    "title": "Unified Long Video Inpainting and Outpainting via Overlapping High-Order Co-Denoising",
+    "published": "2025-11-05T08:09:03Z",
+    "updated": "2026-09-08T05:44:03Z",
+    "source": "https://arxiv.org/abs/2511.03272v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.29962v5",
+    "title": "SurgTEMP: Temporal-Aware Surgical Video Question Answering with Text-guided Visual Memory for Laparoscopic Cholecystectomy",
+    "published": "2026-03-31T16:27:46Z",
+    "updated": "2026-09-07T12:45:04Z",
+    "source": "https://arxiv.org/abs/2603.29962v5",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.10267v2",
+    "title": "What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents",
+    "published": "2026-06-09T00:24:00Z",
+    "updated": "2026-09-06T05:04:10Z",
+    "source": "https://arxiv.org/abs/2606.10267v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2606.28163v2",
+    "title": "Enhanced Neural Video Representation Compression Across Extreme Complexity and Quality Scales",
+    "published": "2026-06-26T14:58:09Z",
+    "updated": "2026-09-05T23:56:34Z",
+    "source": "https://arxiv.org/abs/2606.28163v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.21309v4",
+    "title": "Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos",
+    "published": "2026-03-22T16:31:25Z",
+    "updated": "2026-09-04T17:01:02Z",
+    "source": "https://arxiv.org/abs/2603.21309v4",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2602.14941v2",
+    "title": "AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories",
+    "published": "2026-02-16T17:23:08Z",
+    "updated": "2026-09-04T14:21:54Z",
+    "source": "https://arxiv.org/abs/2602.14941v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.25300v2",
+    "title": "DenseScout: Algorithm-System Co-design for Budgeted Tiny Object Selection on Edge Platforms",
+    "published": "2026-04-28T07:09:57Z",
+    "updated": "2026-09-04T06:14:46Z",
+    "source": "https://arxiv.org/abs/2604.25300v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.07035v3",
+    "title": "Unified Deployment-Aware Evaluation of Open Reasoning Language Models",
+    "published": "2026-04-08T12:50:52Z",
+    "updated": "2026-09-04T03:01:40Z",
+    "source": "https://arxiv.org/abs/2604.07035v3",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2608.24302v2",
+    "title": "VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models",
+    "published": "2026-08-25T09:27:47Z",
+    "updated": "2026-09-03T14:07:31Z",
+    "source": "https://arxiv.org/abs/2608.24302v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2603.18261v2",
+    "title": "LRConv-NeRV: Low Rank Convolution for Efficient Neural Video Compression",
+    "published": "2026-03-18T20:31:59Z",
+    "updated": "2026-09-02T19:03:37Z",
+    "source": "https://arxiv.org/abs/2603.18261v2",
+    "verification": "metadata_only"
+  },
+  {
+    "id": "2604.21960v3",
+    "title": "Conditional Diffusion Posterior Alignment for Sparse-View CT Reconstruction",
+    "published": "2026-04-23T14:09:13Z",
+    "updated": "2026-09-01T18:46:35Z",
+    "source": "https://arxiv.org/abs/2604.21960v3",
+    "verification": "metadata_only"
+  }
+]

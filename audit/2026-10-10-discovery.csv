@@ -1,0 +1,968 @@
+﻿id,title,published,updated,source,queries
+2610.12468v1,DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training,2026-10-08T17:59:51Z,2026-10-08T17:59:51Z,https://arxiv.org/abs/2610.12468v1,world-model
+2610.12459v1,WorldGuide: Goal-Directed Video World Model for Procedural Task Execution,2026-10-08T17:59:31Z,2026-10-08T17:59:31Z,https://arxiv.org/abs/2610.12459v1,video-memory-000; world-model; video-generation
+2610.12455v1,Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting,2026-10-08T17:59:11Z,2026-10-08T17:59:11Z,https://arxiv.org/abs/2610.12455v1,video-generation
+2610.12442v1,LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation,2026-10-08T17:58:03Z,2026-10-08T17:58:03Z,https://arxiv.org/abs/2610.12442v1,video-generation
+2610.12417v1,WOVEN: Weaving Visual World Modeling into Multimodal LLMs,2026-10-08T17:52:03Z,2026-10-08T17:52:03Z,https://arxiv.org/abs/2610.12417v1,world-model
+2610.12412v1,WorldCast: Distributed Multiplayer World Models,2026-10-08T17:49:44Z,2026-10-08T17:49:44Z,https://arxiv.org/abs/2610.12412v1,world-model
+2610.12407v1,LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC,2026-10-08T17:46:03Z,2026-10-08T17:46:03Z,https://arxiv.org/abs/2610.12407v1,world-model
+2610.12382v1,WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation,2026-10-08T17:35:19Z,2026-10-08T17:35:19Z,https://arxiv.org/abs/2610.12382v1,video-generation
+2610.12368v1,LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild,2026-10-08T17:29:04Z,2026-10-08T17:29:04Z,https://arxiv.org/abs/2610.12368v1,world-model
+2610.12299v1,Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction,2026-10-08T16:50:04Z,2026-10-08T16:50:04Z,https://arxiv.org/abs/2610.12299v1,video-memory-000; world-model
+2610.12285v1,PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies,2026-10-08T16:41:11Z,2026-10-08T16:41:11Z,https://arxiv.org/abs/2610.12285v1,world-model
+2610.12282v1,Slot3R: Set-Associative Spatial Memory for Streaming 3D Reconstruction,2026-10-08T16:39:39Z,2026-10-08T16:39:39Z,https://arxiv.org/abs/2610.12282v1,video-memory-000
+2610.12235v1,Language Models as AI Research World Models,2026-10-08T16:18:54Z,2026-10-08T16:18:54Z,https://arxiv.org/abs/2610.12235v1,world-model
+2610.12194v1,MiniWAM: Learning Compact Future Targets for Efficient World-Action Modeling,2026-10-08T15:51:53Z,2026-10-08T15:51:53Z,https://arxiv.org/abs/2610.12194v1,world-model
+2610.12156v1,Connected Self Forcing: Beyond Local Learning in Video Autoregression,2026-10-08T15:36:56Z,2026-10-08T15:36:56Z,https://arxiv.org/abs/2610.12156v1,video-memory-000; video-generation
+2610.12104v1,VINCIE-NExT: Unlocking Video Editing from Images via In-Context Modeling,2026-10-08T15:03:48Z,2026-10-08T15:03:48Z,https://arxiv.org/abs/2610.12104v1,video-generation
+2610.12099v1,UNITAS: A 3D-Native World Action Model for Embodied Manipulation,2026-10-08T15:02:50Z,2026-10-08T15:02:50Z,https://arxiv.org/abs/2610.12099v1,world-model
+2610.12026v1,Humanoid World Action Model With Joint State--Action Generation,2026-10-08T14:23:18Z,2026-10-08T14:23:18Z,https://arxiv.org/abs/2610.12026v1,world-model
+2610.12016v1,CausalDreamer: Learning Predictive World Models with Latent Disentanglement,2026-10-08T14:12:34Z,2026-10-08T14:12:34Z,https://arxiv.org/abs/2610.12016v1,world-model
+2610.11993v1,DataVista: Diagnosing Multimodal LLMs on Data Video Understanding,2026-10-08T14:02:35Z,2026-10-08T14:02:35Z,https://arxiv.org/abs/2610.11993v1,video-generation
+2610.11942v1,"Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",2026-10-08T13:33:23Z,2026-10-08T13:33:23Z,https://arxiv.org/abs/2610.11942v1,world-model
+2610.11791v1,Phase-aware video generation for physics-grounded dynamics and interactions,2026-10-08T12:04:46Z,2026-10-08T12:04:46Z,https://arxiv.org/abs/2610.11791v1,video-generation
+2610.11770v1,From Video Clips to Creation Trajectory: Sora100K for AI-Native Video Creation,2026-10-08T11:52:10Z,2026-10-08T11:52:10Z,https://arxiv.org/abs/2610.11770v1,video-generation
+2610.11756v1,Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation,2026-10-08T11:42:57Z,2026-10-08T11:42:57Z,https://arxiv.org/abs/2610.11756v1,video-memory-000; video-generation
+2610.11736v1,Towards Unified Evaluation of Prompt Enhancers for Video Generation,2026-10-08T11:31:13Z,2026-10-08T11:31:13Z,https://arxiv.org/abs/2610.11736v1,video-generation
+2610.11617v1,TAM: Task-Aware Memory Distillation for Efficient Spatiotemporal Prediction,2026-10-08T09:58:23Z,2026-10-08T09:58:23Z,https://arxiv.org/abs/2610.11617v1,video-memory-000
+2610.11591v1,"Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception",2026-10-08T09:42:02Z,2026-10-08T09:42:02Z,https://arxiv.org/abs/2610.11591v1,world-model
+2610.11527v1,AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics,2026-10-08T08:56:53Z,2026-10-08T08:56:53Z,https://arxiv.org/abs/2610.11527v1,world-model
+2610.11498v1,Parametric Trajectory Distillation for Few-Step Video Generation,2026-10-08T08:38:01Z,2026-10-08T08:38:01Z,https://arxiv.org/abs/2610.11498v1,video-generation
+2610.11496v1,"Stop My Dancing! Understanding, Detecting and Attributing Motion-Aware Deepfake Videos",2026-10-08T08:35:40Z,2026-10-08T08:35:40Z,https://arxiv.org/abs/2610.11496v1,video-generation
+2610.11479v1,Conditional Residual Prediction: Improving Autoregressive Video Diffusion without a Bidirectional Teacher,2026-10-08T08:25:41Z,2026-10-08T08:25:41Z,https://arxiv.org/abs/2610.11479v1,video-generation
+2610.11444v1,Learning to Retrieve: Internalizing Memory Retrieval for Video World Models,2026-10-08T08:01:36Z,2026-10-08T08:01:36Z,https://arxiv.org/abs/2610.11444v1,video-memory-000; world-model; video-generation
+2610.11401v1,WAM-Cache: Staleness-Bounded KV Reuse for Efficient World Action Models,2026-10-08T07:33:59Z,2026-10-08T07:33:59Z,https://arxiv.org/abs/2610.11401v1,world-model
+2610.11361v1,SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model,2026-10-08T06:51:59Z,2026-10-08T06:51:59Z,https://arxiv.org/abs/2610.11361v1,video-generation
+2610.11302v1,iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity,2026-10-08T06:09:04Z,2026-10-08T06:09:04Z,https://arxiv.org/abs/2610.11302v1,video-generation
+2610.11283v1,Being-M0.7: A Latent World-Action Model for Humanoid Robots,2026-10-08T05:49:24Z,2026-10-08T05:49:24Z,https://arxiv.org/abs/2610.11283v1,world-model
+2610.11253v1,LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models,2026-10-08T05:01:30Z,2026-10-08T05:01:30Z,https://arxiv.org/abs/2610.11253v1,world-model
+2610.11174v1,IntactWorld: Joint World Modeling with Intact Features,2026-10-08T03:31:49Z,2026-10-08T03:31:49Z,https://arxiv.org/abs/2610.11174v1,video-memory-000; world-model
+2610.11171v1,VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding,2026-10-08T03:26:54Z,2026-10-08T03:26:54Z,https://arxiv.org/abs/2610.11171v1,video-memory-000
+2610.11149v1,A Unified Score Matching Paradigm for Video Anomaly Detection and Anticipation,2026-10-08T03:12:12Z,2026-10-08T03:12:12Z,https://arxiv.org/abs/2610.11149v1,video-generation
+2610.11090v1,Sign-Constrained Intervention Effects for Domain-Generalizable ICU World Models,2026-10-08T02:04:23Z,2026-10-08T02:04:23Z,https://arxiv.org/abs/2610.11090v1,world-model
+2610.11060v1,AffordDrive3D: Affordance-Aware World-Action Modeling with Spatial Understanding,2026-10-08T01:16:38Z,2026-10-08T01:16:38Z,https://arxiv.org/abs/2610.11060v1,world-model
+2610.11037v1,Transforming Image Editors into Video Editors,2026-10-08T00:43:09Z,2026-10-08T00:43:09Z,https://arxiv.org/abs/2610.11037v1,video-generation
+2610.11023v1,Expression-Diverse References for Identity-Preserving Video Generation,2026-10-08T00:15:43Z,2026-10-08T00:15:43Z,https://arxiv.org/abs/2610.11023v1,video-generation
+2610.10984v1,Fluid-Gen-Zero: Grounding Pretrained Video Generators in Physics without Training,2026-10-07T23:16:32Z,2026-10-07T23:16:32Z,https://arxiv.org/abs/2610.10984v1,video-generation
+2610.10932v1,World-Model Policy Arbiter for Goal-Conditioned Reinforcement Learning,2026-10-07T21:41:33Z,2026-10-07T21:41:33Z,https://arxiv.org/abs/2610.10932v1,world-model
+2610.10857v1,Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning,2026-10-07T20:01:27Z,2026-10-07T20:01:27Z,https://arxiv.org/abs/2610.10857v1,video-memory-000
+2610.10846v1,Cross-Embodiment Robot Foundation World Models with Latent Actions,2026-10-07T19:51:22Z,2026-10-07T19:51:22Z,https://arxiv.org/abs/2610.10846v1,world-model
+2610.10778v1,MemoWM: How World Models Change What Agents Need to Remember,2026-10-07T18:33:00Z,2026-10-07T18:33:00Z,https://arxiv.org/abs/2610.10778v1,world-model
+2610.10538v1,Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos,2026-10-07T17:59:41Z,2026-10-07T17:59:41Z,https://arxiv.org/abs/2610.10538v1,video-memory-000
+2610.10528v1,Long-WAM: Scaling the Context of World-Action Models,2026-10-07T17:58:04Z,2026-10-07T17:58:04Z,https://arxiv.org/abs/2610.10528v1,video-memory-000; world-model
+2610.10524v1,GRACE: Generation-aware latent compression for efficient video generation,2026-10-07T17:57:34Z,2026-10-07T17:57:34Z,https://arxiv.org/abs/2610.10524v1,video-generation
+2610.10515v1,RoboJEPA: Scaling Robotic Latent World Models,2026-10-07T17:54:42Z,2026-10-07T17:54:42Z,https://arxiv.org/abs/2610.10515v1,world-model
+2610.10512v1,Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery,2026-10-07T17:52:23Z,2026-10-07T17:52:23Z,https://arxiv.org/abs/2610.10512v1,video-generation
+2610.10457v1,MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration,2026-10-07T17:25:35Z,2026-10-07T17:25:35Z,https://arxiv.org/abs/2610.10457v1,video-generation
+2610.10429v2,SGF+: Decoupling Gradient Flows for Autoregressive Video Generation,2026-10-07T17:09:04Z,2026-10-08T17:32:52Z,https://arxiv.org/abs/2610.10429v2,video-generation
+2610.10343v2,Real-Time Joint Audio-Video Generation by Parallel Adapter Composition,2026-10-07T16:23:19Z,2026-10-08T04:22:34Z,https://arxiv.org/abs/2610.10343v2,video-generation
+2610.10274v1,Sparse Planning in Visual World Models via Cost Gradients,2026-10-07T15:40:52Z,2026-10-07T15:40:52Z,https://arxiv.org/abs/2610.10274v1,world-model
+2610.10270v2,"Video Prediction Policy 2: Predict Better, Act Better",2026-10-07T15:40:02Z,2026-10-08T06:19:12Z,https://arxiv.org/abs/2610.10270v2,video-generation
+2610.10183v1,VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding,2026-10-07T14:51:23Z,2026-10-07T14:51:23Z,https://arxiv.org/abs/2610.10183v1,video-memory-000
+2610.10163v1,Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering,2026-10-07T14:41:29Z,2026-10-07T14:41:29Z,https://arxiv.org/abs/2610.10163v1,video-generation
+2610.10133v2,HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration,2026-10-07T14:14:36Z,2026-10-08T05:35:38Z,https://arxiv.org/abs/2610.10133v2,world-model
+2610.10079v1,RealtimeWAM: How Fast Can I Run My World Action Model?,2026-10-07T13:44:34Z,2026-10-07T13:44:34Z,https://arxiv.org/abs/2610.10079v1,world-model
+2610.10047v1,AdSpark: A Large-Scale Dataset and Benchmark for Product-Centric Advertisement Video Generation,2026-10-07T13:23:24Z,2026-10-07T13:23:24Z,https://arxiv.org/abs/2610.10047v1,video-generation
+2610.09800v1,Beyond Masks and Trajectories: Flow-Guided Latent Action Injection for Stable Surgical Video Generation,2026-10-07T10:14:11Z,2026-10-07T10:14:11Z,https://arxiv.org/abs/2610.09800v1,video-generation
+2610.09785v1,UltraWorld: Learning Interactive Ultrasound World Models from Untracked Clinical Videos with Acoustic Sampling Map,2026-10-07T10:02:28Z,2026-10-07T10:02:28Z,https://arxiv.org/abs/2610.09785v1,world-model; video-generation
+2610.09734v1,ΔWAM: Distilling Action Tangent Fields into World Action Models,2026-10-07T09:28:26Z,2026-10-07T09:28:26Z,https://arxiv.org/abs/2610.09734v1,world-model
+2610.09718v1,YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding,2026-10-07T09:14:26Z,2026-10-07T09:14:26Z,https://arxiv.org/abs/2610.09718v1,video-generation
+2610.09560v1,World Potential Model: Pretrained World Knowledge as Progress Potentials,2026-10-07T07:01:35Z,2026-10-07T07:01:35Z,https://arxiv.org/abs/2610.09560v1,world-model
+2610.09514v1,STRIKE: Learning Visual State Transitions for Physical World Modeling,2026-10-07T06:11:17Z,2026-10-07T06:11:17Z,https://arxiv.org/abs/2610.09514v1,world-model
+2610.09454v1,RobotAPO: Adversarial Physics Preference Optimization for Robotic Manipulation Video Generation,2026-10-07T05:10:17Z,2026-10-07T05:10:17Z,https://arxiv.org/abs/2610.09454v1,video-generation
+2610.09438v1,Controllable Crowd Generation through World-Model Planning,2026-10-07T04:50:22Z,2026-10-07T04:50:22Z,https://arxiv.org/abs/2610.09438v1,world-model
+2610.09427v1,Event-Aligned Visual Action Reasoning for World Action Models,2026-10-07T04:31:41Z,2026-10-07T04:31:41Z,https://arxiv.org/abs/2610.09427v1,world-model
+2610.09335v1,SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models,2026-10-07T02:51:02Z,2026-10-07T02:51:02Z,https://arxiv.org/abs/2610.09335v1,world-model
+2610.09326v1,VIS-Ground: Video Interactive Storytelling with Contextual Grounding,2026-10-07T02:31:32Z,2026-10-07T02:31:32Z,https://arxiv.org/abs/2610.09326v1,video-generation
+2610.09285v1,LeCuration: A Tiny World Model as a Data Curation Multi-Tool,2026-10-07T01:41:23Z,2026-10-07T01:41:23Z,https://arxiv.org/abs/2610.09285v1,world-model
+2610.09254v1,RoboRender: Robot-Oriented Video Generation for Visual Sim-to-Real Transfer,2026-10-07T00:39:56Z,2026-10-07T00:39:56Z,https://arxiv.org/abs/2610.09254v1,video-generation
+2610.09194v1,"Patient, Place, Prior (P$^3$): What Counts as Personalization in Medical World Models?",2026-10-06T22:45:39Z,2026-10-06T22:45:39Z,https://arxiv.org/abs/2610.09194v1,world-model
+2610.09134v1,World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models,2026-10-06T21:26:19Z,2026-10-06T21:26:19Z,https://arxiv.org/abs/2610.09134v1,world-model
+2610.09098v1,On-Device Super-Resolution Imaging for a Low-Cost SPAD Array on a 640-KB-SRAM Microcontroller,2026-10-06T20:52:21Z,2026-10-06T20:52:21Z,https://arxiv.org/abs/2610.09098v1,video-memory-000
+2610.09048v1,Towards Financial World Modeling,2026-10-06T19:54:14Z,2026-10-06T19:54:14Z,https://arxiv.org/abs/2610.09048v1,world-model
+2610.08941v1,SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation,2026-10-06T18:05:45Z,2026-10-06T18:05:45Z,https://arxiv.org/abs/2610.08941v1,video-memory-000; world-model
+2610.08936v1,VCR-Bench: A Modular Open-Source Benchmark for Video Classification Robustness,2026-10-06T18:03:58Z,2026-10-06T18:03:58Z,https://arxiv.org/abs/2610.08936v1,video-memory-000
+2610.08791v1,World Models' Last Exam in Physics,2026-10-06T17:59:56Z,2026-10-06T17:59:56Z,https://arxiv.org/abs/2610.08791v1,world-model
+2610.08780v1,DepthWorld: 3D World Model for Robot Manipulation,2026-10-06T17:59:00Z,2026-10-06T17:59:00Z,https://arxiv.org/abs/2610.08780v1,world-model
+2610.08779v1,ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing,2026-10-06T17:58:51Z,2026-10-06T17:58:51Z,https://arxiv.org/abs/2610.08779v1,video-generation
+2610.08777v1,CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching,2026-10-06T17:57:29Z,2026-10-06T17:57:29Z,https://arxiv.org/abs/2610.08777v1,world-model; video-generation
+2610.08773v1,AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model,2026-10-06T17:56:43Z,2026-10-06T17:56:43Z,https://arxiv.org/abs/2610.08773v1,world-model
+2610.08684v1,RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins,2026-10-06T17:03:55Z,2026-10-06T17:03:55Z,https://arxiv.org/abs/2610.08684v1,video-generation
+2610.08674v1,EC-RAG: Event Chain Retrieval-Augmented Generation for Long Video Understanding,2026-10-06T16:57:46Z,2026-10-06T16:57:46Z,https://arxiv.org/abs/2610.08674v1,video-generation
+2610.08640v1,RIWANav: Recursive World-Action Models with Self-Improvement for Urban Navigation,2026-10-06T16:33:01Z,2026-10-06T16:33:01Z,https://arxiv.org/abs/2610.08640v1,world-model
+2610.08627v1,Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning,2026-10-06T16:26:34Z,2026-10-06T16:26:34Z,https://arxiv.org/abs/2610.08627v1,world-model
+2610.08469v1,A Belief-State World Model for Catheter Navigation under Sparse Fluoroscopy: A Planar Proof of Concept,2026-10-06T14:52:10Z,2026-10-06T14:52:10Z,https://arxiv.org/abs/2610.08469v1,world-model
+2610.08433v1,HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data,2026-10-06T14:30:55Z,2026-10-06T14:30:55Z,https://arxiv.org/abs/2610.08433v1,video-generation
+2610.08350v1,How Much Planning Is Enough? Reducing Search and Computation in World-Model Planning,2026-10-06T13:40:44Z,2026-10-06T13:40:44Z,https://arxiv.org/abs/2610.08350v1,world-model
+2610.08286v1,Event Detection in Table Tennis Videos using 2D Keypoints,2026-10-06T12:55:58Z,2026-10-06T12:55:58Z,https://arxiv.org/abs/2610.08286v1,video-generation
+2610.08267v1,WM4ISAC: World Model for Proactive ISAC Under Dynamic Blockage,2026-10-06T12:41:42Z,2026-10-06T12:41:42Z,https://arxiv.org/abs/2610.08267v1,world-model
+2610.08119v1,AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions,2026-10-06T10:39:42Z,2026-10-06T10:39:42Z,https://arxiv.org/abs/2610.08119v1,video-generation
+2610.07961v1,IronMan: Information-Constrained Video-Action Learning for Robot Manipulation,2026-10-06T08:30:25Z,2026-10-06T08:30:25Z,https://arxiv.org/abs/2610.07961v1,video-generation
+2610.07925v1,TF-PRVR: Training-Free Partially Relevant Video Retrieval,2026-10-06T08:03:58Z,2026-10-06T08:03:58Z,https://arxiv.org/abs/2610.07925v1,video-generation
+2610.07922v1,OpenWAM: An Open Framework for Composable World-Action Models,2026-10-06T08:02:12Z,2026-10-06T08:02:12Z,https://arxiv.org/abs/2610.07922v1,world-model
+2610.07795v1,Efficient Gaussian Splatting Sequence Compression with Standard Video Codecs,2026-10-06T05:43:48Z,2026-10-06T05:43:48Z,https://arxiv.org/abs/2610.07795v1,video-generation
+2610.07704v1,Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models,2026-10-06T03:53:47Z,2026-10-06T03:53:47Z,https://arxiv.org/abs/2610.07704v1,world-model
+2610.07601v1,Beyond Scalar IoU: Structured Verification from Rollout Groups for Video Temporal Grounding,2026-10-06T01:40:59Z,2026-10-06T01:40:59Z,https://arxiv.org/abs/2610.07601v1,video-generation
+2610.07599v1,Modeling Latent Disturbances for Robust Decision-Making in World Models,2026-10-06T01:38:38Z,2026-10-06T01:38:38Z,https://arxiv.org/abs/2610.07599v1,world-model
+2610.07540v1,Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models,2026-10-06T00:08:43Z,2026-10-06T00:08:43Z,https://arxiv.org/abs/2610.07540v1,world-model
+2610.07381v1,GeoWM: Efficient Direct World Modeling in Explicit Geometry,2026-10-05T20:52:18Z,2026-10-05T20:52:18Z,https://arxiv.org/abs/2610.07381v1,world-model
+2610.07355v1,Tracking Is Not Permanence: What Video World Models Keep of a Hidden Object,2026-10-05T20:22:43Z,2026-10-05T20:22:43Z,https://arxiv.org/abs/2610.07355v1,world-model
+2610.06847v1,S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation,2026-10-05T17:59:35Z,2026-10-05T17:59:35Z,https://arxiv.org/abs/2610.06847v1,video-generation
+2610.06843v1,Recursive Video In-Context Learning for Agentic Robot,2026-10-05T17:59:11Z,2026-10-05T17:59:11Z,https://arxiv.org/abs/2610.06843v1,video-memory-000
+2610.06814v2,TAPDreamer: Transferable Adversarial Patches for World Action Models,2026-10-05T17:55:21Z,2026-10-06T17:50:08Z,https://arxiv.org/abs/2610.06814v2,world-model
+2610.06805v1,H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning,2026-10-05T17:53:34Z,2026-10-05T17:53:34Z,https://arxiv.org/abs/2610.06805v1,world-model
+2610.06672v1,VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding,2026-10-05T16:44:25Z,2026-10-05T16:44:25Z,https://arxiv.org/abs/2610.06672v1,video-memory-000
+2610.06651v1,Considering Context: When World Models Need Context Encoders,2026-10-05T16:32:15Z,2026-10-05T16:32:15Z,https://arxiv.org/abs/2610.06651v1,world-model
+2610.06637v1,Long-Horizon Textual World Modeling through Structured Reasoning,2026-10-05T16:25:44Z,2026-10-05T16:25:44Z,https://arxiv.org/abs/2610.06637v1,world-model
+2610.06617v1,RealtimeWAM: One-Step Asynchronous World Action Models,2026-10-05T16:18:07Z,2026-10-05T16:18:07Z,https://arxiv.org/abs/2610.06617v1,world-model
+2610.06598v1,SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models,2026-10-05T16:08:01Z,2026-10-05T16:08:01Z,https://arxiv.org/abs/2610.06598v1,world-model
+2610.06588v1,Keepsake: Selective Spatial Memory for Long-Horizon Video Generation,2026-10-05T16:02:50Z,2026-10-05T16:02:50Z,https://arxiv.org/abs/2610.06588v1,video-memory-000; video-generation
+2610.06582v1,Mind the Execution Gap: Action-Semantic Mismatch in World-Model Control,2026-10-05T15:59:49Z,2026-10-05T15:59:49Z,https://arxiv.org/abs/2610.06582v1,world-model
+2610.06511v1,ArtifactArena: Evaluating Models by What They Build in the Physical World,2026-10-05T15:28:48Z,2026-10-05T15:28:48Z,https://arxiv.org/abs/2610.06511v1,world-model
+2610.06378v1,MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity,2026-10-05T14:09:02Z,2026-10-05T14:09:02Z,https://arxiv.org/abs/2610.06378v1,video-generation
+2610.06349v1,KineWorld: Action-Induced Transport Fields for Embodied World Modeling,2026-10-05T13:51:44Z,2026-10-05T13:51:44Z,https://arxiv.org/abs/2610.06349v1,world-model
+2610.06280v1,Future Anchored Verification and Online Recovery for World Action Models,2026-10-05T13:08:58Z,2026-10-05T13:08:58Z,https://arxiv.org/abs/2610.06280v1,world-model
+2610.06250v1,Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics,2026-10-05T12:47:44Z,2026-10-05T12:47:44Z,https://arxiv.org/abs/2610.06250v1,world-model
+2610.06234v1,Joint Class-Time Learning for Video Classification with Multi-Instance Partial-Label Learning,2026-10-05T12:37:18Z,2026-10-05T12:37:18Z,https://arxiv.org/abs/2610.06234v1,video-generation
+2610.06100v1,From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation,2026-10-05T10:32:28Z,2026-10-05T10:32:28Z,https://arxiv.org/abs/2610.06100v1,world-model
+2610.06008v1,Ultrasound Operator Guidance Using World Modeling and Retrieval Based Action Planning,2026-10-05T09:05:30Z,2026-10-05T09:05:30Z,https://arxiv.org/abs/2610.06008v1,world-model
+2610.05996v1,EpicWorldModel: Exploration-driven Planning with Latent World Models,2026-10-05T08:49:27Z,2026-10-05T08:49:27Z,https://arxiv.org/abs/2610.05996v1,world-model
+2610.05940v1,ReMem: Streaming Video Understanding With Long Context Retention,2026-10-05T07:56:41Z,2026-10-05T07:56:41Z,https://arxiv.org/abs/2610.05940v1,video-memory-000; video-generation
+2610.05896v1,TasteRoute: Personalized Routing for Video Generation,2026-10-05T07:12:53Z,2026-10-05T07:12:53Z,https://arxiv.org/abs/2610.05896v1,video-generation
+2610.05861v1,Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training,2026-10-05T06:28:58Z,2026-10-05T06:28:58Z,https://arxiv.org/abs/2610.05861v1,world-model
+2610.05779v1,A Spatiotemporal Semantic Importance-Guided Unified Compression and Editing Framework for AI-Generated Videos,2026-10-05T04:24:17Z,2026-10-05T04:24:17Z,https://arxiv.org/abs/2610.05779v1,video-generation
+2610.05775v1,InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems,2026-10-05T04:18:52Z,2026-10-05T04:18:52Z,https://arxiv.org/abs/2610.05775v1,video-memory-000
+2610.05739v1,HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models,2026-10-05T03:44:00Z,2026-10-05T03:44:00Z,https://arxiv.org/abs/2610.05739v1,video-memory-000; world-model; video-generation
+2610.05608v1,Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation,2026-10-04T23:19:20Z,2026-10-04T23:19:20Z,https://arxiv.org/abs/2610.05608v1,video-generation
+2610.05587v1,Generating the Wild: Individual-Consistent Image-to-Video Generation for Wildlife,2026-10-04T22:41:09Z,2026-10-04T22:41:09Z,https://arxiv.org/abs/2610.05587v1,video-generation
+2610.05550v1,"When Low Prediction Error Misleads Planning: Diagnosing Representation, Dynamics, and Decision Failures in Latent World Models",2026-10-04T21:23:48Z,2026-10-04T21:23:48Z,https://arxiv.org/abs/2610.05550v1,world-model
+2610.05543v1,AngularWM: Wireless World Modeling for AoA Prediction from Multi-Antenna I/Q,2026-10-04T21:13:50Z,2026-10-04T21:13:50Z,https://arxiv.org/abs/2610.05543v1,world-model
+2610.05526v1,Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants,2026-10-04T20:42:29Z,2026-10-04T20:42:29Z,https://arxiv.org/abs/2610.05526v1,video-memory-000
+2610.05483v1,FLEX-WAM: Flexible Block-Causal World-Action Models for Long-Horizon Imagination and Planning,2026-10-04T19:41:50Z,2026-10-04T19:41:50Z,https://arxiv.org/abs/2610.05483v1,world-model
+2610.07031v1,Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update,2026-10-04T18:54:00Z,2026-10-04T18:54:00Z,https://arxiv.org/abs/2610.07031v1,video-memory-000; world-model
+2610.07028v1,Identifiable World Models from Pretrained Diffusion Representations,2026-10-04T18:15:13Z,2026-10-04T18:15:13Z,https://arxiv.org/abs/2610.07028v1,world-model
+2610.05416v1,Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training,2026-10-04T17:58:12Z,2026-10-04T17:58:12Z,https://arxiv.org/abs/2610.05416v1,video-generation
+2610.05409v1,BeliefGraph-JEPA: Structured Latent World Models for Action-Conditioned Time Series,2026-10-04T17:50:12Z,2026-10-04T17:50:12Z,https://arxiv.org/abs/2610.05409v1,world-model
+2610.05398v1,MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training,2026-10-04T17:32:58Z,2026-10-04T17:32:58Z,https://arxiv.org/abs/2610.05398v1,video-memory-000
+2610.05240v1,Pythia: Toward Foundation World Models for Multimodal Time Series,2026-10-04T14:12:17Z,2026-10-04T14:12:17Z,https://arxiv.org/abs/2610.05240v1,world-model
+2610.05233v1,PixReenact: Pixel-Conditioned Causal Video Diffusion for Streaming Head-Avatar Reenactment,2026-10-04T13:57:42Z,2026-10-04T13:57:42Z,https://arxiv.org/abs/2610.05233v1,video-generation
+2610.05198v1,"Same Predictions, Different Harms: Causal Auditing of Patient World Models",2026-10-04T13:11:53Z,2026-10-04T13:11:53Z,https://arxiv.org/abs/2610.05198v1,world-model
+2610.05141v1,SemCam: Semantic Camera Motion Control for Video Generation,2026-10-04T11:41:08Z,2026-10-04T11:41:08Z,https://arxiv.org/abs/2610.05141v1,video-generation
+2610.05129v1,Representation--Behavior Alignment for Explainable Weakly-Supervised Video Anomaly Detection,2026-10-04T11:21:28Z,2026-10-04T11:21:28Z,https://arxiv.org/abs/2610.05129v1,video-generation
+2610.05109v1,LoopMoEVR: Loop-Based Degradation-Aware Mixture-of-Experts for Unified UHD Video Restoration,2026-10-04T10:35:52Z,2026-10-04T10:35:52Z,https://arxiv.org/abs/2610.05109v1,video-generation
+2610.05013v1,EMBER-Bench: Benchmarking Cross-Event Causal Memory in Long-Horizon Embodied Tasks,2026-10-04T07:14:05Z,2026-10-04T07:14:05Z,https://arxiv.org/abs/2610.05013v1,video-memory-000
+2610.04988v2,"How Long, Not How Close: A Learned Temporal Metric for Planning in Latent World Models",2026-10-04T06:15:22Z,2026-10-07T22:41:17Z,https://arxiv.org/abs/2610.04988v2,world-model
+2610.04940v1,Software World Models: From Consequence Prediction to Decision Value,2026-10-04T04:34:44Z,2026-10-04T04:34:44Z,https://arxiv.org/abs/2610.04940v1,world-model
+2610.04931v1,Billion-Scale Thumbnail Optimization for Uncurated Short-Form Videos via Multi-Armed Bandits,2026-10-04T04:17:21Z,2026-10-04T04:17:21Z,https://arxiv.org/abs/2610.04931v1,video-generation
+2610.04920v1,PWM: Personalized World Models with Online Reinforcement Learning,2026-10-04T03:57:47Z,2026-10-04T03:57:47Z,https://arxiv.org/abs/2610.04920v1,world-model
+2610.04913v2,$R^2$-WAM: Repair-and-Reject Post-Training for World Action Models,2026-10-04T03:47:05Z,2026-10-07T06:34:39Z,https://arxiv.org/abs/2610.04913v2,world-model
+2610.04896v1,Tackling Sim-to-Real Mismatch Through Sampling-Based Disturbance Observers: From Analytical Models to Learned World Models,2026-10-04T03:18:51Z,2026-10-04T03:18:51Z,https://arxiv.org/abs/2610.04896v1,world-model
+2610.04864v1,Enhancing Long-Video VLM Embeddings with Query-Aware Streaming Latent Reasoning,2026-10-04T02:05:48Z,2026-10-04T02:05:48Z,https://arxiv.org/abs/2610.04864v1,video-memory-000
+2610.04778v1,"Repeated-Measure Leakage, Distribution Shift, and Reliability under Partial Observation in Patient World Models",2026-10-03T21:35:59Z,2026-10-03T21:35:59Z,https://arxiv.org/abs/2610.04778v1,world-model
+2610.04767v1,Flow Policies as Actions of Skill-Level World Models: Learned and Symbolic Abstractions for Long-Horizon Planning,2026-10-03T21:07:46Z,2026-10-03T21:07:46Z,https://arxiv.org/abs/2610.04767v1,world-model
+2610.06965v1,ACG-WAM: World-Action Modeling via Action-Conditioned Geometric Latent Prediction,2026-10-03T17:52:59Z,2026-10-03T17:52:59Z,https://arxiv.org/abs/2610.06965v1,world-model
+2610.04607v1,ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies,2026-10-03T15:49:04Z,2026-10-03T15:49:04Z,https://arxiv.org/abs/2610.04607v1,world-model
+2610.04585v1,Frozen in a Frame: The Velocity Blind Spot in JEPA World Models,2026-10-03T15:18:32Z,2026-10-03T15:18:32Z,https://arxiv.org/abs/2610.04585v1,world-model
+2610.04540v1,DreamFormer: Dream Imitation with a Transformer World Model for Language-Conditioned Robotic Manipulation,2026-10-03T14:15:06Z,2026-10-03T14:15:06Z,https://arxiv.org/abs/2610.04540v1,world-model
+2610.04539v1,Action-Consequence Alignment for Reliable Planning and Self-Improving in Latent World Models,2026-10-03T14:12:16Z,2026-10-03T14:12:16Z,https://arxiv.org/abs/2610.04539v1,world-model
+2610.04494v1,DreamTest: World-Model Surrogates for Search-Based Testing of Deep Reinforcement Learning Agents,2026-10-03T12:51:02Z,2026-10-03T12:51:02Z,https://arxiv.org/abs/2610.04494v1,world-model
+2610.04475v1,VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response,2026-10-03T12:26:20Z,2026-10-03T12:26:20Z,https://arxiv.org/abs/2610.04475v1,world-model
+2610.04445v1,World Requirement Model: Learning Requirement-Change Consequences from Typed Artifact Graphs,2026-10-03T11:16:57Z,2026-10-03T11:16:57Z,https://arxiv.org/abs/2610.04445v1,world-model
+2610.04432v2,Video2World: Benchmarking Coding Agents for Interactive World Modeling from Embodied Videos,2026-10-03T10:46:52Z,2026-10-07T16:40:14Z,https://arxiv.org/abs/2610.04432v2,world-model; video-generation
+2610.04258v1,FloVMos: Optical Flow-based Medical Video Mosaicking,2026-10-03T03:29:39Z,2026-10-03T03:29:39Z,https://arxiv.org/abs/2610.04258v1,video-generation
+2610.04225v1,FlashGaze: Training-Free Multi-Scale Patch Pruning For Efficient Video Understanding,2026-10-03T02:33:01Z,2026-10-03T02:33:01Z,https://arxiv.org/abs/2610.04225v1,video-memory-000
+2610.04215v1,TCMClinicalReason-Bench: Can Language Models Reason from Pathogenesis to Prescription over Real-World Clinical Cases?,2026-10-03T02:05:17Z,2026-10-03T02:05:17Z,https://arxiv.org/abs/2610.04215v1,world-model
+2610.04152v1,Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution,2026-10-02T23:53:00Z,2026-10-02T23:53:00Z,https://arxiv.org/abs/2610.04152v1,video-generation
+2610.04009v1,SUAVE: Unified Video-Action Models via Masked Diffusion,2026-10-02T20:11:13Z,2026-10-02T20:11:13Z,https://arxiv.org/abs/2610.04009v1,video-generation
+2610.03713v1,What Should World Models Forget? Stratified Retention for Continual Adaptation,2026-10-02T17:58:14Z,2026-10-02T17:58:14Z,https://arxiv.org/abs/2610.03713v1,world-model
+2610.03691v1,FlowHMR: Physically Plausible Motion Capture from Video,2026-10-02T17:52:48Z,2026-10-02T17:52:48Z,https://arxiv.org/abs/2610.03691v1,video-generation
+2610.03664v1,ProAR: Learning Prospective Reasoning with Autoregressive Video Models,2026-10-02T17:37:47Z,2026-10-02T17:37:47Z,https://arxiv.org/abs/2610.03664v1,video-generation
+2610.03636v1,LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation,2026-10-02T17:26:18Z,2026-10-02T17:26:18Z,https://arxiv.org/abs/2610.03636v1,video-generation
+2610.03587v1,AVL-JEPA: Preventing Causal Dynamics Information Collapse In Joint Embedding Predictive Architecture World Models,2026-10-02T16:56:15Z,2026-10-02T16:56:15Z,https://arxiv.org/abs/2610.03587v1,world-model
+2610.03543v1,DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation,2026-10-02T16:27:44Z,2026-10-02T16:27:44Z,https://arxiv.org/abs/2610.03543v1,video-generation
+2610.03516v1,XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation,2026-10-02T16:10:53Z,2026-10-02T16:10:53Z,https://arxiv.org/abs/2610.03516v1,world-model
+2610.03510v1,Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation,2026-10-02T16:04:26Z,2026-10-02T16:04:26Z,https://arxiv.org/abs/2610.03510v1,video-memory-000; video-generation
+2610.03400v2,Beyond Entropy: Self-Diagnostic Multi-Role Token Optimization for Video Reasoning,2026-10-02T14:48:40Z,2026-10-08T02:54:27Z,https://arxiv.org/abs/2610.03400v2,video-generation
+2610.03391v1,Native Action-Prior Learning from Videos for World Action Models,2026-10-02T14:41:05Z,2026-10-02T14:41:05Z,https://arxiv.org/abs/2610.03391v1,world-model; video-generation
+2610.03380v1,Interpretable Deepfake Detection in Videos via Explicit Forensic Features and Temporal Modeling,2026-10-02T14:34:24Z,2026-10-02T14:34:24Z,https://arxiv.org/abs/2610.03380v1,video-memory-000; video-generation
+2610.03374v1,EVEWorld: Physical Evolution Supervision for Embodied World Models,2026-10-02T14:30:32Z,2026-10-02T14:30:32Z,https://arxiv.org/abs/2610.03374v1,world-model
+2610.03356v1,ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models,2026-10-02T14:21:26Z,2026-10-02T14:21:26Z,https://arxiv.org/abs/2610.03356v1,world-model
+2610.03221v1,VDOT++: Unified Few-Step Video Generation via Unbalanced Optimal Transport Distillation,2026-10-02T12:37:55Z,2026-10-02T12:37:55Z,https://arxiv.org/abs/2610.03221v1,video-generation
+2610.03829v1,OncoNoteBERT: A Foundation Representation Model for Natural Language Processing of Real-World Outpatient Oncology Notes,2026-10-02T11:38:07Z,2026-10-02T11:38:07Z,https://arxiv.org/abs/2610.03829v1,world-model
+2610.03154v1,Does Physics Live in the Activations? Localizing Physical Quantities in Video Diffusion Models,2026-10-02T11:26:09Z,2026-10-02T11:26:09Z,https://arxiv.org/abs/2610.03154v1,video-generation
+2610.03137v1,Keeping JEPA World Models Plannable When Little of the Frame Moves,2026-10-02T11:02:39Z,2026-10-02T11:02:39Z,https://arxiv.org/abs/2610.03137v1,world-model
+2610.03120v2,In-Distribution Forcing for Long Video Generation at Test Time,2026-10-02T10:40:49Z,2026-10-07T14:51:16Z,https://arxiv.org/abs/2610.03120v2,video-generation
+2610.03099v1,Beyond Single Videos: Benchmarking and Active Evidence Seeking for E-Commerce Cross-Video Reasoning,2026-10-02T10:19:49Z,2026-10-02T10:19:49Z,https://arxiv.org/abs/2610.03099v1,video-generation
+2610.03047v1,Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model,2026-10-02T09:28:57Z,2026-10-02T09:28:57Z,https://arxiv.org/abs/2610.03047v1,video-generation
+2610.03022v1,ReSCUE: Re-translation with Sentence Commitment for Unsegmented Long-Form Simultaneous Sign Language Translation,2026-10-02T08:58:00Z,2026-10-02T08:58:00Z,https://arxiv.org/abs/2610.03022v1,video-memory-000
+2610.02957v1,Understanding Trajectory Heterogeneity in Federated World Model Learning,2026-10-02T07:55:25Z,2026-10-02T07:55:25Z,https://arxiv.org/abs/2610.02957v1,world-model
+2610.02914v2,Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation,2026-10-02T07:04:09Z,2026-10-05T05:25:58Z,https://arxiv.org/abs/2610.02914v2,video-generation
+2610.02860v1,"Counterfactual Action Evaluation, Observation Bottlenecks, and Representation Geometry in Joint-Embedding Predictive World Models",2026-10-02T05:54:13Z,2026-10-02T05:54:13Z,https://arxiv.org/abs/2610.02860v1,world-model
+2610.02840v1,PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation,2026-10-02T05:31:01Z,2026-10-02T05:31:01Z,https://arxiv.org/abs/2610.02840v1,world-model
+2610.02839v1,"To Explore The Strange New World Beyond Data Distribution: System Behavior, Causality Tax, and Non-causal Base Model",2026-10-02T05:29:03Z,2026-10-02T05:29:03Z,https://arxiv.org/abs/2610.02839v1,world-model
+2610.02779v1,TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation,2026-10-02T04:11:31Z,2026-10-02T04:11:31Z,https://arxiv.org/abs/2610.02779v1,video-generation
+2610.02744v1,EpiWorld: Grounding LLM Policy Agents in Epidemiological World Models,2026-10-02T03:16:28Z,2026-10-02T03:16:28Z,https://arxiv.org/abs/2610.02744v1,world-model
+2610.02726v1,SymRegFlow: Symmetry-Regularized Flow Matching for Video World Models,2026-10-02T03:02:22Z,2026-10-02T03:02:22Z,https://arxiv.org/abs/2610.02726v1,world-model; video-generation
+2610.02715v1,Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning,2026-10-02T02:51:03Z,2026-10-02T02:51:03Z,https://arxiv.org/abs/2610.02715v1,video-memory-000
+2610.02660v1,SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching,2026-10-02T01:28:43Z,2026-10-02T01:28:43Z,https://arxiv.org/abs/2610.02660v1,world-model
+2610.02626v2,"Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",2026-10-02T00:31:51Z,2026-10-08T13:20:13Z,https://arxiv.org/abs/2610.02626v2,video-memory-000
+2610.02542v1,How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling,2026-10-01T22:30:08Z,2026-10-01T22:30:08Z,https://arxiv.org/abs/2610.02542v1,world-model
+2610.02521v1,Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory,2026-10-01T21:50:57Z,2026-10-01T21:50:57Z,https://arxiv.org/abs/2610.02521v1,video-memory-000; world-model
+2610.02515v1,IGNITE Tokamak World Model Architecture,2026-10-01T21:37:44Z,2026-10-01T21:37:44Z,https://arxiv.org/abs/2610.02515v1,world-model
+2610.02508v1,World Action Modeling with Progressive Visual Planning,2026-10-01T21:32:29Z,2026-10-01T21:32:29Z,https://arxiv.org/abs/2610.02508v1,world-model
+2610.02451v1,A Simulation-Grounded Agentic VLM Framework for Wildfire Monitoring and Reporting,2026-10-01T20:22:10Z,2026-10-01T20:22:10Z,https://arxiv.org/abs/2610.02451v1,video-memory-000
+2610.02398v1,"Keep the Effect, Drop the Actor: Programmable Effect-to-Execution World-Action Models",2026-10-01T19:25:04Z,2026-10-01T19:25:04Z,https://arxiv.org/abs/2610.02398v1,world-model
+2610.02368v1,Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation,2026-10-01T18:45:04Z,2026-10-01T18:45:04Z,https://arxiv.org/abs/2610.02368v1,world-model
+2610.02323v1,World-Calibrated Proposal-to-Action Flow for Vision-Language-Action Models,2026-10-01T18:00:11Z,2026-10-01T18:00:11Z,https://arxiv.org/abs/2610.02323v1,world-model
+2610.02205v2,PROWBench: Do Video Models Render What the Program Specifies?,2026-10-01T17:59:53Z,2026-10-05T12:29:38Z,https://arxiv.org/abs/2610.02205v2,video-memory-000; video-generation
+2610.02197v1,HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation,2026-10-01T17:59:41Z,2026-10-01T17:59:41Z,https://arxiv.org/abs/2610.02197v1,video-generation
+2610.02188v1,DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation,2026-10-01T17:59:01Z,2026-10-01T17:59:01Z,https://arxiv.org/abs/2610.02188v1,video-memory-000
+2610.02162v1,World Observer: Joint Actor-Observer Generation for Persistent World Modeling,2026-10-01T17:53:20Z,2026-10-01T17:53:20Z,https://arxiv.org/abs/2610.02162v1,world-model
+2610.02160v1,4Director: Controlling Video World Models with Rigid 3D Geometry,2026-10-01T17:52:58Z,2026-10-01T17:52:58Z,https://arxiv.org/abs/2610.02160v1,world-model
+2610.02153v1,MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation,2026-10-01T17:51:05Z,2026-10-01T17:51:05Z,https://arxiv.org/abs/2610.02153v1,video-memory-000; video-generation
+2610.02120v1,SkeleWAM: Skeleton World-Action Modeling for Efficient Robotic Manipulation,2026-10-01T17:35:10Z,2026-10-01T17:35:10Z,https://arxiv.org/abs/2610.02120v1,world-model
+2610.02054v3,UniWAM: Unified World-Action Model,2026-10-01T17:01:27Z,2026-10-08T08:12:34Z,https://arxiv.org/abs/2610.02054v3,world-model
+2610.01973v1,Token-Level Video Reinforcement Learning,2026-10-01T16:22:41Z,2026-10-01T16:22:41Z,https://arxiv.org/abs/2610.01973v1,video-generation
+2610.01942v1,Latent-Foresight: End-to-End Learning Predictable Representations for Latent World Models,2026-10-01T16:09:34Z,2026-10-01T16:09:34Z,https://arxiv.org/abs/2610.01942v1,world-model
+2610.01884v1,Memory-Guided B-Roll Generation from User Video Collections,2026-10-01T15:37:17Z,2026-10-01T15:37:17Z,https://arxiv.org/abs/2610.01884v1,video-memory-000; video-generation
+2610.01842v1,On the Divergence of Accuracy and Mechanism Consistency in Time Series World Models,2026-10-01T15:10:09Z,2026-10-01T15:10:09Z,https://arxiv.org/abs/2610.01842v1,world-model
+2610.01762v1,"OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",2026-10-01T14:23:03Z,2026-10-01T14:23:03Z,https://arxiv.org/abs/2610.01762v1,video-memory-000; video-generation
+2610.01754v1,Cog-VADU: A Training-Free Cognitive Reasoning Framework for Video Anomaly Detection and Understanding,2026-10-01T14:18:32Z,2026-10-01T14:18:32Z,https://arxiv.org/abs/2610.01754v1,video-memory-000; video-generation
+2610.01742v1,World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories,2026-10-01T14:13:24Z,2026-10-01T14:13:24Z,https://arxiv.org/abs/2610.01742v1,world-model
+2610.01698v1,ActiveWAM: Evidence-Aware Active Vision for World-Action Models,2026-10-01T13:48:29Z,2026-10-01T13:48:29Z,https://arxiv.org/abs/2610.01698v1,world-model
+2610.01661v1,DiVid: Diagnosing Dimension-Specific Diversity Collapse in Video Generation Models,2026-10-01T13:21:27Z,2026-10-01T13:21:27Z,https://arxiv.org/abs/2610.01661v1,video-generation
+2610.01614v1,Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models,2026-10-01T12:52:47Z,2026-10-01T12:52:47Z,https://arxiv.org/abs/2610.01614v1,world-model; video-generation
+2610.01559v2,Completion Aware Guidance for World Action Models,2026-10-01T12:27:29Z,2026-10-06T02:16:31Z,https://arxiv.org/abs/2610.01559v2,world-model
+2610.01499v1,VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation,2026-10-01T11:40:03Z,2026-10-01T11:40:03Z,https://arxiv.org/abs/2610.01499v1,video-generation
+2610.01461v1,NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video,2026-10-01T10:55:18Z,2026-10-01T10:55:18Z,https://arxiv.org/abs/2610.01461v1,video-generation
+2610.01373v1,Learning Commute-Time-Preserving World Models for Planning,2026-10-01T09:42:42Z,2026-10-01T09:42:42Z,https://arxiv.org/abs/2610.01373v1,world-model
+2610.01301v1,Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations,2026-10-01T08:36:06Z,2026-10-01T08:36:06Z,https://arxiv.org/abs/2610.01301v1,video-memory-000
+2610.01279v1,PickMoment: Continuous-Time Single-Image-to-Video via Learning Deblurring and Blur-to-Video,2026-10-01T08:16:14Z,2026-10-01T08:16:14Z,https://arxiv.org/abs/2610.01279v1,video-generation
+2610.01224v1,Supervise What Decides Success: Criterion-Aligned Auxiliary Losses for Latent World-Model Planning,2026-10-01T07:27:10Z,2026-10-01T07:27:10Z,https://arxiv.org/abs/2610.01224v1,world-model
+2610.01215v1,AutoGUIWorld: Image Generators as Visual World Models for GUI Agent,2026-10-01T07:22:53Z,2026-10-01T07:22:53Z,https://arxiv.org/abs/2610.01215v1,world-model
+2610.01205v1,Semantic RGB--Depth Based Surgical Skill Assessment in Microscopic Stereo Videos,2026-10-01T07:15:49Z,2026-10-01T07:15:49Z,https://arxiv.org/abs/2610.01205v1,video-generation
+2610.01192v1,FlashBack: Knowing When to Remember in Streaming Vision-Language Models,2026-10-01T07:05:08Z,2026-10-01T07:05:08Z,https://arxiv.org/abs/2610.01192v1,video-memory-000
+2610.01162v1,PhysicsLENS: Diagnosing Physical Property Blindness in Video Generation Models,2026-10-01T06:42:07Z,2026-10-01T06:42:07Z,https://arxiv.org/abs/2610.01162v1,video-generation
+2610.01092v1,Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation,2026-10-01T05:35:29Z,2026-10-01T05:35:29Z,https://arxiv.org/abs/2610.01092v1,video-generation
+2610.01052v1,Towards Subject Consistency over Dynamic Subject Sets in Video Generation,2026-10-01T04:47:36Z,2026-10-01T04:47:36Z,https://arxiv.org/abs/2610.01052v1,video-generation
+2610.01048v1,Network World Models as Environments for Algorithm Design on Complex Systems,2026-10-01T04:44:00Z,2026-10-01T04:44:00Z,https://arxiv.org/abs/2610.01048v1,world-model
+2610.01039v1,Bootstrapping Video Interaction Generation with Synthetic State Transitions,2026-10-01T04:27:11Z,2026-10-01T04:27:11Z,https://arxiv.org/abs/2610.01039v1,video-generation
+2610.03797v3,WAMJET: A Harness for World Action Model Acceleration,2026-10-01T04:26:18Z,2026-10-07T09:58:37Z,https://arxiv.org/abs/2610.03797v3,world-model
+2610.01022v1,Towards Automatic Video Annotation with ASH: Zero-Shot Open-Vocabulary Multi-Object Tracking and Segmentation,2026-10-01T04:09:48Z,2026-10-01T04:09:48Z,https://arxiv.org/abs/2610.01022v1,video-memory-000; video-generation
+2610.01019v1,FutureWorlds: Learning Robotic World Models from Alternative Futures,2026-10-01T04:04:31Z,2026-10-01T04:04:31Z,https://arxiv.org/abs/2610.01019v1,video-memory-000; world-model
+2610.01012v1,Watch Your Speech: Text-aware Video-to-Speech Synthesis with Textual Conditioning,2026-10-01T03:57:30Z,2026-10-01T03:57:30Z,https://arxiv.org/abs/2610.01012v1,video-generation
+2610.01001v1,Calibration-risk routing for controlled world-model adaptation,2026-10-01T03:44:47Z,2026-10-01T03:44:47Z,https://arxiv.org/abs/2610.01001v1,world-model
+2610.00921v1,"In CEM, a World Model Is Also a Proposal Mechanism",2026-10-01T01:57:24Z,2026-10-01T01:57:24Z,https://arxiv.org/abs/2610.00921v1,world-model
+2610.00859v1,CtrlWAM: Controllable World Action Models with Aligned Intent and Foresight,2026-10-01T00:23:01Z,2026-10-01T00:23:01Z,https://arxiv.org/abs/2610.00859v1,world-model
+2610.00834v1,Kepler: Auditable World Models for ARC-AGI-3,2026-09-30T23:46:59Z,2026-09-30T23:46:59Z,https://arxiv.org/abs/2610.00834v1,world-model
+2610.00812v1,Video Generation Models: A Survey of Post-Training and Alignment,2026-09-30T23:13:08Z,2026-09-30T23:13:08Z,https://arxiv.org/abs/2610.00812v1,video-generation
+2610.00757v1,Video Evidence Indexing: Learning Where to Look from Video Previews for Token-Budgeted Long-Video Question Answering,2026-09-30T21:51:16Z,2026-09-30T21:51:16Z,https://arxiv.org/abs/2610.00757v1,video-generation
+2610.00727v1,CF-JEPA: Improving Robustness of JEPA World Models via Controllability Factorization,2026-09-30T21:18:32Z,2026-09-30T21:18:32Z,https://arxiv.org/abs/2610.00727v1,world-model
+2610.00722v1,JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts,2026-09-30T21:13:59Z,2026-09-30T21:13:59Z,https://arxiv.org/abs/2610.00722v1,world-model
+2610.00691v2,Soundwich: Video Generation with Layered and Controllable Audio,2026-09-30T20:35:29Z,2026-10-02T04:37:35Z,https://arxiv.org/abs/2610.00691v2,video-generation
+2610.00686v1,SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation,2026-09-30T20:29:37Z,2026-09-30T20:29:37Z,https://arxiv.org/abs/2610.00686v1,video-generation
+2610.00638v1,TacDyn-WAM: Learning Implicit Tactile Dynamics in a Heterogeneous Visuo-Tactile World Action Model,2026-09-30T19:40:57Z,2026-09-30T19:40:57Z,https://arxiv.org/abs/2610.00638v1,video-memory-000; world-model
+2610.00575v2,Token-World: World Modeling in Vision-Language Model Token Space for Robot Manipulation,2026-09-30T18:45:32Z,2026-10-05T03:46:29Z,https://arxiv.org/abs/2610.00575v2,world-model
+2610.00544v1,Memorizon: Training World Models Beyond Their Context Window,2026-09-30T18:26:24Z,2026-09-30T18:26:24Z,https://arxiv.org/abs/2610.00544v1,world-model
+2610.00451v2,"PACT: End-to-End Learning of Human Pose, Contacts, and Forces from Video",2026-09-30T17:59:57Z,2026-10-05T06:52:44Z,https://arxiv.org/abs/2610.00451v2,video-generation
+2609.40358v1,Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model,2026-09-30T17:59:51Z,2026-09-30T17:59:51Z,https://arxiv.org/abs/2609.40358v1,world-model; video-generation
+2609.40356v1,ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing,2026-09-30T17:59:33Z,2026-09-30T17:59:33Z,https://arxiv.org/abs/2609.40356v1,video-generation
+2609.40222v1,LOCI: Spatial Linear Memory for Streaming World Models,2026-09-30T17:27:06Z,2026-09-30T17:27:06Z,https://arxiv.org/abs/2609.40222v1,video-memory-000; world-model
+2609.40219v2,Learning Skills from Historical Action Trajectories: Action Experience Dictionary for World Action Models,2026-09-30T17:26:38Z,2026-10-02T05:19:23Z,https://arxiv.org/abs/2609.40219v2,world-model
+2609.40195v1,MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories,2026-09-30T17:11:33Z,2026-09-30T17:11:33Z,https://arxiv.org/abs/2609.40195v1,video-memory-000; video-generation
+2609.40177v2,Social-WM: Safety-Aware Latent World Models for Robot Social Navigation,2026-09-30T17:03:21Z,2026-10-01T17:53:44Z,https://arxiv.org/abs/2609.40177v2,world-model
+2609.40153v1,Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling,2026-09-30T16:55:14Z,2026-09-30T16:55:14Z,https://arxiv.org/abs/2609.40153v1,video-generation
+2609.40129v1,VR-JEPA: Learning Contrastive-State Latent Guidance for Generation-based Video Reasoning,2026-09-30T16:48:35Z,2026-09-30T16:48:35Z,https://arxiv.org/abs/2609.40129v1,video-generation
+2609.40079v1,LongEmo: Towards Emotion Understanding and Reasoning in Long Videos,2026-09-30T16:27:25Z,2026-09-30T16:27:25Z,https://arxiv.org/abs/2609.40079v1,video-memory-000
+2609.40055v1,"Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding",2026-09-30T16:18:31Z,2026-09-30T16:18:31Z,https://arxiv.org/abs/2609.40055v1,video-generation
+2609.40048v1,CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding,2026-09-30T16:14:14Z,2026-09-30T16:14:14Z,https://arxiv.org/abs/2609.40048v1,video-generation
+2609.40037v1,Enhancing Autoregressive Video Generation via Representation Adversarial Distillation,2026-09-30T16:09:12Z,2026-09-30T16:09:12Z,https://arxiv.org/abs/2609.40037v1,video-generation
+2609.40003v1,DashVMC: Real-Time Discrete World Model Control in Geometry Dash,2026-09-30T15:48:50Z,2026-09-30T15:48:50Z,https://arxiv.org/abs/2609.40003v1,world-model
+2610.08843v1,Optimization of Deep Learning Model for Denoising Dose Profiles in Proton Therapy,2026-09-30T15:22:37Z,2026-09-30T15:22:37Z,https://arxiv.org/abs/2610.08843v1,video-memory-000
+2609.39883v3,Grounding with Confidence: Controllable Generative Video Temporal Grounding,2026-09-30T14:55:58Z,2026-10-08T13:56:38Z,https://arxiv.org/abs/2609.39883v3,video-generation
+2609.39873v1,SplineWAM: Adaptive Action Horizons for World Action Models via B-Spline Representations,2026-09-30T14:51:03Z,2026-09-30T14:51:03Z,https://arxiv.org/abs/2609.39873v1,world-model
+2609.39870v2,Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence,2026-09-30T14:49:55Z,2026-10-03T14:49:17Z,https://arxiv.org/abs/2609.39870v2,world-model
+2609.39763v1,DiffWAM: A Fast and Efficient Navigation World Action Model,2026-09-30T13:57:26Z,2026-09-30T13:57:26Z,https://arxiv.org/abs/2609.39763v1,world-model
+2609.39751v1,Beyond Policy Alignment: Closing the Planning-Learning Loop for Robot Control with Learned World Models,2026-09-30T13:50:51Z,2026-09-30T13:50:51Z,https://arxiv.org/abs/2609.39751v1,world-model
+2609.39685v1,RoboCoach: World Models as Active Coaches for Compositional Robot Skills,2026-09-30T13:14:30Z,2026-09-30T13:14:30Z,https://arxiv.org/abs/2609.39685v1,world-model
+2609.39649v1,FANVIDv2: Evaluating Video Super-Resolution by Face and Licence-Plate Recognition Under Compound Degradation,2026-09-30T12:52:12Z,2026-09-30T12:52:12Z,https://arxiv.org/abs/2609.39649v1,video-generation
+2609.39605v1,"FOMO: Forget the Concept, Don't Miss Out on the Scene in Selective Video Unlearning",2026-09-30T12:25:36Z,2026-09-30T12:25:36Z,https://arxiv.org/abs/2609.39605v1,video-generation
+2609.39604v1,Why Do Conventional World Models Fail to Learn Cellular Automata?,2026-09-30T12:24:41Z,2026-09-30T12:24:41Z,https://arxiv.org/abs/2609.39604v1,world-model
+2609.39585v1,A Generalizable and Explainable Framework for Synthetic Video Detection Using First-Digit Gradient Statistics,2026-09-30T12:12:32Z,2026-09-30T12:12:32Z,https://arxiv.org/abs/2609.39585v1,video-generation
+2609.39563v1,RESUME: Recurrent State Updates from Motion and Residual Signals for Efficient Video Language Modeling,2026-09-30T12:00:41Z,2026-09-30T12:00:41Z,https://arxiv.org/abs/2609.39563v1,video-generation
+2609.39504v1,PartiCam: Camera Controlled Video Generation with Reward Guidance,2026-09-30T11:05:58Z,2026-09-30T11:05:58Z,https://arxiv.org/abs/2609.39504v1,video-generation
+2609.39388v1,UniWAM Technical Report: Unified Mobile Manipulation via Mixed-Stream World-Action Modeling and Manipulation Anchor Pose Supervision,2026-09-30T09:35:44Z,2026-09-30T09:35:44Z,https://arxiv.org/abs/2609.39388v1,world-model
+2609.39378v2,EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos,2026-09-30T09:30:23Z,2026-10-02T08:56:10Z,https://arxiv.org/abs/2609.39378v2,video-generation
+2609.39323v1,HiWE: Hierarchical World Knowledge Model with Visual Keypoint Enhancement for Zero-Shot 3D Path Planning,2026-09-30T09:00:25Z,2026-09-30T09:00:25Z,https://arxiv.org/abs/2609.39323v1,world-model
+2609.39265v1,Universal Cross-Prompt Adversarial Attacks on Promptable Concept Segmentation,2026-09-30T08:23:06Z,2026-09-30T08:23:06Z,https://arxiv.org/abs/2609.39265v1,video-memory-000
+2609.39245v1,ReWAM: Reciprocal World Action Models for Interactive Autonomous Driving,2026-09-30T08:12:56Z,2026-09-30T08:12:56Z,https://arxiv.org/abs/2609.39245v1,world-model
+2609.39235v1,The Planning Limits of Latent World Models,2026-09-30T08:05:32Z,2026-09-30T08:05:32Z,https://arxiv.org/abs/2609.39235v1,world-model
+2609.39182v1,"MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models",2026-09-30T07:38:49Z,2026-09-30T07:38:49Z,https://arxiv.org/abs/2609.39182v1,world-model
+2609.39179v1,LocoWM: High-Precision Locomotion through World-Model-Guided Residual Adaptation,2026-09-30T07:35:08Z,2026-09-30T07:35:08Z,https://arxiv.org/abs/2609.39179v1,world-model
+2609.39157v2,TripleFlow: Training-Free Video Object Removal by Bridging Residual Editing and Native Generation,2026-09-30T07:20:15Z,2026-10-05T18:29:03Z,https://arxiv.org/abs/2609.39157v2,video-generation
+2609.39151v1,Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey,2026-09-30T07:17:21Z,2026-09-30T07:17:21Z,https://arxiv.org/abs/2609.39151v1,world-model
+2609.39147v1,MindWorldBench: Evaluating Mental-State-to-Behavior Reasoning in Image-to-Video Generation,2026-09-30T07:14:28Z,2026-09-30T07:14:28Z,https://arxiv.org/abs/2609.39147v1,video-generation
+2609.39135v1,Asking the World: Generalist Physical Reasoning through Agentic World Modeling and Probing,2026-09-30T07:04:21Z,2026-09-30T07:04:21Z,https://arxiv.org/abs/2609.39135v1,world-model
+2609.39132v1,Uncertainty-Aware Consistency Distillation for Few-Step Video Generation,2026-09-30T07:03:38Z,2026-09-30T07:03:38Z,https://arxiv.org/abs/2609.39132v1,video-generation
+2609.39128v1,GeoGAT: Bidirectional Temporal Sampling Meets Hierarchical Graph Attention for Global Video Geo-localization,2026-09-30T07:01:13Z,2026-09-30T07:01:13Z,https://arxiv.org/abs/2609.39128v1,video-generation
+2609.39116v1,GRC-Pose: Generation-Reconstruction Correspondence for Prior-Free 6D Object Pose Tracking,2026-09-30T06:53:31Z,2026-09-30T06:53:31Z,https://arxiv.org/abs/2609.39116v1,video-memory-000
+2610.00368v1,DeepJEPA: Scaling World Models from Within,2026-09-30T06:48:25Z,2026-09-30T06:48:25Z,https://arxiv.org/abs/2610.00368v1,world-model
+2609.39101v1,Beyond Prediction: Steering VLM Agents with Retrospective World Modeling,2026-09-30T06:41:04Z,2026-09-30T06:41:04Z,https://arxiv.org/abs/2609.39101v1,world-model
+2609.39096v2,DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency,2026-09-30T06:33:16Z,2026-10-05T16:45:07Z,https://arxiv.org/abs/2609.39096v2,video-generation
+2609.39056v1,SteerQuant: Steering Quantization Error with Action-Guided Scaling in World-Action Models,2026-09-30T06:00:48Z,2026-09-30T06:00:48Z,https://arxiv.org/abs/2609.39056v1,video-memory-000; world-model
+2609.39047v1,BadAction: Backdoor Attacks on Interactive Video Generation via Action-Guided Triggers,2026-09-30T05:55:09Z,2026-09-30T05:55:09Z,https://arxiv.org/abs/2609.39047v1,video-generation
+2609.38984v1,Sparse-WAM: Accelerating World Action Models via Action-Guided Sparse Imagination,2026-09-30T05:02:47Z,2026-09-30T05:02:47Z,https://arxiv.org/abs/2609.38984v1,world-model
+2609.38978v1,PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers,2026-09-30T04:53:29Z,2026-09-30T04:53:29Z,https://arxiv.org/abs/2609.38978v1,video-generation
+2609.38966v1,Video2SwimFish: An Automated Pipeline for Reconstructing Controllable Fish Models and Biological Locomotion from Real Fish Videos,2026-09-30T04:35:52Z,2026-09-30T04:35:52Z,https://arxiv.org/abs/2609.38966v1,video-generation
+2609.38927v1,World-as-Graph: Relational World Modeling Through Latent Space Graphs,2026-09-30T04:08:41Z,2026-09-30T04:08:41Z,https://arxiv.org/abs/2609.38927v1,world-model
+2609.38900v1,MEMO: Multi-Level Entity-Aware Memory for Streaming Video Understanding,2026-09-30T03:47:53Z,2026-09-30T03:47:53Z,https://arxiv.org/abs/2609.38900v1,video-memory-000
+2610.00359v1,Diffusion Editing with Soft Mask: Pixel Level Redo of Image and Video with Adjustable Strength,2026-09-30T03:26:38Z,2026-09-30T03:26:38Z,https://arxiv.org/abs/2610.00359v1,video-memory-000
+2609.38839v1,FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation,2026-09-30T02:57:47Z,2026-09-30T02:57:47Z,https://arxiv.org/abs/2609.38839v1,video-generation
+2609.38819v1,Future Video Generation Better Aligns with the Human Visual Cortex than Observed Video,2026-09-30T02:45:51Z,2026-09-30T02:45:51Z,https://arxiv.org/abs/2609.38819v1,video-generation
+2609.38777v1,"Distill the Visual Evidence, Not Just the Answer: Cross-World On-Policy Distillation for Vision-Language Models",2026-09-30T02:09:11Z,2026-09-30T02:09:11Z,https://arxiv.org/abs/2609.38777v1,world-model
+2609.38758v1,Event-Driven Refresh and Recurrence Memory to Reduce Stale Grounding in Referring Video Object Segmentation,2026-09-30T01:44:08Z,2026-09-30T01:44:08Z,https://arxiv.org/abs/2609.38758v1,video-memory-000
+2609.38748v2,Hear the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation,2026-09-30T01:32:46Z,2026-10-08T03:22:25Z,https://arxiv.org/abs/2609.38748v2,video-generation
+2609.38691v2,No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation,2026-09-30T00:21:30Z,2026-10-06T11:19:02Z,https://arxiv.org/abs/2609.38691v2,video-generation
+2609.38689v1,EPIC: Epipolar-Consistent 360° Immersive Stereo Video Generation,2026-09-30T00:17:27Z,2026-09-30T00:17:27Z,https://arxiv.org/abs/2609.38689v1,video-generation
+2609.38615v1,Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation,2026-09-29T22:20:09Z,2026-09-29T22:20:09Z,https://arxiv.org/abs/2609.38615v1,video-generation
+2609.38597v1,PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation,2026-09-29T21:59:07Z,2026-09-29T21:59:07Z,https://arxiv.org/abs/2609.38597v1,video-generation
+2609.38562v1,LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation,2026-09-29T21:23:10Z,2026-09-29T21:23:10Z,https://arxiv.org/abs/2609.38562v1,video-generation
+2609.38541v1,ThinkV2V: Unleashing the Reasoning Capability of MLLMs for Instruction-Guided Video Editing,2026-09-29T20:58:42Z,2026-09-29T20:58:42Z,https://arxiv.org/abs/2609.38541v1,video-generation
+2609.38444v1,Audible World Models: Spatially Aware Sound Generation for 3D Worlds,2026-09-29T19:37:16Z,2026-09-29T19:37:16Z,https://arxiv.org/abs/2609.38444v1,world-model
+2609.38413v1,VidHarness: Evolving Agent Harnesses for Cost-Efficient Long Video Understanding,2026-09-29T19:06:54Z,2026-09-29T19:06:54Z,https://arxiv.org/abs/2609.38413v1,video-generation
+2609.38377v1,PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos,2026-09-29T18:35:23Z,2026-09-29T18:35:23Z,https://arxiv.org/abs/2609.38377v1,video-generation
+2609.38347v1,TrackFish3D: Self-Supervised 3D Tracking of Schooling Fish from Multi-view Videos,2026-09-29T18:10:09Z,2026-09-29T18:10:09Z,https://arxiv.org/abs/2609.38347v1,video-generation
+2609.38172v1,Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation,2026-09-29T17:59:45Z,2026-09-29T17:59:45Z,https://arxiv.org/abs/2609.38172v1,video-generation
+2609.38163v1,Rethinking Representations for World-Action Modeling,2026-09-29T17:59:22Z,2026-09-29T17:59:22Z,https://arxiv.org/abs/2609.38163v1,world-model
+2609.38155v1,Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies,2026-09-29T17:59:01Z,2026-09-29T17:59:01Z,https://arxiv.org/abs/2609.38155v1,video-memory-000
+2609.38154v1,LongLive-Plug: Once-for-All Distillation for Video Generation,2026-09-29T17:58:49Z,2026-09-29T17:58:49Z,https://arxiv.org/abs/2609.38154v1,video-generation
+2609.38152v1,FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation,2026-09-29T17:58:31Z,2026-09-29T17:58:31Z,https://arxiv.org/abs/2609.38152v1,video-generation
+2609.38146v1,LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation,2026-09-29T17:57:20Z,2026-09-29T17:57:20Z,https://arxiv.org/abs/2609.38146v1,video-generation
+2609.38140v1,Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE,2026-09-29T17:55:19Z,2026-09-29T17:55:19Z,https://arxiv.org/abs/2609.38140v1,video-generation
+2609.38123v1,HelixWorld: A Real-time Interactive Audio-Visual World Model,2026-09-29T17:51:41Z,2026-09-29T17:51:41Z,https://arxiv.org/abs/2609.38123v1,world-model
+2609.38120v1,Stochastic World Models for Verifying Vision-Based Neural Feedback Systems,2026-09-29T17:50:40Z,2026-09-29T17:50:40Z,https://arxiv.org/abs/2609.38120v1,world-model
+2609.38119v2,VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents,2026-09-29T17:50:21Z,2026-09-30T03:20:01Z,https://arxiv.org/abs/2609.38119v2,video-memory-000
+2609.38114v1,Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History,2026-09-29T17:49:31Z,2026-09-29T17:49:31Z,https://arxiv.org/abs/2609.38114v1,video-memory-000; video-generation
+2609.38057v1,EVO-WAM: Evolving World Action Models through Video-Action Verification,2026-09-29T17:25:35Z,2026-09-29T17:25:35Z,https://arxiv.org/abs/2609.38057v1,world-model; video-generation
+2609.37970v1,PhysWAM: Physically Consistent World Action Model for Autonomous Driving,2026-09-29T16:38:13Z,2026-09-29T16:38:13Z,https://arxiv.org/abs/2609.37970v1,world-model
+2609.37969v1,SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video,2026-09-29T16:37:29Z,2026-09-29T16:37:29Z,https://arxiv.org/abs/2609.37969v1,video-generation
+2609.37925v1,Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation,2026-09-29T16:16:37Z,2026-09-29T16:16:37Z,https://arxiv.org/abs/2609.37925v1,video-generation
+2609.37918v1,SYNCR: Diagnosing and Learning Cross-Video Reasoning from Simulation,2026-09-29T16:12:11Z,2026-09-29T16:12:11Z,https://arxiv.org/abs/2609.37918v1,video-generation
+2609.37850v1,RelayVSR: Large-Small Model Collaboration for Efficient Real-World Video Super-Resolution,2026-09-29T15:42:18Z,2026-09-29T15:42:18Z,https://arxiv.org/abs/2609.37850v1,video-memory-000; world-model; video-generation
+2609.37831v1,ReCaVSR: One-Step Streaming Diffusion Video Super-Resolution with Recycled Latents and Learned Cache Routing,2026-09-29T15:36:56Z,2026-09-29T15:36:56Z,https://arxiv.org/abs/2609.37831v1,video-memory-000; video-generation
+2609.37793v1,MVG-WAM: Multiple View Geometry-Aware World-Action Modeling for Robotic Manipulation,2026-09-29T15:20:59Z,2026-09-29T15:20:59Z,https://arxiv.org/abs/2609.37793v1,world-model
+2609.37776v1,Geometry-Preserving Human-to-Robot Upper-Body Motion Retargeting from Monocular Video,2026-09-29T15:14:20Z,2026-09-29T15:14:20Z,https://arxiv.org/abs/2609.37776v1,video-generation
+2609.37721v1,CogWAM: Aligning Semantic Cognition with World Action Modeling via Event-Driven Interfaces,2026-09-29T14:48:21Z,2026-09-29T14:48:21Z,https://arxiv.org/abs/2609.37721v1,world-model
+2609.37690v2,Honeycomb: Constant-Size Scene Memory Representation for Video World Models,2026-09-29T14:33:39Z,2026-09-30T23:30:43Z,https://arxiv.org/abs/2609.37690v2,video-memory-000; world-model; video-generation
+2609.37644v1,Beyond a single latent space: a dual-latent world model for long-horizon planning,2026-09-29T14:12:33Z,2026-09-29T14:12:33Z,https://arxiv.org/abs/2609.37644v1,world-model
+2609.37559v1,APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants,2026-09-29T13:32:06Z,2026-09-29T13:32:06Z,https://arxiv.org/abs/2609.37559v1,video-memory-000; video-generation
+2609.37441v1,Anisotropic Representations Improve Planning in JEPA World Models,2026-09-29T13:00:37Z,2026-09-29T13:00:37Z,https://arxiv.org/abs/2609.37441v1,world-model
+2609.37426v1,LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension,2026-09-29T12:53:57Z,2026-09-29T12:53:57Z,https://arxiv.org/abs/2609.37426v1,video-generation
+2609.37407v1,Complementary Retrieval-Augmented Prompting for Consistent Long-Form Video Generation,2026-09-29T12:43:27Z,2026-09-29T12:43:27Z,https://arxiv.org/abs/2609.37407v1,video-memory-000; video-generation
+2609.37398v1,Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation,2026-09-29T12:41:41Z,2026-09-29T12:41:41Z,https://arxiv.org/abs/2609.37398v1,world-model
+2609.37378v1,Do-JEPA: From Masking to Intervention in Latent World Models,2026-09-29T12:31:28Z,2026-09-29T12:31:28Z,https://arxiv.org/abs/2609.37378v1,world-model
+2609.37355v1,An adaptive fractional state links circuit mechanisms to cortical dynamics across the visual hierarchy,2026-09-29T12:19:16Z,2026-09-29T12:19:16Z,https://arxiv.org/abs/2609.37355v1,video-memory-000
+2609.37339v1,UGO: Unified Architecture for General Multi-Object Tracking by Segmentation,2026-09-29T12:09:56Z,2026-09-29T12:09:56Z,https://arxiv.org/abs/2609.37339v1,video-memory-000
+2609.37328v1,CASR: Content-Adaptive Neural Super-Resolution Post-Filter for Versatile Video Coding via Low-Rank Overfitting,2026-09-29T12:05:33Z,2026-09-29T12:05:33Z,https://arxiv.org/abs/2609.37328v1,video-generation
+2609.37250v1,V-JEPA Policy: Building Effective World-Action Models on Predictive Visual Latents,2026-09-29T11:03:02Z,2026-09-29T11:03:02Z,https://arxiv.org/abs/2609.37250v1,world-model
+2609.37156v1,Lucid Dreaming for World Models: Learning to Doubt Imagination and Decide by Trust,2026-09-29T09:46:19Z,2026-09-29T09:46:19Z,https://arxiv.org/abs/2609.37156v1,world-model
+2609.37107v2,Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware,2026-09-29T09:26:07Z,2026-09-30T11:51:41Z,https://arxiv.org/abs/2609.37107v2,world-model; video-generation
+2609.37098v2,V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving,2026-09-29T09:20:07Z,2026-09-30T02:45:16Z,https://arxiv.org/abs/2609.37098v2,world-model
+2609.37089v1,"Real2Gym: Building Gyms from Videos, Bringing Skills to Robots",2026-09-29T09:16:49Z,2026-09-29T09:16:49Z,https://arxiv.org/abs/2609.37089v1,video-generation
+2609.37035v1,Watch-Think-Interact: Bootstrapping Long-Horizon Multi-Turn Streaming Video Reasoning with Reinforcement Learning,2026-09-29T08:46:25Z,2026-09-29T08:46:25Z,https://arxiv.org/abs/2609.37035v1,video-memory-000
+2609.37030v1,MotionInsight: Diagnosing Object Motion Deficiencies in Generated Videos,2026-09-29T08:44:11Z,2026-09-29T08:44:11Z,https://arxiv.org/abs/2609.37030v1,video-generation
+2609.37004v2,World2Motion: Turning Video World Models into 3D Human Motion Generators,2026-09-29T08:30:04Z,2026-09-30T12:19:01Z,https://arxiv.org/abs/2609.37004v2,world-model; video-generation
+2609.37001v1,Parameterized Stripe Attention for Efficient Video Generation,2026-09-29T08:29:33Z,2026-09-29T08:29:33Z,https://arxiv.org/abs/2609.37001v1,video-generation
+2609.36985v1,Abductive World Modeling via Causal Representation Learning,2026-09-29T08:18:27Z,2026-09-29T08:18:27Z,https://arxiv.org/abs/2609.36985v1,world-model
+2609.36875v2,S4VY: Segment Anything in Feed-Forward 4D Visual Geometry,2026-09-29T07:09:48Z,2026-10-03T21:52:37Z,https://arxiv.org/abs/2609.36875v2,video-memory-000
+2609.36870v1,VidAct: Learning Manipulation from In-the-Wild Videos with Object-Centric 3D Awareness,2026-09-29T07:08:36Z,2026-09-29T07:08:36Z,https://arxiv.org/abs/2609.36870v1,video-generation
+2609.36845v1,DSWM: Decomposed Spatio-Temporal World Model for Demand-Driven UAV Base Station Repositioning,2026-09-29T06:56:46Z,2026-09-29T06:56:46Z,https://arxiv.org/abs/2609.36845v1,world-model
+2609.36843v1,RolloutFaith: Auditing Persistent Internal Interventions in Visual World Model,2026-09-29T06:54:31Z,2026-09-29T06:54:31Z,https://arxiv.org/abs/2609.36843v1,world-model
+2609.36832v1,Motion Concept Unlearning in Video Diffusion Models,2026-09-29T06:40:56Z,2026-09-29T06:40:56Z,https://arxiv.org/abs/2609.36832v1,video-generation
+2609.36826v1,Learning via Self-Consistency for Diffusion-based Video Reasoning,2026-09-29T06:37:13Z,2026-09-29T06:37:13Z,https://arxiv.org/abs/2609.36826v1,video-generation
+2609.36810v1,MeteoVerse: Unified Weather-Controllable Video World Model,2026-09-29T06:24:35Z,2026-09-29T06:24:35Z,https://arxiv.org/abs/2609.36810v1,world-model; video-generation
+2609.36803v3,EGSD: Event-Grounded Self-Distillation for Streaming Video Understanding,2026-09-29T06:15:16Z,2026-10-05T07:33:14Z,https://arxiv.org/abs/2609.36803v3,video-memory-000
+2609.36677v2,ReWorld-Track: A Recursive Event World Model for Language-Guided Multi-Camera Tracking,2026-09-29T04:16:18Z,2026-10-04T07:13:50Z,https://arxiv.org/abs/2609.36677v2,world-model
+2609.36599v1,Scaling Video Generation for Reasoning: At What Cost?,2026-09-29T03:17:28Z,2026-09-29T03:17:28Z,https://arxiv.org/abs/2609.36599v1,video-generation
+2609.36598v2,Beyond Legibility: Benchmarking Visual Text Rendering and In-Place Editing in Unified Video Generation,2026-09-29T03:17:09Z,2026-09-30T06:57:01Z,https://arxiv.org/abs/2609.36598v2,video-generation
+2609.36581v1,MemEvo: Automatic Discovery of Streaming Video Memory Mechanisms,2026-09-29T02:59:42Z,2026-09-29T02:59:42Z,https://arxiv.org/abs/2609.36581v1,video-memory-000; video-generation
+2609.36565v1,Toward Generative Video Communication: A Dual-Stream Digital Transmission Framework,2026-09-29T02:49:57Z,2026-09-29T02:49:57Z,https://arxiv.org/abs/2609.36565v1,video-generation
+2609.36531v2,Foresight at the Event Boundary: Evaluating Physical Prediction in Video World Models,2026-09-29T02:24:18Z,2026-10-04T15:21:05Z,https://arxiv.org/abs/2609.36531v2,world-model; video-generation
+2609.36525v1,Reliability Testing of Medical Model Performance under Distributed Deployment,2026-09-29T02:14:18Z,2026-09-29T02:14:18Z,https://arxiv.org/abs/2609.36525v1,video-memory-000
+2609.36471v1,Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks,2026-09-29T01:32:04Z,2026-09-29T01:32:04Z,https://arxiv.org/abs/2609.36471v1,world-model
+2609.36438v1,World4Scorer: Outcome-Grounded World Modeling for Autonomous Driving,2026-09-29T00:55:12Z,2026-09-29T00:55:12Z,https://arxiv.org/abs/2609.36438v1,world-model
+2609.36413v3,One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions,2026-09-29T00:05:24Z,2026-10-03T03:56:31Z,https://arxiv.org/abs/2609.36413v3,video-memory-000; world-model
+2609.36364v1,Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation,2026-09-28T22:52:57Z,2026-09-28T22:52:57Z,https://arxiv.org/abs/2609.36364v1,video-memory-000; video-generation
+2609.36333v2,ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning,2026-09-28T22:09:55Z,2026-09-30T17:44:34Z,https://arxiv.org/abs/2609.36333v2,world-model
+2609.36305v1,Bilinear World Models: Learning Representations with Structured Dynamics for Efficient Control,2026-09-28T21:39:06Z,2026-09-28T21:39:06Z,https://arxiv.org/abs/2609.36305v1,world-model-200
+2609.36295v1,Enabling Immersive Audio-Visual Experience from Any Video,2026-09-28T21:24:47Z,2026-09-28T21:24:47Z,https://arxiv.org/abs/2609.36295v1,video-generation
+2609.36245v1,CoRe: Co-Evolving Reward Models for Mitigating Latent Reward Hacking in Video Diffusion Models,2026-09-28T20:38:50Z,2026-09-28T20:38:50Z,https://arxiv.org/abs/2609.36245v1,video-generation
+2609.36227v1,One-Step Next-Latent Prediction Is Not a World Model,2026-09-28T20:24:50Z,2026-09-28T20:24:50Z,https://arxiv.org/abs/2609.36227v1,world-model-200
+2609.36031v1,SAKI: Skill Assembly and Kinematic Imitation from Human Videos for Long-Horizon Mobile Manipulation,2026-09-28T18:03:46Z,2026-09-28T18:03:46Z,https://arxiv.org/abs/2609.36031v1,video-generation
+2609.35768v1,PDMD: Projected Distribution Matching Distillation for Video Diffusion Models,2026-09-28T17:59:52Z,2026-09-28T17:59:52Z,https://arxiv.org/abs/2609.35768v1,video-generation
+2609.35743v1,InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video,2026-09-28T17:54:32Z,2026-09-28T17:54:32Z,https://arxiv.org/abs/2609.35743v1,video-memory-000; video-generation
+2609.35734v2,GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space,2026-09-28T17:51:48Z,2026-09-29T08:27:57Z,https://arxiv.org/abs/2609.35734v2,video-memory-000
+2609.35710v1,Lagrangian--Hamiltonian Flows for Video Prediction and Image Generation: A Symplectic Perspective,2026-09-28T17:45:16Z,2026-09-28T17:45:16Z,https://arxiv.org/abs/2609.35710v1,video-generation
+2609.35704v1,DynaTokens: Teaching Dynamics to Camera-Controlled Video Models at Test Time,2026-09-28T17:42:57Z,2026-09-28T17:42:57Z,https://arxiv.org/abs/2609.35704v1,video-generation
+2609.35560v1,WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon,2026-09-28T16:28:25Z,2026-09-28T16:28:25Z,https://arxiv.org/abs/2609.35560v1,world-model-200
+2609.35545v1,Graph World Models for Constrained Epidemic Policy Planning,2026-09-28T16:22:49Z,2026-09-28T16:22:49Z,https://arxiv.org/abs/2609.35545v1,world-model-200
+2609.35539v1,Learning to Reason with Persistent Object States for Video Instance Segmentation,2026-09-28T16:19:41Z,2026-09-28T16:19:41Z,https://arxiv.org/abs/2609.35539v1,video-memory-000
+2609.35507v1,ReVA: A Scene-Centric Dataset Beyond Repetition for Remote Sensing Video Question Answering,2026-09-28T16:05:47Z,2026-09-28T16:05:47Z,https://arxiv.org/abs/2609.35507v1,video-generation
+2609.35497v1,Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding,2026-09-28T16:01:59Z,2026-09-28T16:01:59Z,https://arxiv.org/abs/2609.35497v1,video-memory-000
+2609.35491v3,From Scores to Samples: Elastic Forcing for Autoregressive Video Generation,2026-09-28T16:00:49Z,2026-09-30T17:41:10Z,https://arxiv.org/abs/2609.35491v3,video-memory-000; video-generation
+2609.35439v1,"Revision, Not Restart: Revisable Visual Plans for Closed-Loop World-Action Models",2026-09-28T15:40:11Z,2026-09-28T15:40:11Z,https://arxiv.org/abs/2609.35439v1,world-model-200
+2609.35427v1,LLMs are General Asynchronous Agents,2026-09-28T15:35:26Z,2026-09-28T15:35:26Z,https://arxiv.org/abs/2609.35427v1,video-memory-000
+2609.35368v1,Ego-Forge: Text and Geometric-Attention Free Exo-to-Egocentric Video Generation,2026-09-28T15:09:34Z,2026-09-28T15:09:34Z,https://arxiv.org/abs/2609.35368v1,video-generation
+2609.35338v1,NeuronDiscover: Agent-in-Twin for Mechanistic Discovery in Neuronal Microenvironments with World Action Models,2026-09-28T14:58:12Z,2026-09-28T14:58:12Z,https://arxiv.org/abs/2609.35338v1,world-model-200
+2609.35311v1,RoGSW4RLD: Feed-Forward 4D Gaussian Lifting for Robot World Model Rollouts,2026-09-28T14:46:58Z,2026-09-28T14:46:58Z,https://arxiv.org/abs/2609.35311v1,world-model-200
+2609.35134v1,VideoPhysEdit: Physical Counterfactual Video Editing via Rigid-Body Physical Scene Reconstruction,2026-09-28T13:25:37Z,2026-09-28T13:25:37Z,https://arxiv.org/abs/2609.35134v1,video-generation
+2609.35126v1,Memory- and Bandwidth-Efficient SPAD-LiDAR Ranging via Coarse-to-Fine Spline Sketching,2026-09-28T13:21:04Z,2026-09-28T13:21:04Z,https://arxiv.org/abs/2609.35126v1,video-memory-000
+2609.35110v1,Sol-H3: Recursive Self-Improvement for MiniMax-H3 Inference Acceleration on Sol-Engine across Cloud and Edge,2026-09-28T13:15:07Z,2026-09-28T13:15:07Z,https://arxiv.org/abs/2609.35110v1,video-memory-000
+2609.35090v1,Advancing Video-Text Pretraining with Multi-View Captions,2026-09-28T13:04:53Z,2026-09-28T13:04:53Z,https://arxiv.org/abs/2609.35090v1,video-generation
+2609.35052v1,OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models,2026-09-28T12:46:29Z,2026-09-28T12:46:29Z,https://arxiv.org/abs/2609.35052v1,video-memory-000; world-model-200; video-generation
+2609.35047v1,EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning,2026-09-28T12:42:51Z,2026-09-28T12:42:51Z,https://arxiv.org/abs/2609.35047v1,world-model-200
+2609.34981v2,What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling,2026-09-28T11:56:57Z,2026-09-29T03:39:32Z,https://arxiv.org/abs/2609.34981v2,world-model-200
+2609.34972v1,Just MLPs: Efficient Visual State Reconstruction for Multimodal Language Models,2026-09-28T11:52:45Z,2026-09-28T11:52:45Z,https://arxiv.org/abs/2609.34972v1,video-memory-000
+2609.34968v1,RoboFL: Federated Expert Assembly for World Action Models,2026-09-28T11:49:57Z,2026-09-28T11:49:57Z,https://arxiv.org/abs/2609.34968v1,world-model-200
+2609.34895v2,LVMT: Video Mask Transformer for Long-term Video Segmentation,2026-09-28T11:00:57Z,2026-09-29T09:13:09Z,https://arxiv.org/abs/2609.34895v2,video-memory-000
+2609.34843v1,ORAV: Benchmarking Audio-Video Generation from Multimodal Contexts,2026-09-28T10:40:41Z,2026-09-28T10:40:41Z,https://arxiv.org/abs/2609.34843v1,video-generation
+2609.34826v1,WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning,2026-09-28T10:23:42Z,2026-09-28T10:23:42Z,https://arxiv.org/abs/2609.34826v1,world-model-200
+2609.34814v1,WaveAlign: Cache-Aware Query-Row Scheduling for Sparse Attention in Long-Video Generation,2026-09-28T10:15:00Z,2026-09-28T10:15:00Z,https://arxiv.org/abs/2609.34814v1,video-generation
+2609.34749v1,CoDrive: Cross-Vehicle World-Consistent Video Generation with Precise Trajectory Control for Cooperative Driving,2026-09-28T09:41:11Z,2026-09-28T09:41:11Z,https://arxiv.org/abs/2609.34749v1,video-generation
+2609.34725v1,Gen2-VC: Unlocking Generative Priors for Video Compression,2026-09-28T09:29:17Z,2026-09-28T09:29:17Z,https://arxiv.org/abs/2609.34725v1,video-generation
+2609.34722v1,Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation,2026-09-28T09:27:59Z,2026-09-28T09:27:59Z,https://arxiv.org/abs/2609.34722v1,video-memory-000; video-generation
+2609.34677v1,Learning What to Recall: Adaptive Multi-Cue Episodic Memory for World Models,2026-09-28T09:07:39Z,2026-09-28T09:07:39Z,https://arxiv.org/abs/2609.34677v1,world-model-200
+2609.34630v1,Long Time No See: Benchmarking VLMs for Out-of-Sight Spatiotemporal Reasoning in Egocentric Videos,2026-09-28T08:48:47Z,2026-09-28T08:48:47Z,https://arxiv.org/abs/2609.34630v1,video-generation
+2609.34608v1,Efficient World Action Model Inference with Adaptive Intermediate States,2026-09-28T08:37:39Z,2026-09-28T08:37:39Z,https://arxiv.org/abs/2609.34608v1,world-model-200
+2609.34606v1,WorldAttention: An Efficient Attention Architecture for Interactive Video World Models,2026-09-28T08:37:04Z,2026-09-28T08:37:04Z,https://arxiv.org/abs/2609.34606v1,video-memory-000; world-model-200; video-generation
+2609.34598v1,Summarize Before Grounding: Query-Guided Chunk Condensation for Long-Video Temporal Grounding,2026-09-28T08:32:16Z,2026-09-28T08:32:16Z,https://arxiv.org/abs/2609.34598v1,video-memory-000
+2609.34581v2,Counterfactual Attention Policy Distillation for Temporal Video Grounding,2026-09-28T08:24:34Z,2026-09-29T08:12:10Z,https://arxiv.org/abs/2609.34581v2,video-generation
+2609.34502v1,SubjectAnchor: Subject-Aware Memory-to-Video for Multi-Shot Storytelling,2026-09-28T07:47:44Z,2026-09-28T07:47:44Z,https://arxiv.org/abs/2609.34502v1,video-memory-000; video-generation
+2609.34414v1,From World Models to World Action Models: Rethinking Next-State Prediction,2026-09-28T06:30:21Z,2026-09-28T06:30:21Z,https://arxiv.org/abs/2609.34414v1,world-model-200
+2609.34396v1,HyperDAM: Hyperspectral Distractor-Aware Memory with Amodal Expansion for SAM 3 Tracking,2026-09-28T06:09:33Z,2026-09-28T06:09:33Z,https://arxiv.org/abs/2609.34396v1,video-memory-000
+2609.34381v1,Joint and Cross-Modal Video-Audio Generation and Editing: A Unified Formulation and Design Taxonomy,2026-09-28T05:57:37Z,2026-09-28T05:57:37Z,https://arxiv.org/abs/2609.34381v1,video-generation
+2609.34375v1,LRC-JEPA: Disentangling Dynamics and Residual Context for Efficient World Models,2026-09-28T05:48:14Z,2026-09-28T05:48:14Z,https://arxiv.org/abs/2609.34375v1,world-model-200
+2609.34371v1,From Static to Dynamic: On-Policy Distillation from Image to Video Diffusion Models,2026-09-28T05:46:11Z,2026-09-28T05:46:11Z,https://arxiv.org/abs/2609.34371v1,video-generation
+2609.34362v1,FutureDuet: Decoupling Observation Access from Future Supervision in World Action Models,2026-09-28T05:39:09Z,2026-09-28T05:39:09Z,https://arxiv.org/abs/2609.34362v1,world-model-200
+2609.34335v1,SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering,2026-09-28T05:11:39Z,2026-09-28T05:11:39Z,https://arxiv.org/abs/2609.34335v1,video-generation
+2609.34314v1,PlaylistEval: Can Video-Language Judges Be Trusted at Day Scale and Beyond?,2026-09-28T04:54:29Z,2026-09-28T04:54:29Z,https://arxiv.org/abs/2609.34314v1,video-generation
+2609.34309v1,MaLiang-Harness: A Programmable Path to Image and Video Generation,2026-09-28T04:48:06Z,2026-09-28T04:48:06Z,https://arxiv.org/abs/2609.34309v1,video-generation
+2609.34300v1,When World Models Lie: Adaptive Safety Analysis Under Wrong Imaginations,2026-09-28T04:44:24Z,2026-09-28T04:44:24Z,https://arxiv.org/abs/2609.34300v1,world-model-200
+2609.34286v1,Dexterous Tactile World Model,2026-09-28T04:30:09Z,2026-09-28T04:30:09Z,https://arxiv.org/abs/2609.34286v1,world-model-200
+2609.34250v1,WAM-OPD: Sharpening World Action Models via On-Policy Distillation,2026-09-28T03:56:23Z,2026-09-28T03:56:23Z,https://arxiv.org/abs/2609.34250v1,world-model-200
+2609.34221v2,WorldWeave: Growing Persistent Geometric Worlds for Video Generation,2026-09-28T03:25:07Z,2026-10-08T06:39:06Z,https://arxiv.org/abs/2609.34221v2,video-memory-000; video-generation
+2609.34206v1,WorldGuide: Learning Success-Failure Boundaries in Latent World Models for Vision-Language-Action Policies,2026-09-28T03:13:43Z,2026-09-28T03:13:43Z,https://arxiv.org/abs/2609.34206v1,world-model-200
+2609.34180v1,Decision Readouts for Text-Mediated Video Anomaly Detection: An Exploratory Evaluation of Jev and Qwen,2026-09-28T02:58:55Z,2026-09-28T02:58:55Z,https://arxiv.org/abs/2609.34180v1,video-generation
+2609.34178v2,Enhanced Video Text Editing with Trajectory-Aligned Glyph Rendering,2026-09-28T02:57:28Z,2026-10-06T03:00:00Z,https://arxiv.org/abs/2609.34178v2,video-generation
+2609.34159v1,WorldGraph: Graph-Native World Modeling,2026-09-28T02:37:32Z,2026-09-28T02:37:32Z,https://arxiv.org/abs/2609.34159v1,world-model-200
+2609.34144v1,CAST: Reconstruction-Coupled Acceleration of Interactive World Models,2026-09-28T02:25:53Z,2026-09-28T02:25:53Z,https://arxiv.org/abs/2609.34144v1,world-model-200
+2609.34058v1,Do World Models Learn Global Understanding?,2026-09-28T00:38:48Z,2026-09-28T00:38:48Z,https://arxiv.org/abs/2609.34058v1,world-model-200
+2609.33969v1,Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors,2026-09-27T22:14:31Z,2026-09-27T22:14:31Z,https://arxiv.org/abs/2609.33969v1,video-memory-000; video-generation
+2609.33944v1,ReSync: Re-Aligning the Two Clocks of Asynchronous World-Action Models,2026-09-27T21:38:44Z,2026-09-27T21:38:44Z,https://arxiv.org/abs/2609.33944v1,world-model-200
+2609.33940v1,Behavioral Monitoring of JEPA World Models with Jacobian Centroids,2026-09-27T21:30:47Z,2026-09-27T21:30:47Z,https://arxiv.org/abs/2609.33940v1,world-model-200
+2609.33935v2,Unifying Video Tasks via Spatiotemporal Analogy,2026-09-27T21:26:58Z,2026-09-30T23:45:16Z,https://arxiv.org/abs/2609.33935v2,video-generation
+2609.33854v1,ReDrive: Shaping Representations with World Modeling for End-to-End Driving,2026-09-27T19:12:15Z,2026-09-27T19:12:15Z,https://arxiv.org/abs/2609.33854v1,world-model-200
+2609.33844v1,ViBR-WM: Visual Bayesian Regression for World Modeling,2026-09-27T18:55:06Z,2026-09-27T18:55:06Z,https://arxiv.org/abs/2609.33844v1,world-model-200
+2609.33748v2,AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models,2026-09-27T16:49:05Z,2026-09-30T10:25:36Z,https://arxiv.org/abs/2609.33748v2,world-model-200
+2609.33737v2,MomWorld: Momentum-Aware Latent World Model for Long-Horizon Autonomous Driving,2026-09-27T16:39:08Z,2026-09-30T06:34:48Z,https://arxiv.org/abs/2609.33737v2,world-model-200
+2609.33627v1,StoryEngine: A State-Grounded Agentic Framework for Video Storytelling,2026-09-27T14:42:16Z,2026-09-27T14:42:16Z,https://arxiv.org/abs/2609.33627v1,video-generation
+2609.33581v1,ForeFly: A Dual-Horizon World Action Model for Aerial Vision-Language Navigation,2026-09-27T13:54:48Z,2026-09-27T13:54:48Z,https://arxiv.org/abs/2609.33581v1,world-model-200
+2609.33563v2,MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning,2026-09-27T13:37:30Z,2026-10-08T17:57:30Z,https://arxiv.org/abs/2609.33563v2,world-model-200
+2609.33497v1,Hamiltonian JEPA: Action-Conditioned World Models with an Inherited Control State,2026-09-27T12:05:41Z,2026-09-27T12:05:41Z,https://arxiv.org/abs/2609.33497v1,world-model-200
+2609.33464v1,VIDEAS: Distilling Explicit Action Semantics from Demonstration Videos for World Models via Prior-Guided Simulation,2026-09-27T11:19:17Z,2026-09-27T11:19:17Z,https://arxiv.org/abs/2609.33464v1,world-model-200; video-generation
+2609.33403v1,DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration,2026-09-27T09:31:21Z,2026-09-27T09:31:21Z,https://arxiv.org/abs/2609.33403v1,video-generation
+2609.33400v1,Groupwise Selective State-Space Filtering for Accurate and Streaming Action Boundary Detection,2026-09-27T09:29:04Z,2026-09-27T09:29:04Z,https://arxiv.org/abs/2609.33400v1,video-memory-000
+2609.33384v2,PulseQuant: Propagation-Guided Subspace Correction for 4-Bit Video Diffusion Transformers,2026-09-27T09:04:51Z,2026-09-29T01:40:47Z,https://arxiv.org/abs/2609.33384v2,video-generation
+2609.33335v1,Does Learning to Predict the World Help Agents Act? Auditing World-Model Post-Training,2026-09-27T08:07:05Z,2026-09-27T08:07:05Z,https://arxiv.org/abs/2609.33335v1,world-model-200
+2609.33299v2,AquaWAM: A Dynamics-aware World Action Model for Underwater Embodied Agents,2026-09-27T07:09:26Z,2026-09-29T04:32:33Z,https://arxiv.org/abs/2609.33299v2,world-model-200
+2609.33288v1,Informative Viewpoint Selection for Episodic-Memory Embodied Question Answering using Omnidirectional Images,2026-09-27T06:50:25Z,2026-09-27T06:50:25Z,https://arxiv.org/abs/2609.33288v1,video-memory-000
+2609.33269v1,Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection,2026-09-27T06:24:30Z,2026-09-27T06:24:30Z,https://arxiv.org/abs/2609.33269v1,video-memory-000; world-model-200
+2609.33264v1,VehDyn: A Driving World Model Benchmark for Vehicle Dynamics,2026-09-27T06:12:04Z,2026-09-27T06:12:04Z,https://arxiv.org/abs/2609.33264v1,world-model-200
+2609.33218v1,Scope-WM: Scoped Computation for Efficient Visual World Models,2026-09-27T04:57:41Z,2026-09-27T04:57:41Z,https://arxiv.org/abs/2609.33218v1,world-model-200
+2609.33177v1,DeltaWAM: Change-Centric Visual Foresight via Delta Tokens for an Efficient World-Action Model,2026-09-27T03:55:44Z,2026-09-27T03:55:44Z,https://arxiv.org/abs/2609.33177v1,video-memory-000; world-model-200
+2609.33172v1,Dynamic Manipulation with World-Action Models via Counterfactual Planning,2026-09-27T03:48:20Z,2026-09-27T03:48:20Z,https://arxiv.org/abs/2609.33172v1,world-model-200
+2609.33148v1,DroneWAM: Efficient World Action Model for Drone Visual Navigation,2026-09-27T03:21:01Z,2026-09-27T03:21:01Z,https://arxiv.org/abs/2609.33148v1,world-model-200
+2609.33100v2,Octree-based Video Representation,2026-09-27T02:14:35Z,2026-10-04T01:33:18Z,https://arxiv.org/abs/2609.33100v2,video-generation
+2609.33082v1,SemReward-VL: Semantic Reward-Guided Video-Language Adaptation for Developmental Behavior Assessment,2026-09-27T01:36:27Z,2026-09-27T01:36:27Z,https://arxiv.org/abs/2609.33082v1,video-generation
+2609.33053v1,SwingRL: Adaptive Observation Reinforcement Learning with World-Model Prediction for Cable-Suspended Hoisting Control,2026-09-27T00:34:22Z,2026-09-27T00:34:22Z,https://arxiv.org/abs/2609.33053v1,world-model-200
+2609.33030v1,What Must a World Model Distinguish for Planning?,2026-09-26T23:53:39Z,2026-09-26T23:53:39Z,https://arxiv.org/abs/2609.33030v1,world-model-200
+2609.32921v2,Adaptive Latent Capacity for World Models,2026-09-26T20:16:33Z,2026-10-06T06:24:43Z,https://arxiv.org/abs/2609.32921v2,world-model-200
+2609.32882v1,Improving Video Sparse Attention with Fine-grained Router and Sparse Rebasing,2026-09-26T19:05:06Z,2026-09-26T19:05:06Z,https://arxiv.org/abs/2609.32882v1,video-generation
+2609.32837v1,Scanning While Imagining: A Scene-Graph World Model for Robotic Ultrasound Navigation,2026-09-26T18:10:52Z,2026-09-26T18:10:52Z,https://arxiv.org/abs/2609.32837v1,world-model-200
+2609.32692v1,World Agent: Can Language Models Keep a World Running?,2026-09-26T14:55:08Z,2026-09-26T14:55:08Z,https://arxiv.org/abs/2609.32692v1,world-model-200
+2609.32682v1,Realistic modeling of Photonic Terahertz Communication based on a real-world 30 km 30 Gbps experimental demonstration,2026-09-26T14:41:44Z,2026-09-26T14:41:44Z,https://arxiv.org/abs/2609.32682v1,world-model-200
+2609.32679v1,The GUI Is Not the State: Diagnosing State Aliasing in GUI World Models,2026-09-26T14:35:45Z,2026-09-26T14:35:45Z,https://arxiv.org/abs/2609.32679v1,world-model-200
+2609.32657v1,World Models with Predictable Long-Horizon Marginals,2026-09-26T14:16:49Z,2026-09-26T14:16:49Z,https://arxiv.org/abs/2609.32657v1,world-model-200
+2609.32628v1,DraftAttention2: Fast Video Diffusion with Low-Resolution-Guided Mixed-Precision Attention,2026-09-26T13:47:31Z,2026-09-26T13:47:31Z,https://arxiv.org/abs/2609.32628v1,video-generation
+2609.32626v1,World SLAM Model: Joint World Modeling for SLAM and Navigation,2026-09-26T13:44:57Z,2026-09-26T13:44:57Z,https://arxiv.org/abs/2609.32626v1,world-model-200
+2609.32592v1,SPACE: Sparse Predictive Attractor via Counterfactual Eviction for Streaming Video Memory,2026-09-26T13:11:20Z,2026-09-26T13:11:20Z,https://arxiv.org/abs/2609.32592v1,video-memory-000
+2609.32540v2,In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion,2026-09-26T12:19:50Z,2026-09-30T13:58:26Z,https://arxiv.org/abs/2609.32540v2,video-memory-000; video-generation
+2609.32518v1,UnStep: Training-Free Acceleration of Causal Video Diffusion with Fewer Steps Than Distillation,2026-09-26T12:02:08Z,2026-09-26T12:02:08Z,https://arxiv.org/abs/2609.32518v1,video-memory-000; video-generation
+2609.32460v1,REMEDY: How Far Is Video Generation from Medical Education World Models?,2026-09-26T10:49:58Z,2026-09-26T10:49:58Z,https://arxiv.org/abs/2609.32460v1,world-model-200; video-generation
+2609.32420v1,Carnator: Fast Text-to-Video Generation with Generation-Native Compatibility-Guided Cross-Request Reuse,2026-09-26T09:47:38Z,2026-09-26T09:47:38Z,https://arxiv.org/abs/2609.32420v1,video-generation
+2609.32389v1,RefCompose: Multi-Reference Image Generation via LoRA-Conditioned Diffusion,2026-09-26T09:07:48Z,2026-09-26T09:07:48Z,https://arxiv.org/abs/2609.32389v1,video-memory-000
+2609.32197v1,SparSP: Exploiting Communication Sparsity for Sequence-Parallel Video DiTs,2026-09-26T03:49:52Z,2026-09-26T03:49:52Z,https://arxiv.org/abs/2609.32197v1,video-generation
+2609.32193v2,Devol-ONE: One Autoregressive Mixture of Transformers to Unify Vision-Language-Action and Latent World Modeling,2026-09-26T03:35:15Z,2026-10-01T06:42:05Z,https://arxiv.org/abs/2609.32193v2,world-model-200
+2609.32182v1,KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding,2026-09-26T03:15:58Z,2026-09-26T03:15:58Z,https://arxiv.org/abs/2609.32182v1,video-memory-000
+2609.32093v1,GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games,2026-09-25T23:55:38Z,2026-09-25T23:55:38Z,https://arxiv.org/abs/2609.32093v1,video-memory-100
+2609.32069v2,Find Something You Can't Do: Agentic Real-World Reinforcement Learning for Self-Improving VLA Models,2026-09-25T23:06:53Z,2026-10-01T19:55:47Z,https://arxiv.org/abs/2609.32069v2,world-model-200
+2609.32023v1,An Analytic Error-Budget Model for the Habitable Worlds Observatory Coronagraph: From Optical Disturbances to Flux-Ratio Noise,2026-09-25T21:39:31Z,2026-09-25T21:39:31Z,https://arxiv.org/abs/2609.32023v1,world-model-200
+2609.32013v2,TriO: Tri-Modal Unsupervised Occupancy World Model for Anything Perception,2026-09-25T21:20:16Z,2026-09-29T13:40:18Z,https://arxiv.org/abs/2609.32013v2,world-model-200
+2609.31938v1,Cache-Aware Conv3D Lowering Across Embedded World-Model Decoders,2026-09-25T19:36:40Z,2026-09-25T19:36:40Z,https://arxiv.org/abs/2609.31938v1,world-model-200
+2609.31893v1,CyberWorld: World Models for Sample-Efficient Autonomous Cyber Defense,2026-09-25T18:30:26Z,2026-09-25T18:30:26Z,https://arxiv.org/abs/2609.31893v1,world-model-200
+2609.31874v1,COUNTERMEM: World-Model Verified Counter-Factual Memory for Language Agents,2026-09-25T18:12:38Z,2026-09-25T18:12:38Z,https://arxiv.org/abs/2609.31874v1,world-model-200
+2609.31873v1,CueKFS: Agentic Cue-Driven Keyframe Selection for Long Video Understanding,2026-09-25T18:12:29Z,2026-09-25T18:12:29Z,https://arxiv.org/abs/2609.31873v1,video-generation
+2609.31451v1,TemplateCraft: Agentic Visual Template Generation,2026-09-25T16:08:00Z,2026-09-25T16:08:00Z,https://arxiv.org/abs/2609.31451v1,video-memory-100
+2609.31394v1,InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data,2026-09-25T15:24:25Z,2026-09-25T15:24:25Z,https://arxiv.org/abs/2609.31394v1,world-model-200
+2609.31364v1,OpenVAM: Open-World Visual Attention Modeling with VLMs,2026-09-25T14:59:14Z,2026-09-25T14:59:14Z,https://arxiv.org/abs/2609.31364v1,world-model-200
+2609.31349v1,DyMD: Preserving Interaction Dynamics through Distribution Matching Distillation in Few-Step Video World Models,2026-09-25T14:47:17Z,2026-09-25T14:47:17Z,https://arxiv.org/abs/2609.31349v1,world-model-200; video-generation
+2609.31313v1,Towards VLA-Dreamer: Refining VLA Behavior Using World Models,2026-09-25T14:21:20Z,2026-09-25T14:21:20Z,https://arxiv.org/abs/2609.31313v1,world-model-200
+2609.31281v1,MA-WAM: Multi-Agent World-Action Model for Test-Time Planning,2026-09-25T13:52:39Z,2026-09-25T13:52:39Z,https://arxiv.org/abs/2609.31281v1,world-model-200
+2609.31810v2,Video-to-Music Generation for Gameplay Videos,2026-09-25T13:12:56Z,2026-09-29T12:26:10Z,https://arxiv.org/abs/2609.31810v2,video-generation
+2609.31162v1,WorldTS: World Modeling for Multimodal Covariate-aware Time Series Forecasting,2026-09-25T11:54:18Z,2026-09-25T11:54:18Z,https://arxiv.org/abs/2609.31162v1,world-model-200
+2609.31135v1,Pocket-STVG: lightweight architecture for Spatio-Temporal Video Grounding,2026-09-25T11:26:21Z,2026-09-25T11:26:21Z,https://arxiv.org/abs/2609.31135v1,video-memory-100
+2609.31050v1,Where Compute Matters: Heterogeneous Attention for Efficient Video Diffusion,2026-09-25T09:43:04Z,2026-09-25T09:43:04Z,https://arxiv.org/abs/2609.31050v1,video-generation
+2609.31032v1,TempQ-Jail: Query-Constrained Candidate Ranking for Text-to-Video Jailbreak Attacks,2026-09-25T09:26:30Z,2026-09-25T09:26:30Z,https://arxiv.org/abs/2609.31032v1,video-generation
+2609.30988v1,PhoenixSR: Generative Heterogeneous Distillation Unleashes Efficient Models for Real-World Super-Resolution,2026-09-25T08:34:32Z,2026-09-25T08:34:32Z,https://arxiv.org/abs/2609.30988v1,world-model-200
+2609.30946v1,OneWorld: Learning Consistent Physics Across Actions in World Models,2026-09-25T07:59:11Z,2026-09-25T07:59:11Z,https://arxiv.org/abs/2609.30946v1,world-model-200
+2609.30934v1,ManiVid: Unified and Explainable Forensic Analysis of Manipulated Videos,2026-09-25T07:51:50Z,2026-09-25T07:51:50Z,https://arxiv.org/abs/2609.30934v1,video-generation
+2609.30882v1,Effects of Transcript Compression on LLM-based Medical Misinformation Detection in Japanese YouTube Videos,2026-09-25T06:42:44Z,2026-09-25T06:42:44Z,https://arxiv.org/abs/2609.30882v1,video-generation
+2609.30735v1,Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation,2026-09-25T03:04:09Z,2026-09-25T03:04:09Z,https://arxiv.org/abs/2609.30735v1,video-generation
+2609.30722v1,TrafficImag: A Benchmark for Counterfactual Roadside Traffic Video Generation,2026-09-25T02:49:06Z,2026-09-25T02:49:06Z,https://arxiv.org/abs/2609.30722v1,video-generation
+2609.30711v1,Recommendation World Models for Future-State Control,2026-09-25T02:37:48Z,2026-09-25T02:37:48Z,https://arxiv.org/abs/2609.30711v1,world-model-200
+2609.30679v1,Design-Ignoring versus Design-Respecting World Models for Epidemiology,2026-09-25T01:33:18Z,2026-09-25T01:33:18Z,https://arxiv.org/abs/2609.30679v1,world-model-200
+2609.30670v1,TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding,2026-09-25T01:21:25Z,2026-09-25T01:21:25Z,https://arxiv.org/abs/2609.30670v1,video-generation
+2609.30667v1,StarWM: Self-Supervised Trained Attention Routing for Robust World Models,2026-09-25T01:14:35Z,2026-09-25T01:14:35Z,https://arxiv.org/abs/2609.30667v1,world-model-200
+2609.30623v1,"CraftTrace: Unflattening Videos into Malleable, Creation-Inspired Structures for Generative Editing",2026-09-24T23:18:23Z,2026-09-24T23:18:23Z,https://arxiv.org/abs/2609.30623v1,video-generation
+2609.30609v1,MVAgent: Multi-Agent Video Generation via Consistent Condition Construction and Shot-Level Policy Optimization,2026-09-24T22:47:40Z,2026-09-24T22:47:40Z,https://arxiv.org/abs/2609.30609v1,video-memory-100; video-generation
+2609.30595v1,Action Forcing: Training World Models on Unsupervised Video by Recovering Underlying Egomotion Bases,2026-09-24T22:19:08Z,2026-09-24T22:19:08Z,https://arxiv.org/abs/2609.30595v1,world-model-200; video-generation
+2610.00280v1,Stable and Counterfactually Robust Physical World Models from Imposed Structure and Learned Physics,2026-09-24T19:56:30Z,2026-09-24T19:56:30Z,https://arxiv.org/abs/2610.00280v1,world-model-200
+2609.30436v1,WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving,2026-09-24T18:32:44Z,2026-09-24T18:32:44Z,https://arxiv.org/abs/2609.30436v1,world-model-200
+2609.30264v2,AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control,2026-09-24T17:59:41Z,2026-09-25T13:33:39Z,https://arxiv.org/abs/2609.30264v2,world-model-200
+2609.30247v2,Rolling-WAM: World Action Models with Rolling Imagination,2026-09-24T17:58:03Z,2026-10-05T17:15:08Z,https://arxiv.org/abs/2609.30247v2,world-model-200
+2609.30222v1,TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations,2026-09-24T17:48:20Z,2026-09-24T17:48:20Z,https://arxiv.org/abs/2609.30222v1,video-memory-100
+2609.30221v1,WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation,2026-09-24T17:48:19Z,2026-09-24T17:48:19Z,https://arxiv.org/abs/2609.30221v1,video-generation
+2609.30214v1,Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage,2026-09-24T17:45:42Z,2026-09-24T17:45:42Z,https://arxiv.org/abs/2609.30214v1,world-model-200
+2609.30036v4,Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think,2026-09-24T16:05:02Z,2026-09-30T11:38:30Z,https://arxiv.org/abs/2609.30036v4,world-model-200
+2609.29850v1,BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video,2026-09-24T14:15:04Z,2026-09-24T14:15:04Z,https://arxiv.org/abs/2609.29850v1,video-generation
+2609.29816v3,AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation,2026-09-24T13:53:05Z,2026-09-28T12:36:13Z,https://arxiv.org/abs/2609.29816v3,video-generation
+2609.29727v1,VQ-LIC: Shared Vector-Quantized Learned Image Compression on a Resource-Constrained FPGA,2026-09-24T12:41:44Z,2026-09-24T12:41:44Z,https://arxiv.org/abs/2609.29727v1,video-memory-100
+2609.29178v1,Poster: FedWM-Guard: Thwarting Imagination Poisoning in Federated World Model-based Autonomous Driving,2026-09-24T07:49:42Z,2026-09-24T07:49:42Z,https://arxiv.org/abs/2609.29178v1,world-model-200
+2609.29171v1,"Representation World Model: Learning States, Transition and Executable Plans in Representation",2026-09-24T07:43:35Z,2026-09-24T07:43:35Z,https://arxiv.org/abs/2609.29171v1,world-model-200
+2609.29092v1,DAWN: Noise-Robust Quadruped Parkour via Depth-Denoising World Models,2026-09-24T06:20:19Z,2026-09-24T06:20:19Z,https://arxiv.org/abs/2609.29092v1,world-model-200
+2609.28931v1,HelloWorld: Towards Practical Applications of Generative Driving World Models,2026-09-24T02:28:50Z,2026-09-24T02:28:50Z,https://arxiv.org/abs/2609.28931v1,world-model-200
+2609.28927v1,Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation,2026-09-24T02:19:21Z,2026-09-24T02:19:21Z,https://arxiv.org/abs/2609.28927v1,world-model-200
+2609.28923v1,ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation,2026-09-24T02:07:07Z,2026-09-24T02:07:07Z,https://arxiv.org/abs/2609.28923v1,video-memory-100; video-generation
+2609.28820v1,AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory,2026-09-23T21:55:22Z,2026-09-23T21:55:22Z,https://arxiv.org/abs/2609.28820v1,video-memory-100
+2609.28811v1,DeltaWAM: Delta World Action Models for Bimanual Manipulation,2026-09-23T21:45:16Z,2026-09-23T21:45:16Z,https://arxiv.org/abs/2609.28811v1,video-memory-100; world-model-200
+2609.28798v1,OCC4M: Object-Centric 4D Memory for Spatiotemporal Reasoning in Long-Horizon Manipulation,2026-09-23T21:23:31Z,2026-09-23T21:23:31Z,https://arxiv.org/abs/2609.28798v1,video-memory-100
+2609.28670v1,Beyond Static Graph World Models: Learning Stochastic Latent Dynamics over Evolving Topologies,2026-09-23T18:10:56Z,2026-09-23T18:10:56Z,https://arxiv.org/abs/2609.28670v1,world-model-200
+2609.28654v1,Training Object Permanence in World Models,2026-09-23T18:02:12Z,2026-09-23T18:02:12Z,https://arxiv.org/abs/2609.28654v1,world-model-200
+2609.28466v1,The Past Frames the Future: Memory for Autoregressive Video Generation,2026-09-23T17:54:52Z,2026-09-23T17:54:52Z,https://arxiv.org/abs/2609.28466v1,video-memory-100; video-generation
+2609.28437v1,MultiVENT-Raw: A Benchmark for Retrieval and Reasoning over Raw Videos,2026-09-23T17:35:40Z,2026-09-23T17:35:40Z,https://arxiv.org/abs/2609.28437v1,video-generation
+2609.28416v1,Agent-Editing World Model: Rethinking World Modeling for LLM Agents,2026-09-23T17:18:26Z,2026-09-23T17:18:26Z,https://arxiv.org/abs/2609.28416v1,world-model-200
+2609.28414v1,Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model,2026-09-23T17:17:02Z,2026-09-23T17:17:02Z,https://arxiv.org/abs/2609.28414v1,world-model-200
+2609.28393v1,"PointCast: One World Model for Rigid, Articulated, and Deformable Object Manipulation",2026-09-23T17:02:18Z,2026-09-23T17:02:18Z,https://arxiv.org/abs/2609.28393v1,world-model-200
+2609.28258v1,Generalizable Robotic Insertion with World Models,2026-09-23T15:20:45Z,2026-09-23T15:20:45Z,https://arxiv.org/abs/2609.28258v1,world-model-200
+2610.03744v1,Black-Scholes for the land: modelling savannah response to rain as a dynamic world model,2026-09-23T14:15:10Z,2026-09-23T14:15:10Z,https://arxiv.org/abs/2610.03744v1,world-model-200
+2609.28095v1,MotionSpec: Spectral Trajectory Supervision for Motion-Consistent Video Generation,2026-09-23T13:28:16Z,2026-09-23T13:28:16Z,https://arxiv.org/abs/2609.28095v1,video-generation
+2609.28078v1,LiAM-SAM: Lifecycle-Aware Memory for Robust SAM2-Based MOT,2026-09-23T13:21:41Z,2026-09-23T13:21:41Z,https://arxiv.org/abs/2609.28078v1,video-memory-100
+2609.28049v1,"Prompt, Probe, Train, or Annotate? Single-camera sports video understanding in amateur settings",2026-09-23T13:05:24Z,2026-09-23T13:05:24Z,https://arxiv.org/abs/2609.28049v1,video-generation
+2609.27901v1,"All modalities are equal, but video is more equal: Closing the Cross-Attention Gap in Joint Video Generation",2026-09-23T12:02:23Z,2026-09-23T12:02:23Z,https://arxiv.org/abs/2609.27901v1,video-generation
+2609.28564v1,Don't Read the Log: Execution Traces Contaminate Verifiers in Video-Generation Agents,2026-09-23T10:53:38Z,2026-09-23T10:53:38Z,https://arxiv.org/abs/2609.28564v1,video-generation
+2609.27656v1,InternW0: A Foundational Physical World Model for Efficient Real-World Interactions,2026-09-23T10:20:56Z,2026-09-23T10:20:56Z,https://arxiv.org/abs/2609.27656v1,world-model-200
+2609.31753v1,Beyond Isolated Entities: Relation-Aware Multi-Entity Modeling for Unsupervised Video Anomaly Detection,2026-09-23T09:59:04Z,2026-09-23T09:59:04Z,https://arxiv.org/abs/2609.31753v1,video-memory-100; video-generation
+2609.27493v1,Information Capacity of Generative Video Compression: Quantifying the Rate-Compute Exchange at Identical Quality,2026-09-23T07:56:15Z,2026-09-23T07:56:15Z,https://arxiv.org/abs/2609.27493v1,video-generation
+2609.27470v1,DeltaS: Reading the Gated Linear Attention State for KV Cache Eviction in Streaming Video,2026-09-23T07:35:52Z,2026-09-23T07:35:52Z,https://arxiv.org/abs/2609.27470v1,video-memory-100
+2609.27459v1,Spiking Neural Network Predicting Sequence of the External Worlds States in Model-Based Reinforcement Learning,2026-09-23T07:26:02Z,2026-09-23T07:26:02Z,https://arxiv.org/abs/2609.27459v1,world-model-200
+2609.27455v2,Latent evolving World Action Model,2026-09-23T07:22:43Z,2026-09-24T02:37:27Z,https://arxiv.org/abs/2609.27455v2,world-model-200
+2609.27450v1,BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models,2026-09-23T07:14:20Z,2026-09-23T07:14:20Z,https://arxiv.org/abs/2609.27450v1,world-model-200
+2609.27327v1,Can Vision-Language Models Analyze Human-Centered Video? Mapping Model Capabilities and Human-AI Collaborative Workflows,2026-09-23T04:00:15Z,2026-09-23T04:00:15Z,https://arxiv.org/abs/2609.27327v1,video-generation
+2609.27314v2,CoRe-WAM: Correspondence-Aligned Temporal Residuals for World Action Models,2026-09-23T03:46:32Z,2026-10-07T05:08:21Z,https://arxiv.org/abs/2609.27314v2,world-model-200
+2609.27139v1,A Hierarchy-Aware Video-Language Model Evaluation and Hyperbolic Baseline for Surgery,2026-09-22T22:58:46Z,2026-09-22T22:58:46Z,https://arxiv.org/abs/2609.27139v1,video-generation
+2609.26540v1,Bespoke: Generating MOOC-Quality Industry-Personalized Lecture Videos at Scale,2026-09-22T14:58:19Z,2026-09-22T14:58:19Z,https://arxiv.org/abs/2609.26540v1,video-generation
+2609.26458v1,"Code Plans, Diffusion Renders: Open-Ended Generative World Modeling",2026-09-22T14:12:15Z,2026-09-22T14:12:15Z,https://arxiv.org/abs/2609.26458v1,video-memory-100; world-model-200
+2609.26425v3,QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models,2026-09-22T13:50:54Z,2026-09-28T15:28:38Z,https://arxiv.org/abs/2609.26425v3,video-memory-100; world-model-200; video-generation
+2609.26314v1,TriWorldBench: A Tri-View Consistency Perspective on Embodied World Models,2026-09-22T12:23:14Z,2026-09-22T12:23:14Z,https://arxiv.org/abs/2609.26314v1,world-model-200
+2609.26299v2,ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model,2026-09-22T12:11:18Z,2026-09-23T03:41:55Z,https://arxiv.org/abs/2609.26299v2,world-model-200
+2609.26293v2,Dual-Frontier: When Can an Agent Trust Its World Model?,2026-09-22T12:05:43Z,2026-09-24T04:08:40Z,https://arxiv.org/abs/2609.26293v2,world-model-200
+2609.26015v1,VideoX-Qwen: Data-Centric Instruction-Based Video Editing,2026-09-22T11:18:56Z,2026-09-22T11:18:56Z,https://arxiv.org/abs/2609.26015v1,video-generation
+2609.26007v1,Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models,2026-09-22T11:08:50Z,2026-09-22T11:08:50Z,https://arxiv.org/abs/2609.26007v1,world-model-200
+2609.25961v1,An Action Is Worth One Patch: Unified World-Action Modeling with PatchWAM,2026-09-22T10:16:36Z,2026-09-22T10:16:36Z,https://arxiv.org/abs/2609.25961v1,world-model-200
+2609.25837v1,"Identity-Centric Video Summarization via Hierarchical Fusion of Biometric, Appearance, and 3D Body Features",2026-09-22T08:05:09Z,2026-09-22T08:05:09Z,https://arxiv.org/abs/2609.25837v1,video-generation
+2609.25821v1,CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation,2026-09-22T07:48:30Z,2026-09-22T07:48:30Z,https://arxiv.org/abs/2609.25821v1,video-generation
+2609.25775v1,TRACE: Trajectory Representation and Consistency Estimation for AI-Generated Video Detection,2026-09-22T07:11:25Z,2026-09-22T07:11:25Z,https://arxiv.org/abs/2609.25775v1,video-generation
+2609.25773v1,Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models,2026-09-22T07:08:13Z,2026-09-22T07:08:13Z,https://arxiv.org/abs/2609.25773v1,video-generation
+2609.25652v1,GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models,2026-09-22T04:03:27Z,2026-09-22T04:03:27Z,https://arxiv.org/abs/2609.25652v1,video-memory-100; world-model-200
+2609.25651v1,SurgGraph: Quantitative Laparoscopic Video Understanding via Geometry-Grounded Scene Graphs,2026-09-22T04:02:47Z,2026-09-22T04:02:47Z,https://arxiv.org/abs/2609.25651v1,video-generation
+2609.25633v1,"Robust, Estimator-Agnostic Dynamic 3DGS Compression",2026-09-22T03:43:44Z,2026-09-22T03:43:44Z,https://arxiv.org/abs/2609.25633v1,video-memory-100
+2609.25611v1,Qwen3.8-Omni: Towards Native Omni-Modal Agents,2026-09-22T03:07:59Z,2026-09-22T03:07:59Z,https://arxiv.org/abs/2609.25611v1,video-memory-100
+2609.28519v2,"BRiDCT: Fast Two-Dimensional DCTs Using SIMD: SIMD Organization, Register Blocking, and Numerical Verification",2026-09-22T02:17:31Z,2026-09-25T18:40:22Z,https://arxiv.org/abs/2609.28519v2,video-memory-100
+2609.25562v2,IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models,2026-09-22T01:51:09Z,2026-10-08T05:28:54Z,https://arxiv.org/abs/2609.25562v2,video-memory-100
+2609.24997v3,VideoGen-Agent: Reinforcing Video Generation Agents,2026-09-21T17:58:56Z,2026-10-05T16:40:27Z,https://arxiv.org/abs/2609.24997v3,video-generation
+2609.24984v1,WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory,2026-09-21T17:57:06Z,2026-09-21T17:57:06Z,https://arxiv.org/abs/2609.24984v1,video-memory-100; world-model-200; video-generation
+2609.24976v1,DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation,2026-09-21T17:55:24Z,2026-09-21T17:55:24Z,https://arxiv.org/abs/2609.24976v1,world-model-200
+2609.24868v1,DualWAM: Dual-System World Action Models for Asynchronous Global Planning and Local Refinement,2026-09-21T16:37:50Z,2026-09-21T16:37:50Z,https://arxiv.org/abs/2609.24868v1,world-model-200
+2609.31716v1,PanOVOcc: Panoramic Embodied Open-Vocabulary Occupancy Mapping with Long-term Spatial Voxel Memory,2026-09-21T16:05:58Z,2026-09-21T16:05:58Z,https://arxiv.org/abs/2609.31716v1,video-memory-100
+2609.24788v1,Streaming Video Editing with Easy Adaptation,2026-09-21T15:50:01Z,2026-09-21T15:50:01Z,https://arxiv.org/abs/2609.24788v1,video-generation
+2609.24749v1,D-JEPA: A Decision-Aligned Latent World Model,2026-09-21T15:17:32Z,2026-09-21T15:17:32Z,https://arxiv.org/abs/2609.24749v1,world-model-200
+2609.24745v1,Beyond Visual Quality: A Study of Test-Time Planning with World Action Models,2026-09-21T15:15:38Z,2026-09-21T15:15:38Z,https://arxiv.org/abs/2609.24745v1,world-model-200
+2609.24682v2,"Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",2026-09-21T14:41:08Z,2026-09-22T03:02:25Z,https://arxiv.org/abs/2609.24682v2,world-model-200
+2609.24626v1,Relationally Grounded Latent World Models for Autonomous Driving,2026-09-21T14:10:06Z,2026-09-21T14:10:06Z,https://arxiv.org/abs/2609.24626v1,world-model-200
+2609.24620v1,Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis,2026-09-21T14:06:32Z,2026-09-21T14:06:32Z,https://arxiv.org/abs/2609.24620v1,world-model-200
+2609.24492v1,Identity-Consistent Analysis of Long-Shot Windsurfing Video: A Domain-Specific Offline Tracking System,2026-09-21T12:29:30Z,2026-09-21T12:29:30Z,https://arxiv.org/abs/2609.24492v1,video-generation
+2609.24395v1,"JEVQA - Video Quality from Metadata, Bitstream, and Pixel Features with a General-Purpose Decision Model",2026-09-21T10:45:00Z,2026-09-21T10:45:00Z,https://arxiv.org/abs/2609.24395v1,video-generation
+2609.24313v1,NeuIDO: Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Models,2026-09-21T09:12:47Z,2026-09-21T09:12:47Z,https://arxiv.org/abs/2609.24313v1,world-model-200
+2609.24208v2,CoaG: Cylinders on a Grid for Coarse 3D Layout Control in Video Generation,2026-09-21T07:28:10Z,2026-09-23T22:39:50Z,https://arxiv.org/abs/2609.24208v2,video-generation
+2609.25146v1,Brain-Inspired Hierarchical Modularity for General Continual Learning,2026-09-21T07:07:06Z,2026-09-21T07:07:06Z,https://arxiv.org/abs/2609.25146v1,video-memory-100
+2609.24083v1,From Content Generation to Learning Support: Pedagogy-Guided Generative Video Tutors for STEM Learning,2026-09-21T04:10:48Z,2026-09-21T04:10:48Z,https://arxiv.org/abs/2609.24083v1,video-generation
+2609.24048v1,What Matters in Designing World Action Models: An Empirical Study,2026-09-21T03:20:08Z,2026-09-21T03:20:08Z,https://arxiv.org/abs/2609.24048v1,world-model-200
+2609.24033v1,Imagine-RL: Residual-Confidence-Guided Cross-Attention for World-Model-Augmented VLA Reinforcement Learning,2026-09-21T02:59:08Z,2026-09-21T02:59:08Z,https://arxiv.org/abs/2609.24033v1,world-model-200
+2609.31713v1,Agentic Video Understanding: A Survey,2026-09-21T02:58:10Z,2026-09-21T02:58:10Z,https://arxiv.org/abs/2609.31713v1,video-memory-100
+2609.23888v1,HapticWAM: Distilling Imagined Touch into a World-Action Model without Inference-Time Tactile Sensing,2026-09-20T21:49:50Z,2026-09-20T21:49:50Z,https://arxiv.org/abs/2609.23888v1,world-model-200
+2609.23863v2,Grounded Action Model: 3D Grounding as a Foundation for Robotics,2026-09-20T20:35:39Z,2026-09-25T05:22:11Z,https://arxiv.org/abs/2609.23863v2,video-memory-100
+2609.23817v2,VISTA: Video-Injected Stylized Text-to-Animation,2026-09-20T19:11:53Z,2026-09-23T21:15:18Z,https://arxiv.org/abs/2609.23817v2,video-generation
+2609.23753v1,OnlineWM: Causality-Aware Active Online Learning for Effective World Modeling,2026-09-20T17:05:37Z,2026-09-20T17:05:37Z,https://arxiv.org/abs/2609.23753v1,world-model-200
+2609.23677v1,MuSeR: Scalable Long-sequence Recommendation with Multi-interest Modeling,2026-09-20T14:36:07Z,2026-09-20T14:36:07Z,https://arxiv.org/abs/2609.23677v1,video-memory-100
+2609.23658v1,Why Do Video Diffusion Models Violate Physics? Unveiling the Flaws in Attention Mechanisms,2026-09-20T14:09:58Z,2026-09-20T14:09:58Z,https://arxiv.org/abs/2609.23658v1,video-generation
+2609.23656v1,WOLF: World Model Guided LiDAR Exploration with Predictive Frontiers,2026-09-20T14:09:26Z,2026-09-20T14:09:26Z,https://arxiv.org/abs/2609.23656v1,world-model-200
+2609.23601v1,PREM: Prefix-Steered Recurrent Memory for Long-Video Understanding,2026-09-20T12:41:39Z,2026-09-20T12:41:39Z,https://arxiv.org/abs/2609.23601v1,video-memory-100
+2609.23586v1,An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models,2026-09-20T12:09:16Z,2026-09-20T12:09:16Z,https://arxiv.org/abs/2609.23586v1,video-generation
+2609.23578v2,AR-WAM: A Visual-Conditioned Agent-Ready World Action Model for Robotic Manipulation,2026-09-20T11:55:26Z,2026-10-02T08:43:39Z,https://arxiv.org/abs/2609.23578v2,world-model-200
+2609.23425v1,Semi-automated reconstruction of indoor geometry from 360-degree video for CFD-based airflow analysis in classrooms,2026-09-20T07:41:32Z,2026-09-20T07:41:32Z,https://arxiv.org/abs/2609.23425v1,video-generation
+2609.23369v1,The Right Future for Action: Learning Action-Relevant Predictive States in World Action Models,2026-09-20T05:37:10Z,2026-09-20T05:37:10Z,https://arxiv.org/abs/2609.23369v1,world-model-200
+2609.23333v1,A Patient World Model for Early Forecasting of Digital Health Campaign Outcomes: Capabilities and Limits,2026-09-20T03:37:31Z,2026-09-20T03:37:31Z,https://arxiv.org/abs/2609.23333v1,world-model-200
+2609.23286v1,RegVGGT: Sustainable Visual Geometry Grounding for Streaming via Regulated Memory,2026-09-20T01:42:37Z,2026-09-20T01:42:37Z,https://arxiv.org/abs/2609.23286v1,video-memory-100
+2609.23252v1,Robot World Models Are Not Invariant to How the Actions Are Written,2026-09-19T23:41:03Z,2026-09-19T23:41:03Z,https://arxiv.org/abs/2609.23252v1,world-model-200
+2609.23184v2,CausalWM: Causal Chain-of-Thought Reasoning for Embodied World Model,2026-09-19T19:16:56Z,2026-09-22T07:12:44Z,https://arxiv.org/abs/2609.23184v2,world-model-200
+2609.23118v1,Verti-WM: A Physics-Aided Exteroceptive World Model for Off-Road Reinforcement Learning,2026-09-19T16:43:32Z,2026-09-19T16:43:32Z,https://arxiv.org/abs/2609.23118v1,world-model-200
+2609.23067v1,LD-RSVIS: A Large-Scale and Diverse Benchmark for Referring Surgical Video Instrument Segmentation,2026-09-19T15:01:59Z,2026-09-19T15:01:59Z,https://arxiv.org/abs/2609.23067v1,video-generation
+2609.23052v1,DA-Lion: Efficient Neural Video Representation via Direction-Aware Optimization,2026-09-19T14:33:24Z,2026-09-19T14:33:24Z,https://arxiv.org/abs/2609.23052v1,video-generation
+2609.22947v2,RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling,2026-09-19T11:01:14Z,2026-09-23T02:00:44Z,https://arxiv.org/abs/2609.22947v2,video-generation
+2609.22879v1,Prioritized Rollouts for Efficient World Model-based Vision-Language-Action Policy Optimization,2026-09-19T08:34:34Z,2026-09-19T08:34:34Z,https://arxiv.org/abs/2609.22879v1,world-model-200
+2609.22858v1,PileBelief: Persistent Physical State for Interaction-Driven World Modeling,2026-09-19T07:54:15Z,2026-09-19T07:54:15Z,https://arxiv.org/abs/2609.22858v1,world-model-200
+2609.22762v1,DriveReferee: Geometric Safety Verdicts Need Not Be Learned for Driving World-Action Models,2026-09-19T04:43:06Z,2026-09-19T04:43:06Z,https://arxiv.org/abs/2609.22762v1,world-model-200
+2609.22691v2,Generative Embodied Multiple Behavior Control Systems for Human-like Agents,2026-09-19T01:51:09Z,2026-09-27T18:38:47Z,https://arxiv.org/abs/2609.22691v2,video-memory-100
+2609.22674v1,Mask-Aware Execution for Efficient JEPA Training,2026-09-19T01:07:25Z,2026-09-19T01:07:25Z,https://arxiv.org/abs/2609.22674v1,video-memory-100
+2609.22641v1,ConsistWorld: Evidence Routing for Consistent Multi-Agent World Models,2026-09-18T23:31:01Z,2026-09-18T23:31:01Z,https://arxiv.org/abs/2609.22641v1,video-memory-100; world-model-200
+2609.31697v1,Video Captioning in Low-Light Conditions through Efficient Uncertainty-Aware Caption Correction,2026-09-18T19:56:20Z,2026-09-18T19:56:20Z,https://arxiv.org/abs/2609.31697v1,video-generation
+2610.00196v1,GPEC: Efficient Pre-LLM Gaussian Process Embedding Correction for Cardiac Video Caption Generation,2026-09-18T19:52:05Z,2026-09-18T19:52:05Z,https://arxiv.org/abs/2610.00196v1,video-generation
+2609.22069v1,OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation,2026-09-18T17:55:49Z,2026-09-18T17:55:49Z,https://arxiv.org/abs/2609.22069v1,video-generation
+2609.22055v1,Benchmarking World Models for Continual Learning on Compositional Tasks,2026-09-18T17:46:28Z,2026-09-18T17:46:28Z,https://arxiv.org/abs/2609.22055v1,world-model-200
+2609.21983v1,SkelWAM: A Skeleton-Guided World-Action Model for Zero-Shot Cross-Embodiment Manipulation,2026-09-18T16:44:42Z,2026-09-18T16:44:42Z,https://arxiv.org/abs/2609.21983v1,world-model-200
+2609.21906v1,Intervention Granularity Matters: Coherent Treatment Bundles in Counterfactual Simulation with Clinical World Models,2026-09-18T15:33:04Z,2026-09-18T15:33:04Z,https://arxiv.org/abs/2609.21906v1,world-model-200
+2609.21787v1,Compact but Moving: Intervention-Relevant Geometry in Recurrent World Models,2026-09-18T14:03:05Z,2026-09-18T14:03:05Z,https://arxiv.org/abs/2609.21787v1,world-model-200
+2609.21748v1,World Modeling in Transformers,2026-09-18T13:24:18Z,2026-09-18T13:24:18Z,https://arxiv.org/abs/2609.21748v1,world-model-200
+2609.21740v1,Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models,2026-09-18T13:17:05Z,2026-09-18T13:17:05Z,https://arxiv.org/abs/2609.21740v1,world-model-200
+2609.21712v2,ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation,2026-09-18T12:49:01Z,2026-09-22T08:09:23Z,https://arxiv.org/abs/2609.21712v2,world-model-200
+2609.21521v2,VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration,2026-09-18T09:09:34Z,2026-10-03T03:56:12Z,https://arxiv.org/abs/2609.21521v2,video-generation
+2609.21514v1,Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer,2026-09-18T09:06:15Z,2026-09-18T09:06:15Z,https://arxiv.org/abs/2609.21514v1,world-model-200
+2609.21502v1,"Adaptive World Memory 3D Foundation Model for Scalable 3D Mapping, Localization, and Rendering",2026-09-18T08:53:12Z,2026-09-18T08:53:12Z,https://arxiv.org/abs/2609.21502v1,world-model-200
+2609.21482v1,Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training,2026-09-18T08:32:34Z,2026-09-18T08:32:34Z,https://arxiv.org/abs/2609.21482v1,world-model-200
+2609.21455v3,CompAdapt: Adaptable Composite Motion Modeling for Physics-Consistent Text-to-Video Generation,2026-09-18T08:04:49Z,2026-09-24T21:29:09Z,https://arxiv.org/abs/2609.21455v3,video-generation
+2609.21449v2,ME-Dex 1.0: Bringing Heterogeneous Tactile Sensing into World Action Modeling,2026-09-18T08:00:06Z,2026-09-21T07:46:47Z,https://arxiv.org/abs/2609.21449v2,world-model-200
+2609.21448v1,Robotic Multiphase Interaction: Manipulating Coupled Liquid and Solid Dynamics with a World Model,2026-09-18T07:59:41Z,2026-09-18T07:59:41Z,https://arxiv.org/abs/2609.21448v1,world-model-200
+2609.21391v1,WS-NeRF: A Mamba-Driven World-State-Aware Adaptive Deblurring Neural Radiance Field,2026-09-18T07:00:35Z,2026-09-18T07:00:35Z,https://arxiv.org/abs/2609.21391v1,video-memory-100
+2609.21386v1,AgentVidBench: A Multi-Hop Video Question Answering Benchmark for Evaluating MLLM Agents,2026-09-18T06:56:33Z,2026-09-18T06:56:33Z,https://arxiv.org/abs/2609.21386v1,video-generation
+2609.38193v1,EHR2Trace: Auditable EHR Data Infrastructure for Patient World Models and Clinical Agents,2026-09-18T04:00:10Z,2026-09-18T04:00:10Z,https://arxiv.org/abs/2609.38193v1,world-model-200
+2609.21268v1,Edit-VAR: Taming Visual Autoregressive Model for Precise Video Editing,2026-09-18T03:26:19Z,2026-09-18T03:26:19Z,https://arxiv.org/abs/2609.21268v1,video-generation
+2609.21229v1,KnowDemo: Knowledge-Guided Robot Demonstration Generation from Human Videos,2026-09-18T02:19:13Z,2026-09-18T02:19:13Z,https://arxiv.org/abs/2609.21229v1,video-generation
+2609.21228v1,FOCAL-VLA: Subtask-Guided Geometry Distillation and Implicit World Modeling for Vision-Language-Action Models,2026-09-18T02:18:34Z,2026-09-18T02:18:34Z,https://arxiv.org/abs/2609.21228v1,world-model-200
+2609.21190v2,SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?,2026-09-18T01:16:53Z,2026-09-22T21:43:26Z,https://arxiv.org/abs/2609.21190v2,world-model-200
+2609.21176v3,4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors,2026-09-18T00:37:53Z,2026-09-28T23:10:00Z,https://arxiv.org/abs/2609.21176v3,video-generation
+2609.21172v2,TierKV: Long-Context On-Device LLMs via Predictive Multi-Tier KV Caching,2026-09-18T00:36:05Z,2026-09-29T16:29:49Z,https://arxiv.org/abs/2609.21172v2,video-memory-100
+2609.21155v1,"Same World, Different Knowledge: When Isolated Audits Misjudge World-Model Repairs",2026-09-17T23:51:16Z,2026-09-17T23:51:16Z,https://arxiv.org/abs/2609.21155v1,world-model-200
+2609.21114v1,Noctif3R: Feed-Forward Monocular Real-Time SLAM for Photon-Limited Scenes on Embedded Hardware,2026-09-17T21:57:57Z,2026-09-17T21:57:57Z,https://arxiv.org/abs/2609.21114v1,video-memory-100
+2609.20971v1,RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models,2026-09-17T18:28:29Z,2026-09-17T18:28:29Z,https://arxiv.org/abs/2609.20971v1,video-memory-100
+2609.20819v2,Can 4D Foundation Models Remember?,2026-09-17T17:59:50Z,2026-09-21T04:15:03Z,https://arxiv.org/abs/2609.20819v2,video-memory-100
+2609.20800v1,JEPA-Anything: Learning Predictive Models across Different Worlds,2026-09-17T17:55:57Z,2026-09-17T17:55:57Z,https://arxiv.org/abs/2609.20800v1,world-model-200
+2610.00188v1,Uncertainty-Aware RL-Controlled Adaptive 3D Mapping,2026-09-17T17:53:51Z,2026-09-17T17:53:51Z,https://arxiv.org/abs/2610.00188v1,video-memory-100
+2609.20761v2,Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control,2026-09-17T17:43:51Z,2026-09-18T22:13:06Z,https://arxiv.org/abs/2609.20761v2,world-model-200
+2609.20744v3,Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation,2026-09-17T17:33:15Z,2026-10-02T01:54:44Z,https://arxiv.org/abs/2609.20744v3,video-memory-100; video-generation
+2609.20709v1,MoWAM: Explicit Future Motion Prediction for Efficient World Action Models,2026-09-17T17:07:00Z,2026-09-17T17:07:00Z,https://arxiv.org/abs/2609.20709v1,world-model-200
+2609.20649v2,DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation,2026-09-17T16:28:34Z,2026-09-18T07:30:24Z,https://arxiv.org/abs/2609.20649v2,world-model-200
+2609.20582v1,V2-STRep: VLM-Grounded Structured Task Representations for Reusable Robot Skills Acquired from Generated Videos,2026-09-17T15:37:34Z,2026-09-17T15:37:34Z,https://arxiv.org/abs/2609.20582v1,video-generation
+2609.20508v2,Grounded Product Understanding in Livestream Videos,2026-09-17T14:51:18Z,2026-09-28T06:58:01Z,https://arxiv.org/abs/2609.20508v2,video-generation
+2609.20414v1,TouchSight: Bare-Handed Tactile Prediction from Egocentric Video via Generative Visual Augmentation,2026-09-17T13:58:43Z,2026-09-17T13:58:43Z,https://arxiv.org/abs/2609.20414v1,video-generation
+2609.20377v1,MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving,2026-09-17T13:31:59Z,2026-09-17T13:31:59Z,https://arxiv.org/abs/2609.20377v1,world-model-200
+2609.20051v2,DART: Distillation-Aware Reparameterization for Training-Free LoRA Reuse in Few-Step Video Diffusion Models,2026-09-17T10:58:04Z,2026-09-26T09:36:36Z,https://arxiv.org/abs/2609.20051v2,video-generation
+2609.20034v1,Astronex-World 1.0: Real-Time Interactive World Model Foundation,2026-09-17T10:38:22Z,2026-09-17T10:38:22Z,https://arxiv.org/abs/2609.20034v1,world-model-200
+2609.19863v1,Feeling Terrain Before Crossing: World Models for Off-Road Navigation,2026-09-17T08:19:06Z,2026-09-17T08:19:06Z,https://arxiv.org/abs/2609.19863v1,world-model-200
+2609.19824v1,TADreamer: Zero-Shot Language-Guided 3D Navigation for Terrestrial-Aerial Bimodal Robots via Video Imagination,2026-09-17T07:32:00Z,2026-09-17T07:32:00Z,https://arxiv.org/abs/2609.19824v1,video-generation
+2609.19772v1,Video Based Assessment of Surgical Skills Using Frozen Pretrained Video Foundation Models,2026-09-17T06:38:31Z,2026-09-17T06:38:31Z,https://arxiv.org/abs/2609.19772v1,video-generation
+2609.22350v2,Recasting the Destroy Step of Large Neighborhood Search as Dense Segmentation,2026-09-17T06:16:05Z,2026-09-22T06:12:03Z,https://arxiv.org/abs/2609.22350v2,video-memory-100
+2609.19729v1,Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation,2026-09-17T05:40:53Z,2026-09-17T05:40:53Z,https://arxiv.org/abs/2609.19729v1,video-memory-100; video-generation
+2609.19674v2,Conservation Buys Stability and Factoring Buys Counterfactuals in Physical World Models,2026-09-17T04:16:51Z,2026-09-24T19:57:22Z,https://arxiv.org/abs/2609.19674v2,world-model-200
+2609.19613v2,TacSushi: Tactile-Grounded World-Action Modeling for Dexterous Sushi Manipulation,2026-09-17T03:01:35Z,2026-09-24T13:29:42Z,https://arxiv.org/abs/2609.19613v2,world-model-200
+2609.20892v1,WM-VS: Progress-Aligned World Models for Closed-Loop Visual Servoing,2026-09-17T02:53:13Z,2026-09-17T02:53:13Z,https://arxiv.org/abs/2609.20892v1,world-model-200
+2609.19600v1,WorldContact: A Contact-Centric World Model for Scalable Robot Learning,2026-09-17T02:27:32Z,2026-09-17T02:27:32Z,https://arxiv.org/abs/2609.19600v1,world-model-200
+2609.26236v1,COVER: Codec-Robust Video Watermarking with Generative Video Priors,2026-09-17T02:03:20Z,2026-09-17T02:03:20Z,https://arxiv.org/abs/2609.26236v1,video-generation
+2609.19551v1,Continual Enterprise World Model Discovery in Dynamic Systems,2026-09-17T01:23:43Z,2026-09-17T01:23:43Z,https://arxiv.org/abs/2609.19551v1,world-model-200
+2609.19441v1,Predict Before You Deploy: Offline Prediction of Quantization-Induced Task Degradation for World Action Models,2026-09-16T21:25:37Z,2026-09-16T21:25:37Z,https://arxiv.org/abs/2609.19441v1,video-memory-100; world-model-200
+2609.19364v1,Durably Reducing Belief in Women's Health Misinformation Through Culturally Adaptive AI Videos,2026-09-16T19:36:15Z,2026-09-16T19:36:15Z,https://arxiv.org/abs/2609.19364v1,video-generation
+2609.19315v1,GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning,2026-09-16T18:25:58Z,2026-09-16T18:25:58Z,https://arxiv.org/abs/2609.19315v1,world-model-200
+2609.19137v2,Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation,2026-09-16T17:56:44Z,2026-09-17T07:00:57Z,https://arxiv.org/abs/2609.19137v2,video-generation
+2609.19119v1,"Track, Articulate, Act: Generating Articulation from Casual Human Videos",2026-09-16T17:43:12Z,2026-09-16T17:43:12Z,https://arxiv.org/abs/2609.19119v1,video-generation
+2609.18836v1,"Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",2026-09-16T15:43:21Z,2026-09-16T15:43:21Z,https://arxiv.org/abs/2609.18836v1,video-generation
+2609.22332v2,AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation,2026-09-16T14:07:06Z,2026-09-22T05:55:53Z,https://arxiv.org/abs/2609.22332v2,world-model-200
+2609.18667v1,"Video-Based Markerless Motion Capture for Clinical and Rehabilitation Biomechanics: A PRISMA-ScR Scoping Review of Validated Architectures, Clinical Readiness, and Emerging Methods",2026-09-16T13:44:08Z,2026-09-16T13:44:08Z,https://arxiv.org/abs/2609.18667v1,video-generation
+2609.19215v1,Perceptual Refinement of an End-to-End Video Streaming Pipeline via Generative AI Layers,2026-09-16T12:33:08Z,2026-09-16T12:33:08Z,https://arxiv.org/abs/2609.19215v1,video-generation
+2609.18540v1,SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection,2026-09-16T12:04:53Z,2026-09-16T12:04:53Z,https://arxiv.org/abs/2609.18540v1,video-memory-100; video-generation
+2609.18470v1,Divide and Conquer: Mixture-of-Bottleneck Experts in Informative Ordinal Space for Video-based Multimodal Sentiment Analysis,2026-09-16T11:04:39Z,2026-09-16T11:04:39Z,https://arxiv.org/abs/2609.18470v1,video-generation
+2609.18462v5,CSWAM: Better Causal Semantic Representations for Out-of-Distribution Generalization in World Action Models,2026-09-16T10:56:39Z,2026-10-06T10:28:06Z,https://arxiv.org/abs/2609.18462v5,world-model-200
+2609.18442v1,Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving,2026-09-16T10:32:37Z,2026-09-16T10:32:37Z,https://arxiv.org/abs/2609.18442v1,world-model-200
+2609.18393v1,MSR: Multiple Subject Reference for Video Generation,2026-09-16T09:51:50Z,2026-09-16T09:51:50Z,https://arxiv.org/abs/2609.18393v1,video-generation
+2609.18323v1,Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model,2026-09-16T08:43:11Z,2026-09-16T08:43:11Z,https://arxiv.org/abs/2609.18323v1,world-model-200
+2609.18206v1,CapMap-MS-TTA: 3rd Place Solution for the MUMU Track of the 8th LSVOS Challenge at ECCV 2026,2026-09-16T06:38:23Z,2026-09-16T06:38:23Z,https://arxiv.org/abs/2609.18206v1,video-memory-100
+2609.18197v2,WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors,2026-09-16T06:32:21Z,2026-10-01T05:54:01Z,https://arxiv.org/abs/2609.18197v2,world-model-200
+2609.18193v1,WAVE-Go: World-Model Navigation with Adaptive Execution for Wheel-Legged Robots,2026-09-16T06:30:50Z,2026-09-16T06:30:50Z,https://arxiv.org/abs/2609.18193v1,world-model-200
+2609.18077v1,vidax: A Unified JAX Framework for Video Generative Models on Accelerator Meshes,2026-09-16T03:26:45Z,2026-09-16T03:26:45Z,https://arxiv.org/abs/2609.18077v1,video-memory-100; video-generation
+2609.18075v1,SemABR: Measuring Video Semantic Fidelity with Multimodal LLMs for Adaptive Bitrate Streaming,2026-09-16T03:23:09Z,2026-09-16T03:23:09Z,https://arxiv.org/abs/2609.18075v1,video-generation
+2609.18016v1,Causal-History Test-Time Scaling for Failure Recovery in Autoregressive World-Action Models,2026-09-16T02:08:56Z,2026-09-16T02:08:56Z,https://arxiv.org/abs/2609.18016v1,world-model-200
+2609.17921v2,Collaborative Memory for Multi-Agent VLM Systems,2026-09-15T23:31:09Z,2026-09-18T01:15:57Z,https://arxiv.org/abs/2609.17921v2,video-memory-100
+2609.17688v1,CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video,2026-09-15T18:03:04Z,2026-09-15T18:03:04Z,https://arxiv.org/abs/2609.17688v1,video-memory-100
+2609.17524v1,Modality-Autoregressive World-Action Models,2026-09-15T17:56:24Z,2026-09-15T17:56:24Z,https://arxiv.org/abs/2609.17524v1,world-model-200
+2609.17521v2,PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control,2026-09-15T17:55:13Z,2026-09-21T19:48:42Z,https://arxiv.org/abs/2609.17521v2,video-memory-100; video-generation
+2609.17372v1,XPACE: Joint World and Action Modeling from Heterogeneous Experience,2026-09-15T16:07:34Z,2026-09-15T16:07:34Z,https://arxiv.org/abs/2609.17372v1,world-model-200
+2609.31668v1,Query-aligned video frame selection for long video understanding,2026-09-15T15:08:50Z,2026-09-15T15:08:50Z,https://arxiv.org/abs/2609.31668v1,video-generation
+2609.22317v1,EditWM: Event-Decomposed World Modeling with Incremental Correction for End-to-End Autonomous Driving,2026-09-15T14:47:01Z,2026-09-15T14:47:01Z,https://arxiv.org/abs/2609.22317v1,world-model-200
+2609.17230v1,DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming,2026-09-15T14:12:16Z,2026-09-15T14:12:16Z,https://arxiv.org/abs/2609.17230v1,video-memory-100
+2609.20869v2,TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision,2026-09-15T14:08:43Z,2026-09-24T17:01:17Z,https://arxiv.org/abs/2609.20869v2,video-memory-100
+2609.17211v1,Probe-VAD: Ordinal Likelihood Probing for Training-Free Video Anomaly Detection,2026-09-15T13:59:47Z,2026-09-15T13:59:47Z,https://arxiv.org/abs/2609.17211v1,video-generation
+2609.31665v2,"Language-Augmented Video Action Anticipation: Design Fundamentals, Benchmarks, and Open Challenges",2026-09-15T13:48:59Z,2026-09-30T14:41:19Z,https://arxiv.org/abs/2609.31665v2,video-generation-300
+2609.17112v1,"Not Another Text Benchmark: Putting the ""Visual"" Back in Visual Question Answering for Large Video Models",2026-09-15T12:41:08Z,2026-09-15T12:41:08Z,https://arxiv.org/abs/2609.17112v1,video-memory-100
+2609.17099v1,GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos,2026-09-15T12:31:34Z,2026-09-15T12:31:34Z,https://arxiv.org/abs/2609.17099v1,video-generation-300
+2609.16878v1,VOR-Bench: A Human Perception-Driven Benchmark for Video Object Removal,2026-09-15T09:08:00Z,2026-09-15T09:08:00Z,https://arxiv.org/abs/2609.16878v1,video-generation-300
+2610.06877v1,When Can World Models Recover Physical Laws?,2026-09-15T08:37:16Z,2026-09-15T08:37:16Z,https://arxiv.org/abs/2610.06877v1,world-model-200
+2609.16737v2,Visual Cue Guided Video Planning for Generalizable Robot Navigation,2026-09-15T07:11:21Z,2026-09-16T08:06:53Z,https://arxiv.org/abs/2609.16737v2,video-generation-300
+2609.16724v2,CorrRisk-WM: Corridor-Conditioned Risk World Modeling for Safety-Critical Trajectory Planning,2026-09-15T06:56:08Z,2026-09-16T01:32:38Z,https://arxiv.org/abs/2609.16724v2,world-model-200
+2609.16697v1,World Models for Embodied Intelligence: From Plausible to Controllable to Actionable,2026-09-15T06:22:42Z,2026-09-15T06:22:42Z,https://arxiv.org/abs/2609.16697v1,world-model-200
+2609.16672v1,Lesion-centered 3D mapping of colonoscopy procedures: validation of a hierarchical ensemble pipeline on public benchmark videos,2026-09-15T05:54:24Z,2026-09-15T05:54:24Z,https://arxiv.org/abs/2609.16672v1,video-generation-300
+2609.16667v1,ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds,2026-09-15T05:43:35Z,2026-09-15T05:43:35Z,https://arxiv.org/abs/2609.16667v1,world-model-200
+2609.16504v1,UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data,2026-09-15T01:52:33Z,2026-09-15T01:52:33Z,https://arxiv.org/abs/2609.16504v1,video-generation-300
+2609.16475v1,MDN-Control: Mask-Depth-Noise Guided Region Control for Multi-Subject Video Editing,2026-09-15T00:58:55Z,2026-09-15T00:58:55Z,https://arxiv.org/abs/2609.16475v1,video-generation-300
+2609.31654v2,Temporal-Attention Head Specialization During Video Diffusion Training,2026-09-14T20:38:28Z,2026-09-29T06:46:15Z,https://arxiv.org/abs/2609.31654v2,video-generation-300
+2609.16255v1,Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning,2026-09-14T19:21:06Z,2026-09-14T19:21:06Z,https://arxiv.org/abs/2609.16255v1,video-generation-300
+2609.16244v1,The World Model Hardware Accelerator,2026-09-14T19:09:47Z,2026-09-14T19:09:47Z,https://arxiv.org/abs/2609.16244v1,world-model-200
+2609.16243v1,Does a Higher Frame Rate Improve the Measurement of g? Precision and Accuracy in Video Analysis,2026-09-14T19:09:16Z,2026-09-14T19:09:16Z,https://arxiv.org/abs/2609.16243v1,video-generation-300
+2609.15980v1,A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models,2026-09-14T17:58:11Z,2026-09-14T17:58:11Z,https://arxiv.org/abs/2609.15980v1,video-generation-300
+2609.15978v1,The CAST-framework: Measure and model social media use as a multi-level phenomenon through real-world applications,2026-09-14T17:57:30Z,2026-09-14T17:57:30Z,https://arxiv.org/abs/2609.15978v1,world-model-200
+2609.15976v2,MessyMem: Learning-from-Doing Memory for Mobile Manipulation,2026-09-14T17:56:49Z,2026-09-15T17:45:12Z,https://arxiv.org/abs/2609.15976v2,video-memory-100
+2609.15870v1,"WLA$^3$: World Latent Action Modeling for Semantics, Dynamics, and Kinematics",2026-09-14T16:59:00Z,2026-09-14T16:59:00Z,https://arxiv.org/abs/2609.15870v1,world-model-200
+2609.15863v1,LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows,2026-09-14T16:55:25Z,2026-09-14T16:55:25Z,https://arxiv.org/abs/2609.15863v1,video-generation-300
+2609.15801v1,When Should a World Model Move? Loss-Conditioned State Execution,2026-09-14T16:12:03Z,2026-09-14T16:12:03Z,https://arxiv.org/abs/2609.15801v1,world-model-200
+2609.15781v1,When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control,2026-09-14T16:01:13Z,2026-09-14T16:01:13Z,https://arxiv.org/abs/2609.15781v1,world-model-200
+2609.15749v1,OASIS: Online Adaptive Video Compression via Closed-loop Feedback Control,2026-09-14T15:39:00Z,2026-09-14T15:39:00Z,https://arxiv.org/abs/2609.15749v1,video-generation-300
+2609.15683v1,V-ICAL Bench: Evaluating Video In-Context Learning for Multimodal Agents in Interactive Environments,2026-09-14T14:55:03Z,2026-09-14T14:55:03Z,https://arxiv.org/abs/2609.15683v1,video-memory-100
+2609.15570v2,DIDO: Distilling Interaction-Centric Dynamics into One-Step Denoising for World Action Models,2026-09-14T13:46:57Z,2026-09-15T05:54:35Z,https://arxiv.org/abs/2609.15570v2,world-model-200
+2609.15562v1,PIVOT: Physics-Grounded Verification for AI-Generated Audio-Video Detection,2026-09-14T13:41:54Z,2026-09-14T13:41:54Z,https://arxiv.org/abs/2609.15562v1,video-generation-300
+2609.15382v1,From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation,2026-09-14T11:09:21Z,2026-09-14T11:09:21Z,https://arxiv.org/abs/2609.15382v1,world-model-200
+2609.15273v1,A Latent Oscillator Measurement Model to Simulate Emotional-Expression Score Dynamics in Video,2026-09-14T09:33:23Z,2026-09-14T09:33:23Z,https://arxiv.org/abs/2609.15273v1,video-generation-300
+2609.15256v1,"Thinking in Tokens, Talking in Bits: A Practical Interface for Token Communication",2026-09-14T09:15:17Z,2026-09-14T09:15:17Z,https://arxiv.org/abs/2609.15256v1,video-memory-100
+2609.15128v1,Omni-Streaming Thinking,2026-09-14T07:05:04Z,2026-09-14T07:05:04Z,https://arxiv.org/abs/2609.15128v1,video-memory-100
+2609.15113v2,Legislating World-Model-Based Planning with Legal Reasoning,2026-09-14T06:45:58Z,2026-09-16T21:58:06Z,https://arxiv.org/abs/2609.15113v2,world-model-200
+2609.14985v1,Converting Sequenced Fuzzy Cognitive Maps to Causal Virtual Worlds with Large Video Generators,2026-09-14T03:44:40Z,2026-09-14T03:44:40Z,https://arxiv.org/abs/2609.14985v1,video-generation-300
+2609.14965v1,MoVT: Video-Augmented Motion Tokenizer for Text-to-Motion Generation,2026-09-14T03:15:22Z,2026-09-14T03:15:22Z,https://arxiv.org/abs/2609.14965v1,video-generation-300
+2609.14854v1,AutoLab: An Internet-Accessible Experimental Platform for Operational World Models in Wireless Networks,2026-09-13T23:55:28Z,2026-09-13T23:55:28Z,https://arxiv.org/abs/2609.14854v1,world-model-200
+2609.14833v1,"One Model, Two Physical Stories: Auditing Misalignment in Multi-Modal World Modeling",2026-09-13T22:56:58Z,2026-09-13T22:56:58Z,https://arxiv.org/abs/2609.14833v1,world-model-200
+2609.14790v1,Zero-shot video highlight detection based on text descriptions and synthetic images,2026-09-13T21:03:57Z,2026-09-13T21:03:57Z,https://arxiv.org/abs/2609.14790v1,video-generation-300
+2609.14709v1,An immune world model for multiscale forecasting and therapeutic hypothesis generation,2026-09-13T18:06:18Z,2026-09-13T18:06:18Z,https://arxiv.org/abs/2609.14709v1,world-model-200
+2609.16074v1,World-Action Models for Robot Learning and Control: A Survey,2026-09-13T16:35:56Z,2026-09-13T16:35:56Z,https://arxiv.org/abs/2609.16074v1,video-memory-100; world-model-200
+2609.16071v2,World Models for Cross-Machine CNC Transfer under Partial Sensor Overlap,2026-09-13T15:10:06Z,2026-09-23T12:16:38Z,https://arxiv.org/abs/2609.16071v2,world-model-200
+2609.14561v1,GLAM: Training a latent world model over global spatiotemporal memory for active exploration and navigation,2026-09-13T14:47:33Z,2026-09-13T14:47:33Z,https://arxiv.org/abs/2609.14561v1,world-model-200
+2609.14462v1,AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video,2026-09-13T12:13:51Z,2026-09-13T12:13:51Z,https://arxiv.org/abs/2609.14462v1,video-generation-300; world-model-200
+2609.14408v1,Dynamic Learning Solutions: A System for Personalized Educational Video Generation,2026-09-13T10:13:10Z,2026-09-13T10:13:10Z,https://arxiv.org/abs/2609.14408v1,video-generation-300
+2609.22283v1,"Rethinking Streaming Video Diffusion Model: Context, Execution, and Training",2026-09-13T03:49:06Z,2026-09-13T03:49:06Z,https://arxiv.org/abs/2609.22283v1,video-generation-300
+2609.14129v1,Deformable 2D Gaussian Splatting for Efficient 4K Video Compression,2026-09-12T20:18:25Z,2026-09-12T20:18:25Z,https://arxiv.org/abs/2609.14129v1,video-memory-100
+2609.14073v2,LPA-CWM: A Learned Physical Adjudicator for Motion Reasoning with Counterfactual World Models,2026-09-12T17:46:32Z,2026-10-02T05:10:28Z,https://arxiv.org/abs/2609.14073v2,world-model-200
+2609.13845v1,LePlanner: An Iterative Amortized Controller For World Models,2026-09-12T10:01:21Z,2026-09-12T10:01:21Z,https://arxiv.org/abs/2609.13845v1,world-model-200
+2609.13830v1,DiVA: Enabling Interactive Digital Life Simulation via Video Models,2026-09-12T09:33:15Z,2026-09-12T09:33:15Z,https://arxiv.org/abs/2609.13830v1,video-generation-300
+2609.13135v1,Recurrent Dynamic Range Extension,2026-09-11T17:56:16Z,2026-09-11T17:56:16Z,https://arxiv.org/abs/2609.13135v1,video-memory-100
+2609.12929v1,DementiaCare-Bench: A Modality-Validated Video Benchmark,2026-09-11T14:52:49Z,2026-09-11T14:52:49Z,https://arxiv.org/abs/2609.12929v1,video-generation-300; video-memory-100
+2609.12921v1,Intelligent Semantic Matching (ISM) for Video Tutorial Search using Transformer Models,2026-09-11T14:45:16Z,2026-09-11T14:45:16Z,https://arxiv.org/abs/2609.12921v1,video-generation-300
+2609.12874v1,VideoTok4D: A 4D-Aware Video Tokenizer for Compact World Representation,2026-09-11T14:03:02Z,2026-09-11T14:03:02Z,https://arxiv.org/abs/2609.12874v1,video-generation-300
+2609.16036v2,Anatomy-Change-Aware Bidirectional Selective State-Space Memory for Clinically Deployed Thoracic Radiotherapy Auto-Contouring,2026-09-11T11:13:06Z,2026-09-19T08:22:13Z,https://arxiv.org/abs/2609.16036v2,video-memory-100
+2609.12678v1,Detecting and Explaining Fake News Short Videos with Multimodal Content and Real-World Evidence,2026-09-11T10:24:20Z,2026-09-11T10:24:20Z,https://arxiv.org/abs/2609.12678v1,video-generation-300
+2609.12441v1,IMPLY: Physically Anchored Consistency for World-Model Rollouts,2026-09-11T05:02:08Z,2026-09-11T05:02:08Z,https://arxiv.org/abs/2609.12441v1,world-model-200
+2609.12347v1,DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal,2026-09-11T02:13:19Z,2026-09-11T02:13:19Z,https://arxiv.org/abs/2609.12347v1,world-model-200
+2609.12103v2,RodForesight: A World Model Enhanced Diffusion Policy for Slender Rod Insertion,2026-09-10T18:31:55Z,2026-09-14T09:41:12Z,https://arxiv.org/abs/2609.12103v2,world-model-200
+2609.12090v1,Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity,2026-09-10T18:16:32Z,2026-09-10T18:16:32Z,https://arxiv.org/abs/2609.12090v1,video-generation-300; video-memory-100
+2609.12056v1,Random walk on the small-world network model in 3 or more dimensions,2026-09-10T18:00:03Z,2026-09-10T18:00:03Z,https://arxiv.org/abs/2609.12056v1,world-model-200
+2609.11899v1,"Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",2026-09-10T17:53:59Z,2026-09-10T17:53:59Z,https://arxiv.org/abs/2609.11899v1,video-memory-100
+2609.12036v1,Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence,2026-09-10T17:51:01Z,2026-09-10T17:51:01Z,https://arxiv.org/abs/2609.12036v1,world-model-200
+2609.11638v1,"Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",2026-09-10T14:46:07Z,2026-09-10T14:46:07Z,https://arxiv.org/abs/2609.11638v1,video-generation-300
+2609.11582v1,OmniKVQuant: KV Cache Quantization for Omni-LLMs,2026-09-10T14:14:12Z,2026-09-10T14:14:12Z,https://arxiv.org/abs/2609.11582v1,video-memory-100
+2609.11561v1,Memory as Plans: World-Action Modeling with Memory-Grounded Planning,2026-09-10T13:52:51Z,2026-09-10T13:52:51Z,https://arxiv.org/abs/2609.11561v1,world-model-200
+2609.11548v1,World in World: Explore the World with World Models,2026-09-10T13:42:26Z,2026-09-10T13:42:26Z,https://arxiv.org/abs/2609.11548v1,world-model-200
+2609.11507v1,Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation,2026-09-10T13:15:03Z,2026-09-10T13:15:03Z,https://arxiv.org/abs/2609.11507v1,video-generation-300
+2609.11499v2,Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs,2026-09-10T13:05:06Z,2026-09-13T02:25:35Z,https://arxiv.org/abs/2609.11499v2,world-model-200
+2609.11486v1,FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation,2026-09-10T12:55:04Z,2026-09-10T12:55:04Z,https://arxiv.org/abs/2609.11486v1,video-memory-100
+2609.11445v1,FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model,2026-09-10T12:14:37Z,2026-09-10T12:14:37Z,https://arxiv.org/abs/2609.11445v1,world-model-200
+2609.11265v1,Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation,2026-09-10T08:59:47Z,2026-09-10T08:59:47Z,https://arxiv.org/abs/2609.11265v1,video-generation-300
+2609.11242v1,From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models,2026-09-10T08:40:58Z,2026-09-10T08:40:58Z,https://arxiv.org/abs/2609.11242v1,video-generation-300
+2609.11079v1,RIDE: Relocalization-Informed Depth Estimation with 3D Gaussian Splatting,2026-09-10T04:36:58Z,2026-09-10T04:36:58Z,https://arxiv.org/abs/2609.11079v1,video-memory-100
+2609.10954v1,Measuring the Value of World-Model Updates: A Counterfactual Utility Protocol for Continual Adaptation,2026-09-10T01:22:57Z,2026-09-10T01:22:57Z,https://arxiv.org/abs/2609.10954v1,world-model-200
+2609.10914v1,Seamless Whole Slide Label-Free Virtual Staining,2026-09-09T23:59:55Z,2026-09-09T23:59:55Z,https://arxiv.org/abs/2609.10914v1,video-memory-100
+2609.10815v1,BodyCam-VQA: Enhanced Body-Worn Camera Video Captioning via Multimodal Reasoning and Probe Question Generation,2026-09-09T20:37:31Z,2026-09-09T20:37:31Z,https://arxiv.org/abs/2609.10815v1,video-generation-300
+2609.10540v1,Programmable World Model,2026-09-09T17:59:32Z,2026-09-09T17:59:32Z,https://arxiv.org/abs/2609.10540v1,world-model-200
+2609.10506v1,DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation,2026-09-09T17:41:38Z,2026-09-09T17:41:38Z,https://arxiv.org/abs/2609.10506v1,world-model-200
+2609.10355v1,Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs,2026-09-09T15:50:39Z,2026-09-09T15:50:39Z,https://arxiv.org/abs/2609.10355v1,video-generation-300; video-memory-100
+2609.10050v2,Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers,2026-09-09T11:26:25Z,2026-09-12T12:27:34Z,https://arxiv.org/abs/2609.10050v2,video-generation-300
+2609.10008v1,Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval,2026-09-09T10:38:25Z,2026-09-09T10:38:25Z,https://arxiv.org/abs/2609.10008v1,video-generation-300
+2609.09985v1,VLX-VR: An Agentic-Aware Video Reasoning Model,2026-09-09T10:13:30Z,2026-09-09T10:13:30Z,https://arxiv.org/abs/2609.09985v1,video-memory-100
+2609.09973v1,Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering,2026-09-09T10:00:43Z,2026-09-09T10:00:43Z,https://arxiv.org/abs/2609.09973v1,video-generation-300
+2609.09941v1,HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy,2026-09-09T09:33:25Z,2026-09-09T09:33:25Z,https://arxiv.org/abs/2609.09941v1,world-model-200
+2609.09895v1,Can We Trust Video Hallucination Detectors? VidHalLoc for Evaluating the Evaluators,2026-09-09T08:52:23Z,2026-09-09T08:52:23Z,https://arxiv.org/abs/2609.09895v1,video-memory-100
+2609.09757v2,Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis,2026-09-09T05:58:40Z,2026-09-16T17:11:39Z,https://arxiv.org/abs/2609.09757v2,world-model-200
+2609.09736v1,IAE-VTG: Interaction-Aligned Action-Entity Video Temporal Grounding,2026-09-09T05:25:37Z,2026-09-09T05:25:37Z,https://arxiv.org/abs/2609.09736v1,video-generation-300
+2609.09597v2,"Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",2026-09-09T01:50:54Z,2026-09-10T04:45:50Z,https://arxiv.org/abs/2609.09597v2,world-model-200
+2609.09577v1,Myocardial Strain Drift Correction in Deep Learning Based Ultrasound Tracking,2026-09-09T00:58:08Z,2026-09-09T00:58:08Z,https://arxiv.org/abs/2609.09577v1,video-memory-100
+2609.09418v3,Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration,2026-09-08T20:17:48Z,2026-09-23T17:33:55Z,https://arxiv.org/abs/2609.09418v3,world-model-200
+2609.09300v1,Video-MOPD: Multi-Teacher On-Policy Distillation for Video Understanding,2026-09-08T18:00:22Z,2026-09-08T18:00:22Z,https://arxiv.org/abs/2609.09300v1,video-generation-300
+2609.09155v1,SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators,2026-09-08T17:59:47Z,2026-09-08T17:59:47Z,https://arxiv.org/abs/2609.09155v1,world-model-200
+2609.09123v1,Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout,2026-09-08T17:50:05Z,2026-09-08T17:50:05Z,https://arxiv.org/abs/2609.09123v1,video-generation-300
+2609.08999v1,Concentrate After Imagination: Text-Conditioned Evidence Grounding for Partially Relevant Video Retrieval,2026-09-08T16:37:35Z,2026-09-08T16:37:35Z,https://arxiv.org/abs/2609.08999v1,video-generation-300
+2610.00097v1,DramaAgent: Agentic Storytelling Video Generation,2026-09-08T16:11:35Z,2026-09-08T16:11:35Z,https://arxiv.org/abs/2610.00097v1,video-generation-300
+2609.08938v2,EgoSIS: From Factorized Visual Ego-Transitions to Motion-Canonical Spatial Evidence for UAV Reasoning,2026-09-08T16:00:39Z,2026-09-09T04:55:33Z,https://arxiv.org/abs/2609.08938v2,video-memory-100
+2609.08855v1,Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems,2026-09-08T15:06:34Z,2026-09-08T15:06:34Z,https://arxiv.org/abs/2609.08855v1,world-model-200
+2609.08796v2,Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling,2026-09-08T14:25:11Z,2026-09-09T12:40:17Z,https://arxiv.org/abs/2609.08796v2,world-model-200
+2609.08755v1,"Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics",2026-09-08T13:50:30Z,2026-09-08T13:50:30Z,https://arxiv.org/abs/2609.08755v1,video-generation-300
+2609.08686v1,CausalChapter: Improving Long-Video Chaptering with Interventional Dependency Modeling,2026-09-08T12:54:57Z,2026-09-08T12:54:57Z,https://arxiv.org/abs/2609.08686v1,video-generation-300
+2609.22267v1,Did You Steal My Shot? Pioneering Camera Motion Plagiarism Detection in Generative Videos,2026-09-08T12:40:52Z,2026-09-08T12:40:52Z,https://arxiv.org/abs/2609.22267v1,video-generation-300
+2609.08505v1,Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance,2026-09-08T09:52:10Z,2026-09-08T09:52:10Z,https://arxiv.org/abs/2609.08505v1,video-generation-300
+2609.08496v1,SignRefine: Adapting Foundational Video Models for Sign Language Generation,2026-09-08T09:38:22Z,2026-09-08T09:38:22Z,https://arxiv.org/abs/2609.08496v1,video-generation-300
+2609.08444v1,Safe Task Planning with Long-Term Graph Memory for Embodied Agents,2026-09-08T08:49:50Z,2026-09-08T08:49:50Z,https://arxiv.org/abs/2609.08444v1,video-memory-100
+2609.08342v1,VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent,2026-09-08T07:14:44Z,2026-09-08T07:14:44Z,https://arxiv.org/abs/2609.08342v1,world-model-200
+2609.08275v2,Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation,2026-09-08T05:35:58Z,2026-09-14T10:16:55Z,https://arxiv.org/abs/2609.08275v2,video-generation-300
+2609.08273v1,MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging,2026-09-08T05:30:30Z,2026-09-08T05:30:30Z,https://arxiv.org/abs/2609.08273v1,video-memory-100
+2609.08230v2,ActionSplice: In-Flight Action Editing for Interactive World Models,2026-09-08T04:21:36Z,2026-09-26T23:17:13Z,https://arxiv.org/abs/2609.08230v2,world-model-200
+2609.08215v1,PhysFlow: Physics-Aware Optical Flow for Motion Controllable Video Generation,2026-09-08T03:57:21Z,2026-09-08T03:57:21Z,https://arxiv.org/abs/2609.08215v1,video-generation-300
+2609.08182v2,WSPolypNet: Weakly Supervised Polyp Localization in Colonoscopy Videos,2026-09-08T03:14:12Z,2026-09-30T00:20:18Z,https://arxiv.org/abs/2609.08182v2,video-generation-300
+2609.08162v1,WorldAgen: Unified State-Action Prediction with Test-Time World Model Training,2026-09-08T02:46:13Z,2026-09-08T02:46:13Z,https://arxiv.org/abs/2609.08162v1,world-model-200
+2609.08153v1,Geodesic-informed Generative Diffusion Model For Topology-preserved Image Video Generation,2026-09-08T02:37:50Z,2026-09-08T02:37:50Z,https://arxiv.org/abs/2609.08153v1,video-generation-300
+2609.08108v1,SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation,2026-09-08T01:36:31Z,2026-09-08T01:36:31Z,https://arxiv.org/abs/2609.08108v1,video-generation-300
+2609.08079v1,VI-Bench: Benchmarking Prompt Inversion from AIGC Videos,2026-09-08T00:44:04Z,2026-09-08T00:44:04Z,https://arxiv.org/abs/2609.08079v1,video-generation-300
+2609.07941v2,ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding,2026-09-07T19:53:38Z,2026-09-09T07:11:48Z,https://arxiv.org/abs/2609.07941v2,video-generation-300; video-memory-100
+2609.07874v1,InfluenceField: A Differentiable Field with Interventionally Identifiable Causal Structure for Multimodal World Modeling,2026-09-07T18:36:20Z,2026-09-07T18:36:20Z,https://arxiv.org/abs/2609.07874v1,world-model-200
+2609.07747v3,Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction,2026-09-07T16:47:39Z,2026-10-01T09:47:39Z,https://arxiv.org/abs/2609.07747v3,video-generation-300
+2609.07719v1,A radiographic world model for clinical reasoning and evidence generation,2026-09-07T16:33:02Z,2026-09-07T16:33:02Z,https://arxiv.org/abs/2609.07719v1,world-model-200
+2609.07532v1,PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling,2026-09-07T14:11:57Z,2026-09-07T14:11:57Z,https://arxiv.org/abs/2609.07532v1,world-model-200
+2609.07455v1,Parser-Free VLM Verification for Federated Weakly Supervised Video Anomaly Detection,2026-09-07T13:04:00Z,2026-09-07T13:04:00Z,https://arxiv.org/abs/2609.07455v1,video-generation-300
+2609.07398v1,"OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",2026-09-07T12:12:32Z,2026-09-07T12:12:32Z,https://arxiv.org/abs/2609.07398v1,world-model-200
+2609.07328v1,PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout,2026-09-07T10:45:26Z,2026-09-07T10:45:26Z,https://arxiv.org/abs/2609.07328v1,world-model-200
+2609.07299v1,World Models Under Asynchronous Sensor Observations,2026-09-07T10:17:17Z,2026-09-07T10:17:17Z,https://arxiv.org/abs/2609.07299v1,world-model-200
+2609.13264v1,BEACON: Behavior and Appearance Control for Subject-Specific Video Generation,2026-09-07T09:09:12Z,2026-09-07T09:09:12Z,https://arxiv.org/abs/2609.13264v1,video-generation-300
+2609.07216v1,The Price of Consistency: Exploiting Visual Anchors for Multimodal Jailbreaking in Video Generation,2026-09-07T08:34:00Z,2026-09-07T08:34:00Z,https://arxiv.org/abs/2609.07216v1,video-generation-300
+2609.07135v1,NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management,2026-09-07T07:34:33Z,2026-09-07T07:34:33Z,https://arxiv.org/abs/2609.07135v1,video-memory-100
+2609.07126v1,Beyond Task Success: Stage-Wise Reliability of World Model Planning under Sensing Degradation,2026-09-07T07:19:37Z,2026-09-07T07:19:37Z,https://arxiv.org/abs/2609.07126v1,world-model-200
+2609.07051v1,TrojanWorld: Backdooring World-Model Agents via Imagination Steering,2026-09-07T05:14:10Z,2026-09-07T05:14:10Z,https://arxiv.org/abs/2609.07051v1,world-model-200
+2609.07002v1,WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation,2026-09-07T03:48:06Z,2026-09-07T03:48:06Z,https://arxiv.org/abs/2609.07002v1,world-model-200
+2609.06991v1,AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation,2026-09-07T03:32:30Z,2026-09-07T03:32:30Z,https://arxiv.org/abs/2609.06991v1,video-generation-300
+2609.06978v1,AnomalyCraft-700K: Component-Level Controllable and Verifiable Synthetic Anomalies for Fine-Grained Video Anomaly Understanding,2026-09-07T03:13:47Z,2026-09-07T03:13:47Z,https://arxiv.org/abs/2609.06978v1,video-generation-300
+2609.06837v1,BinauralVAE: Spatial Audio Reconstruction For World Models,2026-09-06T21:20:36Z,2026-09-06T21:20:36Z,https://arxiv.org/abs/2609.06837v1,world-model-200
+2609.06820v2,Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping,2026-09-06T20:29:17Z,2026-09-10T01:37:16Z,https://arxiv.org/abs/2609.06820v2,world-model-200
+2609.06721v1,Companion-style QA Assistance in Ego-Vision,2026-09-06T16:49:45Z,2026-09-06T16:49:45Z,https://arxiv.org/abs/2609.06721v1,video-memory-100
+2609.06647v1,SerenAI: State-transition system inspired by text-based world AI models,2026-09-06T14:57:18Z,2026-09-06T14:57:18Z,https://arxiv.org/abs/2609.06647v1,world-model-200
+2609.06578v1,Learning to Use Imagination: Progress-Conditioned Future Utilization for World Action Models,2026-09-06T12:46:20Z,2026-09-06T12:46:20Z,https://arxiv.org/abs/2609.06578v1,world-model-200
+2609.06539v1,Watch and Crack: Password Inference from Smart-Glasses Video,2026-09-06T11:14:54Z,2026-09-06T11:14:54Z,https://arxiv.org/abs/2609.06539v1,video-generation-300
+2609.06504v1,CAM: Question Answering on Entity-Centric Videos with Continuous Extraction and Adaptive Querying,2026-09-06T09:39:49Z,2026-09-06T09:39:49Z,https://arxiv.org/abs/2609.06504v1,video-memory-100
+2609.06478v1,MVWeaver: A Hierarchical Music Video Generation Agent with a Learned Song-to-Visual Bridge,2026-09-06T08:50:45Z,2026-09-06T08:50:45Z,https://arxiv.org/abs/2609.06478v1,video-generation-300
+2609.06475v2,Thinking with Cameras: Active Visual Reasoning via Dynamic Viewpoint Control for Surveillance Video Understanding,2026-09-06T08:48:02Z,2026-09-25T11:19:16Z,https://arxiv.org/abs/2609.06475v2,video-generation-300
+2609.13257v1,Sampling headroom is not selection gain: a compute-value audit of test-time scaling for video world models,2026-09-06T06:11:15Z,2026-09-06T06:11:15Z,https://arxiv.org/abs/2609.13257v1,video-generation-300; world-model-200
+2609.06373v1,Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation,2026-09-06T04:20:32Z,2026-09-06T04:20:32Z,https://arxiv.org/abs/2609.06373v1,video-generation-300
+2609.09210v1,"Identifying Habit, Physics, and Nuisance in Robot World Models",2026-09-06T00:20:22Z,2026-09-06T00:20:22Z,https://arxiv.org/abs/2609.09210v1,world-model-200
+2609.06302v2,CST-WM: A Causally Structured World Model for Embodied Visual Tracking,2026-09-05T23:24:32Z,2026-09-29T10:26:07Z,https://arxiv.org/abs/2609.06302v2,world-model-200
+2609.06253v1,"One Model, Two Worlds: Bidirectional Sonar-Optical Translation",2026-09-05T20:37:17Z,2026-09-05T20:37:17Z,https://arxiv.org/abs/2609.06253v1,world-model-200
+2609.06207v1,PhysWeep: Does a Video Generator Realize the Physics You Ask For?,2026-09-05T17:52:46Z,2026-09-05T17:52:46Z,https://arxiv.org/abs/2609.06207v1,video-generation-300
+2609.06078v1,Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation,2026-09-05T13:11:38Z,2026-09-05T13:11:38Z,https://arxiv.org/abs/2609.06078v1,video-memory-100
+2609.06009v1,How to Learn from What a Human Would Avoid? Intervention-Aware World Models with Real-World RL for Dexterous Manipulation,2026-09-05T10:28:23Z,2026-09-05T10:28:23Z,https://arxiv.org/abs/2609.06009v1,world-model-200
+2609.05834v1,Learning Counterfactual World Models for Embodied Reasoning under Partial Observability,2026-09-05T02:56:47Z,2026-09-05T02:56:47Z,https://arxiv.org/abs/2609.05834v1,world-model-200
+2609.05416v2,WorldSculpt: Generating Compositional Worlds from Grounded Videos,2026-09-04T17:59:35Z,2026-09-07T05:52:19Z,https://arxiv.org/abs/2609.05416v2,video-generation-300
+2610.00069v1,A Framework for Egocentric and Exocentric Procedural Understanding via Temporal Segmentation and Semantic Abstraction,2026-09-04T17:34:52Z,2026-09-04T17:34:52Z,https://arxiv.org/abs/2610.00069v1,video-memory-100
+2609.05588v1,GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation,2026-09-04T17:16:48Z,2026-09-04T17:16:48Z,https://arxiv.org/abs/2609.05588v1,world-model-200
+2609.05369v1,Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation,2026-09-04T17:14:50Z,2026-09-04T17:14:50Z,https://arxiv.org/abs/2609.05369v1,video-memory-100
+2609.05270v1,AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance,2026-09-04T15:26:41Z,2026-09-04T15:26:41Z,https://arxiv.org/abs/2609.05270v1,video-generation-300
+2609.05266v1,TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation,2026-09-04T15:24:58Z,2026-09-04T15:24:58Z,https://arxiv.org/abs/2609.05266v1,world-model-200
+2609.05242v1,Few-Shot Video Recognition via Hierarchical Metric Learning,2026-09-04T15:07:44Z,2026-09-04T15:07:44Z,https://arxiv.org/abs/2609.05242v1,video-generation-300
+2609.04958v2,MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision,2026-09-04T10:05:11Z,2026-09-08T08:22:56Z,https://arxiv.org/abs/2609.04958v2,world-model-200
+2609.04911v2,TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image,2026-09-04T09:15:03Z,2026-09-07T04:56:06Z,https://arxiv.org/abs/2609.04911v2,video-memory-100; world-model-200
+2609.04894v1,"From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",2026-09-04T08:52:28Z,2026-09-04T08:52:28Z,https://arxiv.org/abs/2609.04894v1,world-model-200
+2609.04867v2,PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation,2026-09-04T08:27:10Z,2026-09-09T03:05:45Z,https://arxiv.org/abs/2609.04867v2,video-generation-300
+2609.04851v1,Coupled Control and Wireless World Models for Resilient Remote Robotic Control,2026-09-04T08:09:55Z,2026-09-04T08:09:55Z,https://arxiv.org/abs/2609.04851v1,world-model-200
+2609.04802v3,Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents,2026-09-04T07:00:48Z,2026-09-29T08:04:58Z,https://arxiv.org/abs/2609.04802v3,video-memory-100
+2609.04649v2,ReaDiT Guidance: Control for Image and Video Generation using Diffusion Transformer Features,2026-09-04T02:30:18Z,2026-09-13T00:20:17Z,https://arxiv.org/abs/2609.04649v2,video-generation-300
+2609.04438v2,ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory,2026-09-03T19:58:51Z,2026-09-08T00:10:56Z,https://arxiv.org/abs/2609.04438v2,video-memory-100
+2609.04355v3,VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models,2026-09-03T18:19:36Z,2026-09-18T15:32:32Z,https://arxiv.org/abs/2609.04355v3,world-model-200
+2609.04203v1,Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision,2026-09-03T17:59:55Z,2026-09-03T17:59:55Z,https://arxiv.org/abs/2609.04203v1,video-generation-300
+2609.04200v1,Principia: Relational Physics Tests for Video Models,2026-09-03T17:59:50Z,2026-09-03T17:59:50Z,https://arxiv.org/abs/2609.04200v1,video-generation-300
+2609.04196v1,Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States,2026-09-03T17:59:13Z,2026-09-03T17:59:13Z,https://arxiv.org/abs/2609.04196v1,world-model-200
+2609.04190v1,"One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",2026-09-03T17:59:01Z,2026-09-03T17:59:01Z,https://arxiv.org/abs/2609.04190v1,video-memory-100
+2609.04183v1,Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning,2026-09-03T17:58:02Z,2026-09-03T17:58:02Z,https://arxiv.org/abs/2609.04183v1,video-generation-300
+2609.04131v1,Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding,2026-09-03T17:28:14Z,2026-09-03T17:28:14Z,https://arxiv.org/abs/2609.04131v1,video-memory-100
+2609.04120v1,BooM-VVT: Boosting Mask-Free Video Virtual Try-On with Image-Level Pseudo Data,2026-09-03T17:22:33Z,2026-09-03T17:22:33Z,https://arxiv.org/abs/2609.04120v1,video-generation-300
+2609.04110v1,The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs,2026-09-03T17:14:55Z,2026-09-03T17:14:55Z,https://arxiv.org/abs/2609.04110v1,video-generation-300
+2609.04031v1,DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation,2026-09-03T16:09:25Z,2026-09-03T16:09:25Z,https://arxiv.org/abs/2609.04031v1,video-generation-300; video-memory-100
+2609.04009v1,The Blind Spot in 2D Infants' Pose Estimation:Robust Learning from Noisy Annotations,2026-09-03T15:47:56Z,2026-09-03T15:47:56Z,https://arxiv.org/abs/2609.04009v1,video-memory-100
+2609.03952v1,WorldReward: Reward Modeling for Camera-Conditioned World Models,2026-09-03T14:53:53Z,2026-09-03T14:53:53Z,https://arxiv.org/abs/2609.03952v1,world-model-200
+2609.03927v1,"Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",2026-09-03T14:40:16Z,2026-09-03T14:40:16Z,https://arxiv.org/abs/2609.03927v1,world-model-200
+2609.03919v1,OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping,2026-09-03T14:35:38Z,2026-09-03T14:35:38Z,https://arxiv.org/abs/2609.03919v1,video-generation-300; video-memory-100
+2609.03834v1,Semantic Bayesian World Models,2026-09-03T13:35:11Z,2026-09-03T13:35:11Z,https://arxiv.org/abs/2609.03834v1,world-model-200
+2609.03788v1,A Reverse Sign Language Dictionary: Open-Vocabulary Sign Recognition from Continuous Signing via Video Captioning and Description Retrieval,2026-09-03T12:59:40Z,2026-09-03T12:59:40Z,https://arxiv.org/abs/2609.03788v1,video-generation-300
+2609.03774v2,Rethinking World Models for Safety-Critical Embodied Systems,2026-09-03T12:44:44Z,2026-10-01T10:32:40Z,https://arxiv.org/abs/2609.03774v2,world-model-200
+2609.03756v1,ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation,2026-09-03T12:25:26Z,2026-09-03T12:25:26Z,https://arxiv.org/abs/2609.03756v1,video-memory-100
+2609.03742v2,KnowVis: Knowledge-Centric Visual Summarization for Video Lectures,2026-09-03T12:14:34Z,2026-09-07T04:26:07Z,https://arxiv.org/abs/2609.03742v2,video-generation-300
+2609.03727v1,"Proactive Service Agents: A Unified Decision Framework, Methods, and Evaluation",2026-09-03T12:00:34Z,2026-09-03T12:00:34Z,https://arxiv.org/abs/2609.03727v1,video-memory-100
+2609.03681v1,WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models,2026-09-03T11:17:57Z,2026-09-03T11:17:57Z,https://arxiv.org/abs/2609.03681v1,world-model-200
+2609.03675v2,CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding,2026-09-03T11:14:21Z,2026-10-01T15:02:58Z,https://arxiv.org/abs/2609.03675v2,video-memory-100
+2609.03673v1,Do Video Generators Track the World Across Segments? A Benchmark and Method for World-State Reasoning in Video Continuation,2026-09-03T11:09:46Z,2026-09-03T11:09:46Z,https://arxiv.org/abs/2609.03673v1,video-generation-300; video-memory-100
+2609.03657v1,Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations,2026-09-03T10:54:49Z,2026-09-03T10:54:49Z,https://arxiv.org/abs/2609.03657v1,video-generation-300
+2609.03629v2,EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders,2026-09-03T10:23:37Z,2026-09-08T07:39:53Z,https://arxiv.org/abs/2609.03629v2,video-generation-300
+2609.03602v1,SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving,2026-09-03T09:47:51Z,2026-09-03T09:47:51Z,https://arxiv.org/abs/2609.03602v1,world-model-200
+2609.03586v1,The Attention Triangle in Audio-Video Models,2026-09-03T09:33:27Z,2026-09-03T09:33:27Z,https://arxiv.org/abs/2609.03586v1,video-generation-300
+2609.03572v1,Drive-HWM: Hierarchical World Models for Dynamic-Latent Guided Autonomous Driving,2026-09-03T09:21:19Z,2026-09-03T09:21:19Z,https://arxiv.org/abs/2609.03572v1,world-model-200
+2609.03565v2,Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning,2026-09-03T09:11:13Z,2026-09-19T14:59:47Z,https://arxiv.org/abs/2609.03565v2,world-model-200
+2609.03563v1,FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow,2026-09-03T09:05:07Z,2026-09-03T09:05:07Z,https://arxiv.org/abs/2609.03563v1,video-generation-300
+2609.03557v1,Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation,2026-09-03T08:58:04Z,2026-09-03T08:58:04Z,https://arxiv.org/abs/2609.03557v1,video-generation-300; world-model-200
+2609.03528v1,LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL,2026-09-03T08:24:56Z,2026-09-03T08:24:56Z,https://arxiv.org/abs/2609.03528v1,video-memory-100
+2609.03520v1,Neural Video Compression Based on Deformable Temporal Alignment and Difference-aware Fusion,2026-09-03T08:20:19Z,2026-09-03T08:20:19Z,https://arxiv.org/abs/2609.03520v1,video-generation-300
+2609.22233v1,"SCALE: Simulation-Calibrated Amortized Learning for Energy Materials (A hybrid architecture connecting deterministic modeling, real-world data, and transformer-scale inference for accelerated energy-materials discovery)",2026-09-03T04:56:19Z,2026-09-03T04:56:19Z,https://arxiv.org/abs/2609.22233v1,world-model-200
+2609.04283v1,Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching,2026-09-03T04:46:46Z,2026-09-03T04:46:46Z,https://arxiv.org/abs/2609.04283v1,video-generation-300
+2609.03294v1,Latent Energy Action Planning with World Models,2026-09-03T02:41:36Z,2026-09-03T02:41:36Z,https://arxiv.org/abs/2609.03294v1,world-model-200
+2609.03225v2,Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving,2026-09-03T00:00:39Z,2026-09-17T03:58:18Z,https://arxiv.org/abs/2609.03225v2,world-model-200
+2609.03169v1,Signal-Driven Pervasive Game Design: The LifeSync-Games Framework as a Player Experience Integration Layer,2026-09-02T21:12:38Z,2026-09-02T21:12:38Z,https://arxiv.org/abs/2609.03169v1,video-memory-100
+2609.03153v1,VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement,2026-09-02T20:36:45Z,2026-09-02T20:36:45Z,https://arxiv.org/abs/2609.03153v1,world-model-200
+2609.03067v1,GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations,2026-09-02T18:39:40Z,2026-09-02T18:39:40Z,https://arxiv.org/abs/2609.03067v1,world-model-200
+2609.04264v3,Spectral-Target Physical Latent Structuring for JEPA-Style World Models,2026-09-02T18:05:06Z,2026-09-16T16:49:30Z,https://arxiv.org/abs/2609.04264v3,world-model-200
+2609.02886v1,SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models,2026-09-02T17:59:41Z,2026-09-02T17:59:41Z,https://arxiv.org/abs/2609.02886v1,video-generation-300; world-model-200
+2609.02885v1,Discriminative World Models for Web Agents,2026-09-02T17:59:40Z,2026-09-02T17:59:40Z,https://arxiv.org/abs/2609.02885v1,world-model-200
+2609.02811v1,Do Better Imagined Rollouts Mean Better Robot Control? A Controlled Study of World-Model Evaluation Under Feedback,2026-09-02T16:52:30Z,2026-09-02T16:52:30Z,https://arxiv.org/abs/2609.02811v1,world-model-200
+2609.02780v2,ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding,2026-09-02T16:14:48Z,2026-09-30T05:44:44Z,https://arxiv.org/abs/2609.02780v2,video-generation-300
+2609.02542v1,World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain,2026-09-02T12:57:01Z,2026-09-02T12:57:01Z,https://arxiv.org/abs/2609.02542v1,world-model-200
+2609.05541v1,Video Compression with Graph-inspired Neural Representation,2026-09-02T12:43:03Z,2026-09-02T12:43:03Z,https://arxiv.org/abs/2609.05541v1,video-memory-100
+2609.02531v1,Spatially Aware World Action Model via Geometric Latent Diffusion,2026-09-02T12:42:37Z,2026-09-02T12:42:37Z,https://arxiv.org/abs/2609.02531v1,world-model-200
+2609.02419v1,An active Lorentz gas: walking droplets in periodic media,2026-09-02T10:39:09Z,2026-09-02T10:39:09Z,https://arxiv.org/abs/2609.02419v1,video-memory-100
+2609.02367v2,The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation,2026-09-02T09:39:50Z,2026-09-18T08:43:05Z,https://arxiv.org/abs/2609.02367v2,video-generation-300
+2609.02339v1,AGI Maze Prediction Datasets: A Compact Benchmark for Learning World Dynamics with Transformers,2026-09-02T09:15:33Z,2026-09-02T09:15:33Z,https://arxiv.org/abs/2609.02339v1,video-memory-100
+2609.02292v1,SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology,2026-09-02T08:40:07Z,2026-09-02T08:40:07Z,https://arxiv.org/abs/2609.02292v1,world-model-200
+2609.02291v2,VoRTeC: Taming Foundation Flow for One-step Real time Video Compression,2026-09-02T08:39:23Z,2026-09-03T02:54:14Z,https://arxiv.org/abs/2609.02291v2,video-generation-300
+2609.02231v1,PhoenixNest-Video: Evidence-Grounded Multimodal Agent Framework for Automated Video Interview Assessment,2026-09-02T07:40:43Z,2026-09-02T07:40:43Z,https://arxiv.org/abs/2609.02231v1,video-memory-100
+2609.02159v1,World-Coherent Decoding: Self-Verifying Test-Time Planning for World Action Models,2026-09-02T06:21:36Z,2026-09-02T06:21:36Z,https://arxiv.org/abs/2609.02159v1,world-model-200
+2609.02046v1,"Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",2026-09-02T03:20:09Z,2026-09-02T03:20:09Z,https://arxiv.org/abs/2609.02046v1,world-model-200
+2609.05533v2,SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models,2026-09-02T02:23:39Z,2026-09-25T02:16:43Z,https://arxiv.org/abs/2609.05533v2,video-generation-300; video-memory-100
+2609.01861v1,Belief-Calibrated Optimization: An Explicit World Model for Agentic Optimization,2026-09-01T20:47:04Z,2026-09-01T20:47:04Z,https://arxiv.org/abs/2609.01861v1,world-model-200
+2609.01846v1,Cite or Decline: A Strict Course-Grounded Chatbot for STEM Lecture Videos,2026-09-01T20:27:47Z,2026-09-01T20:27:47Z,https://arxiv.org/abs/2609.01846v1,video-generation-300
+2609.01823v1,Kirin: Animal Motion Generation from In-the-Wild Video,2026-09-01T19:56:15Z,2026-09-01T19:56:15Z,https://arxiv.org/abs/2609.01823v1,video-generation-300
+2609.01535v1,Can LLMs Design Video Coding Tools? A Case Study on Planar Mode,2026-09-01T17:04:47Z,2026-09-01T17:04:47Z,https://arxiv.org/abs/2609.01535v1,video-generation-300
+2609.01479v1,CameraEditor: Camera-Controlled Image Editing via Video-Prior Sequential Modeling,2026-09-01T16:16:06Z,2026-09-01T16:16:06Z,https://arxiv.org/abs/2609.01479v1,video-generation-300
+2609.01276v1,Seeing the World and the Self from Egocentric Video,2026-09-01T14:10:13Z,2026-09-01T14:10:13Z,https://arxiv.org/abs/2609.01276v1,video-generation-300
+2609.01252v1,MeRoPE: Metric Rotary Position Embedding for Camera-Controlled Video Generation,2026-09-01T13:48:31Z,2026-09-01T13:48:31Z,https://arxiv.org/abs/2609.01252v1,video-generation-300
+2609.01067v1,World Model-Guided Reinforcement Learning via Counterfactual User Engagement Simulation,2026-09-01T10:59:41Z,2026-09-01T10:59:41Z,https://arxiv.org/abs/2609.01067v1,world-model-200
+2609.00924v1,Beyond the Image Plane: World-Grounded Queries for Multi-Object Tracking,2026-09-01T08:48:14Z,2026-09-01T08:48:14Z,https://arxiv.org/abs/2609.00924v1,video-memory-100
+2609.00919v1,HyperSketch: Controllable Video Sketching in a Style Hyperspace,2026-09-01T08:45:11Z,2026-09-01T08:45:11Z,https://arxiv.org/abs/2609.00919v1,video-generation-300
+2609.00742v1,Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection,2026-09-01T05:23:48Z,2026-09-01T05:23:48Z,https://arxiv.org/abs/2609.00742v1,video-generation-300
+2609.00712v1,EarthLD: Towards Unified Open-World Landslide Understanding via Vision-Language Guided Diffusion Models,2026-09-01T04:41:50Z,2026-09-01T04:41:50Z,https://arxiv.org/abs/2609.00712v1,world-model-200
+2609.00701v1,FALCON: Fault-Tolerant Magnetic Tunnel Junction-Based In-Memory Stochastic Architecture for Reliability-Critical Edge AI Applications,2026-09-01T04:22:25Z,2026-09-01T04:22:25Z,https://arxiv.org/abs/2609.00701v1,video-memory-200
+2609.00656v1,Physically Plausible Video Generation via Visual-Semantic Chain-of-Events Conditioning,2026-09-01T03:35:02Z,2026-09-01T03:35:02Z,https://arxiv.org/abs/2609.00656v1,video-generation-300
+2609.00610v2,Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction,2026-09-01T02:49:45Z,2026-09-10T04:35:51Z,https://arxiv.org/abs/2609.00610v2,video-generation-300; world-model-200
+2609.00551v1,EM^2Mem: Event-Centric Multimodal Memory for Large Language Models,2026-09-01T01:38:41Z,2026-09-01T01:38:41Z,https://arxiv.org/abs/2609.00551v1,video-memory-200
+2609.00505v1,ViTAL-X: Video-Text Alignment with Cross-Modal Temporal Edits,2026-09-01T00:13:44Z,2026-09-01T00:13:44Z,https://arxiv.org/abs/2609.00505v1,video-generation-300
