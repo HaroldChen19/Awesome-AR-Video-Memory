@@ -17,7 +17,6 @@
 
 ## 📢 News
 
-- [2026/10/11] Rechecked all 34 recent additions against their versioned method/protocol sections, including [carrier classification, write/read paths, and scope boundaries](audit/2026-10-11-paper-by-paper-recheck.md).
 - [2026/09/24] 📝 Our survey is released on [arXiv](https://arxiv.org/abs/2609.28466)!
 - [2026/09/06] 🗃️ The repository launches with the methods and benchmarks from the survey.
 
@@ -28,7 +27,7 @@
 
 </div>
 
-[Introduction](#introduction) | [Taxonomy](#memory-carrier-taxonomy) | [Paper List](#paper-list) | [Benchmarks](#benchmarks) | [Learning & Diagnostics](#learning-and-diagnostics) | [Source Audit](audit/2026-10-10-recent-papers-check.md) | [Citation](#citation) | [Contact](#contact)
+[Introduction](#introduction) | [Taxonomy](#memory-carrier-taxonomy) | [Paper List](#paper-list) | [Benchmarks](#benchmarks) | [Learning & Diagnostics](#learning-and-diagnostics) | [Citation](#citation) | [Contact](#contact)
 
 
 
