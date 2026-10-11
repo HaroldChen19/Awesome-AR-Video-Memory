@@ -132,7 +132,7 @@ This is an organizational group within Visual Memory for methods that manage ret
 - [2026/10] World Observer: Joint Actor-Observer Generation for Persistent World Modeling. [[paper](https://arxiv.org/abs/2610.02162)]
 - [2026/09] Memorizon: Training World Models Beyond Their Context Window. [[paper](https://arxiv.org/abs/2610.00544)]
 - [2026/09] Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation. [[paper](https://arxiv.org/abs/2609.34722)] [also: Explicit State]
-- [2026/09] ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation. [[paper](https://arxiv.org/abs/2609.21712)] [retrieved cross-trajectory memory logs]
+- [2026/09] ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation. [[paper](https://arxiv.org/abs/2609.21712)]
 - [2026/09] ConsistWorld: Evidence Routing for Consistent Multi-Agent World Models. [[paper](https://arxiv.org/abs/2609.22641)]
 - [2026/08] ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing. [[paper](https://arxiv.org/abs/2608.04956)]
 - [2026/08] Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds. [[paper](https://arxiv.org/abs/2608.23383)]
@@ -187,7 +187,7 @@ This is an organizational group within Visual Memory for methods that manage ret
 - [2026/10] Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation. [[paper](https://arxiv.org/abs/2610.03510)]
 - [2026/10] In-Distribution Forcing for Long Video Generation at Test Time. [[paper](https://arxiv.org/abs/2610.03120)]
 - [2026/10] Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02914)]
-- [2026/10] TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02779)] [memory component: SSC first-chunk KV]
+- [2026/10] TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02779)]
 - [2026/10] MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02153)]
 - [2026/09] DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency. [[paper](https://arxiv.org/abs/2609.39096)]
 - [2026/09] Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History. [[paper](https://arxiv.org/abs/2609.38114)]
@@ -296,8 +296,8 @@ This is an organizational group within Visual Memory for methods that manage ret
 
 #### Recurrent and State-space States
 
-- [2026/10] HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models. [[paper](https://arxiv.org/abs/2610.05739)] [also: Attention-cache States]
-- [2026/09] LOCI: Spatial Linear Memory for Streaming World Models. [[paper](https://arxiv.org/abs/2609.40222)] [also: Attention-cache States]
+- [2026/10] HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models. [[paper](https://arxiv.org/abs/2610.05739)]
+- [2026/09] LOCI: Spatial Linear Memory for Streaming World Models. [[paper](https://arxiv.org/abs/2609.40222)]
 - [2026/07] Ripple: Real-Time Streaming Audio-Video Generation With Cross-Modal Recurrent Memory. [[paper](https://arxiv.org/abs/2607.26818)]
 - [2026/07] TaoMate: Anchor-Guided Memory Bridging Evolving and Reference States for Real-Time Audio-Video Digital Human Generation. [[paper](https://arxiv.org/abs/2607.24359)]
 - [2026/07] Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation. [[paper](https://arxiv.org/abs/2607.26694)]
@@ -356,7 +356,7 @@ This is an organizational group within Visual Memory for methods that manage ret
 
 #### Spatial and Geometric States
 
-- [2026/10] Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update. [[paper](https://arxiv.org/abs/2610.07031)] [also: Attention-cache States]
+- [2026/10] Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update. [[paper](https://arxiv.org/abs/2610.07031)] [also: Implicit State]
 - [2026/09] Honeycomb: Constant-Size Scene Memory Representation for Video World Models. [[paper](https://arxiv.org/abs/2609.37690)]
 - [2026/09] PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control. [[paper](https://arxiv.org/abs/2609.17521)]
 - [2026/09] OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping. [[paper](https://arxiv.org/abs/2609.03919)]
