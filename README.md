@@ -17,6 +17,7 @@
 
 ## 📢 News
 
+- [2026/10/11] Rechecked all 34 recent additions against their versioned method/protocol sections, including [carrier classification, write/read paths, and scope boundaries](audit/2026-10-11-paper-by-paper-recheck.md).
 - [2026/09/24] 📝 Our survey is released on [arXiv](https://arxiv.org/abs/2609.28466)!
 - [2026/09/06] 🗃️ The repository launches with the methods and benchmarks from the survey.
 
@@ -86,7 +87,7 @@ We categorize memory mechanisms into four major carrier families:
 
 #### Carrier-agnostic Visual Memory Management
 
-These methods manage retained visual observations across host models; the pixel/latent encoding follows the host.
+This is an organizational group within Visual Memory for methods that manage retained visual observations. The pixel/latent encoding follows the host; it does not define an additional carrier subtype.
 
 - [2026/10] Keepsake: Selective Spatial Memory for Long-Horizon Video Generation. [[paper](https://arxiv.org/abs/2610.06588)]
 - [2026/10] Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory. [[paper](https://arxiv.org/abs/2610.02521)]
@@ -183,7 +184,6 @@ These methods manage retained visual observations across host models; the pixel/
 #### Attention-cache States
 
 - [2026/10] Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation. [[paper](https://arxiv.org/abs/2610.11756)]
-- [2026/10] SGF+: Decoupling Gradient Flows for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.10429)]
 - [2026/10] Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation. [[paper](https://arxiv.org/abs/2610.03510)]
 - [2026/10] In-Distribution Forcing for Long Video Generation at Test Time. [[paper](https://arxiv.org/abs/2610.03120)]
 - [2026/10] Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.02914)]
@@ -417,6 +417,7 @@ These papers directly study memory writing or reading in autoregressive video ge
 ### History-dependent Training
 
 - [2026/10] Connected Self Forcing: Beyond Local Learning in Video Autoregression. [[paper](https://arxiv.org/abs/2610.12156)]
+- [2026/10] SGF+: Decoupling Gradient Flows for Autoregressive Video Generation. [[paper](https://arxiv.org/abs/2610.10429)]
 
 ### Memory Diagnostics
 
