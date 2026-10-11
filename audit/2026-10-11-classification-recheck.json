@@ -1,0 +1,2111 @@
+[
+  {
+    "arxiv_id": "2610.12412",
+    "id": "2610.12412v1",
+    "title": "WorldCast: Distributed Multiplayer World Models",
+    "short_name": "WorldCast",
+    "source": "https://arxiv.org/abs/2610.12412v1",
+    "published": "2026-10-08T17:49:44Z",
+    "updated": "2026-10-08T17:49:44Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "VAE-space Visual Memory",
+    "secondary_form": "Explicit State",
+    "runtime_carrier": "VAE-space Visual Memory；辅助 Entity-centric States / scene pose-depth metadata",
+    "write_path": "共享 scene bank 发布 latent block、相机和粗 depth；逐 block 更新玩家位置、朝向及武器状态，撤回冗余场景项。",
+    "read_path": "后续 block-causal generator 读取 scene bank 与玩家状态条件；离屏玩家状态仍保留。",
+    "classification_rationale": "历史外观的持久对象是可解码 VAE latent；玩家字段是独立结构化副载体。",
+    "classification_recheck": "保留 Visual 主分类与 Explicit 副分类，细化副载体。",
+    "scope_limit": "相机/depth 元数据与 player state 分开登记；共享 bank 不是已证明的全外观融合 3D 地图。",
+    "ar_evidence": {
+      "pages": [
+        5
+      ],
+      "locator": "§3.3; block-causal generator",
+      "reason": "场景 memory latents 先置，recent/target 在 block-causal mask 下读取。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.12412v1#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§3.2–3.3; Eq. (1)",
+      "reason": "共享 scene bank 发布 latent block、相机和粗 depth；逐 block 更新玩家位置、朝向及武器状态，撤回冗余场景项。 后续 block-causal generator 读取 scene bank 与玩家状态条件；离屏玩家状态仍保留。 历史外观的持久对象是可解码 VAE latent；玩家字段是独立结构化副载体。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.12412v1#page=4",
+        "https://arxiv.org/pdf/2610.12412v1#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.12412v1#page=4",
+      "https://arxiv.org/pdf/2610.12412v1#page=5"
+    ],
+    "pdf_sha256": "075691d69762624b3a6bbeb76cad9f058206c50a7118f88ad523103a288faa00",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "VAE-space Visual Memory",
+      "secondary_form": "Explicit State"
+    },
+    "final_role": "Forms / VAE-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.12156",
+    "id": "2610.12156v1",
+    "title": "Connected Self Forcing: Beyond Local Learning in Video Autoregression",
+    "short_name": "Connected Self Forcing",
+    "source": "https://arxiv.org/abs/2610.12156v1",
+    "published": "2026-10-08T15:36:56Z",
+    "updated": "2026-10-08T15:36:56Z",
+    "decision": "add_learning_study",
+    "primary_family": "",
+    "primary_form": "",
+    "secondary_form": "",
+    "runtime_carrier": "原生 Attention-cache States（运行时）；收录角色 Learning",
+    "write_path": "离线 shortcut replay 恢复已生成 latent 与 KV writer 的梯度；运行时沿用生成后写入历史 KV 的接口。",
+    "read_path": "后续 AR chunk 从保留 KV 读取；未来损失训练 writer，未来视频不作为推理输入。",
+    "classification_rationale": "贡献是历史写入路径的学习，而非新增持久载体或逐 episode 参数适应。",
+    "classification_recheck": "保留 Learning，并显式记录运行时 KV 载体。",
+    "scope_limit": "训练梯度穿越历史与推理时可读取未来是两种不同信息路径。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§3.1–3.3; KV writer and replay",
+      "reason": "AR chunk generator 及 retained KV writer 被明确分开；shortcut replay 训练跨历史缓存的梯度路径。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.12156v1#page=4",
+        "https://arxiv.org/pdf/2610.12156v1#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§3.1–3.3; Figure 3; Eq. (1)",
+      "reason": "离线 shortcut replay 恢复已生成 latent 与 KV writer 的梯度；运行时沿用生成后写入历史 KV 的接口。 后续 AR chunk 从保留 KV 读取；未来损失训练 writer，未来视频不作为推理输入。 贡献是历史写入路径的学习，而非新增持久载体或逐 episode 参数适应。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.12156v1#page=4",
+        "https://arxiv.org/pdf/2610.12156v1#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.12156v1#page=4",
+      "https://arxiv.org/pdf/2610.12156v1#page=5"
+    ],
+    "pdf_sha256": "c38da52067c48e7bcaf3fcc0e01e55c35da87d85b0d8f41c9706886d8b6a2630",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_learning_study",
+      "primary_form": "",
+      "secondary_form": ""
+    },
+    "final_role": "Learning / KV writer",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.11756",
+    "id": "2610.11756v1",
+    "title": "Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation",
+    "short_name": "Memory Forcing",
+    "source": "https://arxiv.org/abs/2610.11756v1",
+    "published": "2026-10-08T11:42:57Z",
+    "updated": "2026-10-08T11:42:57Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "clean chunk 写入 working；working 满时把与新块最不相似的块移入 archive，archive 满则 FIFO 淘汰；sink 固定。",
+    "read_path": "当前查询拼接 sink / archive / working / current 的 KV，读取前重新分配 bank-aware RoPE。",
+    "classification_rationale": "被保留和重读的是模型原生历史 KV；中期 archive 直接改变窗口外内容可访问性。",
+    "classification_recheck": "保留 Cache；补充 rolling / DMD 训练背景与固定总预算的三 bank 边界。",
+    "scope_limit": "2610.11756 与仓库既有 2510.03198 同名 Memory Forcing 是不同论文。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        5,
+        7
+      ],
+      "locator": "AR formulation; Algorithm 1; causal student",
+      "reason": "逐块因果生成；三 bank K/V 被后续 denoising 读取。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.11756v1#page=3",
+        "https://arxiv.org/pdf/2610.11756v1#page=5",
+        "https://arxiv.org/pdf/2610.11756v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "locator": "§3.1; §3.3–3.4; Algorithm 1; causal student setup",
+      "reason": "clean chunk 写入 working；working 满时把与新块最不相似的块移入 archive，archive 满则 FIFO 淘汰；sink 固定。 当前查询拼接 sink / archive / working / current 的 KV，读取前重新分配 bank-aware RoPE。 被保留和重读的是模型原生历史 KV；中期 archive 直接改变窗口外内容可访问性。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.11756v1#page=3",
+        "https://arxiv.org/pdf/2610.11756v1#page=5",
+        "https://arxiv.org/pdf/2610.11756v1#page=6",
+        "https://arxiv.org/pdf/2610.11756v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.11756v1#page=3",
+      "https://arxiv.org/pdf/2610.11756v1#page=5",
+      "https://arxiv.org/pdf/2610.11756v1#page=6",
+      "https://arxiv.org/pdf/2610.11756v1#page=7"
+    ],
+    "pdf_sha256": "8aa182314d876a23e9159a282e954dc49597b5263293c3fbd8c7336f0b6bae70",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.10429",
+    "id": "2610.10429v2",
+    "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+    "short_name": "SGF+",
+    "source": "https://arxiv.org/abs/2610.10429v2",
+    "published": "2026-10-07T17:09:04Z",
+    "updated": "2026-10-08T17:32:52Z",
+    "decision": "add_learning_study",
+    "primary_family": "",
+    "primary_form": "",
+    "secondary_form": "",
+    "runtime_carrier": "原生 Attention-cache States（运行时）；收录角色 Learning",
+    "write_path": "离线重构 context KV 的可微路径，context writer 与 denoiser 分离参数/梯度；生成历史由 writer 编码为 KV。",
+    "read_path": "AR denoiser 从 context KV 读取，writer 由未来生成目标监督。",
+    "classification_rationale": "与 CSF 一致按贡献角色归 Learning；运行时历史仍是 KV，离线分离参数不构成 Adaptive Parametric Memory。",
+    "classification_recheck": "从 Forms / Attention-cache 方法列表移到 History-dependent Training；仍在 scope。",
+    "scope_limit": "writer 与 denoiser 的离线参数优化不等于将本次轨迹在线写进权重。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§3.1–3.3; Eq. (1)",
+      "reason": "latent blocks 按序生成，context writer 写历史，denoiser 读 context K/V。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.10429v2#page=4",
+        "https://arxiv.org/pdf/2610.10429v2#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.3; Eqs. (1), (2), (5)",
+      "reason": "离线重构 context KV 的可微路径，context writer 与 denoiser 分离参数/梯度；生成历史由 writer 编码为 KV。 AR denoiser 从 context KV 读取，writer 由未来生成目标监督。 与 CSF 一致按贡献角色归 Learning；运行时历史仍是 KV，离线分离参数不构成 Adaptive Parametric Memory。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.10429v2#page=4",
+        "https://arxiv.org/pdf/2610.10429v2#page=5",
+        "https://arxiv.org/pdf/2610.10429v2#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.10429v2#page=4",
+      "https://arxiv.org/pdf/2610.10429v2#page=5",
+      "https://arxiv.org/pdf/2610.10429v2#page=6"
+    ],
+    "pdf_sha256": "16a228ef093f5513e40093052c698fde4541caf0ed24ed06c9c49af05684baec",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Learning / KV writer",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.08941",
+    "id": "2610.08941v1",
+    "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
+    "short_name": "SPW-Nav",
+    "source": "https://arxiv.org/abs/2610.08941v1",
+    "published": "2026-10-06T18:05:45Z",
+    "updated": "2026-10-06T18:05:45Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "VAE-space Visual Memory",
+    "secondary_form": "",
+    "runtime_carrier": "VAE-space Visual Memory",
+    "write_path": "生成后的 panorama latent 按近期、较早历史及固定首帧 anchor 分档保留；旧项采用更粗 patchify。",
+    "read_path": "Helios AR recipe 的下一非重叠 chunk 读取多尺度历史 token；相机旋转在初始全景朝向与解码输出之间处理。",
+    "classification_rationale": "历史项保持 observation-aligned latent；相对 pose 是条件/地址，不是持久度量地图。",
+    "classification_recheck": "保留 VAE；确认多尺度 memory 是跨 chunk 唯一连续性接口。",
+    "scope_limit": "全景旋转覆盖与远距离平移重访的证据分别解释。",
+    "ar_evidence": {
+      "pages": [
+        5,
+        6
+      ],
+      "locator": "§4.4; streaming generator",
+      "reason": "基于 Helios 的 AR recipe；历史 latent tokens 条件化非重叠下一 chunk。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.08941v1#page=5",
+        "https://arxiv.org/pdf/2610.08941v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        5,
+        6
+      ],
+      "locator": "§4.4; multi-term memory",
+      "reason": "生成后的 panorama latent 按近期、较早历史及固定首帧 anchor 分档保留；旧项采用更粗 patchify。 Helios AR recipe 的下一非重叠 chunk 读取多尺度历史 token；相机旋转在初始全景朝向与解码输出之间处理。 历史项保持 observation-aligned latent；相对 pose 是条件/地址，不是持久度量地图。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.08941v1#page=5",
+        "https://arxiv.org/pdf/2610.08941v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.08941v1#page=5",
+      "https://arxiv.org/pdf/2610.08941v1#page=6"
+    ],
+    "pdf_sha256": "d8e91bfd6f06b39f5accc2504d342e2c23e63e10475887e87a7d8efca193aee6",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "VAE-space Visual Memory",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / VAE-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.06588",
+    "id": "2610.06588v1",
+    "title": "Keepsake: Selective Spatial Memory for Long-Horizon Video Generation",
+    "short_name": "Keepsake",
+    "source": "https://arxiv.org/abs/2610.06588v1",
+    "published": "2026-10-05T16:02:50Z",
+    "updated": "2026-10-05T16:02:50Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "Carrier-agnostic Visual Memory Management",
+    "secondary_form": "",
+    "runtime_carrier": "Visual Memory（pixel/latent encoding 依宿主）",
+    "write_path": "合并旧观测 bank 与新 chunk；用 pose / appearance 冗余关系迭代淘汰，保留固定预算观测。",
+    "read_path": "next-chunk 公式读上一 chunk 与从 bank 检索的观测；MemCam / WorldMem 是实际生成宿主。",
+    "classification_rationale": "持久 payload 是观测，关系图是保留操作中的评分结构；论文没有统一固定两个宿主的像素/latent 编码。",
+    "classification_recheck": "保留 generic Visual；明确 README 的管理分组不是第五种 Forms 或新的载体子类。",
+    "scope_limit": "DINO 或 VAE 用作评分特征，不足以单独证明整个 bank 的存储格式。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "locator": "§3.1 Eqs. (1)–(2); §4.1 hosts",
+      "reason": "Eq. (1) 显式按 previous chunk 与检索历史生成 next chunk；实际宿主为 MemCam / WorldMem。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.06588v1#page=4",
+        "https://arxiv.org/pdf/2610.06588v1#page=6",
+        "https://arxiv.org/pdf/2610.06588v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "locator": "§3.1–3.3; Eqs. (1), (2); Algorithm 1; §4.1",
+      "reason": "合并旧观测 bank 与新 chunk；用 pose / appearance 冗余关系迭代淘汰，保留固定预算观测。 next-chunk 公式读上一 chunk 与从 bank 检索的观测；MemCam / WorldMem 是实际生成宿主。 持久 payload 是观测，关系图是保留操作中的评分结构；论文没有统一固定两个宿主的像素/latent 编码。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.06588v1#page=4",
+        "https://arxiv.org/pdf/2610.06588v1#page=5",
+        "https://arxiv.org/pdf/2610.06588v1#page=6",
+        "https://arxiv.org/pdf/2610.06588v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.06588v1#page=4",
+      "https://arxiv.org/pdf/2610.06588v1#page=5",
+      "https://arxiv.org/pdf/2610.06588v1#page=6",
+      "https://arxiv.org/pdf/2610.06588v1#page=7"
+    ],
+    "pdf_sha256": "0472e872534808239988e237adeeea934abcde82d0094e06e4040a8de5e18c22",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Carrier-agnostic Visual Memory Management",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Carrier-agnostic Visual Memory Management",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.05739",
+    "id": "2610.05739v1",
+    "title": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models",
+    "short_name": "HLA-WM",
+    "source": "https://arxiv.org/abs/2610.05739v1",
+    "published": "2026-10-05T03:44:00Z",
+    "updated": "2026-10-05T03:44:00Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Recurrent and State-space States",
+    "secondary_form": "Attention-cache States",
+    "runtime_carrier": "Recurrent and State-space States；辅助 Attention-cache States",
+    "write_path": "历史 chunk 产生仿射摘要 (A_i, B_i) 并缓存；同时保留可选历史的 softmax KV。",
+    "read_path": "按几何检索的 chunks 重组当前查询的 GDN recurrent state，softmax 分支读取同一批历史 KV。",
+    "classification_rationale": "线性注意力状态重组是主贡献，softmax KV 是独立混合副载体；相机检索并不把 state 变成几何地图。",
+    "classification_recheck": "补记 Cache 副载体；确认冻结 SANA-WM、training-free。",
+    "scope_limit": "单摘要大小固定，但摘要数量随 chunk 增长；不能把整个历史 archive 描述为恒定总容量。",
+    "ar_evidence": {
+      "pages": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "locator": "base SANA-WM; §4.1–4.4",
+      "reason": "已有 SANA-WM AR generator；历史 chunk summaries 重组为当前查询的 GDN 状态。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.05739v1#page=1",
+        "https://arxiv.org/pdf/2610.05739v1#page=5",
+        "https://arxiv.org/pdf/2610.05739v1#page=6",
+        "https://arxiv.org/pdf/2610.05739v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "locator": "§4.1–4.4; affine summaries and state recomposition",
+      "reason": "历史 chunk 产生仿射摘要 (A_i, B_i) 并缓存；同时保留可选历史的 softmax KV。 按几何检索的 chunks 重组当前查询的 GDN recurrent state，softmax 分支读取同一批历史 KV。 线性注意力状态重组是主贡献，softmax KV 是独立混合副载体；相机检索并不把 state 变成几何地图。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.05739v1#page=5",
+        "https://arxiv.org/pdf/2610.05739v1#page=6",
+        "https://arxiv.org/pdf/2610.05739v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.05739v1#page=1",
+      "https://arxiv.org/pdf/2610.05739v1#page=5",
+      "https://arxiv.org/pdf/2610.05739v1#page=6",
+      "https://arxiv.org/pdf/2610.05739v1#page=7"
+    ],
+    "pdf_sha256": "08b683e9b8fdf25dd35d4bf4f5d49d9355d97ef353d0db92789c516c2dae5aea",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Recurrent and State-space States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Recurrent and State-space States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.07031",
+    "id": "2610.07031v1",
+    "title": "Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update",
+    "short_name": "Artemis",
+    "source": "https://arxiv.org/abs/2610.07031v1",
+    "published": "2026-10-04T18:54:00Z",
+    "updated": "2026-10-04T18:54:00Z",
+    "decision": "add_method",
+    "primary_family": "Explicit State Memory",
+    "primary_form": "Spatial and Geometric States",
+    "secondary_form": "Attention-cache States",
+    "runtime_carrier": "Spatial and Geometric States；辅助 Attention-cache States / agent pose records",
+    "write_path": "关键帧扩展静态共享 3D map；动态/uncontrolled 观测进 buffer，代理 pose memory 记录主体；各代理另存历史 KV。",
+    "read_path": "多主体 AR joint future 读取投影地图、agent proxy/pose 与历史缓存；共享几何跨主体复用。",
+    "classification_rationale": "共享坐标地图是主持久对象；每代理 KV 和 pose 记录是混合副载体。",
+    "classification_recheck": "保留 Spatial 主分类；方法出处由 §3.1–3.2 修正为 §4.1–4.3。",
+    "scope_limit": "数据集 §3.2 与方法 §4 的证据分开；动态 buffer 不等于所有动态对象均融合进静态地图。",
+    "ar_evidence": {
+      "pages": [
+        5,
+        6
+      ],
+      "locator": "§4.1; autoregressive joint factorization",
+      "reason": "多主体的 joint future 按历史逐步生成，并更新共享地图和历史 KV。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.07031v1#page=5",
+        "https://arxiv.org/pdf/2610.07031v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "locator": "§4.1–4.3; Eq. (1); progressive memory update",
+      "reason": "关键帧扩展静态共享 3D map；动态/uncontrolled 观测进 buffer，代理 pose memory 记录主体；各代理另存历史 KV。 多主体 AR joint future 读取投影地图、agent proxy/pose 与历史缓存；共享几何跨主体复用。 共享坐标地图是主持久对象；每代理 KV 和 pose 记录是混合副载体。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.07031v1#page=5",
+        "https://arxiv.org/pdf/2610.07031v1#page=6",
+        "https://arxiv.org/pdf/2610.07031v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.07031v1#page=5",
+      "https://arxiv.org/pdf/2610.07031v1#page=6",
+      "https://arxiv.org/pdf/2610.07031v1#page=7"
+    ],
+    "pdf_sha256": "80634d9f6393bc42f7e495ec0b4ce80da0dbb02b844307f9cf4fd1a06b5db014",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Spatial and Geometric States",
+      "secondary_form": "Implicit State"
+    },
+    "final_role": "Forms / Spatial and Geometric States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.03510",
+    "id": "2610.03510v1",
+    "title": "Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation",
+    "short_name": "Weave Forcing",
+    "source": "https://arxiv.org/abs/2610.03510v1",
+    "published": "2026-10-02T16:04:26Z",
+    "updated": "2026-10-02T16:04:26Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "历史镜头 KV 按 query 权重压缩并保留；历史镜头语义用于索引/路由。",
+    "read_path": "当前语义 slots 路由历史镜头，grouped attention 读取压缩 KV；使用因果 Self Forcing backbone。",
+    "classification_rationale": "语义 slot 是路由输入，实际持续内容在 KV；没有可独立演化的实体状态表。",
+    "classification_recheck": "保留 Cache；方法定位由 §3.2–3.3 修正为 §4.1–4.2。",
+    "scope_limit": "把路由语义与独立 Entity-centric State 分开登记。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        4,
+        6
+      ],
+      "locator": "§3.1; §4.1",
+      "reason": "因果 DiT 的 AR latent blocks；实现为 Self Forcing backbone。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.03510v1#page=3",
+        "https://arxiv.org/pdf/2610.03510v1#page=4",
+        "https://arxiv.org/pdf/2610.03510v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1; §4.1–4.2; Eq. (5)",
+      "reason": "历史镜头 KV 按 query 权重压缩并保留；历史镜头语义用于索引/路由。 当前语义 slots 路由历史镜头，grouped attention 读取压缩 KV；使用因果 Self Forcing backbone。 语义 slot 是路由输入，实际持续内容在 KV；没有可独立演化的实体状态表。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.03510v1#page=3",
+        "https://arxiv.org/pdf/2610.03510v1#page=4",
+        "https://arxiv.org/pdf/2610.03510v1#page=5",
+        "https://arxiv.org/pdf/2610.03510v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.03510v1#page=3",
+      "https://arxiv.org/pdf/2610.03510v1#page=4",
+      "https://arxiv.org/pdf/2610.03510v1#page=5",
+      "https://arxiv.org/pdf/2610.03510v1#page=6"
+    ],
+    "pdf_sha256": "e11c62f6f08005a65c9a07daebaf738be38edb0e36e0f491299eaac522decafd",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.03120",
+    "id": "2610.03120v2",
+    "title": "In-Distribution Forcing for Long Video Generation at Test Time",
+    "short_name": "In-Distribution Forcing",
+    "source": "https://arxiv.org/abs/2610.03120v2",
+    "published": "2026-10-02T10:40:49Z",
+    "updated": "2026-10-07T14:51:16Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "Self-Caching 对选定历史 clean chunk 重建 in-distribution KV provenance，保留 sink 与按规则缓存的近期条目。",
+    "read_path": "next chunk 按 conditioning / caching window 规则读取保留 KV，并调节时间位置。",
+    "classification_rationale": "直接改变历史 KV 的写入来源与读取方式；供重缓存的 latent 是输入材料，主记忆接口是 KV。",
+    "classification_recheck": "保留 Cache 和 training-free；§4 定位修正为 §3.1–3.2。",
+    "scope_limit": "稳定外推来自 KV provenance 的控制，不能直接解读为完整远期 archive。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "AR setup; §3.1–3.2 Self-Caching",
+      "reason": "因果 AR 推理沿用生成历史 K/V，改变 self-caching 的写入分布。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.03120v2#page=3",
+        "https://arxiv.org/pdf/2610.03120v2#page=4",
+        "https://arxiv.org/pdf/2610.03120v2#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "§3.1–3.2; Eq. (4); Algorithm 1",
+      "reason": "Self-Caching 对选定历史 clean chunk 重建 in-distribution KV provenance，保留 sink 与按规则缓存的近期条目。 next chunk 按 conditioning / caching window 规则读取保留 KV，并调节时间位置。 直接改变历史 KV 的写入来源与读取方式；供重缓存的 latent 是输入材料，主记忆接口是 KV。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.03120v2#page=3",
+        "https://arxiv.org/pdf/2610.03120v2#page=4",
+        "https://arxiv.org/pdf/2610.03120v2#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.03120v2#page=3",
+      "https://arxiv.org/pdf/2610.03120v2#page=4",
+      "https://arxiv.org/pdf/2610.03120v2#page=5"
+    ],
+    "pdf_sha256": "5103e128d5ac427cdc26f005a4405dedcb9a6f7a4488c439bb45332c4cbc0d9e",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.02914",
+    "id": "2610.02914v2",
+    "title": "Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation",
+    "short_name": "Custom Forcing",
+    "source": "https://arxiv.org/abs/2610.02914v2",
+    "published": "2026-10-02T07:04:09Z",
+    "updated": "2026-10-05T05:25:58Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "主体 reference / custom anchors 一次编码成 KV，作为永久参考缓存保留。",
+    "read_path": "冻结 AR backbone 的后续 chunks 持续读取 reference/anchor KV，配合位置控制。",
+    "classification_rationale": "持续存储和读取的是参考 KV；customization 来自条件注入。",
+    "classification_recheck": "保留 Cache；定位修正为 §3.1–3.2。",
+    "scope_limit": "FLUX 参考图生成和离线模型参数均不作为 episode 参数记忆。",
+    "ar_evidence": {
+      "pages": [
+        4
+      ],
+      "locator": "§3.1–3.2; Figure 3",
+      "reason": "AR backbone 的每个 chunk 读永久 reference/custom anchor K/V。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02914v2#page=4"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§3.1–3.2; Figure 3; persistent reference KV",
+      "reason": "主体 reference / custom anchors 一次编码成 KV，作为永久参考缓存保留。 冻结 AR backbone 的后续 chunks 持续读取 reference/anchor KV，配合位置控制。 持续存储和读取的是参考 KV；customization 来自条件注入。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02914v2#page=4",
+        "https://arxiv.org/pdf/2610.02914v2#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.02914v2#page=4",
+      "https://arxiv.org/pdf/2610.02914v2#page=5"
+    ],
+    "pdf_sha256": "3a1d44d16f37f9774040a2f4c15aef8741d8612a4df0d3cd92e8b964a4b75ac3",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.02779",
+    "id": "2610.02779v1",
+    "title": "TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation",
+    "short_name": "TRAC",
+    "source": "https://arxiv.org/abs/2610.02779v1",
+    "published": "2026-10-02T04:11:31Z",
+    "updated": "2026-10-02T04:11:31Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States（SSC component）",
+    "write_path": "首个 chunk 的 K/V 保留为长期结构锚点。",
+    "read_path": "后续 chunk 的结构校正 SSC 查询首段池化 KV；实际 AR 宿主包含 SkyReels-V2 / FramePack-F1。",
+    "classification_rationale": "SSC 提供明确跨 chunk 历史读取；RCS / ATGS 的 denoising 计算复用单独作为加速组件。",
+    "classification_recheck": "保留 Cache，但将 memory 收录依据限定为 SSC 首段 KV。",
+    "scope_limit": "不能用同一 chunk 内的计算复用代替生成历史记忆的证据。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        6,
+        7
+      ],
+      "locator": "§3.1; §3.2.3; §4.1",
+      "reason": "chunk AR formulation；SkyReels-V2 / FramePack-F1 实际宿主；首 chunk K/V 参与后续校正。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02779v1#page=3",
+        "https://arxiv.org/pdf/2610.02779v1#page=6",
+        "https://arxiv.org/pdf/2610.02779v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        6,
+        7
+      ],
+      "locator": "§3.1; §3.2.3 Eq. (13); §4.1",
+      "reason": "首个 chunk 的 K/V 保留为长期结构锚点。 后续 chunk 的结构校正 SSC 查询首段池化 KV；实际 AR 宿主包含 SkyReels-V2 / FramePack-F1。 SSC 提供明确跨 chunk 历史读取；RCS / ATGS 的 denoising 计算复用单独作为加速组件。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02779v1#page=3",
+        "https://arxiv.org/pdf/2610.02779v1#page=6",
+        "https://arxiv.org/pdf/2610.02779v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.02779v1#page=3",
+      "https://arxiv.org/pdf/2610.02779v1#page=6",
+      "https://arxiv.org/pdf/2610.02779v1#page=7"
+    ],
+    "pdf_sha256": "5fb73e4734b6e762bb643e7b1cd82ef3d5ffccc6aa692b7a5a13c972b368a6f7",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.02521",
+    "id": "2610.02521v1",
+    "title": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory",
+    "short_name": "Spatial Memory Intelligence (SMI)",
+    "source": "https://arxiv.org/abs/2610.02521v1",
+    "published": "2026-10-01T21:50:57Z",
+    "updated": "2026-10-01T21:50:57Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "Carrier-agnostic Visual Memory Management",
+    "secondary_form": "",
+    "runtime_carrier": "Visual Memory（pixel/latent encoding 依宿主）",
+    "write_path": "bank 保存历史 video chunks；按空间簇覆盖、可靠性和预算选择保留观测。",
+    "read_path": "action-conditioned AR next chunk 读取近期与动作相关检索项；WorldPlay-1.5 的两个宿主实际运行管理器。",
+    "classification_rationale": "持续 payload 是视频观测；空间簇与 SFT manager 是管理操作，不能由此改归几何或参数载体。",
+    "classification_recheck": "保留 generic Visual；明确宿主相关编码和管理分组的地位。",
+    "scope_limit": "论文未给出跨两个宿主统一的 RGB/VAE 存储子类型；Qwen manager 是离线训练。",
+    "ar_evidence": {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "locator": "§3.1 Eq. (1); §3.2–3.4",
+      "reason": "action-conditioned AR video 的序列分解；管理历史 chunk bank，并用于 next chunk。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02521v1#page=5",
+        "https://arxiv.org/pdf/2610.02521v1#page=6",
+        "https://arxiv.org/pdf/2610.02521v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "locator": "§3.1–3.4; Eqs. (1)–(11)",
+      "reason": "bank 保存历史 video chunks；按空间簇覆盖、可靠性和预算选择保留观测。 action-conditioned AR next chunk 读取近期与动作相关检索项；WorldPlay-1.5 的两个宿主实际运行管理器。 持续 payload 是视频观测；空间簇与 SFT manager 是管理操作，不能由此改归几何或参数载体。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02521v1#page=5",
+        "https://arxiv.org/pdf/2610.02521v1#page=6",
+        "https://arxiv.org/pdf/2610.02521v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.02521v1#page=5",
+      "https://arxiv.org/pdf/2610.02521v1#page=6",
+      "https://arxiv.org/pdf/2610.02521v1#page=7"
+    ],
+    "pdf_sha256": "8b904e297666c8e708c5a87c116e2e624be2081384c2a44f292f4a253393594e",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Carrier-agnostic Visual Memory Management",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Carrier-agnostic Visual Memory Management",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.02162",
+    "id": "2610.02162v1",
+    "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+    "short_name": "World Observer",
+    "source": "https://arxiv.org/abs/2610.02162v1",
+    "published": "2026-10-01T17:53:20Z",
+    "updated": "2026-10-01T17:53:20Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "VAE-space Visual Memory",
+    "secondary_form": "",
+    "runtime_carrier": "VAE-space Visual Memory",
+    "write_path": "保留 actor/observer tail latents；初始四个 panorama perspective 的 VAE sink 固定保留。",
+    "read_path": "后续联合 actor/observer chunks 读取 tail 与始终附加的 observer sink，提供 actor 视野外内容。",
+    "classification_rationale": "观测视角仍是可解码 latent；初始 depth warp 是几何条件而非持续融合地图。",
+    "classification_recheck": "保留 VAE；细化固定 sink 与近期 tail 的区别。",
+    "scope_limit": "把不可见区域的视觉条件与显式持久 3D 世界状态分开。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3; §3.2",
+      "reason": "正文明确以 tail latents 为历史，autoregressively in chunks；observer 历史与 sink 保留视野外证据。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02162v1#page=4",
+        "https://arxiv.org/pdf/2610.02162v1#page=5",
+        "https://arxiv.org/pdf/2610.02162v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3; §3.2; observer sink",
+      "reason": "保留 actor/observer tail latents；初始四个 panorama perspective 的 VAE sink 固定保留。 后续联合 actor/observer chunks 读取 tail 与始终附加的 observer sink，提供 actor 视野外内容。 观测视角仍是可解码 latent；初始 depth warp 是几何条件而非持续融合地图。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02162v1#page=4",
+        "https://arxiv.org/pdf/2610.02162v1#page=5",
+        "https://arxiv.org/pdf/2610.02162v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.02162v1#page=4",
+      "https://arxiv.org/pdf/2610.02162v1#page=5",
+      "https://arxiv.org/pdf/2610.02162v1#page=6"
+    ],
+    "pdf_sha256": "f4d16dc7b23bff9e0360114934868ac7898e8e2634247ebe735de06b383a6369",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "VAE-space Visual Memory",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / VAE-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.02153",
+    "id": "2610.02153v1",
+    "title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
+    "short_name": "MosaiChunk",
+    "source": "https://arxiv.org/abs/2610.02153v1",
+    "published": "2026-10-01T17:51:05Z",
+    "updated": "2026-10-01T17:51:05Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "历史 KV 原样分区存入 CPU，router descriptors 用于检索；保留超出 active window 的 section。",
+    "read_path": "top-N sections 的 K/V 拼接进入当前 attention，并缩放 value 权重。",
+    "classification_rationale": "mosaic 的持续内容是 KV sections，descriptor 不是替代性的历史载体。",
+    "classification_recheck": "保留 Cache；RememBench 同论文另记 benchmark，不重复论文计数。",
+    "scope_limit": "冻结 backbone 的 router self-distillation 是离线学习。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.2; §4",
+      "reason": "AR 流式生成的 current context 与历史 K/V sections 拼接，测试淘汰后的重现。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02153v1#page=4",
+        "https://arxiv.org/pdf/2610.02153v1#page=5",
+        "https://arxiv.org/pdf/2610.02153v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.2; §4 RememBench; §5",
+      "reason": "历史 KV 原样分区存入 CPU，router descriptors 用于检索；保留超出 active window 的 section。 top-N sections 的 K/V 拼接进入当前 attention，并缩放 value 权重。 mosaic 的持续内容是 KV sections，descriptor 不是替代性的历史载体。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.02153v1#page=4",
+        "https://arxiv.org/pdf/2610.02153v1#page=5",
+        "https://arxiv.org/pdf/2610.02153v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.02153v1#page=4",
+      "https://arxiv.org/pdf/2610.02153v1#page=5",
+      "https://arxiv.org/pdf/2610.02153v1#page=6"
+    ],
+    "pdf_sha256": "37d57a069f04a7fdd76fcbfe8a827a34441eaf174afd2ce84571dfe228689d55",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2610.00544",
+    "id": "2610.00544v1",
+    "title": "Memorizon: Training World Models Beyond Their Context Window",
+    "short_name": "Memorizon",
+    "source": "https://arxiv.org/abs/2610.00544v1",
+    "published": "2026-09-30T18:26:24Z",
+    "updated": "2026-09-30T18:26:24Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "VAE-space Visual Memory",
+    "secondary_form": "",
+    "runtime_carrier": "VAE-space Visual Memory",
+    "write_path": "完成的观测 latent 与相机位姿可供历史池检索；训练把 k 个 scored chunks 的 top-K 结果打包为 union bank。",
+    "read_path": "下一 causal chunk 按共视性检索 top-K 历史 latent；训练 union bank 复用检索结果。",
+    "classification_rationale": "视觉内容保持观测对齐；几何是检索地址。kK 容量上界属于训练打包的 union。",
+    "classification_recheck": "修正“联合 bank 有 kK 上界”的适用阶段：训练 union，不是整个推理 archive。",
+    "scope_limit": "单次查询 top-K 有界；整个推理历史池的恒定总容量未由该训练上界建立。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§3.2 Causal Sliding Window; §3.3",
+      "reason": "chunk 内双向、chunk 间因果；后续 scored chunks 检索历史 latent union bank。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.00544v1#page=4",
+        "https://arxiv.org/pdf/2610.00544v1#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "§3.1–3.4; bounded union bank; causal sliding window",
+      "reason": "完成的观测 latent 与相机位姿可供历史池检索；训练把 k 个 scored chunks 的 top-K 结果打包为 union bank。 下一 causal chunk 按共视性检索 top-K 历史 latent；训练 union bank 复用检索结果。 视觉内容保持观测对齐；几何是检索地址。kK 容量上界属于训练打包的 union。",
+      "sources": [
+        "https://arxiv.org/pdf/2610.00544v1#page=3",
+        "https://arxiv.org/pdf/2610.00544v1#page=4",
+        "https://arxiv.org/pdf/2610.00544v1#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2610.00544v1#page=3",
+      "https://arxiv.org/pdf/2610.00544v1#page=4",
+      "https://arxiv.org/pdf/2610.00544v1#page=5"
+    ],
+    "pdf_sha256": "1929d21a7a33e0d42e5da34cb0511b53dae04c65647bcb1dc642c8a14ea9a660",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "VAE-space Visual Memory",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / VAE-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.40222",
+    "id": "2609.40222v1",
+    "title": "LOCI: Spatial Linear Memory for Streaming World Models",
+    "short_name": "LOCI",
+    "source": "https://arxiv.org/abs/2609.40222v1",
+    "published": "2026-09-30T17:27:06Z",
+    "updated": "2026-09-30T17:27:06Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Recurrent and State-space States",
+    "secondary_form": "Attention-cache States",
+    "runtime_carrier": "Recurrent and State-space States；辅助 Attention-cache States",
+    "write_path": "最终 clean chunk 的独立 pass 提交 KDA state；hybrid / historical softmax 层及 camera KV 保留历史。",
+    "read_path": "当前 denoising 读取已提交的 S_(c-1)，不在每个去噪步骤修改它；softmax 分支读取自己的历史缓存。",
+    "classification_rationale": "递归状态是主载体，softmax KV 是真实混合副载体；camera positional encoding 本身没有可更新几何地图。",
+    "classification_recheck": "保留 Recurrent 主类并补记 Cache 副类；明确 clean commit。",
+    "scope_limit": "递归 state 的固定大小不能作为所有 softmax/camera 历史缓存的总存储上界。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "§4; chunk-causal architecture and committed state",
+      "reason": "Wan 改为 chunk-causal；当前查询读前 chunk 的 KDA state，最终 clean chunk 写入提交状态。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.40222v1#page=4",
+        "https://arxiv.org/pdf/2609.40222v1#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§4.1–4.2; hybrid KDA/softmax; clean-state commit",
+      "reason": "最终 clean chunk 的独立 pass 提交 KDA state；hybrid / historical softmax 层及 camera KV 保留历史。 当前 denoising 读取已提交的 S_(c-1)，不在每个去噪步骤修改它；softmax 分支读取自己的历史缓存。 递归状态是主载体，softmax KV 是真实混合副载体；camera positional encoding 本身没有可更新几何地图。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.40222v1#page=4",
+        "https://arxiv.org/pdf/2609.40222v1#page=5",
+        "https://arxiv.org/pdf/2609.40222v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.40222v1#page=4",
+      "https://arxiv.org/pdf/2609.40222v1#page=5",
+      "https://arxiv.org/pdf/2609.40222v1#page=6"
+    ],
+    "pdf_sha256": "ffb8e63cbdde5c32a67f6a2649373ce6446577daf3ff4aaaf441b527a76a7ecc",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Recurrent and State-space States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Recurrent and State-space States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.39096",
+    "id": "2609.39096v2",
+    "title": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency",
+    "short_name": "DeCoPrune",
+    "source": "https://arxiv.org/abs/2609.39096v2",
+    "published": "2026-09-30T06:33:16Z",
+    "updated": "2026-10-05T16:45:07Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "用 probe 与 final x0 的去噪差异选择 token；块离开近期窗口后，按共享 mask 将各层 KV 压缩入长期 cache。",
+    "read_path": "未来 attention 读取长期 pruned KV、保护的 sink 与近期 dense KV。",
+    "classification_rationale": "x0 用于计算选取分数，真正持久内容是筛选后的 KV。",
+    "classification_recheck": "保留 Cache；CMBench 协议起始页修正为 PDF p.4，续页 p.5–6。",
+    "scope_limit": "benchmark 数据制作所用生成模型与评测中的 AR continuation 模型分别核对。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.2; cached attention",
+      "reason": "AR 历史 K/V 经共享 token mask 裁剪，后续生成读取保留缓存。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.39096v2#page=4",
+        "https://arxiv.org/pdf/2609.39096v2#page=5",
+        "https://arxiv.org/pdf/2609.39096v2#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1 Eqs. (1), (2); §3.2 CMBench",
+      "reason": "用 probe 与 final x0 的去噪差异选择 token；块离开近期窗口后，按共享 mask 将各层 KV 压缩入长期 cache。 未来 attention 读取长期 pruned KV、保护的 sink 与近期 dense KV。 x0 用于计算选取分数，真正持久内容是筛选后的 KV。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.39096v2#page=4",
+        "https://arxiv.org/pdf/2609.39096v2#page=5",
+        "https://arxiv.org/pdf/2609.39096v2#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.39096v2#page=4",
+      "https://arxiv.org/pdf/2609.39096v2#page=5",
+      "https://arxiv.org/pdf/2609.39096v2#page=6"
+    ],
+    "pdf_sha256": "4f77b5f92d1db72a814b710a818918250d8b52f27b0721e4bea14a0227631fc9",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.38839",
+    "id": "2609.38839v1",
+    "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+    "short_name": "FrameMorrow",
+    "source": "https://arxiv.org/abs/2609.38839v1",
+    "published": "2026-09-30T02:57:47Z",
+    "updated": "2026-09-30T02:57:47Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "Pixel-space Visual Memory",
+    "secondary_form": "",
+    "runtime_carrier": "Pixel-space Visual Memory",
+    "write_path": "外部 bank 保留历史 RGB frames；每步重算 prospective tokens 并选择需要回收的历史帧。",
+    "read_path": "选中 RGB 经 Γ_b 原生条件适配器编码注入 AR generator；实际宿主包括 Self/Causal Forcing、CausVid、LongLive。",
+    "classification_rationale": "以适配器之前的持续对象判定为 Pixel；临时 query tokens 与读取时的 latent/KV 不替代 bank 载体。",
+    "classification_recheck": "保留 Pixel；确认 prospective tokens 是当步查询，非持久 recurrent memory。",
+    "scope_limit": "realized future 只用于离线学习；推理选择基于过去与可用条件。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3 Eq. (9); §4.1 AR hosts",
+      "reason": "实际 AR 宿主包括 Self Forcing、Causal Forcing、CausVid、LongLive；选中历史帧经原生接口条件化未来。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.38839v1#page=4",
+        "https://arxiv.org/pdf/2609.38839v1#page=5",
+        "https://arxiv.org/pdf/2609.38839v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3; Eq. (9); §4.1 AR hosts",
+      "reason": "外部 bank 保留历史 RGB frames；每步重算 prospective tokens 并选择需要回收的历史帧。 选中 RGB 经 Γ_b 原生条件适配器编码注入 AR generator；实际宿主包括 Self/Causal Forcing、CausVid、LongLive。 以适配器之前的持续对象判定为 Pixel；临时 query tokens 与读取时的 latent/KV 不替代 bank 载体。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.38839v1#page=4",
+        "https://arxiv.org/pdf/2609.38839v1#page=5",
+        "https://arxiv.org/pdf/2609.38839v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.38839v1#page=4",
+      "https://arxiv.org/pdf/2609.38839v1#page=5",
+      "https://arxiv.org/pdf/2609.38839v1#page=6"
+    ],
+    "pdf_sha256": "4e5f317f360dfd8851e3eb3997b5652b59dded5d4129eff9413b0b229fe4bf67",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Pixel-space Visual Memory",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Pixel-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.38114",
+    "id": "2609.38114v1",
+    "title": "Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History",
+    "short_name": "Self-Aligned Forcing (SAF)",
+    "source": "https://arxiv.org/abs/2609.38114v1",
+    "published": "2026-09-29T17:49:31Z",
+    "updated": "2026-09-29T17:49:31Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "按 denoising stage 写 history KV，永久保留 shared clean sink；inference 使用 MultiBank 或 SingleBankMix。",
+    "read_path": "后续 AR chunks 从对应 stage 的 noisy-history KV 与 clean sink 读取条件。",
+    "classification_rationale": "历史 KV 跨 chunk 保留，直接改变 writer/reader 的噪声阶段配对。",
+    "classification_recheck": "保留 Cache；增加 p.6 inference bank 的直接出处。",
+    "scope_limit": "stage-aligned 跨块历史与当块去噪中间值复用分开。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.2; §3.4–3.5 inference bank",
+      "reason": "流式 AR chunks 读取 stage-aligned noisy-history K/V 与 clean sink。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.38114v1#page=4",
+        "https://arxiv.org/pdf/2609.38114v1#page=5",
+        "https://arxiv.org/pdf/2609.38114v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.2; §3.4–3.5; Eq. (6)",
+      "reason": "按 denoising stage 写 history KV，永久保留 shared clean sink；inference 使用 MultiBank 或 SingleBankMix。 后续 AR chunks 从对应 stage 的 noisy-history KV 与 clean sink 读取条件。 历史 KV 跨 chunk 保留，直接改变 writer/reader 的噪声阶段配对。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.38114v1#page=4",
+        "https://arxiv.org/pdf/2609.38114v1#page=5",
+        "https://arxiv.org/pdf/2609.38114v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.38114v1#page=4",
+      "https://arxiv.org/pdf/2609.38114v1#page=5",
+      "https://arxiv.org/pdf/2609.38114v1#page=6"
+    ],
+    "pdf_sha256": "52f768c10cfa8659fb83e02b448c873aafa57299ea0be4deb15ae0ca6d856934",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.37690",
+    "id": "2609.37690v2",
+    "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
+    "short_name": "Honeycomb",
+    "source": "https://arxiv.org/abs/2609.37690v2",
+    "published": "2026-09-29T14:33:39Z",
+    "updated": "2026-09-30T23:30:43Z",
+    "decision": "add_method",
+    "primary_family": "Explicit State Memory",
+    "primary_form": "Spatial and Geometric States",
+    "secondary_form": "",
+    "runtime_carrier": "Spatial and Geometric States",
+    "write_path": "完成的 AR chunk 按空间/时空坐标投影并更新六个 HexMemory feature planes。",
+    "read_path": "后续重叠 AR chunk 从坐标平面 readout，配合边界 latent、warp/fusion 与 confidence。",
+    "classification_rationale": "可按空间地址寻址的六平面是持久载体；learned recurrent update 不改变坐标结构的几何性质。",
+    "classification_recheck": "保留 Spatial；细化 constant-size 的对象为 HexMemory feature tensors。",
+    "scope_limit": "固定特征张量容量不自动约束所有辅助坐标/深度元数据；范围扩展会降低平面空间分辨率。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.6; overlapping AR chunks",
+      "reason": "§3.6 明确 autoregressively in overlapping chunks；边界 latent 及 HexMemory readout 条件化下一 chunk。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.37690v2#page=4",
+        "https://arxiv.org/pdf/2609.37690v2#page=5",
+        "https://arxiv.org/pdf/2609.37690v2#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.6; HexMemory; overlapping AR chunks",
+      "reason": "完成的 AR chunk 按空间/时空坐标投影并更新六个 HexMemory feature planes。 后续重叠 AR chunk 从坐标平面 readout，配合边界 latent、warp/fusion 与 confidence。 可按空间地址寻址的六平面是持久载体；learned recurrent update 不改变坐标结构的几何性质。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.37690v2#page=4",
+        "https://arxiv.org/pdf/2609.37690v2#page=5",
+        "https://arxiv.org/pdf/2609.37690v2#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.37690v2#page=4",
+      "https://arxiv.org/pdf/2609.37690v2#page=5",
+      "https://arxiv.org/pdf/2609.37690v2#page=6"
+    ],
+    "pdf_sha256": "2ac44f393c0c71f64ee04777a91bd4e9fc6b183282a23cd0fbefacf4ccb6d381",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Spatial and Geometric States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Spatial and Geometric States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.36364",
+    "id": "2609.36364v1",
+    "title": "Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation",
+    "short_name": "Compress to Remember (PACC)",
+    "source": "https://arxiv.org/abs/2609.36364v1",
+    "published": "2026-09-28T22:52:57Z",
+    "updated": "2026-09-28T22:52:57Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Encoded History States",
+    "secondary_form": "",
+    "runtime_carrier": "Encoded History States",
+    "write_path": "learned query embeddings 跨源帧 attention 压缩已完成 prefix 为 M；query 数随 prefix/压缩配置设置。",
+    "read_path": "冻结 Wan AR generator 的后续 chunk 读取压缩 M，连续生成另有原生 KV。",
+    "classification_rationale": "M 跨帧混合且没有逐观测的 VAE 对应关系；它是独立压缩历史 embedding。",
+    "classification_recheck": "保留 Encoded History；确认 query 数并非全时长恒定。",
+    "scope_limit": "压缩历史 pool 与当前活跃 token 预算分开登记。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "§3.1; frozen Wan-based AR generator",
+      "reason": "正文指定 AR generator；周期压缩已完成 prefix，未来 chunk 检索并读取 memory embeddings。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.36364v1#page=3",
+        "https://arxiv.org/pdf/2609.36364v1#page=4",
+        "https://arxiv.org/pdf/2609.36364v1#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "§3.1–3.3; Eq. (1); prediction matching",
+      "reason": "learned query embeddings 跨源帧 attention 压缩已完成 prefix 为 M；query 数随 prefix/压缩配置设置。 冻结 Wan AR generator 的后续 chunk 读取压缩 M，连续生成另有原生 KV。 M 跨帧混合且没有逐观测的 VAE 对应关系；它是独立压缩历史 embedding。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.36364v1#page=3",
+        "https://arxiv.org/pdf/2609.36364v1#page=4",
+        "https://arxiv.org/pdf/2609.36364v1#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.36364v1#page=3",
+      "https://arxiv.org/pdf/2609.36364v1#page=4",
+      "https://arxiv.org/pdf/2609.36364v1#page=5"
+    ],
+    "pdf_sha256": "11c7d10891e92d5842cf5a1abefed4db5de17e63f62c7f47250e02a92ef413de",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Encoded History States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Encoded History States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.35052",
+    "id": "2609.35052v1",
+    "title": "OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models",
+    "short_name": "OPIS",
+    "source": "https://arxiv.org/abs/2609.35052v1",
+    "published": "2026-09-28T12:46:29Z",
+    "updated": "2026-09-28T12:46:29Z",
+    "decision": "add_benchmark",
+    "primary_family": "",
+    "primary_form": "",
+    "secondary_form": "",
+    "runtime_carrier": "Evaluation / Memory-oriented Benchmark（无新增 model carrier）",
+    "write_path": "评测从输入历史建立固定 object inventory；它是 evaluator 的参照记录。",
+    "read_path": "Presence / Identity / Structure 对生成 continuation 评测；AR camera-driven group 含 SANA-WM、LingBot-World2 等。",
+    "classification_rationale": "benchmark 测试已有生成模型记忆；固定评测 inventory 不能被登记成新 Entity-centric model memory。",
+    "classification_recheck": "保留仅 benchmark；限定 AR camera-driven 模型与历史依赖子集。",
+    "scope_limit": "重现子集依赖历史；整套短 continuation case 不都要求窗口外记忆，其他 I2V 模型不一并归 AR。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        8
+      ],
+      "locator": "§3–4 protocol; §5.1 camera-driven model group",
+      "reason": "评测的 camera-driven group 包括 SANA-WM、LingBot-World2 等 AR world models；只纳入它们的历史依赖测试。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.35052v1#page=4",
+        "https://arxiv.org/pdf/2609.35052v1#page=5",
+        "https://arxiv.org/pdf/2609.35052v1#page=8"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        8
+      ],
+      "locator": "§3.1; §4; §5.1 camera-driven models",
+      "reason": "评测从输入历史建立固定 object inventory；它是 evaluator 的参照记录。 Presence / Identity / Structure 对生成 continuation 评测；AR camera-driven group 含 SANA-WM、LingBot-World2 等。 benchmark 测试已有生成模型记忆；固定评测 inventory 不能被登记成新 Entity-centric model memory。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.35052v1#page=4",
+        "https://arxiv.org/pdf/2609.35052v1#page=5",
+        "https://arxiv.org/pdf/2609.35052v1#page=8"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.35052v1#page=4",
+      "https://arxiv.org/pdf/2609.35052v1#page=5",
+      "https://arxiv.org/pdf/2609.35052v1#page=8"
+    ],
+    "pdf_sha256": "bc62feeaf04df9d55f82083593de9941d7775ddeefbd1f6b2b5600ad57da244b",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_benchmark",
+      "primary_form": "",
+      "secondary_form": ""
+    },
+    "final_role": "Evaluation / OPIS",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.34722",
+    "id": "2609.34722v1",
+    "title": "Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation",
+    "short_name": "Geometry as Address (GEAR)",
+    "source": "https://arxiv.org/abs/2609.34722v1",
+    "published": "2026-09-28T09:27:59Z",
+    "updated": "2026-09-28T09:27:59Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "VAE-space Visual Memory",
+    "secondary_form": "Explicit State",
+    "runtime_carrier": "VAE-space Visual Memory；辅助 Spatial and Geometric States（visibility）",
+    "write_path": "历史 bank 写入 latent 与相机；Invisible Octree 持久更新已观察/未观察的可见性证据。",
+    "read_path": "AR generator 按几何地址检索 latent bank，并以 visibility 路由/筛选历史 attention。",
+    "classification_rationale": "外观来自观测 latent；可见性 octree 有独立坐标持久状态，因此保留 Explicit 副类。",
+    "classification_recheck": "保留 VAE + Explicit；精确限定 octree 的语义。",
+    "scope_limit": "visibility octree 不能等同完整外观或动态物体的 3D 世界模型。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "§3.1–3.3",
+      "reason": "AR rollout 的历史 latent bank 按几何地址检索；Invisible Octree 跟踪可见性。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.34722v1#page=3",
+        "https://arxiv.org/pdf/2609.34722v1#page=4",
+        "https://arxiv.org/pdf/2609.34722v1#page=5"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "locator": "§3.1–3.3; latent bank; Invisible Octree",
+      "reason": "历史 bank 写入 latent 与相机；Invisible Octree 持久更新已观察/未观察的可见性证据。 AR generator 按几何地址检索 latent bank，并以 visibility 路由/筛选历史 attention。 外观来自观测 latent；可见性 octree 有独立坐标持久状态，因此保留 Explicit 副类。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.34722v1#page=3",
+        "https://arxiv.org/pdf/2609.34722v1#page=4",
+        "https://arxiv.org/pdf/2609.34722v1#page=5"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.34722v1#page=3",
+      "https://arxiv.org/pdf/2609.34722v1#page=4",
+      "https://arxiv.org/pdf/2609.34722v1#page=5"
+    ],
+    "pdf_sha256": "286914af487ddf0da55118f57dbcfc9435328b4bf9044e69a511c6cadaa01faa",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "VAE-space Visual Memory",
+      "secondary_form": "Explicit State"
+    },
+    "final_role": "Forms / VAE-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.34606",
+    "id": "2609.34606v1",
+    "title": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
+    "short_name": "WorldAttention",
+    "source": "https://arxiv.org/abs/2609.34606v1",
+    "published": "2026-09-28T08:37:04Z",
+    "updated": "2026-09-28T08:37:04Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "历史 chunks 的 KV 分页保存，跨 GPU / CPU / NVMe 形成 full backup。",
+    "read_path": "两阶段先选 prompt 再选 pages，把相关历史加载给 causal student 的 attention。",
+    "classification_rationale": "历史对象是分页 KV；HSA 的 linear projection 是当前读取计算，未成为跨 rollout 的独立 recurrent state。",
+    "classification_recheck": "保留 Cache；记录 active budget 与 full archive 分离。",
+    "scope_limit": "活跃读取上下文有界，完整备份 archive 随历史增长。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        4,
+        6
+      ],
+      "locator": "§3 overview; §4 setup",
+      "reason": "正文按 AR diffusion chunk-by-chunk 生成；Wan 转成 4-step causal-attention student。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.34606v1#page=3",
+        "https://arxiv.org/pdf/2609.34606v1#page=4",
+        "https://arxiv.org/pdf/2609.34606v1#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "locator": "§3.1–3.2; hierarchical cache; HSA; §4 setup",
+      "reason": "历史 chunks 的 KV 分页保存，跨 GPU / CPU / NVMe 形成 full backup。 两阶段先选 prompt 再选 pages，把相关历史加载给 causal student 的 attention。 历史对象是分页 KV；HSA 的 linear projection 是当前读取计算，未成为跨 rollout 的独立 recurrent state。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.34606v1#page=3",
+        "https://arxiv.org/pdf/2609.34606v1#page=4",
+        "https://arxiv.org/pdf/2609.34606v1#page=5",
+        "https://arxiv.org/pdf/2609.34606v1#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.34606v1#page=3",
+      "https://arxiv.org/pdf/2609.34606v1#page=4",
+      "https://arxiv.org/pdf/2609.34606v1#page=5",
+      "https://arxiv.org/pdf/2609.34606v1#page=6"
+    ],
+    "pdf_sha256": "3b0c303da01f87d0485a1b39d5268643a6d02e9da430b0753f84f1c17678e6e6",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.32540",
+    "id": "2609.32540v2",
+    "title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
+    "short_name": "In-Flight KV Cache (FlashForward)",
+    "source": "https://arxiv.org/abs/2609.32540v2",
+    "published": "2026-09-26T12:19:50Z",
+    "updated": "2026-09-30T13:58:26Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "renderer 按 denoising stage 保存旧 chunk 的 KV bank B_k，按尾部窗口维护。",
+    "read_path": "chunk-causal / AR renderer 读取历史 stage KV，同时接收 planner 预生成的双侧 clean anchors。",
+    "classification_rationale": "持久历史载体是 stage KV；anchors 是额外的规划条件。",
+    "classification_recheck": "保留 Cache，并持续保留 README 的 two-sided-anchor 条件标注。",
+    "scope_limit": "属于条件于完整 anchor plan 的 AR renderer；不能表述为仅过去可见的严格在线 causal 输入。",
+    "ar_evidence": {
+      "pages": [
+        5,
+        6
+      ],
+      "locator": "§3.1 Eq. (2); planner and renderer",
+      "reason": "planner 按块 AR；renderer 的历史依赖采用 chunk-wise causal mask / 顺序生成，同时条件于预先生成的双侧 anchor plan。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.32540v2#page=5",
+        "https://arxiv.org/pdf/2609.32540v2#page=6"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        5,
+        6
+      ],
+      "locator": "§3.1; Eq. (2); AR planner and renderer",
+      "reason": "renderer 按 denoising stage 保存旧 chunk 的 KV bank B_k，按尾部窗口维护。 chunk-causal / AR renderer 读取历史 stage KV，同时接收 planner 预生成的双侧 clean anchors。 持久历史载体是 stage KV；anchors 是额外的规划条件。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.32540v2#page=5",
+        "https://arxiv.org/pdf/2609.32540v2#page=6"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.32540v2#page=5",
+      "https://arxiv.org/pdf/2609.32540v2#page=6"
+    ],
+    "pdf_sha256": "3d3fcf7959a7d472ed5af6906ac8c794228b99d5422318493603d5c35c05e1c8",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.26425",
+    "id": "2609.26425v3",
+    "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models",
+    "short_name": "QuantWM",
+    "source": "https://arxiv.org/abs/2609.26425v3",
+    "published": "2026-09-22T13:50:54Z",
+    "updated": "2026-09-28T15:28:38Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "历史 K/V 低位量化；保存低秩 residual correction 的系数/基与 attention 统计。",
+    "read_path": "未来 AR 查询从量化 KV 重构 attention，用 residual / centroid 校正消除偏差。",
+    "classification_rationale": "持续对象仍是量化缓存与其校正侧信息；离线/解析修复不把轨迹存进模型权重。",
+    "classification_recheck": "保留 Cache；补 p.6 校正对象及 p.7 AR hosts；删去泛称“长时生成”实验。",
+    "scope_limit": "正文主生成评测为 93 frames；时序量化一致性不是分钟级历史回忆证据。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "locator": "§4; §5.1 AR hosts",
+      "reason": "历史 K/V 量化供后续因果查询读取；实际包含 Causal Forcing 等 AR 模型。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.26425v3#page=4",
+        "https://arxiv.org/pdf/2609.26425v3#page=5",
+        "https://arxiv.org/pdf/2609.26425v3#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "locator": "§4.1–4.2; correction C; §5.1 AR hosts",
+      "reason": "历史 K/V 低位量化；保存低秩 residual correction 的系数/基与 attention 统计。 未来 AR 查询从量化 KV 重构 attention，用 residual / centroid 校正消除偏差。 持续对象仍是量化缓存与其校正侧信息；离线/解析修复不把轨迹存进模型权重。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.26425v3#page=4",
+        "https://arxiv.org/pdf/2609.26425v3#page=5",
+        "https://arxiv.org/pdf/2609.26425v3#page=6",
+        "https://arxiv.org/pdf/2609.26425v3#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.26425v3#page=4",
+      "https://arxiv.org/pdf/2609.26425v3#page=5",
+      "https://arxiv.org/pdf/2609.26425v3#page=6",
+      "https://arxiv.org/pdf/2609.26425v3#page=7"
+    ],
+    "pdf_sha256": "dc1cdae9c186d44f10fb51b3ad27f8c6e0444204221c0f742c036373c87a3960",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.21712",
+    "id": "2609.21712v2",
+    "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+    "short_name": "ZYT-World",
+    "source": "https://arxiv.org/abs/2609.21712v2",
+    "published": "2026-09-18T12:49:01Z",
+    "updated": "2026-09-22T08:09:23Z",
+    "decision": "add_method",
+    "primary_family": "Visual Memory",
+    "primary_form": "VAE-space Visual Memory",
+    "secondary_form": "",
+    "runtime_carrier": "VAE-space Visual Memory",
+    "write_path": "memory logs 提供预先记录的跨轨迹 observation latents；生成器另有 bounded native KV。",
+    "read_path": "按空间选 3 个、时间选 1 个 log latent，以 residual cross-attention 注入；AR student 继承 memory path。",
+    "classification_rationale": "作者称 implicit memory，但检索内容保持观测 latent 对应关系，所以归 Visual / VAE。",
+    "classification_recheck": "保留 VAE；把来源修正为 cross-trajectory memory logs，区分 native KV。",
+    "scope_limit": "所核对段落没有建立生成 chunk 在线写回 log bank；收录依据是 AR generator 读取既有视觉记忆。",
+    "ar_evidence": {
+      "pages": [
+        3,
+        7,
+        10,
+        14,
+        15
+      ],
+      "locator": "AR student; Figure 6; §3.6; §4.6",
+      "reason": "AR 驾驶 student 保留从跨轨迹 memory logs 检索 observation latents 的 cross-attention 路径；bounded native KV 另行维护。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.21712v2#page=3",
+        "https://arxiv.org/pdf/2609.21712v2#page=7",
+        "https://arxiv.org/pdf/2609.21712v2#page=10",
+        "https://arxiv.org/pdf/2609.21712v2#page=14",
+        "https://arxiv.org/pdf/2609.21712v2#page=15"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        3,
+        7,
+        10,
+        14,
+        15
+      ],
+      "locator": "AR student; Figure 6; §3.6; §4.6",
+      "reason": "memory logs 提供预先记录的跨轨迹 observation latents；生成器另有 bounded native KV。 按空间选 3 个、时间选 1 个 log latent，以 residual cross-attention 注入；AR student 继承 memory path。 作者称 implicit memory，但检索内容保持观测 latent 对应关系，所以归 Visual / VAE。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.21712v2#page=3",
+        "https://arxiv.org/pdf/2609.21712v2#page=7",
+        "https://arxiv.org/pdf/2609.21712v2#page=10",
+        "https://arxiv.org/pdf/2609.21712v2#page=14",
+        "https://arxiv.org/pdf/2609.21712v2#page=15"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.21712v2#page=3",
+      "https://arxiv.org/pdf/2609.21712v2#page=7",
+      "https://arxiv.org/pdf/2609.21712v2#page=10",
+      "https://arxiv.org/pdf/2609.21712v2#page=14",
+      "https://arxiv.org/pdf/2609.21712v2#page=15"
+    ],
+    "pdf_sha256": "778b47ebcccc78f21695b7d99b7cea30993053f7e19af4488fffd5b62e40d3d1",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "VAE-space Visual Memory",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / VAE-space Visual Memory",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.19729",
+    "id": "2609.19729v1",
+    "title": "Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation",
+    "short_name": "Recency Forcing",
+    "source": "https://arxiv.org/abs/2609.19729v1",
+    "published": "2026-09-17T05:40:53Z",
+    "updated": "2026-09-17T05:40:53Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "生成后保留 global / recent / history KV；history 区按窗口策略淘汰。",
+    "read_path": "TRB 对 history 区施加 recency bias，BAR 以等价 attention 实现；global sink 与 recent 保持原规则。",
+    "classification_rationale": "运行时 cache reader 直接改变，适合保留 Forms / Cache，同时登记训练及免训练变体。",
+    "classification_recheck": "保留 Cache；方法定位由 §4 修正为 §3.2–3.4；补 training-free 配置。",
+    "scope_limit": "BAR attention 重写不构成参数载体；recency 处理不证明任意远期内容都被保存。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "locator": "§3.2–3.4; TRB/BAR and KV eviction mismatch",
+      "reason": "直接研究 AR generator 在长 rollout 时的 KV 淘汰及 recency 读取失配。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.19729v1#page=4",
+        "https://arxiv.org/pdf/2609.19729v1#page=5",
+        "https://arxiv.org/pdf/2609.19729v1#page=6",
+        "https://arxiv.org/pdf/2609.19729v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "locator": "§3.2–3.4; TRB; BAR; setup",
+      "reason": "生成后保留 global / recent / history KV；history 区按窗口策略淘汰。 TRB 对 history 区施加 recency bias，BAR 以等价 attention 实现；global sink 与 recent 保持原规则。 运行时 cache reader 直接改变，适合保留 Forms / Cache，同时登记训练及免训练变体。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.19729v1#page=4",
+        "https://arxiv.org/pdf/2609.19729v1#page=5",
+        "https://arxiv.org/pdf/2609.19729v1#page=6",
+        "https://arxiv.org/pdf/2609.19729v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.19729v1#page=4",
+      "https://arxiv.org/pdf/2609.19729v1#page=5",
+      "https://arxiv.org/pdf/2609.19729v1#page=6",
+      "https://arxiv.org/pdf/2609.19729v1#page=7"
+    ],
+    "pdf_sha256": "4d5379f764f14d0ac7f59f484615ba03d3e8de25f1c720335162af74eb74bee0",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.14462",
+    "id": "2609.14462v1",
+    "title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video",
+    "short_name": "AlayaVista",
+    "source": "https://arxiv.org/abs/2609.14462v1",
+    "published": "2026-09-13T12:13:51Z",
+    "updated": "2026-09-13T12:13:51Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "chunk-causal 全景 backbone 缓存已生成特征的 KV；初始历史受保护，早期 cached features 作为 sparse spectral anchor。",
+    "read_path": "后续全景 chunks 读取历史 cache 与 early anchor；当前 panorama latent 另供 viewport renderer。",
+    "classification_rationale": "历史缓存与 protected early-feature reuse 给出实际持续内容；当前 panorama 不构成独立的历史 VAE bank。",
+    "classification_recheck": "保留 Cache；补 p.9–10 beyond-local early-anchor 的依据。",
+    "scope_limit": "这一路径不能被称为大位移下的全局空间地图记忆。",
+    "ar_evidence": {
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "locator": "§3.3 chunk-causal evolution; §3.6.1; early cached-feature anchor",
+      "reason": "全景 generator 在 chunk 内双向、跨 chunk 因果，后 chunk 读 generated panoramic features 的 K/V。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.14462v1#page=7",
+        "https://arxiv.org/pdf/2609.14462v1#page=9",
+        "https://arxiv.org/pdf/2609.14462v1#page=10"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "locator": "§3.3; §3.6.1 Eq. (11); spectral anchor",
+      "reason": "chunk-causal 全景 backbone 缓存已生成特征的 KV；初始历史受保护，早期 cached features 作为 sparse spectral anchor。 后续全景 chunks 读取历史 cache 与 early anchor；当前 panorama latent 另供 viewport renderer。 历史缓存与 protected early-feature reuse 给出实际持续内容；当前 panorama 不构成独立的历史 VAE bank。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.14462v1#page=7",
+        "https://arxiv.org/pdf/2609.14462v1#page=9",
+        "https://arxiv.org/pdf/2609.14462v1#page=10"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.14462v1#page=7",
+      "https://arxiv.org/pdf/2609.14462v1#page=9",
+      "https://arxiv.org/pdf/2609.14462v1#page=10"
+    ],
+    "pdf_sha256": "427b00fbee90f4a5b6a67df781a6689e79d2a0746491259ba36139d14206e4a4",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.12090",
+    "id": "2609.12090v1",
+    "title": "Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity",
+    "short_name": "Causal Audit of Memory Specificity",
+    "source": "https://arxiv.org/abs/2609.12090v1",
+    "published": "2026-09-10T18:16:32Z",
+    "updated": "2026-09-10T18:16:32Z",
+    "decision": "add_evaluation_study",
+    "primary_family": "",
+    "primary_form": "",
+    "secondary_form": "",
+    "runtime_carrier": "Evaluation / Memory Diagnostics（WorldMem generative arm）",
+    "write_path": "沿用 WorldMem 原生 past-frame bank；生成诊断固定 bank 索引、pose 与读取接口。",
+    "read_path": "用 donor、wrong-place、mean、zero 等读取内容替换，在相同 AR 生成路径比较 episode-specific evidence。",
+    "classification_rationale": "贡献是因果读取干预/诊断，属于 Evaluation；不产生新的 model carrier。",
+    "classification_recheck": "保留诊断角色，限定 WorldMem 实验。",
+    "scope_limit": "JEPA / SAM2 等 predictor / tracker 子实验分别属于其他研究对象。",
+    "ar_evidence": {
+      "pages": [
+        5,
+        7
+      ],
+      "locator": "§4.2 WorldMem; §5.5 Figure 3",
+      "reason": "仅取 WorldMem generative arm：Diffusion Forcing 的 past-frame bank 条件化生成，并实施 read-time 内容替换。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.12090v1#page=5",
+        "https://arxiv.org/pdf/2609.12090v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        5,
+        7
+      ],
+      "locator": "§4.2 WorldMem; §5.5 Figure 3",
+      "reason": "沿用 WorldMem 原生 past-frame bank；生成诊断固定 bank 索引、pose 与读取接口。 用 donor、wrong-place、mean、zero 等读取内容替换，在相同 AR 生成路径比较 episode-specific evidence。 贡献是因果读取干预/诊断，属于 Evaluation；不产生新的 model carrier。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.12090v1#page=5",
+        "https://arxiv.org/pdf/2609.12090v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.12090v1#page=5",
+      "https://arxiv.org/pdf/2609.12090v1#page=7"
+    ],
+    "pdf_sha256": "060b8cc7654c2c908d818090710bc76a251ebc4977eb0a63ad82d4db06c2c9d5",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_evaluation_study",
+      "primary_form": "",
+      "secondary_form": ""
+    },
+    "final_role": "Evaluation / Memory Diagnostics",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.11548",
+    "id": "2609.11548v1",
+    "title": "World in World: Explore the World with World Models",
+    "short_name": "World in World (WiW)",
+    "source": "https://arxiv.org/abs/2609.11548v1",
+    "published": "2026-09-10T13:42:26Z",
+    "updated": "2026-09-10T13:42:26Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States",
+    "write_path": "被淘汰 finalized chunks 的 per-layer clean K/V 归档，附 pose/time；视觉证据在 inference 侧构造。",
+    "read_path": "后续 causal-fast rollout 按相机/时间路由 archived evidence，并在 native attention 中附加证据。",
+    "classification_rationale": "archive payload 明确是 clean KV；clean visual state 一词不能据此改判像素/latent。",
+    "classification_recheck": "Learning 修正为 training-free；全部 LingBot-World2 causal-fast 参数冻结，无新训练或控制 adapter。",
+    "scope_limit": "source-video evidence 与 rollout archive 都经证据接口读取，按用途区分。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "locator": "causal rollout; §3.4",
+      "reason": "AR world model 将 finalized chunks 的逐层 clean K/V 归档，供未来 rollout 读取。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.11548v1#page=4",
+        "https://arxiv.org/pdf/2609.11548v1#page=6",
+        "https://arxiv.org/pdf/2609.11548v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "locator": "causal rollout; §3.4; §4.1",
+      "reason": "被淘汰 finalized chunks 的 per-layer clean K/V 归档，附 pose/time；视觉证据在 inference 侧构造。 后续 causal-fast rollout 按相机/时间路由 archived evidence，并在 native attention 中附加证据。 archive payload 明确是 clean KV；clean visual state 一词不能据此改判像素/latent。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.11548v1#page=4",
+        "https://arxiv.org/pdf/2609.11548v1#page=6",
+        "https://arxiv.org/pdf/2609.11548v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.11548v1#page=4",
+      "https://arxiv.org/pdf/2609.11548v1#page=6",
+      "https://arxiv.org/pdf/2609.11548v1#page=7"
+    ],
+    "pdf_sha256": "bb42773727cf81cbcf9acdb1e3d7e22c7d7bbe64c7b508fc0129810a3183f623",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.11265",
+    "id": "2609.11265v1",
+    "title": "Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation",
+    "short_name": "Uncertainty DMD",
+    "source": "https://arxiv.org/abs/2609.11265v1",
+    "published": "2026-09-10T08:59:47Z",
+    "updated": "2026-09-10T08:59:47Z",
+    "decision": "add_method",
+    "primary_family": "Implicit State Memory",
+    "primary_form": "Attention-cache States",
+    "secondary_form": "",
+    "runtime_carrier": "Attention-cache States（stochastic cache writing）",
+    "write_path": "clean latent 每 chunk 写入前扰动一次，KV encoder 编码并提交 cache；之后固定。",
+    "read_path": "后续 AR denoising 从固定递归 cache 读取，而非每次重采样历史。",
+    "classification_rationale": "persistent writer 改变是 memory 贡献；临时 latent 是写入材料，实际读取存储是 KV。",
+    "classification_recheck": "保留 Cache；把记忆贡献限定为 component B 的 stochastic cache writing。",
+    "scope_limit": "component A 的 first-chunk timestep perturbation 单独登记；主实验约 5 秒。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "locator": "AR formulation; §4.2; Algorithm 1",
+      "reason": "历史 cache 递归构建；每块只在写入时扰动一次，此后固定供后续 AR steps 读取。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.11265v1#page=4",
+        "https://arxiv.org/pdf/2609.11265v1#page=6",
+        "https://arxiv.org/pdf/2609.11265v1#page=7"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "locator": "AR formulation; §4.2–4.3; Algorithm 1 line 16",
+      "reason": "clean latent 每 chunk 写入前扰动一次，KV encoder 编码并提交 cache；之后固定。 后续 AR denoising 从固定递归 cache 读取，而非每次重采样历史。 persistent writer 改变是 memory 贡献；临时 latent 是写入材料，实际读取存储是 KV。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.11265v1#page=4",
+        "https://arxiv.org/pdf/2609.11265v1#page=6",
+        "https://arxiv.org/pdf/2609.11265v1#page=7"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.11265v1#page=4",
+      "https://arxiv.org/pdf/2609.11265v1#page=6",
+      "https://arxiv.org/pdf/2609.11265v1#page=7"
+    ],
+    "pdf_sha256": "7425be9eb20270df5e088926cec99030d18ae15097dba7ffb21fffebac5493e6",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_method",
+      "primary_form": "Attention-cache States",
+      "secondary_form": ""
+    },
+    "final_role": "Forms / Attention-cache States",
+    "primary_metadata_checked": true
+  },
+  {
+    "arxiv_id": "2609.03673",
+    "id": "2609.03673v1",
+    "title": "Do Video Generators Track the World Across Segments? A Benchmark and Method for World-State Reasoning in Video Continuation",
+    "short_name": "StateBench",
+    "source": "https://arxiv.org/abs/2609.03673v1",
+    "published": "2026-09-03T11:09:46Z",
+    "updated": "2026-09-03T11:09:46Z",
+    "decision": "add_benchmark",
+    "primary_family": "",
+    "primary_form": "",
+    "secondary_form": "",
+    "runtime_carrier": "Evaluation / StateBench（MAGI-1 AR arm；StateAgent 方法排除）",
+    "write_path": "benchmark 从历史与 reveal boundary 构造目标状态，题目覆盖 past-visible / occluded-process / complex-transition。",
+    "read_path": "MAGI-1 以历史 continuation 暴露状态，评测 SES / SCS；StateAgent 的未来末帧条件 Wan 方法另列排除。",
+    "classification_rationale": "benchmark 检验 AR baseline 的跨段状态；benchmark/agent 的 state graph 不作为新 AR model carrier。",
+    "classification_recheck": "短名显示为 StateBench；StateAgent 方法定位修正为 §4.4 Eq. (12)。",
+    "scope_limit": "200 cases 的 protocol 可评多种架构；仅明确 MAGI-1 实验提供 AR scope 依据。",
+    "ar_evidence": {
+      "pages": [
+        4,
+        5,
+        7,
+        8,
+        13
+      ],
+      "locator": "§3 StateBench; §5.1; Table 1; Appendix A",
+      "reason": "StateBench 的 native AR baseline 为 MAGI-1（§5.1 / Table 1）；仅纳入 AR 模型的跨段状态记忆评测。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.03673v1#page=4",
+        "https://arxiv.org/pdf/2609.03673v1#page=5",
+        "https://arxiv.org/pdf/2609.03673v1#page=7",
+        "https://arxiv.org/pdf/2609.03673v1#page=8",
+        "https://arxiv.org/pdf/2609.03673v1#page=13"
+      ]
+    },
+    "memory_evidence": {
+      "pages": [
+        4,
+        5,
+        7,
+        8,
+        13
+      ],
+      "locator": "§3.1–3.2 StateBench; §4.4 Eq. (12); §5.1; Table 1",
+      "reason": "benchmark 从历史与 reveal boundary 构造目标状态，题目覆盖 past-visible / occluded-process / complex-transition。 MAGI-1 以历史 continuation 暴露状态，评测 SES / SCS；StateAgent 的未来末帧条件 Wan 方法另列排除。 benchmark 检验 AR baseline 的跨段状态；benchmark/agent 的 state graph 不作为新 AR model carrier。",
+      "sources": [
+        "https://arxiv.org/pdf/2609.03673v1#page=4",
+        "https://arxiv.org/pdf/2609.03673v1#page=5",
+        "https://arxiv.org/pdf/2609.03673v1#page=7",
+        "https://arxiv.org/pdf/2609.03673v1#page=8",
+        "https://arxiv.org/pdf/2609.03673v1#page=13"
+      ]
+    },
+    "pdf_sources": [
+      "https://arxiv.org/pdf/2609.03673v1#page=4",
+      "https://arxiv.org/pdf/2609.03673v1#page=5",
+      "https://arxiv.org/pdf/2609.03673v1#page=7",
+      "https://arxiv.org/pdf/2609.03673v1#page=8",
+      "https://arxiv.org/pdf/2609.03673v1#page=13"
+    ],
+    "pdf_sha256": "559bada84f6ae75d5d262401af9fdc434b1bbd62bd6b1141f21bc10ff80d0ba6",
+    "rechecked_on": "2026-10-11",
+    "verification": "relevant_method_and_protocol_sections_reread",
+    "previous_classification": {
+      "decision": "add_benchmark",
+      "primary_form": "",
+      "secondary_form": ""
+    },
+    "final_role": "Evaluation / StateBench",
+    "primary_metadata_checked": true
+  }
+]

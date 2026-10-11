@@ -5,17 +5,19 @@
 - 时间窗：**2026-09-01 至 2026-10-10（按 arXiv 首次提交时间 UTC）**，覆盖约六周；截至检索时可见的最新候选提交于 10 月 8 日。修订时间单独记录。
 - 仓库基线：[HaroldChen19/Awesome-AR-Video-Memory](https://github.com/HaroldChen19/Awesome-AR-Video-Memory/tree/e76757e60ad75c4ca891a1ea5604137a4afe025e)，commit `e76757e60ad75c4ca891a1ea5604137a4afe025e`。
 - arXiv 三组分页查询得到 **967 条去重发现记录**，按主题筛出 100 篇，并补查多主体、3D、latent planning 与 VLA 邻接文献；本清单逐项筛查 **117 篇**。其中 **72 篇核对了相关正文段落**，其余为摘要筛查，验证级别写在 CSV/JSON 中。发现记录数量不等于全文核对数量。
-- README 新增 **30 篇方法**、**1 篇记忆训练研究**、**1 篇 AR 记忆诊断研究**，以及 **4 个 Memory-oriented benchmark 条目**。去除方法/benchmark 的同论文重叠后，共 **34 篇新论文**。
+- README 新增 **29 篇方法**、**2 篇记忆训练研究**、**1 篇 AR 记忆诊断研究**，以及 **4 个 Memory-oriented benchmark 条目**。去除方法/benchmark 的同论文重叠后，共 **34 篇新论文**。
 - 主分类依据未来生成实际读取的持久载体；Functions、Operations、Learning、Evaluation 另记。几何检索地址不自动变成 Explicit State；离线训练的 compressor/adapter 不自动变成 Adaptive Parametric Memory。
 - `method_sections` 表示已核对相关方法/协议段落，不表示复现代码、验证全部实验结论或比较所有历史版本。原文页码采用 **PDF 物理页码，从 1 开始**，并固定到所核对的 arXiv 版本。
 - **严格 scope：autoregressive video generation model 的 memory。** 方法必须有 AR 帧/chunk/clip 生成依据，且生成器后续步骤实际读取跨步骤保留的历史；贡献须直接涉及该记忆的表示、写读、保留、压缩、重组或学习。chunk 内 diffusion 双向去噪允许，外部 agent 按顺序调用整段视频模型本身不足以证明 AR。
 - Training/Evaluation 仅收录直接研究 AR generator memory 的工作。外部故事/游戏逻辑、独立几何渲染、VLA/latent planning、普通长视频训练或硬件 memory 节省不据此纳入。未确立 AR 路径者暂缓，不能推断为已证明无记忆。
 - [逐篇 scope 复核](2026-10-10-scope-recheck.md) 为每个新增条目分别列 AR 依据和 memory 依据，并记录上一版收录撤回/角色修正；混合架构的评测只保留明确的 AR 子实验。
+- **2026-10-11 再核对**：[34 篇逐篇分类与写读路径](2026-10-11-paper-by-paper-recheck.md)。本文件及 CSV/JSON 已同步该轮修正；搜索时间窗仍为原来的 9 月 1 日至 10 月 10 日。
+- Keepsake / SMI 的 Visual Memory Management 是按管理贡献组织的分组，归 Visual Memory；pixel/latent 编码由宿主决定，不增加 Forms 类别。
 
 | 四类 Forms | 本次新增方法数 | 子类/补充说明 |
 |---|---:|---|
 | Visual Memory | 9 | Pixel 1；VAE 6；宿主相关的 Visual Memory Management 2 |
-| Implicit State Memory | 19 | Attention-cache 16；Recurrent 2；Encoded History 1 |
+| Implicit State Memory | 18 | Attention-cache 15；Recurrent 2；Encoded History 1 |
 | Explicit State Memory | 2 | Entity-centric 0；Spatial/Geometric 2 |
 | Adaptive Parametric Memory | 0 | 已查 JEPA-TTT / Sandwich-Residuals，范围为 latent planning；暂不当作 AR 视频方法新增 |
 
@@ -23,289 +25,334 @@
 
 | 首次提交 | 论文 | 主分类 | 副载体 | 正文依据 |
 |---|---|---|---|---|
-| 2026-10-08 | [WorldCast](https://arxiv.org/abs/2610.12412v1) | VAE-space Visual Memory | Explicit State | [PDF p.4](https://arxiv.org/pdf/2610.12412v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.12412v1#page=5)；§3.2–3.3; player state and scene bank |
-| 2026-10-08 | [Memory Forcing](https://arxiv.org/abs/2610.11756v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.11756v1#page=3), [PDF p.5](https://arxiv.org/pdf/2610.11756v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.11756v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.11756v1#page=7)；§3.3; Algorithm 1; bank-aware RoPE |
-| 2026-10-07 | [SGF+](https://arxiv.org/abs/2610.10429v2) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2610.10429v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.10429v2#page=5), [PDF p.6](https://arxiv.org/pdf/2610.10429v2#page=6)；§3.1–3.3; Eqs. (1), (2), (5) |
-| 2026-10-06 | [SPW-Nav](https://arxiv.org/abs/2610.08941v1) | VAE-space Visual Memory | — | [PDF p.5](https://arxiv.org/pdf/2610.08941v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.08941v1#page=6)；§4.4; multi-scale memory compression |
-| 2026-10-05 | [Keepsake](https://arxiv.org/abs/2610.06588v1) | Carrier-agnostic Visual Memory Management | — | [PDF p.4](https://arxiv.org/pdf/2610.06588v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.06588v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.06588v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.06588v1#page=7)；§3.1–3.3; Algorithm 1; §4.1 |
-| 2026-10-05 | [HLA-WM](https://arxiv.org/abs/2610.05739v1) | Recurrent and State-space States | — | [PDF p.1](https://arxiv.org/pdf/2610.05739v1#page=1), [PDF p.5](https://arxiv.org/pdf/2610.05739v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.05739v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.05739v1#page=7)；§4.2–4.4; affine summaries and state recomposition |
-| 2026-10-04 | [Artemis](https://arxiv.org/abs/2610.07031v1) | Spatial and Geometric States | Implicit State | [PDF p.5](https://arxiv.org/pdf/2610.07031v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.07031v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.07031v1#page=7)；§3.1–3.2; shared 3D map and progressive update |
-| 2026-10-02 | [Weave Forcing](https://arxiv.org/abs/2610.03510v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.03510v1#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03510v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03510v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.03510v1#page=6)；§3.2–3.3; query-weighted KV compression |
-| 2026-10-02 | [In-Distribution Forcing](https://arxiv.org/abs/2610.03120v2) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.03120v2#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03120v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03120v2#page=5)；§4; Self-Caching |
-| 2026-10-02 | [Custom Forcing](https://arxiv.org/abs/2610.02914v2) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2610.02914v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02914v2#page=5)；§3.2–3.3; persistent reference KV |
-| 2026-10-02 | [TRAC](https://arxiv.org/abs/2610.02779v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.02779v1#page=3), [PDF p.6](https://arxiv.org/pdf/2610.02779v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02779v1#page=7)；§3.2.3; Eq. (13) |
-| 2026-10-01 | [Spatial Memory Intelligence (SMI)](https://arxiv.org/abs/2610.02521v1) | Carrier-agnostic Visual Memory Management | — | [PDF p.5](https://arxiv.org/pdf/2610.02521v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02521v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02521v1#page=7)；§3.1–3.4; Eqs. (2)–(11) |
+| 2026-10-08 | [WorldCast](https://arxiv.org/abs/2610.12412v1) | VAE-space Visual Memory | Explicit State | [PDF p.4](https://arxiv.org/pdf/2610.12412v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.12412v1#page=5)；§3.2–3.3; Eq. (1) |
+| 2026-10-08 | [Memory Forcing](https://arxiv.org/abs/2610.11756v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.11756v1#page=3), [PDF p.5](https://arxiv.org/pdf/2610.11756v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.11756v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.11756v1#page=7)；§3.1; §3.3–3.4; Algorithm 1; causal student setup |
+| 2026-10-06 | [SPW-Nav](https://arxiv.org/abs/2610.08941v1) | VAE-space Visual Memory | — | [PDF p.5](https://arxiv.org/pdf/2610.08941v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.08941v1#page=6)；§4.4; multi-term memory |
+| 2026-10-05 | [Keepsake](https://arxiv.org/abs/2610.06588v1) | Carrier-agnostic Visual Memory Management | — | [PDF p.4](https://arxiv.org/pdf/2610.06588v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.06588v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.06588v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.06588v1#page=7)；§3.1–3.3; Eqs. (1), (2); Algorithm 1; §4.1 |
+| 2026-10-05 | [HLA-WM](https://arxiv.org/abs/2610.05739v1) | Recurrent and State-space States | Attention-cache States | [PDF p.1](https://arxiv.org/pdf/2610.05739v1#page=1), [PDF p.5](https://arxiv.org/pdf/2610.05739v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.05739v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.05739v1#page=7)；§4.1–4.4; affine summaries and state recomposition |
+| 2026-10-04 | [Artemis](https://arxiv.org/abs/2610.07031v1) | Spatial and Geometric States | Attention-cache States | [PDF p.5](https://arxiv.org/pdf/2610.07031v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.07031v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.07031v1#page=7)；§4.1–4.3; Eq. (1); progressive memory update |
+| 2026-10-02 | [Weave Forcing](https://arxiv.org/abs/2610.03510v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.03510v1#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03510v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03510v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.03510v1#page=6)；§3.1; §4.1–4.2; Eq. (5) |
+| 2026-10-02 | [In-Distribution Forcing](https://arxiv.org/abs/2610.03120v2) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.03120v2#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03120v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03120v2#page=5)；§3.1–3.2; Eq. (4); Algorithm 1 |
+| 2026-10-02 | [Custom Forcing](https://arxiv.org/abs/2610.02914v2) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2610.02914v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02914v2#page=5)；§3.1–3.2; Figure 3; persistent reference KV |
+| 2026-10-02 | [TRAC](https://arxiv.org/abs/2610.02779v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2610.02779v1#page=3), [PDF p.6](https://arxiv.org/pdf/2610.02779v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02779v1#page=7)；§3.1; §3.2.3 Eq. (13); §4.1 |
+| 2026-10-01 | [Spatial Memory Intelligence (SMI)](https://arxiv.org/abs/2610.02521v1) | Carrier-agnostic Visual Memory Management | — | [PDF p.5](https://arxiv.org/pdf/2610.02521v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02521v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02521v1#page=7)；§3.1–3.4; Eqs. (1)–(11) |
 | 2026-10-01 | [World Observer](https://arxiv.org/abs/2610.02162v1) | VAE-space Visual Memory | — | [PDF p.4](https://arxiv.org/pdf/2610.02162v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02162v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02162v1#page=6)；§3; §3.2; observer sink |
-| 2026-10-01 | [MosaiChunk](https://arxiv.org/abs/2610.02153v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2610.02153v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02153v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02153v1#page=6)；§3.1–3.2; §4 |
-| 2026-09-30 | [Memorizon](https://arxiv.org/abs/2610.00544v1) | VAE-space Visual Memory | — | [PDF p.4](https://arxiv.org/pdf/2610.00544v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.00544v1#page=5)；§3.2–3.3; bounded union bank |
-| 2026-09-30 | [LOCI](https://arxiv.org/abs/2609.40222v1) | Recurrent and State-space States | — | [PDF p.4](https://arxiv.org/pdf/2609.40222v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.40222v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.40222v1#page=6)；§4; hybrid KDA/softmax and chunk updates |
-| 2026-09-30 | [DeCoPrune](https://arxiv.org/abs/2609.39096v2) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.39096v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.39096v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.39096v2#page=6)；§3.1–3.2; Eqs. (1), (2); CMBench |
-| 2026-09-30 | [FrameMorrow](https://arxiv.org/abs/2609.38839v1) | Pixel-space Visual Memory | — | [PDF p.4](https://arxiv.org/pdf/2609.38839v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38839v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.38839v1#page=6)；§3; Eq. (9) |
-| 2026-09-29 | [Self-Aligned Forcing (SAF)](https://arxiv.org/abs/2609.38114v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.38114v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38114v1#page=5)；§3.1–3.2; differentiable noisy history |
-| 2026-09-29 | [Honeycomb](https://arxiv.org/abs/2609.37690v2) | Spatial and Geometric States | — | [PDF p.4](https://arxiv.org/pdf/2609.37690v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.37690v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.37690v2#page=6)；§3.2–3.4; six spatial/spatiotemporal planes |
-| 2026-09-28 | [Compress to Remember (PACC)](https://arxiv.org/abs/2609.36364v1) | Encoded History States | — | [PDF p.3](https://arxiv.org/pdf/2609.36364v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.36364v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.36364v1#page=5)；§3; Eq. (1); on-policy prediction matching |
-| 2026-09-28 | [Geometry as Address (GEAR)](https://arxiv.org/abs/2609.34722v1) | VAE-space Visual Memory | Explicit State | [PDF p.3](https://arxiv.org/pdf/2609.34722v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34722v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34722v1#page=5)；§3.1–3.3; visual bank; Invisible Octree |
-| 2026-09-28 | [WorldAttention](https://arxiv.org/abs/2609.34606v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2609.34606v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34606v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34606v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.34606v1#page=6)；§3.1–3.2; hierarchical cache; HSA |
-| 2026-09-26 | [In-Flight KV Cache (FlashForward)](https://arxiv.org/abs/2609.32540v2) | Attention-cache States | — | [PDF p.5](https://arxiv.org/pdf/2609.32540v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.32540v2#page=6)；§3.1; stage-specific banks Bk |
-| 2026-09-22 | [QuantWM](https://arxiv.org/abs/2609.26425v3) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.26425v3#page=4), [PDF p.5](https://arxiv.org/pdf/2609.26425v3#page=5), [PDF p.7](https://arxiv.org/pdf/2609.26425v3#page=7)；§4; residual KV quantization and correction |
-| 2026-09-18 | [ZYT-World](https://arxiv.org/abs/2609.21712v2) | VAE-space Visual Memory | — | [PDF p.3](https://arxiv.org/pdf/2609.21712v2#page=3), [PDF p.10](https://arxiv.org/pdf/2609.21712v2#page=10)；§3.6; four retrieved memory latents |
-| 2026-09-17 | [Recency Forcing](https://arxiv.org/abs/2609.19729v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.19729v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.19729v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.19729v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.19729v1#page=7)；§4; TRB and BAR |
-| 2026-09-13 | [AlayaVista](https://arxiv.org/abs/2609.14462v1) | Attention-cache States | — | [PDF p.5](https://arxiv.org/pdf/2609.14462v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.14462v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.14462v1#page=7)；§3.3; Chunk-causal state evolution |
-| 2026-09-10 | [World in World (WiW)](https://arxiv.org/abs/2609.11548v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.11548v1#page=4), [PDF p.6](https://arxiv.org/pdf/2609.11548v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11548v1#page=7)；§3.4; clean per-layer KV archive |
-| 2026-09-10 | [Uncertainty DMD](https://arxiv.org/abs/2609.11265v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.11265v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.11265v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.11265v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11265v1#page=7)；§4.2–4.3; Algorithm 1, line 16 |
+| 2026-10-01 | [MosaiChunk](https://arxiv.org/abs/2610.02153v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2610.02153v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02153v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02153v1#page=6)；§3.1–3.2; §4 RememBench; §5 |
+| 2026-09-30 | [Memorizon](https://arxiv.org/abs/2610.00544v1) | VAE-space Visual Memory | — | [PDF p.3](https://arxiv.org/pdf/2610.00544v1#page=3), [PDF p.4](https://arxiv.org/pdf/2610.00544v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.00544v1#page=5)；§3.1–3.4; bounded union bank; causal sliding window |
+| 2026-09-30 | [LOCI](https://arxiv.org/abs/2609.40222v1) | Recurrent and State-space States | Attention-cache States | [PDF p.4](https://arxiv.org/pdf/2609.40222v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.40222v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.40222v1#page=6)；§4.1–4.2; hybrid KDA/softmax; clean-state commit |
+| 2026-09-30 | [DeCoPrune](https://arxiv.org/abs/2609.39096v2) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.39096v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.39096v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.39096v2#page=6)；§3.1 Eqs. (1), (2); §3.2 CMBench |
+| 2026-09-30 | [FrameMorrow](https://arxiv.org/abs/2609.38839v1) | Pixel-space Visual Memory | — | [PDF p.4](https://arxiv.org/pdf/2609.38839v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38839v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.38839v1#page=6)；§3; Eq. (9); §4.1 AR hosts |
+| 2026-09-29 | [Self-Aligned Forcing (SAF)](https://arxiv.org/abs/2609.38114v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.38114v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38114v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.38114v1#page=6)；§3.1–3.2; §3.4–3.5; Eq. (6) |
+| 2026-09-29 | [Honeycomb](https://arxiv.org/abs/2609.37690v2) | Spatial and Geometric States | — | [PDF p.4](https://arxiv.org/pdf/2609.37690v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.37690v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.37690v2#page=6)；§3.1–3.6; HexMemory; overlapping AR chunks |
+| 2026-09-28 | [Compress to Remember (PACC)](https://arxiv.org/abs/2609.36364v1) | Encoded History States | — | [PDF p.3](https://arxiv.org/pdf/2609.36364v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.36364v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.36364v1#page=5)；§3.1–3.3; Eq. (1); prediction matching |
+| 2026-09-28 | [Geometry as Address (GEAR)](https://arxiv.org/abs/2609.34722v1) | VAE-space Visual Memory | Explicit State | [PDF p.3](https://arxiv.org/pdf/2609.34722v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34722v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34722v1#page=5)；§3.1–3.3; latent bank; Invisible Octree |
+| 2026-09-28 | [WorldAttention](https://arxiv.org/abs/2609.34606v1) | Attention-cache States | — | [PDF p.3](https://arxiv.org/pdf/2609.34606v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34606v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34606v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.34606v1#page=6)；§3.1–3.2; hierarchical cache; HSA; §4 setup |
+| 2026-09-26 | [In-Flight KV Cache (FlashForward)](https://arxiv.org/abs/2609.32540v2) | Attention-cache States | — | [PDF p.5](https://arxiv.org/pdf/2609.32540v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.32540v2#page=6)；§3.1; Eq. (2); AR planner and renderer |
+| 2026-09-22 | [QuantWM](https://arxiv.org/abs/2609.26425v3) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.26425v3#page=4), [PDF p.5](https://arxiv.org/pdf/2609.26425v3#page=5), [PDF p.6](https://arxiv.org/pdf/2609.26425v3#page=6), [PDF p.7](https://arxiv.org/pdf/2609.26425v3#page=7)；§4.1–4.2; correction C; §5.1 AR hosts |
+| 2026-09-18 | [ZYT-World](https://arxiv.org/abs/2609.21712v2) | VAE-space Visual Memory | — | [PDF p.3](https://arxiv.org/pdf/2609.21712v2#page=3), [PDF p.7](https://arxiv.org/pdf/2609.21712v2#page=7), [PDF p.10](https://arxiv.org/pdf/2609.21712v2#page=10), [PDF p.14](https://arxiv.org/pdf/2609.21712v2#page=14), [PDF p.15](https://arxiv.org/pdf/2609.21712v2#page=15)；AR student; Figure 6; §3.6; §4.6 |
+| 2026-09-17 | [Recency Forcing](https://arxiv.org/abs/2609.19729v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.19729v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.19729v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.19729v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.19729v1#page=7)；§3.2–3.4; TRB; BAR; setup |
+| 2026-09-13 | [AlayaVista](https://arxiv.org/abs/2609.14462v1) | Attention-cache States | — | [PDF p.7](https://arxiv.org/pdf/2609.14462v1#page=7), [PDF p.9](https://arxiv.org/pdf/2609.14462v1#page=9), [PDF p.10](https://arxiv.org/pdf/2609.14462v1#page=10)；§3.3; §3.6.1 Eq. (11); spectral anchor |
+| 2026-09-10 | [World in World (WiW)](https://arxiv.org/abs/2609.11548v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.11548v1#page=4), [PDF p.6](https://arxiv.org/pdf/2609.11548v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11548v1#page=7)；causal rollout; §3.4; §4.1 |
+| 2026-09-10 | [Uncertainty DMD](https://arxiv.org/abs/2609.11265v1) | Attention-cache States | — | [PDF p.4](https://arxiv.org/pdf/2609.11265v1#page=4), [PDF p.6](https://arxiv.org/pdf/2609.11265v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11265v1#page=7)；AR formulation; §4.2–4.3; Algorithm 1 line 16 |
 
 ### 逐篇分类理由与五个视角
 
 #### WorldCast — 2610.12412
 
 - **论文/日期**：[WorldCast: Distributed Multiplayer World Models](https://arxiv.org/abs/2610.12412v1)；首次 2026-10-08，所核对版本 `2610.12412v1`，修订 2026-10-08。
-- **Forms**：VAE-space Visual Memory；同时 Explicit State。共享 scene bank 保存 latent、pose、depth；另有离开视野后的玩家状态跟踪，支持显式副分类。
+- **Forms**：VAE-space Visual Memory；同时 Explicit State。共享 scene bank 发布 latent block、相机和粗 depth；逐 block 更新玩家位置、朝向及武器状态，撤回冗余场景项。 后续 block-causal generator 读取 scene bank 与玩家状态条件；离屏玩家状态仍保留。 历史外观的持久对象是可解码 VAE latent；玩家字段是独立结构化副载体。
 - **Functions / Operations**：分布式多玩家的世界与离屏玩家状态；共享场景检索；缺失覆盖补充；冗余撤回；玩家状态更新。
 - **Learning / Evaluation**：分布式生成与场景共享训练；多玩家视角、遮挡及分布式一致性。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.12412v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.12412v1#page=5)；§3.2–3.3; player state and scene bank。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.12412v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.12412v1#page=5)；§3.2–3.3; Eq. (1)。
+
+- **Scope 边界**：相机/depth 元数据与 player state 分开登记；共享 bank 不是已证明的全外观融合 3D 地图。
 
 #### Memory Forcing — 2610.11756
 
 - **论文/日期**：[Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation](https://arxiv.org/abs/2610.11756v1)；首次 2026-10-08，所核对版本 `2610.11756v1`，修订 2026-10-08。
-- **Forms**：Attention-cache States。工作区之外保留中期历史 K/V，按内容多样性管理 archive bank；与 2510.03198 的 Minecraft Memory Forcing 是不同论文。
+- **Forms**：Attention-cache States。clean chunk 写入 working；working 满时把与新块最不相似的块移入 archive，archive 满则 FIFO 淘汰；sink 固定。 当前查询拼接 sink / archive / working / current 的 KV，读取前重新分配 bank-aware RoPE。 被保留和重读的是模型原生历史 KV；中期 archive 直接改变窗口外内容可访问性。
 - **Functions / Operations**：中期内容与主体外观；工作 bank / archive bank；预算分配、选择与位置编码。
-- **Learning / Evaluation**：论文提出的流式推理缓存策略；长视频质量、历史可访问性与缓存预算消融。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.11756v1#page=3), [PDF p.5](https://arxiv.org/pdf/2610.11756v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.11756v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.11756v1#page=7)；§3.3; Algorithm 1; bank-aware RoPE。
+- **Learning / Evaluation**：rolling / DMD 的 causal student 训练；三 bank 保留与 bank-aware RoPE；长视频质量、历史可访问性与缓存预算消融。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.11756v1#page=3), [PDF p.5](https://arxiv.org/pdf/2610.11756v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.11756v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.11756v1#page=7)；§3.1; §3.3–3.4; Algorithm 1; causal student setup。
 
-#### SGF+ — 2610.10429
-
-- **论文/日期**：[SGF+: Decoupling Gradient Flows for Autoregressive Video Generation](https://arxiv.org/abs/2610.10429v2)；首次 2026-10-07，所核对版本 `2610.10429v2`，修订 2026-10-08。
-- **Forms**：Attention-cache States。跨段信息载体是 context K/V；context writer 与 denoiser 的参数在离线训练中分离，不是实例级参数记忆。
-- **Functions / Operations**：长时外推中的上下文可用性；clean-context 写入与噪声目标读取。
-- **Learning / Evaluation**：重构可微上下文路径；分离 writer/denoiser 梯度；短训练窗到 60/240 秒外推；VBench / MovieGen prompts。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.10429v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.10429v2#page=5), [PDF p.6](https://arxiv.org/pdf/2610.10429v2#page=6)；§3.1–3.3; Eqs. (1), (2), (5)。
+- **Scope 边界**：2610.11756 与仓库既有 2510.03198 同名 Memory Forcing 是不同论文。
 
 #### SPW-Nav — 2610.08941
 
 - **论文/日期**：[SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation](https://arxiv.org/abs/2610.08941v1)；首次 2026-10-06，所核对版本 `2610.08941v1`，修订 2026-10-06。
-- **Forms**：VAE-space Visual Memory。保存不同时间尺度的历史 latent 与首帧锚点；当前 ERP 全景观测不等于持久度量地图。
+- **Forms**：VAE-space Visual Memory。生成后的 panorama latent 按近期、较早历史及固定首帧 anchor 分档保留；旧项采用更粗 patchify。 Helios AR recipe 的下一非重叠 chunk 读取多尺度历史 token；相机旋转在初始全景朝向与解码输出之间处理。 历史项保持 observation-aligned latent；相对 pose 是条件/地址，不是持久度量地图。
 - **Functions / Operations**：导航中的空间与视角连续性；多尺度 patchify 与历史打包。
 - **Learning / Evaluation**：流式全景生成和导航模块训练；全景生成、导航任务及记忆消融。
-- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2610.08941v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.08941v1#page=6)；§4.4; multi-scale memory compression。
+- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2610.08941v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.08941v1#page=6)；§4.4; multi-term memory。
+
+- **Scope 边界**：全景旋转覆盖与远距离平移重访的证据分别解释。
 
 #### Keepsake — 2610.06588
 
 - **论文/日期**：[Keepsake: Selective Spatial Memory for Long-Horizon Video Generation](https://arxiv.org/abs/2610.06588v1)；首次 2026-10-05，所核对版本 `2610.06588v1`，修订 2026-10-05。
-- **Forms**：Carrier-agnostic Visual Memory Management。记忆是宿主的观测 bank；image/latent 实现依宿主而变。pose–appearance graph 是每次更新的冗余统计，不是永久 3D 世界模型。
+- **Forms**：Carrier-agnostic Visual Memory Management。合并旧观测 bank 与新 chunk；用 pose / appearance 冗余关系迭代淘汰，保留固定预算观测。 next-chunk 公式读上一 chunk 与从 bank 检索的观测；MemCam / WorldMem 是实际生成宿主。 持久 payload 是观测，关系图是保留操作中的评分结构；论文没有统一固定两个宿主的像素/latent 编码。
 - **Functions / Operations**：固定预算下的重访外观与空间覆盖；合并旧观测与新观测；关系冗余评分；逐项淘汰。
 - **Learning / Evaluation**：无需新增生成器训练的保留策略；MemCam / WorldMem；固定预算、重访、损坏记忆消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.06588v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.06588v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.06588v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.06588v1#page=7)；§3.1–3.3; Algorithm 1; §4.1。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.06588v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.06588v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.06588v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.06588v1#page=7)；§3.1–3.3; Eqs. (1), (2); Algorithm 1; §4.1。
+
+- **Scope 边界**：DINO 或 VAE 用作评分特征，不足以单独证明整个 bank 的存储格式。
 
 #### HLA-WM — 2610.05739
 
 - **论文/日期**：[HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models](https://arxiv.org/abs/2610.05739v1)；首次 2026-10-05，所核对版本 `2610.05739v1`，修订 2026-10-05。
-- **Forms**：Recurrent and State-space States。主载体是可重组的线性注意力状态；选中片段另有 softmax K/V，同属 Implicit State 的混合子类。
+- **Forms**：Recurrent and State-space States；同时 Attention-cache States。历史 chunk 产生仿射摘要 (A_i, B_i) 并缓存；同时保留可选历史的 softmax KV。 按几何检索的 chunks 重组当前查询的 GDN recurrent state，softmax 分支读取同一批历史 KV。 线性注意力状态重组是主贡献，softmax KV 是独立混合副载体；相机检索并不把 state 变成几何地图。
 - **Functions / Operations**：长时空间一致性和细节；片段仿射摘要、几何检索、递归状态重组。
 - **Learning / Evaluation**：training-free；冻结已有 SANA-WM AR generator，检索与重组历史状态；长时相机轨迹、重访及状态重组消融。
-- **核对出处**：[PDF p.1](https://arxiv.org/pdf/2610.05739v1#page=1), [PDF p.5](https://arxiv.org/pdf/2610.05739v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.05739v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.05739v1#page=7)；§4.2–4.4; affine summaries and state recomposition。
+- **核对出处**：[PDF p.1](https://arxiv.org/pdf/2610.05739v1#page=1), [PDF p.5](https://arxiv.org/pdf/2610.05739v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.05739v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.05739v1#page=7)；§4.1–4.4; affine summaries and state recomposition。
+
+- **Scope 边界**：单摘要大小固定，但摘要数量随 chunk 增长；不能把整个历史 archive 描述为恒定总容量。
 
 #### Artemis — 2610.07031
 
 - **论文/日期**：[Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update](https://arxiv.org/abs/2610.07031v1)；首次 2026-10-04，所核对版本 `2610.07031v1`，修订 2026-10-04。
-- **Forms**：Spatial and Geometric States；同时 Implicit State。多主体共享的 3D 地图及代理位置由 rollout 关键帧逐步更新；另有生成器历史缓存。
+- **Forms**：Spatial and Geometric States；同时 Attention-cache States。关键帧扩展静态共享 3D map；动态/uncontrolled 观测进 buffer，代理 pose memory 记录主体；各代理另存历史 KV。 多主体 AR joint future 读取投影地图、agent proxy/pose 与历史缓存；共享几何跨主体复用。 共享坐标地图是主持久对象；每代理 KV 和 pose 记录是混合副载体。
 - **Functions / Operations**：多视角、遮挡主体和背景动态；重建共享地图；几何投影；关键帧渐进更新。
 - **Learning / Evaluation**：几何条件化多主体视频模型训练；MA-CARLA、多视角一致性及地图更新消融。
-- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2610.07031v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.07031v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.07031v1#page=7)；§3.1–3.2; shared 3D map and progressive update。
+- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2610.07031v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.07031v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.07031v1#page=7)；§4.1–4.3; Eq. (1); progressive memory update。
+
+- **Scope 边界**：数据集 §3.2 与方法 §4 的证据分开；动态 buffer 不等于所有动态对象均融合进静态地图。
 
 #### Weave Forcing — 2610.03510
 
 - **论文/日期**：[Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation](https://arxiv.org/abs/2610.03510v1)；首次 2026-10-02，所核对版本 `2610.03510v1`，修订 2026-10-02。
-- **Forms**：Attention-cache States。LLM 把语义 slot 路由到历史镜头，但实际读取的是压缩 K/V；瞬时路由标签不构成持久实体状态。
+- **Forms**：Attention-cache States。历史镜头 KV 按 query 权重压缩并保留；历史镜头语义用于索引/路由。 当前语义 slots 路由历史镜头，grouped attention 读取压缩 KV；使用因果 Self Forcing backbone。 语义 slot 是路由输入，实际持续内容在 KV；没有可独立演化的实体状态表。
 - **Functions / Operations**：多主体及场景的组合一致性；slot 路由、查询加权 K/V、分组注意力与初始化。
 - **Learning / Evaluation**：训练外的组合记忆路由；交互式提示切换、多主体组合及预算消融。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.03510v1#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03510v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03510v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.03510v1#page=6)；§3.2–3.3; query-weighted KV compression。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.03510v1#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03510v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03510v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.03510v1#page=6)；§3.1; §4.1–4.2; Eq. (5)。
+
+- **Scope 边界**：把路由语义与独立 Entity-centric State 分开登记。
 
 #### In-Distribution Forcing — 2610.03120
 
 - **论文/日期**：[In-Distribution Forcing for Long Video Generation at Test Time](https://arxiv.org/abs/2610.03120v2)；首次 2026-10-02，所核对版本 `2610.03120v2`，修订 2026-10-07。
-- **Forms**：Attention-cache States。修改历史 K/V 的生成及缓存分布，以改善测试时长视频外推；没有实例级参数更新。
+- **Forms**：Attention-cache States。Self-Caching 对选定历史 clean chunk 重建 in-distribution KV provenance，保留 sink 与按规则缓存的近期条目。 next chunk 按 conditioning / caching window 规则读取保留 KV，并调节时间位置。 直接改变历史 KV 的写入来源与读取方式；供重缓存的 latent 是输入材料，主记忆接口是 KV。
 - **Functions / Operations**：长时外观与分布稳定性；Self-Caching；保留与重用模型原生历史缓存。
 - **Learning / Evaluation**：测试时策略；沿用预训练模型；长视频外推及分布失配分析。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.03120v2#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03120v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03120v2#page=5)；§4; Self-Caching。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.03120v2#page=3), [PDF p.4](https://arxiv.org/pdf/2610.03120v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.03120v2#page=5)；§3.1–3.2; Eq. (4); Algorithm 1。
+
+- **Scope 边界**：稳定外推来自 KV provenance 的控制，不能直接解读为完整远期 archive。
 
 #### Custom Forcing — 2610.02914
 
 - **论文/日期**：[Custom Forcing: Training-Free Subject Customization for Autoregressive Video Generation](https://arxiv.org/abs/2610.02914v2)；首次 2026-10-02，所核对版本 `2610.02914v2`，修订 2026-10-05。
-- **Forms**：Attention-cache States。主体参考与自定义锚点编码为可复用 K/V；customization 是训练外条件注入，不是 Parametric Memory。
+- **Forms**：Attention-cache States。主体 reference / custom anchors 一次编码成 KV，作为永久参考缓存保留。 冻结 AR backbone 的后续 chunks 持续读取 reference/anchor KV，配合位置控制。 持续存储和读取的是参考 KV；customization 来自条件注入。
 - **Functions / Operations**：自定义主体身份与外观；一次编码参考缓存；锚点引导和位置调节。
 - **Learning / Evaluation**：training-free；主体定制、长时身份保持及锚点消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.02914v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02914v2#page=5)；§3.2–3.3; persistent reference KV。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.02914v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02914v2#page=5)；§3.1–3.2; Figure 3; persistent reference KV。
+
+- **Scope 边界**：FLUX 参考图生成和离线模型参数均不作为 episode 参数记忆。
 
 #### TRAC — 2610.02779
 
 - **论文/日期**：[TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation](https://arxiv.org/abs/2610.02779v1)；首次 2026-10-02，所核对版本 `2610.02779v1`，修订 2026-10-02。
-- **Forms**：Attention-cache States。结构校正查询首个 chunk 的缓存 K/V；频谱处理对象与原始历史帧库应区分。
+- **Forms**：Attention-cache States。首个 chunk 的 K/V 保留为长期结构锚点。 后续 chunk 的结构校正 SSC 查询首段池化 KV；实际 AR 宿主包含 SkyReels-V2 / FramePack-F1。 SSC 提供明确跨 chunk 历史读取；RCS / ATGS 的 denoising 计算复用单独作为加速组件。
 - **Functions / Operations**：加速时的长期结构稳定性；轨迹感知复用；首段 K/V 池化查询及校正。
 - **Learning / Evaluation**：训练外推理加速；速度/质量及首段长期锚点消融。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.02779v1#page=3), [PDF p.6](https://arxiv.org/pdf/2610.02779v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02779v1#page=7)；§3.2.3; Eq. (13)。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.02779v1#page=3), [PDF p.6](https://arxiv.org/pdf/2610.02779v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02779v1#page=7)；§3.1; §3.2.3 Eq. (13); §4.1。
+
+- **Scope 边界**：不能用同一 chunk 内的计算复用代替生成历史记忆的证据。
 
 #### Spatial Memory Intelligence (SMI) — 2610.02521
 
 - **论文/日期**：[Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory](https://arxiv.org/abs/2610.02521v1)；首次 2026-10-01，所核对版本 `2610.02521v1`，修订 2026-10-01。
-- **Forms**：Carrier-agnostic Visual Memory Management。显式定义 bank 项为保留的视频 chunk，按宿主编码后供生成器读取；训练 MLLM 管理器不等于把本次轨迹写进参数。
+- **Forms**：Carrier-agnostic Visual Memory Management。bank 保存历史 video chunks；按空间簇覆盖、可靠性和预算选择保留观测。 action-conditioned AR next chunk 读取近期与动作相关检索项；WorldPlay-1.5 的两个宿主实际运行管理器。 持续 payload 是视频观测；空间簇与 SFT manager 是管理操作，不能由此改归几何或参数载体。
 - **Functions / Operations**：空间覆盖、物体变化及可靠观测；聚类、簇内稀疏化、动作感知检索、可靠性过滤。
 - **Learning / Evaluation**：原子操作标注与 Qwen3.5 管理器 SFT；WorldPlay-1.5 宿主、长时生成和四项操作消融。
-- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2610.02521v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02521v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02521v1#page=7)；§3.1–3.4; Eqs. (2)–(11)。
+- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2610.02521v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02521v1#page=6), [PDF p.7](https://arxiv.org/pdf/2610.02521v1#page=7)；§3.1–3.4; Eqs. (1)–(11)。
+
+- **Scope 边界**：论文未给出跨两个宿主统一的 RGB/VAE 存储子类型；Qwen manager 是离线训练。
 
 #### World Observer — 2610.02162
 
 - **论文/日期**：[World Observer: Joint Actor-Observer Generation for Persistent World Modeling](https://arxiv.org/abs/2610.02162v1)；首次 2026-10-01，所核对版本 `2610.02162v1`，修订 2026-10-01。
-- **Forms**：VAE-space Visual Memory。actor/observer 的 latent 历史及 observer sink 提供超出 actor 视野的视觉证据；没有独立持久 3D 地图。
+- **Forms**：VAE-space Visual Memory。保留 actor/observer tail latents；初始四个 panorama perspective 的 VAE sink 固定保留。 后续联合 actor/observer chunks 读取 tail 与始终附加的 observer sink，提供 actor 视野外内容。 观测视角仍是可解码 latent；初始 depth warp 是几何条件而非持续融合地图。
 - **Functions / Operations**：不可见区域与场景持续性；联合 actor/observer 生成；保留 observer 条件。
 - **Learning / Evaluation**：联合生成与观测视角训练；重访和持续世界建模、observer 消融。
 - **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.02162v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02162v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02162v1#page=6)；§3; §3.2; observer sink。
 
+- **Scope 边界**：把不可见区域的视觉条件与显式持久 3D 世界状态分开。
+
 #### MosaiChunk — 2610.02153
 
 - **论文/日期**：[MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation](https://arxiv.org/abs/2610.02153v1)；首次 2026-10-01，所核对版本 `2610.02153v1`，修订 2026-10-01。
-- **Forms**：Attention-cache States。从历史 chunk 中选择局部 K/V section 并拼成远期 memory；mosaic 指缓存拼接而不是像素拼图。
+- **Forms**：Attention-cache States。历史 KV 原样分区存入 CPU，router descriptors 用于检索；保留超出 active window 的 section。 top-N sections 的 K/V 拼接进入当前 attention，并缩放 value 权重。 mosaic 的持续内容是 KV sections，descriptor 不是替代性的历史载体。
 - **Functions / Operations**：离开窗口后的主体及场景细节；分区提取、top-N 路由、value 权重、缓存拼接。
 - **Learning / Evaluation**：冻结 backbone 的 router 自蒸馏；RememBench：T2V 离开/重现及 I2V 相机重访。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.02153v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02153v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02153v1#page=6)；§3.1–3.2; §4。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.02153v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.02153v1#page=5), [PDF p.6](https://arxiv.org/pdf/2610.02153v1#page=6)；§3.1–3.2; §4 RememBench; §5。
+
+- **Scope 边界**：冻结 backbone 的 router self-distillation 是离线学习。
 
 #### Memorizon — 2610.00544
 
 - **论文/日期**：[Memorizon: Training World Models Beyond Their Context Window](https://arxiv.org/abs/2610.00544v1)；首次 2026-09-30，所核对版本 `2610.00544v1`，修订 2026-09-30。
-- **Forms**：VAE-space Visual Memory。按相机共视性检索观测对齐的历史 latent，联合 bank 有 kK 上界；几何是检索地址而非持久外观地图。
-- **Functions / Operations**：远距离重访对应的视觉内容；top-K latent 检索；跨 scored chunks 合并 bank。
+- **Forms**：VAE-space Visual Memory。完成的观测 latent 与相机位姿可供历史池检索；训练把 k 个 scored chunks 的 top-K 结果打包为 union bank。 下一 causal chunk 按共视性检索 top-K 历史 latent；训练 union bank 复用检索结果。 视觉内容保持观测对齐；几何是检索地址。kK 容量上界属于训练打包的 union。
+- **Functions / Operations**：远距离重访对应的视觉内容；训练 scored chunks 的 top-K union 打包；推理每 chunk 共视性 top-K 检索。
 - **Learning / Evaluation**：稀疏历史条件下的长跨度监督；重访相关性、训练跨度和跨 episode 错记忆消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2610.00544v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.00544v1#page=5)；§3.2–3.3; bounded union bank。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2610.00544v1#page=3), [PDF p.4](https://arxiv.org/pdf/2610.00544v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.00544v1#page=5)；§3.1–3.4; bounded union bank; causal sliding window。
+
+- **Scope 边界**：单次查询 top-K 有界；整个推理历史池的恒定总容量未由该训练上界建立。
 
 #### LOCI — 2609.40222
 
 - **论文/日期**：[LOCI: Spatial Linear Memory for Streaming World Models](https://arxiv.org/abs/2609.40222v1)；首次 2026-09-30，所核对版本 `2609.40222v1`，修订 2026-09-30。
-- **Forms**：Recurrent and State-space States。KDA 状态跨 chunk 保留历史，同时配合 bounded softmax context；相机位置编码本身不构成 Explicit State。
-- **Functions / Operations**：流式场景结构与长时依赖；chunk-wise 递归写入；局部 softmax 读取。
+- **Forms**：Recurrent and State-space States；同时 Attention-cache States。最终 clean chunk 的独立 pass 提交 KDA state；hybrid / historical softmax 层及 camera KV 保留历史。 当前 denoising 读取已提交的 S_(c-1)，不在每个去噪步骤修改它；softmax 分支读取自己的历史缓存。 递归状态是主载体，softmax KV 是真实混合副载体；camera positional encoding 本身没有可更新几何地图。
+- **Functions / Operations**：流式场景结构与长时依赖；clean-pass 提交 KDA state；当前 denoising 只读；辅助 softmax / camera KV。
 - **Learning / Evaluation**：混合线性注意力与空间位置机制训练；流式世界生成、重访和注意力结构消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.40222v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.40222v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.40222v1#page=6)；§4; hybrid KDA/softmax and chunk updates。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.40222v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.40222v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.40222v1#page=6)；§4.1–4.2; hybrid KDA/softmax; clean-state commit。
+
+- **Scope 边界**：递归 state 的固定大小不能作为所有 softmax/camera 历史缓存的总存储上界。
 
 #### DeCoPrune — 2609.39096
 
 - **论文/日期**：[DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency](https://arxiv.org/abs/2609.39096v2)；首次 2026-09-30，所核对版本 `2609.39096v2`，修订 2026-10-05。
-- **Forms**：Attention-cache States。基于去噪差异筛选历史 K/V token；记忆是被保留的缓存，不是打分用的临时特征。
+- **Forms**：Attention-cache States。用 probe 与 final x0 的去噪差异选择 token；块离开近期窗口后，按共享 mask 将各层 KV 压缩入长期 cache。 未来 attention 读取长期 pruned KV、保护的 sink 与近期 dense KV。 x0 用于计算选取分数，真正持久内容是筛选后的 KV。
 - **Functions / Operations**：重现与重访时的历史内容；共享 token mask；去噪一致性评分及缓存裁剪。
 - **Learning / Evaluation**：训练外裁剪；CMBench：58 episodes / 116 reappear-revisit tasks。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.39096v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.39096v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.39096v2#page=6)；§3.1–3.2; Eqs. (1), (2); CMBench。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.39096v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.39096v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.39096v2#page=6)；§3.1 Eqs. (1), (2); §3.2 CMBench。
+
+- **Scope 边界**：benchmark 数据制作所用生成模型与评测中的 AR continuation 模型分别核对。
 
 #### FrameMorrow — 2609.38839
 
 - **论文/日期**：[FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation](https://arxiv.org/abs/2609.38839v1)；首次 2026-09-30，所核对版本 `2609.38839v1`，修订 2026-09-30。
-- **Forms**：Pixel-space Visual Memory。prospective tokens 用于选帧；回收后交给生成器的是历史帧，不能因学习了查询 token 就归为 Parametric Memory。
+- **Forms**：Pixel-space Visual Memory。外部 bank 保留历史 RGB frames；每步重算 prospective tokens 并选择需要回收的历史帧。 选中 RGB 经 Γ_b 原生条件适配器编码注入 AR generator；实际宿主包括 Self/Causal Forcing、CausVid、LongLive。 以适配器之前的持续对象判定为 Pixel；临时 query tokens 与读取时的 latent/KV 不替代 bank 载体。
 - **Functions / Operations**：未来片段需要的历史视觉细节；未来导向评分；选择历史帧；原生条件接口注入。
 - **Learning / Evaluation**：未来/历史关系及 prospective tokens 的离线学习；长时生成、帧选择及未来查询消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.38839v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38839v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.38839v1#page=6)；§3; Eq. (9)。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.38839v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38839v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.38839v1#page=6)；§3; Eq. (9); §4.1 AR hosts。
+
+- **Scope 边界**：realized future 只用于离线学习；推理选择基于过去与可用条件。
 
 #### Self-Aligned Forcing (SAF) — 2609.38114
 
 - **论文/日期**：[Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History](https://arxiv.org/abs/2609.38114v1)；首次 2026-09-29，所核对版本 `2609.38114v1`，修订 2026-09-29。
-- **Forms**：Attention-cache States。跨段保留与当前去噪阶段对齐的 noisy-history K/V，辅以 clean sink；不是仅在同一段内部复用计算。
+- **Forms**：Attention-cache States。按 denoising stage 写 history KV，永久保留 shared clean sink；inference 使用 MultiBank 或 SingleBankMix。 后续 AR chunks 从对应 stage 的 noisy-history KV 与 clean sink 读取条件。 历史 KV 跨 chunk 保留，直接改变 writer/reader 的噪声阶段配对。
 - **Functions / Operations**：流式历史的噪声阶段一致性；stage-aligned history；clean sink；recache/pipeline。
 - **Learning / Evaluation**：可微噪声历史的 self-aligned training；流式质量、历史噪声阶段及速度消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.38114v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38114v1#page=5)；§3.1–3.2; differentiable noisy history。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.38114v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.38114v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.38114v1#page=6)；§3.1–3.2; §3.4–3.5; Eq. (6)。
+
+- **Scope 边界**：stage-aligned 跨块历史与当块去噪中间值复用分开。
 
 #### Honeycomb — 2609.37690
 
 - **论文/日期**：[Honeycomb: Constant-Size Scene Memory Representation for Video World Models](https://arxiv.org/abs/2609.37690v2)；首次 2026-09-29，所核对版本 `2609.37690v2`，修订 2026-09-30。
-- **Forms**：Spatial and Geometric States。六个显式坐标平面承载历史特征并按空间地址写读；特征是学习得到的也不改变几何载体分类。
+- **Forms**：Spatial and Geometric States。完成的 AR chunk 按空间/时空坐标投影并更新六个 HexMemory feature planes。 后续重叠 AR chunk 从坐标平面 readout，配合边界 latent、warp/fusion 与 confidence。 可按空间地址寻址的六平面是持久载体；learned recurrent update 不改变坐标结构的几何性质。
 - **Functions / Operations**：恒定大小场景与动态记忆；坐标对齐写入；投影读取；warp/fusion 与置信度。
 - **Learning / Evaluation**：场景记忆表示及生成器联合训练；长期空间一致性、容量和融合消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.37690v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.37690v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.37690v2#page=6)；§3.2–3.4; six spatial/spatiotemporal planes。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.37690v2#page=4), [PDF p.5](https://arxiv.org/pdf/2609.37690v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.37690v2#page=6)；§3.1–3.6; HexMemory; overlapping AR chunks。
+
+- **Scope 边界**：固定特征张量容量不自动约束所有辅助坐标/深度元数据；范围扩展会降低平面空间分辨率。
 
 #### Compress to Remember (PACC) — 2609.36364
 
 - **论文/日期**：[Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation](https://arxiv.org/abs/2609.36364v1)；首次 2026-09-28，所核对版本 `2609.36364v1`，修订 2026-09-28。
-- **Forms**：Encoded History States。历史前缀压缩为更少的 learned query embeddings；跨帧混合而不直接观测对齐。query 数与 prefix/压缩设置有关，不声称全历史恒定长度；compressor 离线训练不是实例参数记忆。
+- **Forms**：Encoded History States。learned query embeddings 跨源帧 attention 压缩已完成 prefix 为 M；query 数随 prefix/压缩配置设置。 冻结 Wan AR generator 的后续 chunk 读取压缩 M，连续生成另有原生 KV。 M 跨帧混合且没有逐观测的 VAE 对应关系；它是独立压缩历史 embedding。
 - **Functions / Operations**：压缩预算下的长期视觉内容；前缀编码为紧凑 memory tokens；条件读取。
 - **Learning / Evaluation**：冻结生成器的 on-policy distillation；长视频一致性、token 预算与压缩训练消融。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.36364v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.36364v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.36364v1#page=5)；§3; Eq. (1); on-policy prediction matching。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.36364v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.36364v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.36364v1#page=5)；§3.1–3.3; Eq. (1); prediction matching。
+
+- **Scope 边界**：压缩历史 pool 与当前活跃 token 预算分开登记。
 
 #### Geometry as Address (GEAR) — 2609.34722
 
 - **论文/日期**：[Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation](https://arxiv.org/abs/2609.34722v1)；首次 2026-09-28，所核对版本 `2609.34722v1`，修订 2026-09-28。
-- **Forms**：VAE-space Visual Memory；同时 Explicit State。主 bank 保存 (latent, camera)；额外持久 Invisible Octree 记录可见性证据。显式副载体仅指可见性，不夸大为全外观 3D 地图。
+- **Forms**：VAE-space Visual Memory；同时 Explicit State。历史 bank 写入 latent 与相机；Invisible Octree 持久更新已观察/未观察的可见性证据。 AR generator 按几何地址检索 latent bank，并以 visibility 路由/筛选历史 attention。 外观来自观测 latent；可见性 octree 有独立坐标持久状态，因此保留 Explicit 副类。
 - **Functions / Operations**：场景重访与可见区域覆盖；几何地址检索；可见性写入；历史 attention routing。
 - **Learning / Evaluation**：生成/记忆路由训练；长时相机控制、重访和几何地址消融。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.34722v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34722v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34722v1#page=5)；§3.1–3.3; visual bank; Invisible Octree。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.34722v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34722v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34722v1#page=5)；§3.1–3.3; latent bank; Invisible Octree。
+
+- **Scope 边界**：visibility octree 不能等同完整外观或动态物体的 3D 世界模型。
 
 #### WorldAttention — 2609.34606
 
 - **论文/日期**：[WorldAttention: An Efficient Attention Architecture for Interactive Video World Models](https://arxiv.org/abs/2609.34606v1)；首次 2026-09-28，所核对版本 `2609.34606v1`，修订 2026-09-28。
-- **Forms**：Attention-cache States。历史 K/V 分页跨 GPU/CPU/NVMe 存储并按需加载；主载体是缓存，linear attention 分支不足以单独证明跨 rollout 状态记忆。
+- **Forms**：Attention-cache States。历史 chunks 的 KV 分页保存，跨 GPU / CPU / NVMe 形成 full backup。 两阶段先选 prompt 再选 pages，把相关历史加载给 causal student 的 attention。 历史对象是分页 KV；HSA 的 linear projection 是当前读取计算，未成为跨 rollout 的独立 recurrent state。
 - **Functions / Operations**：低成本访问长历史；分页、卸载、分级检索；稀疏/线性混合读取。
 - **Learning / Evaluation**：注意力结构与系统实现；交互式长时生成、缓存规模和吞吐分析。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.34606v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34606v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34606v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.34606v1#page=6)；§3.1–3.2; hierarchical cache; HSA。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.34606v1#page=3), [PDF p.4](https://arxiv.org/pdf/2609.34606v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.34606v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.34606v1#page=6)；§3.1–3.2; hierarchical cache; HSA; §4 setup。
+
+- **Scope 边界**：活跃读取上下文有界，完整备份 archive 随历史增长。
 
 #### In-Flight KV Cache (FlashForward) — 2609.32540
 
 - **论文/日期**：[In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion](https://arxiv.org/abs/2609.32540v2)；首次 2026-09-26，所核对版本 `2609.32540v2`，修订 2026-09-30。
-- **Forms**：Attention-cache States。不同去噪阶段的 K/V bank 跨 chunk 复用；clean anchors 包含前瞻规划信息，应区分输出按序与输入严格因果。
+- **Forms**：Attention-cache States。renderer 按 denoising stage 保存旧 chunk 的 KV bank B_k，按尾部窗口维护。 chunk-causal / AR renderer 读取历史 stage KV，同时接收 planner 预生成的双侧 clean anchors。 持久历史载体是 stage KV；anchors 是额外的规划条件。
 - **Functions / Operations**：加速时的跨段连续性；阶段对应 bank；稀疏 clean anchors；流水线。
 - **Learning / Evaluation**：推理期缓存调度；速度/质量与 stage/anchor 消融。
-- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2609.32540v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.32540v2#page=6)；§3.1; stage-specific banks Bk。
+- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2609.32540v2#page=5), [PDF p.6](https://arxiv.org/pdf/2609.32540v2#page=6)；§3.1; Eq. (2); AR planner and renderer。
 
-- **Scope 边界**：AR renderer 条件于预先生成的双侧 anchors；不得表述为无未来条件的严格在线 causal 生成。
+- **Scope 边界**：属于条件于完整 anchor plan 的 AR renderer；不能表述为仅过去可见的严格在线 causal 输入。
 
 #### QuantWM — 2609.26425
 
 - **论文/日期**：[QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models](https://arxiv.org/abs/2609.26425v3)；首次 2026-09-22，所核对版本 `2609.26425v3`，修订 2026-09-28。
-- **Forms**：Attention-cache States。保存低位宽历史 K/V 与校正信息；量化和注意力偏差修复不是经验写入模型权重。
+- **Forms**：Attention-cache States。历史 K/V 低位量化；保存低秩 residual correction 的系数/基与 attention 统计。 未来 AR 查询从量化 KV 重构 attention，用 residual / centroid 校正消除偏差。 持续对象仍是量化缓存与其校正侧信息；离线/解析修复不把轨迹存进模型权重。
 - **Functions / Operations**：压缩后的时序与外观一致性；残差量化；key centroid / 主方向修正。
-- **Learning / Evaluation**：缓存量化与校正策略；2-bit KV 长时生成、位宽及时间一致性消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.26425v3#page=4), [PDF p.5](https://arxiv.org/pdf/2609.26425v3#page=5), [PDF p.7](https://arxiv.org/pdf/2609.26425v3#page=7)；§4; residual KV quantization and correction。
+- **Learning / Evaluation**：training-free 的低位 KV 量化和校正；93-frame AR 视频质量、位宽及时间一致性消融。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.26425v3#page=4), [PDF p.5](https://arxiv.org/pdf/2609.26425v3#page=5), [PDF p.6](https://arxiv.org/pdf/2609.26425v3#page=6), [PDF p.7](https://arxiv.org/pdf/2609.26425v3#page=7)；§4.1–4.2; correction C; §5.1 AR hosts。
+
+- **Scope 边界**：正文主生成评测为 93 frames；时序量化一致性不是分钟级历史回忆证据。
 
 #### ZYT-World — 2609.21712
 
 - **论文/日期**：[ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation](https://arxiv.org/abs/2609.21712v2)；首次 2026-09-18，所核对版本 `2609.21712v2`，修订 2026-09-22。
-- **Forms**：VAE-space Visual Memory。名为 implicit memory 的模块检索 3 个空间及 1 个时间历史 latent，再经 residual cross-attention 注入；载体仍是观测对齐 latent。
+- **Forms**：VAE-space Visual Memory。memory logs 提供预先记录的跨轨迹 observation latents；生成器另有 bounded native KV。 按空间选 3 个、时间选 1 个 log latent，以 residual cross-attention 注入；AR student 继承 memory path。 作者称 implicit memory，但检索内容保持观测 latent 对应关系，所以归 Visual / VAE。
 - **Functions / Operations**：闭环驾驶的时空连续性；空间/时间检索；四帧 latent；cross-attention。
 - **Learning / Evaluation**：驾驶世界模型及 memory injection 训练；闭环驾驶、多源控制及记忆检索消融。
-- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.21712v2#page=3), [PDF p.10](https://arxiv.org/pdf/2609.21712v2#page=10)；§3.6; four retrieved memory latents。
+- **核对出处**：[PDF p.3](https://arxiv.org/pdf/2609.21712v2#page=3), [PDF p.7](https://arxiv.org/pdf/2609.21712v2#page=7), [PDF p.10](https://arxiv.org/pdf/2609.21712v2#page=10), [PDF p.14](https://arxiv.org/pdf/2609.21712v2#page=14), [PDF p.15](https://arxiv.org/pdf/2609.21712v2#page=15)；AR student; Figure 6; §3.6; §4.6。
+
+- **Scope 边界**：所核对段落没有建立生成 chunk 在线写回 log bank；收录依据是 AR generator 读取既有视觉记忆。
 
 #### Recency Forcing — 2609.19729
 
 - **论文/日期**：[Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation](https://arxiv.org/abs/2609.19729v1)；首次 2026-09-17，所核对版本 `2609.19729v1`，修订 2026-09-17。
-- **Forms**：Attention-cache States。推理时仍使用历史 K/V，贡献在训练/测试淘汰及读取偏差对齐；归入缓存策略/学习而非新参数载体。
+- **Forms**：Attention-cache States。生成后保留 global / recent / history KV；history 区按窗口策略淘汰。 TRB 对 history 区施加 recency bias，BAR 以等价 attention 实现；global sink 与 recent 保持原规则。 运行时 cache reader 直接改变，适合保留 Forms / Cache，同时登记训练及免训练变体。
 - **Functions / Operations**：窗口外推时的长时稳定性；TRB/BAR 处理 recency 与缓存淘汰失配。
-- **Learning / Evaluation**：训练配方与缓存读取偏差对齐；长视频外推和训练/推理失配消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.19729v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.19729v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.19729v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.19729v1#page=7)；§4; TRB and BAR。
+- **Learning / Evaluation**：训练对齐及 training-free reader-bias 配置；长视频外推和训练/推理失配消融。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.19729v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.19729v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.19729v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.19729v1#page=7)；§3.2–3.4; TRB; BAR; setup。
+
+- **Scope 边界**：BAR attention 重写不构成参数载体；recency 处理不证明任意远期内容都被保存。
 
 #### AlayaVista — 2609.14462
 
 - **论文/日期**：[AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video](https://arxiv.org/abs/2609.14462v1)；首次 2026-09-13，所核对版本 `2609.14462v1`，修订 2026-09-13。
-- **Forms**：Attention-cache States。跨 AR chunk 保留并读取的是全景特征的 K/V。当前全景 latent 供 perspective renderer 使用，不等于跨 chunk 的持久 VAE bank；据实际历史读取路径改归 Attention-cache。
+- **Forms**：Attention-cache States。chunk-causal 全景 backbone 缓存已生成特征的 KV；初始历史受保护，早期 cached features 作为 sparse spectral anchor。 后续全景 chunks 读取历史 cache 与 early anchor；当前 panorama latent 另供 viewport renderer。 历史缓存与 protected early-feature reuse 给出实际持续内容；当前 panorama 不构成独立的历史 VAE bank。
 - **Functions / Operations**：全景/透视世界及视角连续性；chunk-causal 全景 K/V 写读；当前全景 latent 的 viewport rendering。
 - **Learning / Evaluation**：全景到透视流式生成训练；持续世界与相机轨迹、多视角一致性。
-- **核对出处**：[PDF p.5](https://arxiv.org/pdf/2609.14462v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.14462v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.14462v1#page=7)；§3.3; Chunk-causal state evolution。
+- **核对出处**：[PDF p.7](https://arxiv.org/pdf/2609.14462v1#page=7), [PDF p.9](https://arxiv.org/pdf/2609.14462v1#page=9), [PDF p.10](https://arxiv.org/pdf/2609.14462v1#page=10)；§3.3; §3.6.1 Eq. (11); spectral anchor。
 
-- **Scope 边界**：跨 chunk 历史由全景 K/V 承载；未建立大位移下的全局持久空间记忆，也不当作独立历史 latent archive。
+- **Scope 边界**：这一路径不能被称为大位移下的全局空间地图记忆。
 
 #### World in World (WiW) — 2609.11548
 
 - **论文/日期**：[World in World: Explore the World with World Models](https://arxiv.org/abs/2609.11548v1)；首次 2026-09-10，所核对版本 `2609.11548v1`，修订 2026-09-10。
-- **Forms**：Attention-cache States。memory bank 归档被淘汰片段的逐层 clean K/V，附 pose/time；不能将 clean visual state 直接理解为像素或 VAE bank。
+- **Forms**：Attention-cache States。被淘汰 finalized chunks 的 per-layer clean K/V 归档，附 pose/time；视觉证据在 inference 侧构造。 后续 causal-fast rollout 按相机/时间路由 archived evidence，并在 native attention 中附加证据。 archive payload 明确是 clean KV；clean visual state 一词不能据此改判像素/latent。
 - **Functions / Operations**：探索、动作与历史场景连续性；归档 finalized K/V；姿态/时间路由；有限预算读取。
-- **Learning / Evaluation**：世界内探索与动作条件生成训练；探索任务、历史访问及 cache 消融。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.11548v1#page=4), [PDF p.6](https://arxiv.org/pdf/2609.11548v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11548v1#page=7)；§3.4; clean per-layer KV archive。
+- **Learning / Evaluation**：training-free；冻结 LingBot-World 2.0 causal-fast，inference evidence attachment；探索任务、历史访问及 cache 消融。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.11548v1#page=4), [PDF p.6](https://arxiv.org/pdf/2609.11548v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11548v1#page=7)；causal rollout; §3.4; §4.1。
+
+- **Scope 边界**：source-video evidence 与 rollout archive 都经证据接口读取，按用途区分。
 
 #### Uncertainty DMD — 2609.11265
 
 - **论文/日期**：[Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation](https://arxiv.org/abs/2609.11265v1)；首次 2026-09-10，所核对版本 `2609.11265v1`，修订 2026-09-10。
-- **Forms**：Attention-cache States。每个 chunk 在写入时可扰动一次，再经 KV encoder 写入递归缓存，之后固定供后续读取；是跨段记忆写入操作，不只是单段去噪复用。
+- **Forms**：Attention-cache States。clean latent 每 chunk 写入前扰动一次，KV encoder 编码并提交 cache；之后固定。 后续 AR denoising 从固定递归 cache 读取，而非每次重采样历史。 persistent writer 改变是 memory 贡献；临时 latent 是写入材料，实际读取存储是 KV。
 - **Functions / Operations**：历史条件中的多样性与持续动态；stochastic cache writing；固定写入后读取；首段 timestep perturbation。
 - **Learning / Evaluation**：DMD curriculum，训练/推理使用相同写入规则；cache transplantation、diversity decomposition 及写入消融；实验主要是 5 秒，未证明分钟级记忆。
-- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.11265v1#page=4), [PDF p.5](https://arxiv.org/pdf/2609.11265v1#page=5), [PDF p.6](https://arxiv.org/pdf/2609.11265v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11265v1#page=7)；§4.2–4.3; Algorithm 1, line 16。
+- **核对出处**：[PDF p.4](https://arxiv.org/pdf/2609.11265v1#page=4), [PDF p.6](https://arxiv.org/pdf/2609.11265v1#page=6), [PDF p.7](https://arxiv.org/pdf/2609.11265v1#page=7)；AR formulation; §4.2–4.3; Algorithm 1 line 16。
+
+- **Scope 边界**：component A 的 first-chunk timestep perturbation 单独登记；主实验约 5 秒。
 
 ## Benchmark 核对
 
 | 条目 | 分类 | 历史必要性 | 协议和出处 |
 |---|---|---|---|
 | [RememBench](https://arxiv.org/abs/2610.02153v1) | Memory-oriented Benchmarks | required | 离开 active window 后的 T2V 重现与 I2V 相机重访；测试历史内容恢复。 [§4; PDF p.6](https://arxiv.org/pdf/2610.02153v1#page=6) |
-| [CMBench](https://arxiv.org/abs/2609.39096v2) | Memory-oriented Benchmarks | required | 58 episodes / 116 tasks；Reappear 与 Revisit 对已见内容提出历史依赖。 [§3.2 (continues p.6); PDF p.5](https://arxiv.org/pdf/2609.39096v2#page=5) |
+| [CMBench](https://arxiv.org/abs/2609.39096v2) | Memory-oriented Benchmarks | required | 58 episodes / 116 tasks；Reappear 与 Revisit 对已见内容提出历史依赖。 [§3.2 (continues pp.5–6); PDF p.4](https://arxiv.org/pdf/2609.39096v2#page=4) |
 | [OPIS](https://arxiv.org/abs/2609.35052v1) | Memory-oriented Benchmarks | subset | 从初始输入建立 object inventory，Presence/Identity/Structure 读出；历史依赖涉及重现等子集，不能宣称全部 case 都需窗口外记忆。 [§3.1; §4 (p.5); PDF p.4](https://arxiv.org/pdf/2609.35052v1#page=4) |
 | [StateBench](https://arxiv.org/abs/2609.03673v1) | Memory-oriented Benchmarks | required | 200 cases，包含可见历史、遮挡过程和复杂状态转移；揭示边界测试状态续接。 [§3.1; Figure 2 (p.4); PDF p.5](https://arxiv.org/pdf/2609.03673v1#page=5) |
 
@@ -315,8 +362,9 @@
 
 | 论文 | 视角 | 核对结论 | 原文出处 |
 |---|---|---|---|
-| [Connected Self Forcing: Beyond Local Learning in Video Autoregression](https://arxiv.org/abs/2610.12156v1) | Learning | 通过重放恢复跨生成 latent / KV writer 的梯度路径；推理记忆载体继承原生缓存，贡献主要在 Learning。 | [PDF p.4](https://arxiv.org/pdf/2610.12156v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.12156v1#page=5)；§3; shortcut replay |
-| [Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity](https://arxiv.org/abs/2609.12090v1) | Evaluation | 仅收录 WorldMem AR generative arm 的 read-time 历史内容替换实验，衡量 episode-specific 内容是否必要。JEPA / SAM2 等子研究不作为 AR video memory 证据。 | [PDF p.5](https://arxiv.org/pdf/2609.12090v1#page=5), [PDF p.7](https://arxiv.org/pdf/2609.12090v1#page=7)；§4.2; §5.5; Figure 3 (WorldMem arm) |
+| [Connected Self Forcing: Beyond Local Learning in Video Autoregression](https://arxiv.org/abs/2610.12156v1) | Learning | 贡献是历史写入路径的学习，而非新增持久载体或逐 episode 参数适应。 | [PDF p.4](https://arxiv.org/pdf/2610.12156v1#page=4), [PDF p.5](https://arxiv.org/pdf/2610.12156v1#page=5)；§3.1–3.3; Figure 3; Eq. (1) |
+| [Does Video Memory Use What It Retrieves? A Causal Audit of Memory Specificity](https://arxiv.org/abs/2609.12090v1) | Evaluation | 贡献是因果读取干预/诊断，属于 Evaluation；不产生新的 model carrier。 | [PDF p.5](https://arxiv.org/pdf/2609.12090v1#page=5), [PDF p.7](https://arxiv.org/pdf/2609.12090v1#page=7)；§4.2 WorldMem; §5.5 Figure 3 |
+| [SGF+: Decoupling Gradient Flows for Autoregressive Video Generation](https://arxiv.org/abs/2610.10429v2) | Learning | 与 CSF 一致按贡献角色归 Learning；运行时历史仍是 KV，离线分离参数不构成 Adaptive Parametric Memory。 | [PDF p.4](https://arxiv.org/pdf/2610.10429v2#page=4), [PDF p.5](https://arxiv.org/pdf/2610.10429v2#page=5), [PDF p.6](https://arxiv.org/pdf/2610.10429v2#page=6)；§3.1–3.3; Eqs. (1), (2), (5) |
 
 ## 已有条目：不重复新增
 
