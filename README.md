@@ -431,6 +431,7 @@ These papers directly study memory writing or reading in autoregressive video ge
 <!-- BENCHMARKS:START -->
 ### Memory-oriented Benchmarks
 
+- [2026/10] WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models. [[paper](https://arxiv.org/abs/2610.19063)] [[repo](https://github.com/ZJU-REAL/WorldMemBench)] [[project](https://zju-real.github.io/WorldMemBench/)]
 - [2026/10] RememBench (MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation). [[paper](https://arxiv.org/abs/2610.02153)]
 - [2026/09] CMBench (DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency). [[paper](https://arxiv.org/abs/2609.39096)]
 - [2026/09] OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models. [[paper](https://arxiv.org/abs/2609.35052)] [history-dependent subset] [AR scope: camera-driven model group]
