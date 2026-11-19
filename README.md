@@ -182,6 +182,7 @@ This is an organizational group within Visual Memory for methods that manage ret
 
 #### Attention-cache States
 
+- [2026/11] Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion. [[paper](https://arxiv.org/abs/2611.02822)]
 - [2026/10] Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation. [[paper](https://arxiv.org/abs/2610.11756)]
 - [2026/10] Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation. [[paper](https://arxiv.org/abs/2610.03510)]
 - [2026/10] In-Distribution Forcing for Long Video Generation at Test Time. [[paper](https://arxiv.org/abs/2610.03120)]
